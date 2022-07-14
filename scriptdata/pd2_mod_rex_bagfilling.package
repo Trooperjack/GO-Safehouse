@@ -1,0 +1,85 @@
+<table directory="assets">
+	<add>
+		<unit				path="units/pd2_mod_custom/pickups/money_multi_bag/money_multi_bag"					unload="true"/>
+		<object				path="units/pd2_mod_custom/pickups/money_multi_bag/money_multi_bag"					unload="true"/>
+		<model				path="units/pd2_mod_custom/pickups/money_multi_bag/money_multi_bag"					unload="true"/>
+		<material_config	path="units/pd2_mod_custom/pickups/money_multi_bag/money_multi_bag"					unload="true"/>
+		<sequence_manager	path="units/pd2_mod_custom/pickups/money_multi_bag/money_multi_bag"					unload="true"/>
+		<effect				path="effects/payday2/particles/grab/grab_money"									unload="true" from_db="true"/>
+		
+		
+		<unit				path="units/pd2_mod_custom/pickups/gold_multi_bag/gold_multi_bag"					unload="true"/>
+		<object				path="units/pd2_mod_custom/pickups/gold_multi_bag/gold_multi_bag"					unload="true"/>
+		<model				path="units/pd2_mod_custom/pickups/gold_multi_bag/gold_multi_bag"					unload="true"/>
+		<material_config	path="units/pd2_mod_custom/pickups/gold_multi_bag/gold_multi_bag"					unload="true"/>
+		<sequence_manager	path="units/pd2_mod_custom/pickups/gold_multi_bag/gold_multi_bag"					unload="true"/>
+		<effect				path="effects/payday2/particles/grab/grab_gold"										unload="true" from_db="true"/>
+		
+		<unit				path="units/pd2_mod_custom/pickups/gold_multi_bag/gold_multi_bag_single"			unload="true"/>
+		<object				path="units/pd2_mod_custom/pickups/gold_multi_bag/gold_multi_bag_single"			unload="true"/>
+		<model				path="units/pd2_mod_custom/pickups/gold_multi_bag/gold_multi_bag_single"			unload="true"/>
+		<sequence_manager	path="units/pd2_mod_custom/pickups/gold_multi_bag/gold_multi_bag_single"			unload="true"/>
+		
+		<unit				path="units/pd2_mod_custom/pickups/gold_multi_bag/gold_multi_bag_single_dynamic"	unload="true"/>
+		<object				path="units/pd2_mod_custom/pickups/gold_multi_bag/gold_multi_bag_single_dynamic"	unload="true"/>
+		<model				path="units/pd2_mod_custom/pickups/gold_multi_bag/gold_multi_bag_single_dynamic"	unload="true"/>
+		<sequence_manager	path="units/pd2_mod_custom/pickups/gold_multi_bag/gold_multi_bag_single_dynamic"	unload="true"/>
+		
+		
+		<unit				path="units/pd2_mod_custom/pickups/cocaine_multi_bag/cocaine_multi_bag"				unload="true"/>
+		<object				path="units/pd2_mod_custom/pickups/cocaine_multi_bag/cocaine_multi_bag"				unload="true"/>
+		<model				path="units/pd2_mod_custom/pickups/cocaine_multi_bag/cocaine_multi_bag"				unload="true"/>
+		<material_config	path="units/pd2_mod_custom/pickups/cocaine_multi_bag/cocaine_multi_bag"				unload="true"/>
+		<sequence_manager	path="units/pd2_mod_custom/pickups/cocaine_multi_bag/cocaine_multi_bag"				unload="true"/>
+		<effect				path="effects/payday2/particles/grab/grab_coke"										unload="true" from_db="true"/>
+		<effect				path="effects/payday2/particles/grab/parts/coke_smoke"								unload="true" from_db="true"/>
+		
+		<unit				path="units/pd2_mod_custom/pickups/cocaine_multi_bag/cocaine_multi_bag_single"		unload="true"/>
+		<object				path="units/pd2_mod_custom/pickups/cocaine_multi_bag/cocaine_multi_bag_single"		unload="true"/>
+		<model				path="units/pd2_mod_custom/pickups/cocaine_multi_bag/cocaine_multi_bag_single"		unload="true"/>
+		<sequence_manager	path="units/pd2_mod_custom/pickups/cocaine_multi_bag/cocaine_multi_bag_single"		unload="true"/>
+		
+		<unit				path="units/pd2_mod_custom/pickups/cocaine_multi_bag/cocaine_multi_bag_single_dynamic"		unload="true"/>
+		<object				path="units/pd2_mod_custom/pickups/cocaine_multi_bag/cocaine_multi_bag_single_dynamic"		unload="true"/>
+		<model				path="units/pd2_mod_custom/pickups/cocaine_multi_bag/cocaine_multi_bag_single_dynamic"		unload="true"/>
+		<sequence_manager	path="units/pd2_mod_custom/pickups/cocaine_multi_bag/cocaine_multi_bag_single_dynamic"		unload="true"/>
+		
+		
+		<material_config	path="units/pd2_mod_custom/pickups/jewelry_multi_bag/jewelry_multi_bag"				unload="true"/>
+		<sequence_manager	path="units/pd2_mod_custom/pickups/jewelry_multi_bag/jewelry_multi_bag"				unload="true"/>
+		<sequence_manager	path="units/pd2_mod_custom/pickups/jewelry_multi_bag/jewelry_multi_bag_single"		unload="true"/>
+		
+		<unit				path="units/pd2_mod_custom/pickups/jewelry_multi_bag/jewelry_multi_bag_rings"		unload="true"/>
+		<object				path="units/pd2_mod_custom/pickups/jewelry_multi_bag/jewelry_multi_bag_rings"		unload="true"/>
+		<model				path="units/pd2_mod_custom/pickups/jewelry_multi_bag/jewelry_multi_bag_rings"		unload="true"/>
+		<unit				path="units/pd2_mod_custom/pickups/jewelry_multi_bag/jewelry_multi_bag_watches"		unload="true"/>
+		<object				path="units/pd2_mod_custom/pickups/jewelry_multi_bag/jewelry_multi_bag_watches"		unload="true"/>
+		<model				path="units/pd2_mod_custom/pickups/jewelry_multi_bag/jewelry_multi_bag_watches"		unload="true"/>
+		<unit				path="units/pd2_mod_custom/pickups/jewelry_multi_bag/jewelry_multi_bag_chains"		unload="true"/>
+		<object				path="units/pd2_mod_custom/pickups/jewelry_multi_bag/jewelry_multi_bag_chains"		unload="true"/>
+		<model				path="units/pd2_mod_custom/pickups/jewelry_multi_bag/jewelry_multi_bag_chains"		unload="true"/>
+		<unit				path="units/pd2_mod_custom/pickups/jewelry_multi_bag/jewelry_multi_bag_bracelets"	unload="true"/>
+		<object				path="units/pd2_mod_custom/pickups/jewelry_multi_bag/jewelry_multi_bag_bracelets"	unload="true"/>
+		<model				path="units/pd2_mod_custom/pickups/jewelry_multi_bag/jewelry_multi_bag_bracelets"	unload="true"/>
+		<unit				path="units/pd2_mod_custom/pickups/jewelry_multi_bag/jewelry_multi_bag_bust"		unload="true"/>
+		<object				path="units/pd2_mod_custom/pickups/jewelry_multi_bag/jewelry_multi_bag_bust"		unload="true"/>
+		<model				path="units/pd2_mod_custom/pickups/jewelry_multi_bag/jewelry_multi_bag_bust"		unload="true"/>
+		<unit				path="units/pd2_mod_custom/pickups/jewelry_multi_bag/jewelry_multi_bag_hanger"		unload="true"/>
+		<object				path="units/pd2_mod_custom/pickups/jewelry_multi_bag/jewelry_multi_bag_hanger"		unload="true"/>
+		<model				path="units/pd2_mod_custom/pickups/jewelry_multi_bag/jewelry_multi_bag_hanger"		unload="true"/>
+		
+		
+		
+		<unit				path="units/pd2_mod_custom/pickups/weapon_case_wide_multi/weapon_case_wide_multi"	unload="true"/>
+		<object				path="units/pd2_mod_custom/pickups/weapon_case_wide_multi/weapon_case_wide_multi"	unload="true"/>
+		<model				path="units/pd2_mod_custom/pickups/weapon_case_wide_multi/weapon_case_wide_multi"	unload="true"/>
+		<material_config	path="units/pd2_mod_custom/pickups/weapon_case_wide_multi/weapon_case_wide_multi"	unload="true"/>
+		<sequence_manager	path="units/pd2_mod_custom/pickups/weapon_case_wide_multi/weapon_case_wide_multi"	unload="true"/>
+		
+		<unit				path="units/pd2_mod_custom/pickups/weapon_case_wide_multi/weapon_multi_bag"			unload="true"/>
+		<object				path="units/pd2_mod_custom/pickups/weapon_case_wide_multi/weapon_multi_bag"			unload="true"/>
+		<model				path="units/pd2_mod_custom/pickups/weapon_case_wide_multi/weapon_multi_bag"			unload="true"/>
+		<material_config	path="units/pd2_mod_custom/pickups/weapon_case_wide_multi/weapon_multi_bag"			unload="true"/>
+		<sequence_manager	path="units/pd2_mod_custom/pickups/weapon_case_wide_multi/weapon_multi_bag"			unload="true"/>
+	</add>
+</table>

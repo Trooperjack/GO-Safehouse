@@ -1,0 +1,53 @@
+<table>
+	<unit>
+		<sequence editable_state="true" name=" 'show_and_enable' " triggable="true">
+			<run_sequence name="'show_disabled'"/>
+			<run_sequence name="'enable_interaction'"/>
+		</sequence>
+		
+		<sequence editable_state="true" name="'hide'" triggable="true">
+			<interaction enabled="false"/>
+			
+			<body enabled="false" name="'static_body'"/>
+			<object enabled="false" name="'g_g'"/>
+			<decal_mesh enabled="false" name="'g_g'"/>
+			<run_sequence name="'contour_off'"/>
+		</sequence>
+		
+		<sequence editable_state="true" name=" 'show_disabled' " triggable="true">
+			<set_variables var_state="1"/>
+			<interaction enabled="false"/>
+			
+			<body enabled="true" name="'static_body'"/>
+			<object enabled="true" name="'g_g'"/>
+			<decal_mesh enabled="true" name="'g_g'"/>
+			<run_sequence name="'contour_off'"/>
+		</sequence>
+		
+		<sequence editable_state="true" name=" 'enable_interaction' " triggable="true">
+			<interaction enabled="true"/>
+			<run_sequence name="'contour_on'"/>
+		</sequence>
+		<sequence editable_state="true" name=" 'disable_interaction' " triggable="true">
+			<run_sequence name="'contour_off'"/>
+			<interaction enabled="false"/>
+		</sequence>
+		
+		<sequence editable_state="true" name="'interact_start'" triggable="true"/>
+		
+		<sequence editable_state="true" name="'interact'" triggable="true">
+			<run_sequence name="'contour_off'"/>
+			<effect name="'effects/payday2/particles/grab/grab_gold'" parent="object('rp_root')" position="v()"/>
+		</sequence>
+		
+		<sequence name="'load'"/>
+		
+		<sequence name=" 'contour_off' ">
+			<graphic_group visibility="false" name="'grp_contour'"/>
+		</sequence>
+		
+		<sequence name=" 'contour_on' ">
+			<graphic_group visibility="true" name="'grp_contour'"/>
+		</sequence>
+	</unit>
+</table>

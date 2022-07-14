@@ -1,0 +1,130 @@
+<table>
+	<unit>
+		<!-- ARBITRARY 8 USES -->
+		
+		<variables>
+			<var_state value="1"/>
+		</variables>
+		
+		<filter name="'filter_not_empty'">
+			<check value="vars.var_state <= 8"/>
+		</filter>
+		
+		<filter name="'filter_empty'">
+			<check value="vars.var_state > 8"/>
+		</filter>
+		
+		<filter name="'filter_short_body'">
+			<check value="vars.var_state > 4"/>
+		</filter>
+		
+		<sequence editable_state="true" name=" 'show_and_enable' " triggable="true">
+			<run_sequence name="'show_disabled'"/>
+			<run_sequence name="'enable_interaction'"/>
+		</sequence>
+		<!--Exists to support hotswapping vanilla loots-->
+		<sequence name=" 'show_and_enable_interaction' " >
+			<run_sequence name="'show_and_enable'"/>
+		</sequence>
+		
+		<sequence editable_state="true" name="'hide'" triggable="true">
+			<run_sequence name="'contour_off'"/>
+			<interaction enabled="false"/>
+			
+			<body enabled="false"		name="'static_tall'"/>
+			<body enabled="false"		name="'static_half'"/>
+			<object enabled="false"		name="'g_item_1'"/>
+			<object enabled="false"		name="'g_item_2'"/>
+			<object enabled="false"		name="'g_item_3'"/>
+			<object enabled="false"		name="'g_item_4'"/>
+			<object enabled="false"		name="'g_item_5'"/>
+			<object enabled="false"		name="'g_item_6'"/>
+			<object enabled="false"		name="'g_item_7'"/>
+			<object enabled="false"		name="'g_item_8'"/>
+			<decal_mesh enabled="false"	name="'g_item_1'"/>
+			<decal_mesh enabled="false"	name="'g_item_2'"/>
+			<decal_mesh enabled="false"	name="'g_item_3'"/>
+			<decal_mesh enabled="false"	name="'g_item_4'"/>
+			<decal_mesh enabled="false"	name="'g_item_5'"/>
+			<decal_mesh enabled="false"	name="'g_item_6'"/>
+			<decal_mesh enabled="false"	name="'g_item_7'"/>
+			<decal_mesh enabled="false"	name="'g_item_8'"/>
+		</sequence>
+		
+		<sequence editable_state="true" name=" 'show_disabled' " triggable="true">
+			<set_variables var_state="1"/>
+			<run_sequence name="'contour_off'"/>
+			<interaction enabled="false"/>
+			
+			<body enabled="true" name="'static_tall'"/>
+			<body enabled="true" name="'static_half'"/>
+			<object enabled="true" name="'g_item_1'"/>
+			<decal_mesh enabled="true" name="'g_item_1'"/>
+		</sequence>
+		
+		<sequence editable_state="true" name=" 'enable_interaction' " triggable="true">
+			<run_sequence name="'contour_on'"/>
+			<interaction enabled="true"/>
+		</sequence>
+		
+		<sequence editable_state="true" name=" 'disable_interaction' " triggable="true">
+			<run_sequence name="'contour_off'"/>
+			<interaction enabled="false"/>
+		</sequence>
+		
+		<sequence editable_state="true" name="'interact_start'" triggable="true"/>
+		
+		<sequence editable_state="true" name="'interact'" triggable="true">
+			<run_sequence name="'decrement'"/>
+			<!-- <interaction filter="'filter_not_empty'" enabled="true" start_time="0.1"/> -->
+			<run_sequence filter="'filter_empty'" name="'done_empty'"/>
+		</sequence>
+		
+		<sequence name="'load'"/>
+		
+		<sequence editable_state="true" name="'decrement'" triggable="true">
+			<!--Hide-->
+			<object enabled="false"			name="'g_item_'..vars.var_state"/>
+			<decal_mesh enabled="false"		name="'g_item_'..vars.var_state"/>
+			<graphic_group visibility="false" name="'grp_contour_'..vars.var_state"/>
+			
+			<!--Value-->
+			<set_variables var_state="vars.var_state + 1"/>
+			
+			<!--Bodies-->
+			<body enabled="false" name="'static_tall'" filter="'filter_short_body'"/>
+			
+			<!--Show-->
+			<object enabled="true"			name="'g_item_'..vars.var_state"/>
+			<decal_mesh enabled="true"		name="'g_item_'..vars.var_state"/>
+			<graphic_group visibility="true" name="'grp_contour_'..vars.var_state"/>
+		</sequence>
+		
+		<sequence name=" 'contour_off' ">
+			<graphic_group visibility="false" name="'grp_contour_1'"/>
+			<graphic_group visibility="false" name="'grp_contour_2'"/>
+			<graphic_group visibility="false" name="'grp_contour_3'"/>
+			<graphic_group visibility="false" name="'grp_contour_4'"/>
+			<graphic_group visibility="false" name="'grp_contour_5'"/>
+			<graphic_group visibility="false" name="'grp_contour_6'"/>
+			<graphic_group visibility="false" name="'grp_contour_7'"/>
+			<graphic_group visibility="false" name="'grp_contour_8'"/>
+		</sequence>
+		
+		<sequence name=" 'contour_on' ">
+			<graphic_group visibility="true" name="'grp_contour_1'"/>
+			<graphic_group visibility="true" name="'grp_contour_2'"/>
+			<graphic_group visibility="true" name="'grp_contour_3'"/>
+			<graphic_group visibility="true" name="'grp_contour_4'"/>
+			<graphic_group visibility="true" name="'grp_contour_5'"/>
+			<graphic_group visibility="true" name="'grp_contour_6'"/>
+			<graphic_group visibility="true" name="'grp_contour_7'"/>
+			<graphic_group visibility="true" name="'grp_contour_8'"/>
+		</sequence>
+		
+		<sequence editable_state="true" name="'done_empty'" triggable="true">
+			<effect name="'effects/payday2/particles/grab/grab_gold'" parent="object('rp_root')" position="v()"/>
+			<run_sequence name="'hide'" />
+		</sequence>
+	</unit>
+</table>

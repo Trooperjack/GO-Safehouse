@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel materials="units/pd2_mod_custom/pickups/money_multi_bag/money_multi_bag" orientation_object="rp_money_wrap" />
+	<sequence_manager file="units/pd2_mod_custom/pickups/money_multi_bag/money_multi_bag" />
+	
+	<bodies>
+		<body name="wrap_1" enabled="true" template="static">
+			<object name="rp_money_wrap" />
+			<object name="c_wrap_1" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="wrap_2" enabled="true" template="static">
+			<object name="c_wrap_2" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="wrap_3" enabled="true" template="static">
+			<object name="c_wrap_3" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	
+	<decal_surfaces default_material="thin_layer">
+		<decal_mesh name="dm_money_1" enabled="true"/>
+		<decal_mesh name="dm_money_2" enabled="false"/>
+		<decal_mesh name="dm_money_3" enabled="false"/>
+		<decal_mesh name="dm_money_4" enabled="false"/>
+		<decal_mesh name="dm_money_5" enabled="false"/>
+		<decal_mesh name="dm_money_6" enabled="false"/>
+		<decal_mesh name="dm_money_7" enabled="false"/>
+		<decal_mesh name="dm_money_8" enabled="false"/>
+		<decal_mesh name="dm_money_9" enabled="false"/>
+	</decal_surfaces>
+	
+	<graphics>
+		<graphic_group name="grp_contour" enabled="false" culling_object="g_contour">
+			<lod_object name="lod_contour">
+					<object name="g_contour" 		enabled="true"  max_distance="450"  max_draw_lod="0" />
+					<object name="g_contour_lod1" 	enabled="true"  lod="1" />
+			</lod_object>
+		</graphic_group>
+		
+		<object name="g_wrap_1"				enabled="true"/>
+		<object name="g_wrap_2"				enabled="false"/>
+		<object name="g_wrap_3"				enabled="false"/>
+		<object name="g_wrap_4"				enabled="false"/>
+		<object name="g_wrap_5"				enabled="false"/>
+		<object name="g_wrap_6"				enabled="false"/>
+		<object name="g_wrap_7"				enabled="false"/>
+		<object name="g_wrap_8"				enabled="false"/>
+		<object name="g_wrap_9"				enabled="false"/>
+		
+		<object name="g_money_1"			enabled="true"/>
+		<object name="g_money_2"			enabled="false"/>
+		<object name="g_money_3"			enabled="false"/>
+		<object name="g_money_4"			enabled="false"/>
+		<object name="g_money_5"			enabled="false"/>
+		<object name="g_money_6"			enabled="false"/>
+		<object name="g_money_7"			enabled="false"/>
+		<object name="g_money_8"			enabled="false"/>
+		<object name="g_money_9"			enabled="false"/>
+	</graphics>
+</dynamic_object> 

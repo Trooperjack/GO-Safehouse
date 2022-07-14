@@ -1,0 +1,13 @@
+<materials version="3">
+    <material name="coke" version="2" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP">
+        <diffuse_texture file="units/world/props/apartment/cocaine/cocaine_atlas_df"/>
+        <bump_normal_texture file="units/world/props/apartment/cocaine/cocaine_atlas_nm"/>
+    </material>
+	
+    <material name="contour" unique="true" render_template="generic:ALPHA_MASKED:CONTOUR:DIFFUSE_TEXTURE:OPACITY_TEXTURE" version="2">
+        <diffuse_texture file="units/white_df"/>
+        <variable value="0 1 0" type="vector3" name="contour_color"/>
+        <variable value="1" type="scalar" name="contour_opacity"/>
+        <opacity_texture file="units/transparent_op"/>
+    </material>
+</materials> 

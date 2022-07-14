@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<unit type="gen" slot="1">
+	<network sync="spawn" />
+	<object file="units/pd2_mod_custom/pickups/cocaine_multi_bag/cocaine_multi_bag" />
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+		<extension name="interaction" class="MultiBagInteractionExt">
+			<var name="tweak_data"						value="coke_bag_multi" />
+			<var name="_interact_object"				value="interact"/>
+			<var name="keep_active_after_interaction"	value="true"/>
+			
+			<var name="_object_type"					value="item" />
+			<var name="_object_graphics_prefix"			value="g_item_" />
+			<var name="_object_decal_prefix"			value="g_item_" />
+			<var name="_count"							value="4" />
+		</extension>
+		<extension name="carry_data" class="CarryData">
+			<var name="_carry_id" value="cocaine_multi_1" />
+		</extension>
+	</extensions>
+</unit>

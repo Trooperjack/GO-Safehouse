@@ -1,0 +1,82 @@
+<table>
+	<unit>
+		<variables>
+			<var_state value="1"/>
+		</variables>
+		
+		<filter name="'filter_not_empty'">
+			<check value="vars.var_state <= 3"/>
+		</filter>
+		
+		<filter name="'filter_empty'">
+			<check value="vars.var_state > 3"/>
+		</filter>
+		
+		<sequence editable_state="true" name=" 'show_and_enable' " triggable="true">
+			<run_sequence name="'show_disabled'"/>
+			<run_sequence name="'enable_interaction'"/>
+		</sequence>
+		
+		<sequence editable_state="true" name="'hide'" triggable="true">
+			<run_sequence name="'contour_off'"/>
+			<interaction enabled="false"/>
+			
+			<body enabled="false"		name="'static_body'"/>
+			<decal_mesh enabled="false"	name="'g_base'"/>
+			<object enabled="false"		name="'g_item_1'"/>
+			<object enabled="false"		name="'g_item_2'"/>
+			<object enabled="false"		name="'g_item_3'"/>
+		</sequence>
+		
+		<sequence editable_state="true" name=" 'show_disabled' " triggable="true">
+			<set_variables var_state="1"/>
+			<run_sequence name="'contour_off'"/>
+			<interaction enabled="false"/>
+			
+			<body enabled="true"		name="'static_body'"/>
+			<decal_mesh enabled="true"	name="'g_base'"/>
+			<object enabled="true"		name="'g_item_1'"/>
+			<object enabled="true"		name="'g_item_2'"/>
+			<object enabled="true"		name="'g_item_3'"/>
+		</sequence>
+		
+		<sequence editable_state="true" name=" 'enable_interaction' " triggable="true">
+			<run_sequence name="'contour_on'"/>
+			<interaction enabled="true"/>
+		</sequence>
+		<sequence editable_state="true" name=" 'disable_interaction' " triggable="true">
+			<run_sequence name="'contour_off'"/>
+			<interaction enabled="false"/>
+		</sequence>
+		<!--easier to hotswap jewelstore assets-->
+		<sequence name=" 'disable_interact' " >
+			<run_sequence name="'disable_interaction'"/>
+		</sequence>
+		<sequence name=" 'enable_interact' " >
+			<run_sequence name="'enable_interaction'"/>
+		</sequence>
+		
+		<sequence editable_state="true" name="'interact_start'" triggable="true"/>
+		
+		<sequence editable_state="true" name="'interact'" triggable="true">
+			<run_sequence name="'contour_off'"/>
+			<set_variables var_state="vars.var_state + 1"/>
+			<interaction filter="'filter_not_empty'" enabled="true" start_time="0.1"/>
+			<run_sequence filter="'filter_empty'" name="'done_empty'"/>
+		</sequence>
+		
+		<sequence name="'load'"/>
+		
+		<sequence name=" 'contour_off' ">
+			<graphic_group visibility="false" name="'grp_contour'"/>
+		</sequence>
+		
+		<sequence name=" 'contour_on' ">
+			<graphic_group visibility="true" name="'grp_contour'"/>
+		</sequence>
+		
+		<sequence editable_state="true" name="'done_empty'" triggable="true">
+			<run_sequence name="'hide'" />
+		</sequence>
+	</unit>
+</table>

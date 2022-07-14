@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<unit type="gen" slot="1">
+	<network sync="spawn" />
+	<object file="units/pd2_mod_custom/pickups/money_multi_bag/money_multi_bag" />
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+		<extension name="interaction" class="MultiBagInteractionExt">
+			<var name="tweak_data"						value="money_bag_multi" />
+			<var name="_interact_object"				value="interact"/>
+			<var name="keep_active_after_interaction"	value="true"/>
+			
+			<var name="_global_event"					value="pku_money" />
+			
+			<var name="_object_type"					value="state" />
+			<var name="_object_graphics_prefix"			value="g_money_;g_wrap_" />
+			<var name="_object_decal_prefix"			value="dm_money_" />
+			<var name="_count"							value="9" />
+		</extension>
+		<extension name="carry_data" class="CarryData">
+			<var name="_carry_id" value="money_multi_1" />
+		</extension>
+	</extensions>
+</unit>

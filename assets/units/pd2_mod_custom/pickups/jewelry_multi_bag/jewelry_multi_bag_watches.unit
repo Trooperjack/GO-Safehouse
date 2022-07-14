@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<unit type="gen" slot="1">
+	<network sync="spawn" />
+	<object file="units/pd2_mod_custom/pickups/jewelry_multi_bag/jewelry_multi_bag_watches" />
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+		<extension name="interaction" class="MultiBagInteractionExt">
+			<var name="tweak_data"						value="jewelry_multi" />
+			<var name="tweak_data_fill"					value="bag_multi_fill_quick" />
+			<var name="_interact_object"				value="interact"/>
+			<var name="keep_active_after_interaction"	value="true"/>
+			
+			<var name="_object_type"				value="item" />
+			<var name="_object_graphics_prefix"		value="g_item_" />
+			<var name="_count"						value="3" />
+		</extension>
+		<extension name="carry_data" class="CarryData">
+			<var name="_carry_id" value="jewelry_multi_1" />
+		</extension>
+	</extensions>
+</unit>

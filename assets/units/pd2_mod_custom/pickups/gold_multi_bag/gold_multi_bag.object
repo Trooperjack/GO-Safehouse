@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel materials="units/pd2_mod_custom/pickups/gold_multi_bag/gold_multi_bag" orientation_object="rp_root" />
+	<sequence_manager file="units/pd2_mod_custom/pickups/gold_multi_bag/gold_multi_bag" />
+	
+	<bodies>
+		<body name="static_tall" enabled="true" template="static">
+			<object name="c_tall" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="static_half" enabled="true" template="static">
+			<object name="c_half" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	
+	<decal_surfaces default_material="steel">
+		<decal_mesh name="g_item_1" enabled="true"/>
+		<decal_mesh name="g_item_2" enabled="true"/>
+		<decal_mesh name="g_item_3" enabled="true"/>
+		<decal_mesh name="g_item_4" enabled="true"/>
+		<decal_mesh name="g_item_5" enabled="true"/>
+		<decal_mesh name="g_item_6" enabled="true"/>
+		<decal_mesh name="g_item_7" enabled="true"/>
+		<decal_mesh name="g_item_8" enabled="true"/>
+	</decal_surfaces>
+	
+	<graphics>
+		<graphic_group name="grp_contour_1" enabled="false" culling_object="g_contour_1">
+			<lod_object name="lod_contour_1">
+					<object name="g_contour_1" 			enabled="true"  max_distance="450"  max_draw_lod="0" />
+					<object name="g_contour_1_lod1" 	enabled="true"  lod="1" />
+			</lod_object>
+		</graphic_group>
+		<graphic_group name="grp_contour_2" enabled="false" culling_object="g_contour_2">
+			<lod_object name="lod_contour_2">
+					<object name="g_contour_2" 			enabled="true"  max_distance="450"  max_draw_lod="0" />
+					<object name="g_contour_2_lod1" 	enabled="true"  lod="1" />
+			</lod_object>
+		</graphic_group>
+		<graphic_group name="grp_contour_3" enabled="false" culling_object="g_contour_3">
+			<lod_object name="lod_contour_3">
+					<object name="g_contour_3" 			enabled="true"  max_distance="450"  max_draw_lod="0" />
+					<object name="g_contour_3_lod1" 	enabled="true"  lod="1" />
+			</lod_object>
+		</graphic_group>
+		<graphic_group name="grp_contour_4" enabled="false" culling_object="g_contour_4">
+			<lod_object name="lod_contour_4">
+					<object name="g_contour_4" 			enabled="true"  max_distance="450"  max_draw_lod="0" />
+					<object name="g_contour_4_lod1" 	enabled="true"  lod="1" />
+			</lod_object>
+		</graphic_group>
+		<graphic_group name="grp_contour_5" enabled="false" culling_object="g_contour_5">
+			<lod_object name="lod_contour_5">
+					<object name="g_contour_5" 			enabled="true"  max_distance="450"  max_draw_lod="0" />
+					<object name="g_contour_5_lod1" 	enabled="true"  lod="1" />
+			</lod_object>
+		</graphic_group>
+		<graphic_group name="grp_contour_6" enabled="false" culling_object="g_contour_6">
+			<lod_object name="lod_contour_6">
+					<object name="g_contour_6" 			enabled="true"  max_distance="450"  max_draw_lod="0" />
+					<object name="g_contour_6_lod1" 	enabled="true"  lod="1" />
+			</lod_object>
+		</graphic_group>
+		<graphic_group name="grp_contour_7" enabled="false" culling_object="g_contour_7">
+			<lod_object name="lod_contour_7">
+					<object name="g_contour_7" 			enabled="true"  max_distance="450"  max_draw_lod="0" />
+					<object name="g_contour_7_lod1" 	enabled="true"  lod="1" />
+			</lod_object>
+		</graphic_group>
+		<graphic_group name="grp_contour_8" enabled="false" culling_object="g_contour_8">
+			<lod_object name="lod_contour_8">
+					<object name="g_contour_8" 			enabled="true"  max_distance="450"  max_draw_lod="0" />
+					<object name="g_contour_8_lod1" 	enabled="true"  lod="1" />
+			</lod_object>
+		</graphic_group>
+		
+		<object name="g_item_1"			enabled="true"/>
+		<object name="g_item_2"			enabled="true"/>
+		<object name="g_item_3"			enabled="true"/>
+		<object name="g_item_4"			enabled="true"/>
+		<object name="g_item_5"			enabled="true"/>
+		<object name="g_item_6"			enabled="true"/>
+		<object name="g_item_7"			enabled="true"/>
+		<object name="g_item_8"			enabled="true"/>
+	</graphics>
+</dynamic_object> 

@@ -1,0 +1,30 @@
+<table>
+	<unit>
+		<variables>
+			<var_state value="1"/>
+		</variables>
+		
+		<filter name="'filter_empty'">
+			<check value="vars.var_state > 2"/>
+		</filter>
+		
+		<sequence editable_state="true" name="'interact_start'" triggable="true">
+			<animation_group enabled="true" from="0/30" name="'interact_'..vars.var_state" to="60/30"/>
+		</sequence>
+		
+		<sequence editable_state="true" name="'interact_interupt'" triggable="true">
+			<animation_group enabled="true" speed="-1" name="'interact_'..vars.var_state" to="0/30"/>
+		</sequence>
+		
+		<sequence editable_state="false" name="'interact'" triggable="false">
+			<set_variables var_state="vars.var_state + 1"/>
+			<run_sequence filter="'filter_empty'" name="'done_empty'"/>
+		</sequence>
+		
+		<sequence editable_state="true" name="'done_empty'" triggable="true">
+			<interaction enabled="false"/>
+		</sequence>
+		
+		<sequence name="'load'"/>
+	</unit>
+</table>

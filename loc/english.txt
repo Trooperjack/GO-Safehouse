@@ -1,2 +1,23 @@
 {
+	"bag_multi_fill":				"Hold $BTN_INTERACT to fill bag",
+	"bag_multi_fill_blocked":		"Current bag is full!",
+	
+	"money_bag_multi":				"Hold $BTN_INTERACT to bag money",
+	"money_bag_multi_blocked":		"Money bag required!",
+	
+	"coke_bag_multi":				"Hold $BTN_INTERACT to bag cocaine",
+	"coke_bag_multi_blocked":		"Cocaine bag required!",
+	
+	"gold_bag_multi":				"Hold $BTN_INTERACT to bag gold",
+	"gold_bag_multi_blocked":		"Gold bag required!",
+	
+	"jewelry_multi":				"Hold $BTN_INTERACT to bag jewels",
+	"jewelry_multi_blocked":		"Jewelry bag required!",
+	
+	"weapon_bag_multi":				"Hold $BTN_INTERACT to bag weapons",
+	"weapon_bag_multi_blocked":		"Weapon bag required!",
+	
+	"hud_carry_level_max":			"Max",
+	
+	"":""
 }

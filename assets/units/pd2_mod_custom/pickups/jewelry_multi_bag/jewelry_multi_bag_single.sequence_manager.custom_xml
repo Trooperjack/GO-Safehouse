@@ -1,0 +1,54 @@
+<table>
+	<unit>
+		<sequence editable_state="true" name=" 'show_and_enable' " triggable="true">
+			<run_sequence name="'show_disabled'"/>
+			<run_sequence name="'enable_interaction'"/>
+		</sequence>
+		
+		<sequence editable_state="true" name="'hide'" triggable="true">
+			<interaction enabled="false"/>
+			
+			<body enabled="false"				name="'static_body'"/>
+			<decal_mesh enabled="false"			name="'g_base'"/>
+			<object enabled="false"				name="'g_base'"/>
+			<graphic_group visibility="false"	name="'grp_contour'"/>
+			<graphic_group visibility="false"	name="'grp_all'"/>
+		</sequence>
+		
+		<sequence editable_state="true" name="'show_disabled'" triggable="true">
+			<interaction enabled="false"/>
+			
+			<body enabled="true"				name="'static_body'"/>
+			<decal_mesh enabled="true"			name="'g_base'"/>
+			<object enabled="true"				name="'g_base'"/>
+			<graphic_group visibility="true"	name="'grp_all'"/>
+			<graphic_group visibility="false"	name="'grp_contour'"/>
+		</sequence>
+		
+		<sequence editable_state="true" name="'enable_interaction'" triggable="true">
+			<graphic_group visibility="true" name="'grp_contour'"/>
+			<interaction enabled="true"/>
+		</sequence>
+		
+		<sequence editable_state="true" name="'disable_interaction'" triggable="true">
+			<graphic_group visibility="false" name="'grp_contour'"/>
+			<interaction enabled="false"/>
+		</sequence>
+		<!--easier to hotswap jewelstore assets-->
+		<sequence name=" 'disable_interact' " >
+			<run_sequence name="'disable_interaction'"/>
+		</sequence>
+		<sequence name=" 'enable_interact' " >
+			<run_sequence name="'enable_interaction'"/>
+		</sequence>
+		
+		<sequence editable_state="true" name="'interact_start'" triggable="true"/>
+		
+		<sequence editable_state="true" name="'interact'" triggable="true">
+			<run_sequence name="'disable_interaction'"/>
+			<graphic_group visibility="false" name="'grp_all'"/>
+		</sequence>
+		
+		<sequence name="'load'"/>
+	</unit>
+</table>

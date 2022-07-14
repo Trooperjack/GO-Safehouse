@@ -2,8 +2,20 @@
 	<Localization default="english.txt" directory="loc">
 		<loc file="english.txt" language="english"/>
 	</Localization>
+	<Hooks directory="hooks">
+		<hook file="Setup.lua"											source_file="lib/setups/gamesetup"/>
+		<hook file="playermanager.lua"									source_file="lib/managers/playermanager"/>
+		<hook file="hudmanager.lua"										source_file="lib/managers/hudmanager"/>
+		<hook file="hudmanagerpd2.lua"									source_file="lib/managers/hudmanagerpd2"/>
+		<hook file="hud/hudtemp.lua"									source_file="lib/managers/hud/hudtemp"/>
+		<hook file="moneytweakdata.lua"									source_file="lib/tweak_data/moneytweakdata"/>
+		<hook file="carrytweakdata.lua"									source_file="lib/tweak_data/carrytweakdata"/>
+		<hook file="interactiontweakdata.lua"							source_file="lib/tweak_data/interactiontweakdata"/>
+		<hook file="units/beings/player/states/playerstandard.lua"		source_file="lib/units/beings/player/states/playerstandard"/>
+	</Hooks>
 	<Package file="scriptdata/tj_csgo_deSafeHouse_stage1.package" id="packages/levels/tj_csgo_deSafeHouse_stage1/world/world" unload_on_restart="true"/>
-	<level ai_group_type="america" id="tj_csgo_deSafeHouse_stage1" max_bags="54">
+	<Package file="scriptdata/rex_bagfilling.package" id="packages/custom/pd2_mod_rex_bagfilling/bagfilling/world/world" unload_on_restart="true"/>
+	<level ai_group_type="america" id="tj_csgo_deSafeHouse_stage1" max_bags="1000">
 		<assets>
 			<asset name="ammo_bag"/>
 			<asset name="health_bag"/>
@@ -13,6 +25,7 @@
 		<outro_event/>
 		<packages>
 			<value_node value="packages/levels/tj_csgo_deSafeHouse_stage1/world/world"/>
+			<value_node value="packages/custom/pd2_mod_rex_bagfilling/bagfilling/world/world"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">

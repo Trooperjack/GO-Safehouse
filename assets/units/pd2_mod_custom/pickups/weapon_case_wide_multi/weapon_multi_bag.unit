@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<unit type="item" slot="1">
+	<object file="units/pd2_mod_custom/pickups/weapon_case_wide_multi/weapon_multi_bag" />
+	<network sync="spawn"/>
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+		<extension name="interaction" class="MultiBagInteractionExt">
+			<var name="tweak_data"						value="weapon_bag_multi" />
+			<var name="_interact_object"				value="interact"/>
+			<var name="keep_active_after_interaction"	value="true"/>
+			
+			<var name="_object_type"				value="state" />
+			<var name="_object_graphics_prefix"		value="g_wpn_;g_wpn_mag_" />
+			<var name="_count"						value="2" />
+			
+		</extension>
+		<extension name="carry_data" class="CarryData">
+			<var name="_carry_id" value="weapon_bag_multi_1" />
+		</extension>
+	</extensions>
+</unit>
