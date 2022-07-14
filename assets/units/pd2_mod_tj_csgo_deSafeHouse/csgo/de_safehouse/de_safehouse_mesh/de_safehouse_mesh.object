@@ -1,0 +1,177 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/de_safehouse_mat" orientation_object="rp_go_safehouse" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_go_safehouse" />
+			<object name="g_mesh_001" collision_type="mesh_mopp" />
+			<object name="g_mesh_002" collision_type="mesh_mopp" />
+			<object name="g_mesh_003" collision_type="mesh_mopp" />
+			<object name="g_mesh_004" collision_type="mesh_mopp" />
+			<object name="g_mesh_005" collision_type="mesh_mopp" />
+			<object name="g_mesh_006" collision_type="mesh_mopp" />
+			<object name="g_mesh_007" collision_type="mesh_mopp" />
+			<object name="g_mesh_008" collision_type="mesh_mopp" />
+			<object name="g_mesh_009" collision_type="mesh_mopp" />
+			<object name="g_mesh_010" collision_type="mesh_mopp" />
+			<object name="g_mesh_011" collision_type="mesh_mopp" />
+			<object name="g_mesh_012" collision_type="mesh_mopp" />
+			<object name="g_mesh_013" collision_type="mesh_mopp" />
+			<object name="g_mesh_014" collision_type="mesh_mopp" />
+			<object name="g_mesh_015" collision_type="mesh_mopp" />
+			<object name="g_mesh_016" collision_type="mesh_mopp" />
+			<object name="g_mesh_017" collision_type="mesh_mopp" />
+			<object name="g_mesh_018" collision_type="mesh_mopp" />
+			<object name="g_mesh_019" collision_type="mesh_mopp" />
+			<object name="g_mesh_020" collision_type="mesh_mopp" />
+			<object name="g_mesh_021" collision_type="mesh_mopp" />
+			<object name="g_mesh_022" collision_type="mesh_mopp" />
+			<object name="g_mesh_023" collision_type="mesh_mopp" />
+			<object name="g_mesh_024" collision_type="mesh_mopp" />
+			<object name="g_mesh_025" collision_type="mesh_mopp" />
+			<object name="g_mesh_026" collision_type="mesh_mopp" />
+			<object name="g_mesh_027" collision_type="mesh_mopp" />
+			<object name="g_mesh_028" collision_type="mesh_mopp" />
+			<!--<object name="g_mesh_029" collision_type="mesh_mopp" />-->
+			<!--<object name="g_mesh_030" collision_type="mesh_mopp" />-->
+			<object name="g_mesh_031" collision_type="mesh_mopp" />
+			<object name="g_mesh_032" collision_type="mesh_mopp" />
+			<object name="g_mesh_033" collision_type="mesh_mopp" />
+			<object name="g_mesh_034" collision_type="mesh_mopp" />
+			<object name="g_mesh_035" collision_type="mesh_mopp" />
+			<object name="g_mesh_036" collision_type="mesh_mopp" />
+			<object name="g_mesh_037" collision_type="mesh_mopp" />
+			<object name="g_mesh_038" collision_type="mesh_mopp" />
+			<object name="g_mesh_039" collision_type="mesh_mopp" />
+			<object name="g_mesh_040" collision_type="mesh_mopp" />
+			<object name="g_mesh_041" collision_type="mesh_mopp" />
+			<object name="g_mesh_042" collision_type="mesh_mopp" />
+			<object name="g_mesh_043" collision_type="mesh_mopp" />
+			<object name="g_mesh_044" collision_type="mesh_mopp" />
+			<object name="g_mesh_045" collision_type="mesh_mopp" />
+			<object name="g_mesh_046" collision_type="mesh_mopp" />
+			<object name="g_mesh_047" collision_type="mesh_mopp" />
+			<object name="g_mesh_048" collision_type="mesh_mopp" />
+			<object name="g_mesh_049" collision_type="mesh_mopp" />
+			<object name="g_mesh_050" collision_type="mesh_mopp" />
+			<object name="g_mesh_051" collision_type="mesh_mopp" />
+			<object name="g_mesh_052" collision_type="mesh_mopp" />
+			<object name="g_mesh_053" collision_type="mesh_mopp" />
+			<!--<object name="g_mesh_054" collision_type="mesh_mopp" />-->
+			<!--<object name="g_mesh_055" collision_type="mesh_mopp" />-->
+		</body>
+	</bodies>
+	<decal_surfaces default_material="stone">
+		<decal_mesh name="g_mesh_001" enabled="true" material="plastic" />
+		<decal_mesh name="g_mesh_002" enabled="true" material="wood" />
+		<decal_mesh name="g_mesh_003" enabled="true" material="plaster" />
+		<decal_mesh name="g_mesh_004" enabled="true" material="wood" />
+		<!--<decal_mesh name="g_mesh_005" enabled="true" material="stone" />-->
+		<decal_mesh name="g_mesh_006" enabled="true" material="plaster" />
+		<decal_mesh name="g_mesh_007" enabled="true" material="stone" />
+		<decal_mesh name="g_mesh_008" enabled="true" material="concrete" />
+		<decal_mesh name="g_mesh_009" enabled="true" material="metal" />
+		<decal_mesh name="g_mesh_010" enabled="true" material="wood" />
+		<decal_mesh name="g_mesh_011" enabled="true" material="wood" />
+		<decal_mesh name="g_mesh_012" enabled="true" material="metal" />
+		<decal_mesh name="g_mesh_013" enabled="true" material="plaster" />
+		<decal_mesh name="g_mesh_014" enabled="true" material="wood" />
+		<decal_mesh name="g_mesh_015" enabled="true" material="wood" />
+		<decal_mesh name="g_mesh_016" enabled="true" material="plaster" />
+		<decal_mesh name="g_mesh_017" enabled="true" material="plaster" />
+		<decal_mesh name="g_mesh_018" enabled="true" material="wood" />
+		<decal_mesh name="g_mesh_019" enabled="true" material="plaster" />
+		<decal_mesh name="g_mesh_020" enabled="true" material="stone" />
+		<decal_mesh name="g_mesh_021" enabled="true" material="tile" />
+		<decal_mesh name="g_mesh_022" enabled="true" material="wood" />
+		<decal_mesh name="g_mesh_023" enabled="true" material="wood" />
+		<decal_mesh name="g_mesh_024" enabled="true" material="wood" />
+		<decal_mesh name="g_mesh_025" enabled="true" material="carpet" />
+		<decal_mesh name="g_mesh_026" enabled="true" material="wood" />
+		<decal_mesh name="g_mesh_027" enabled="true" material="tile" />
+		<decal_mesh name="g_mesh_028" enabled="true" material="wood" />
+		<!--<decal_mesh name="g_mesh_029" enabled="true" material="wood" />-->
+		<!--<decal_mesh name="g_mesh_030" enabled="true" material="wood" />-->
+		<decal_mesh name="g_mesh_031" enabled="true" material="wood" />
+		<decal_mesh name="g_mesh_032" enabled="true" material="wood" />
+		<decal_mesh name="g_mesh_033" enabled="true" material="grass" />
+		<decal_mesh name="g_mesh_034" enabled="true" material="grass" />
+		<decal_mesh name="g_mesh_035" enabled="true" material="asphalt" />
+		<decal_mesh name="g_mesh_036" enabled="true" material="grass" />
+		<decal_mesh name="g_mesh_037" enabled="true" material="grass" />
+		<decal_mesh name="g_mesh_038" enabled="true" material="grass" />
+		<decal_mesh name="g_mesh_039" enabled="true" material="gravel" />
+		<decal_mesh name="g_mesh_040" enabled="true" material="gravel" />
+		<decal_mesh name="g_mesh_041" enabled="true" material="wood" />
+		<decal_mesh name="g_mesh_042" enabled="true" material="stone" />
+		<decal_mesh name="g_mesh_043" enabled="true" material="stone" />
+		<decal_mesh name="g_mesh_044" enabled="true" material="concrete" />
+		<decal_mesh name="g_mesh_045" enabled="true" material="concrete" />
+		<decal_mesh name="g_mesh_046" enabled="true" material="concrete" />
+		<decal_mesh name="g_mesh_047" enabled="true" material="wood" />
+		<decal_mesh name="g_mesh_048" enabled="true" material="concrete" />
+		<!--<decal_mesh name="g_mesh_049" enabled="true" material="stone" />-->
+		<decal_mesh name="g_mesh_050" enabled="true" material="wood" />
+		<decal_mesh name="g_mesh_051" enabled="true" material="glass" />
+		<decal_mesh name="g_mesh_052" enabled="true" material="tile" />
+		<decal_mesh name="g_mesh_053" enabled="true" material="carpet" />
+		<!--<decal_mesh name="g_mesh_054" enabled="true" material="wood" />-->
+		<!--<decal_mesh name="g_mesh_055" enabled="true" material="gravel" />-->
+	</decal_surfaces>
+	<graphics>
+		<object name="g_mesh_001" enabled="true" shadow_caster="true"/>
+		<object name="g_mesh_002" enabled="true" shadow_caster="true"/>
+		<object name="g_mesh_003" enabled="true" shadow_caster="true"/>
+		<object name="g_mesh_004" enabled="true" shadow_caster="true"/>
+		<object name="g_mesh_005" enabled="false" shadow_caster="true"/> <!-- nodraw -->
+		<object name="g_mesh_006" enabled="true" shadow_caster="true"/>
+		<object name="g_mesh_007" enabled="true" shadow_caster="true"/>
+		<object name="g_mesh_008" enabled="true" shadow_caster="true"/>
+		<object name="g_mesh_009" enabled="true" shadow_caster="true"/>
+		<object name="g_mesh_010" enabled="true" shadow_caster="true"/>
+		<object name="g_mesh_011" enabled="true" shadow_caster="true"/>
+		<object name="g_mesh_012" enabled="true" shadow_caster="true"/>
+		<object name="g_mesh_013" enabled="true" shadow_caster="true"/>
+		<object name="g_mesh_014" enabled="true" shadow_caster="true"/>
+		<object name="g_mesh_015" enabled="true" shadow_caster="true"/>
+		<object name="g_mesh_016" enabled="true" shadow_caster="true"/>
+		<object name="g_mesh_017" enabled="true" shadow_caster="true"/>
+		<object name="g_mesh_018" enabled="true" shadow_caster="true"/>
+		<object name="g_mesh_019" enabled="true" shadow_caster="true"/>
+		<object name="g_mesh_020" enabled="true" shadow_caster="true"/>
+		<object name="g_mesh_021" enabled="true" shadow_caster="true"/>
+		<object name="g_mesh_022" enabled="true" shadow_caster="true"/>
+		<object name="g_mesh_023" enabled="true" shadow_caster="true"/>
+		<object name="g_mesh_024" enabled="true" shadow_caster="true"/>
+		<object name="g_mesh_025" enabled="true" shadow_caster="true"/>
+		<object name="g_mesh_026" enabled="true" shadow_caster="true"/>
+		<object name="g_mesh_027" enabled="true" shadow_caster="true"/>
+		<object name="g_mesh_028" enabled="true" shadow_caster="true"/>
+		<object name="g_mesh_029" enabled="true" shadow_caster="true"/>
+		<object name="g_mesh_030" enabled="true" shadow_caster="true"/>
+		<object name="g_mesh_031" enabled="true" shadow_caster="true"/>
+		<object name="g_mesh_032" enabled="true" shadow_caster="true"/>
+		<object name="g_mesh_033" enabled="true" shadow_caster="true"/>
+		<object name="g_mesh_034" enabled="true" shadow_caster="true"/>
+		<object name="g_mesh_035" enabled="true" shadow_caster="true"/>
+		<object name="g_mesh_036" enabled="true" shadow_caster="true"/>
+		<object name="g_mesh_037" enabled="true" shadow_caster="true"/>
+		<object name="g_mesh_038" enabled="true" shadow_caster="true"/>
+		<object name="g_mesh_039" enabled="true" shadow_caster="true"/>
+		<object name="g_mesh_040" enabled="true" shadow_caster="true"/>
+		<object name="g_mesh_041" enabled="true" shadow_caster="true"/>
+		<object name="g_mesh_042" enabled="true" shadow_caster="true"/>
+		<object name="g_mesh_043" enabled="true" shadow_caster="true"/>
+		<object name="g_mesh_044" enabled="true" shadow_caster="true"/>
+		<object name="g_mesh_045" enabled="true" shadow_caster="true"/>
+		<object name="g_mesh_046" enabled="true" shadow_caster="true"/>
+		<object name="g_mesh_047" enabled="true" shadow_caster="true"/>
+		<object name="g_mesh_048" enabled="true" shadow_caster="true"/>
+		<object name="g_mesh_049" enabled="true" shadow_caster="true"/>
+		<object name="g_mesh_050" enabled="true" shadow_caster="true"/>
+		<object name="g_mesh_051" enabled="true" shadow_caster="true"/>
+		<object name="g_mesh_052" enabled="true" shadow_caster="true"/>
+		<object name="g_mesh_053" enabled="true" shadow_caster="true"/>
+		<object name="g_mesh_054" enabled="true" shadow_caster="true"/>
+		<object name="g_mesh_055" enabled="true" shadow_caster="true"/>
+	</graphics>
+</dynamic_object>

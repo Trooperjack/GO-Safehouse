@@ -1,0 +1,245 @@
+<table directory="assets">
+	<add>
+		
+		
+		<!-- __________Material Config__________ -->
+		<material_config 	path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/de_safehouse_mat" unload="true"/>
+		
+		
+		<!-- __________MAP UNITS__________ -->
+		<!-- Mesh Unit -->
+		<model 				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/de_safehouse_mesh/de_safehouse_mesh" unload="true"/>
+		<object 			path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/de_safehouse_mesh/de_safehouse_mesh" unload="true"/>
+		<unit 				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/de_safehouse_mesh/de_safehouse_mesh" unload="true"/>	
+		
+		<!-- Props Unit -->
+		<model 				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/de_safehouse_props/de_safehouse_props" unload="true"/>
+		<object 			path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/de_safehouse_props/de_safehouse_props" unload="true"/>
+		<unit 				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/de_safehouse_props/de_safehouse_props" unload="true"/>
+		
+		<!-- Trees Unit -->
+		<model 				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/de_safehouse_trees/de_safehouse_trees" unload="true"/>
+		<object 			path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/de_safehouse_trees/de_safehouse_trees" unload="true"/>
+		<unit 				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/de_safehouse_trees/de_safehouse_trees" unload="true"/>
+		<!-- ________________________________________ -->
+		
+		
+		<!-- __________SINGLE UNITS__________ -->
+		<!-- window_48x36 -->
+		<model 				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/windows/window_48x36" unload="true"/>
+		<sequence_manager 	path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/windows/window_48x36" unload="true"/>
+		<object 			path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/windows/window_48x36" unload="true"/>
+		<unit 				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/windows/window_48x36" unload="true"/>
+		
+		<!-- window_54x44 -->
+		<model 				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/windows/window_54x44" unload="true"/>
+		<sequence_manager 	path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/windows/window_54x44" unload="true"/>
+		<object 			path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/windows/window_54x44" unload="true"/>
+		<unit 				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/windows/window_54x44" unload="true"/>
+		
+		<!-- window_54x76 -->
+		<model 				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/windows/window_54x76" unload="true"/>
+		<sequence_manager 	path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/windows/window_54x76" unload="true"/>
+		<object 			path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/windows/window_54x76" unload="true"/>
+		<unit 				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/windows/window_54x76" unload="true"/>
+		
+		<effect 			path="effects/payday2/particles/window/storefront_window_small" unload="true"/>
+		
+		
+		
+		
+		
+		
+		
+		<!-- __________TEXTURES__________ -->
+		<texture			path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" unload="true"/>
+		<texture			path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/normal_none" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/ground/gravel01" unload="true"/>
+		
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/nature/dirtleaves01" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/nature/grasswithered00" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/nature/oldleaves01" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/nature/leaves03_blendtexture" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/nature/milground005" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/nature/milground007" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/nature/miltree003" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/nature/miltree005" unload="true"/>
+		
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/concrete/roadparkinglotdark" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/concrete/concrete_floor_06" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/concrete/prodstepfrnt" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/concrete/prodsteptp" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/concrete/concrete_ext_03" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/concrete/concretefloor016a" unload="true"/>
+		
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/decals/switch02" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/decals/window_brick12" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/decals/tilebacksplash01" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/decals/oldleaves01" unload="true"/>
+		
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/tools/toolsblack" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/tools/toolsnodraw" unload="true"/>
+		
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/wood/housesiding01" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/wood/housebeams01" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/wood/housebeams03" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/wood/housebeams04" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/wood/floor03" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/wood/floor03cheap" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/wood/houseceiling02" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/wood/shingles001" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/wood/houseceiling01" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/wood/houseceiling03" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/wood/shinglesiding01" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/wood/shinglesiding01b" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/wood/housedeck01" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/wood/housesiding02" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/wood/housesiding02_white" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/wood/lattice01" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/wood/barn01" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/wood/cabinets12" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/wood/door_shutter01" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/wood/plywood_ext_01" unload="true"/>
+		
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/plaster/wall_blue02" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/plaster/wall_white04" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/plaster/wall_red04" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/plaster/wall_red05" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/plaster/wall_yellow01" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/plaster/wall_green01" unload="true"/>
+		
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/stone/wall_house02" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/stone/wall_house01" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/stone/counter01" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/stone/counter01_ref" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/stone/counter02" unload="true"/>
+		
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/de_nuke/nuke_metaldoor_01" unload="true"/>
+		
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/de_train/train_dirt_decal_01" unload="true"/>
+		
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/signs/road_closed" unload="true"/>
+		
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/tile/house_floor01" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/tile/tile_mall_floor00" unload="true"/>
+		
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/carpet/grey02" unload="true"/>
+		
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/overlays/rug001a" unload="true"/>
+		
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/skybox/urban_horizon_even" unload="true"/>
+		
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/dt_wood1" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/dt_wood2" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/noise_detail_01" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/wall_safe" unload="true"/>
+		
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/cs_italy/winerack_large" unload="true"/>
+		
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props/cs_militia/mailbox01" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props/cs_militia/rock_riverbed01a" unload="true"/>
+		
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props/cs_office/microwave" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props/cs_office/offpaintinga" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props/cs_office/offpaintinge" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props/cs_office/offpaintingf" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props/cs_office/offpaintingk" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props/cs_office/poster_backing" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props/cs_office/shelves_stuff" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props/cs_office/sofa" unload="true"/>
+		
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props/de_dust/objects/antenna_b" unload="true"/>
+		
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props/de_house/bed_rustic" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props/de_house/de_house_curtains01" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props/de_house/de_house_railing_interior01" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props/de_house/de_house_table01" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props/de_house/doortrimwide" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props/de_house/fireplace" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props/de_house/house_windowframes01" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props/de_house/housebeams05" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props/de_house/step_wood_a" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props/de_house/stonewooddeco" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props/de_house/house_windows01" unload="true"/>
+		
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props/de_inferno/bench_wood" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props/de_inferno/logpile" unload="true"/>
+		
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props/de_tides/patio_chair" unload="true"/>
+		
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props/de_train/ladderaluminium" unload="true"/>
+		
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_c17/clock01" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_c17/clockwood01" unload="true"/>
+		
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_downtown/door01" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_downtown/gutters" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_downtown/lights_interior" unload="true"/>
+		
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_exteriors/fence002" unload="true"/>
+		
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_foliage/branchesfarm01_mip0" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_foliage/trees_farm01" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_foliage/urban_trees_barks01" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_foliage/urban_trees_branches02" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_foliage/urban_trees_branches03" unload="true"/>
+		
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_furniture/furniturecupboard001a" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_furniture/kitchen_shelf1" unload="true"/>
+		
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_interiors/ac_wallunit" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_interiors/bathroom_set" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_interiors/bathtub01" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_interiors/bed" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_interiors/books" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_interiors/closet_clothes" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_interiors/coffee_maker" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_interiors/dish_soap" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_interiors/furniture_shelf01a" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_interiors/furniture_wood01" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_interiors/lamps" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_interiors/painting_landscape_a" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_interiors/painting_portrait_a" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_interiors/refrigerator02" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_interiors/sink_kitchen" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_interiors/stove02" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_interiors/table_console" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_interiors/toaster" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_interiors/toilet" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_interiors/toiletpaperdispenser_residential" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_interiors/towel_rack" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_interiors/tv" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_interiors/tvstatic" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_interiors/waterheater" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_interiors/woodfurniture01" unload="true"/>
+		
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_junk/garbage001a_01" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_junk/glass_objects01" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_junk/metalbucket01a" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_junk/trashclusters01" unload="true"/>
+		
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_lighting/lightfixture03_off" unload="true"/>
+		
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_misc/pan-2" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_misc/tea_pot" unload="true"/>
+		
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_rooftop/roof_dish001" unload="true"/>
+		
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_street/trashbin01" unload="true"/>
+		
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_unique/wooden_barricade" unload="true"/>
+		
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_urban/hotel_light001" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_urban/hotel_light002" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_urban/hotel_mirror001" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_urban/hotel_sconce001" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_urban/telephone_pole001" unload="true"/>
+		
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_vehicles/pickup_trucks" unload="true"/>
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_vehicles/pickup_trucks_glass" unload="true"/>
+		
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_yard/playground_slide" unload="true"/>
+		
+		
+	</add>
+</table>

@@ -1,0 +1,16 @@
+<sequence_manager>
+	<unit>
+		<sequence name=" 'destroy' " once="true" triggable="true">
+			<object enabled="false" name=" 'g_window_48x36' "/>
+			<sound action="'play'" event="'window_large_shatter'" object="'e_glass'"/>
+			<effect name="'effects/payday2/particles/window/storefront_window_small'" parent="object( 'e_glass' )" position="v()"/>
+			<alert/>
+			<body enabled="false" name=" 'glass_body' "/>
+		</sequence>
+		<body name="'glass_body'">
+			<endurance bullet="1" explosion="1" melee="0.5">
+				<run_sequence name="'destroy'"/>
+			</endurance>
+		</body>
+	</unit>
+</sequence_manager>

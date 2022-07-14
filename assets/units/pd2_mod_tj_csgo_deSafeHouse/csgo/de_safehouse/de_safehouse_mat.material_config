@@ -1,0 +1,694 @@
+<materials version="3">
+	
+	<!-- __________Used for All__________ -->
+	<material name="tools/toolsnodraw" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/tools/toolsnodraw"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="tools/toolsblack" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/tools/toolsblack"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	
+	
+	<!-- __________Terrain__________ -->
+	<!-- How the heck do blend textures work!? -->
+	<material render_template="generic:BLEND_DIFFUSE:BLEND_MASK_CONTROL:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="nature/blend_grassdirtleaves01" version="2">
+        <diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/nature/dirtleaves01"/>
+        <diffuse_layer0_texture file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/nature/grasswithered00"/>
+		<!--<diffuse_layer1_texture file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/nature/leaves03_blendtexture"/>-->
+		<material_texture 		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+		<bump_normal_texture 	file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+		<!--<normal_layer0_texture 	file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>-->
+		<variable				value="1 1 0" type="vector3" name="blend_control"/>
+    </material>
+	<material render_template="generic:BLEND_DIFFUSE:BLEND_MASK_CONTROL:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="nature/blend_oldleavesdirtleaves01" version="2">
+        <diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/nature/oldleaves01"/>
+        <diffuse_layer0_texture file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/nature/dirtleaves01"/>
+		<material_texture 		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+		<bump_normal_texture 	file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+		<variable				value="1 1 0" type="vector3" name="blend_control"/>
+    </material>
+	<material render_template="generic:BLEND_DIFFUSE:BLEND_MASK_CONTROL:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="nature/blend_oldleavesdirtleaves01cheap" version="2">
+        <diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/nature/oldleaves01"/>
+        <diffuse_layer0_texture file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/nature/dirtleaves01"/>
+		<!--<diffuse_layer1_texture file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/nature/leaves03_blendtexture"/>-->
+		<material_texture 		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+		<bump_normal_texture 	file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+		<variable				value="1 1 0" type="vector3" name="blend_control"/>
+    </material>
+	<material render_template="generic:BLEND_DIFFUSE:BLEND_MASK_CONTROL:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="nature/blend_oldleavespavement01cheap" version="2">
+        <diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/nature/oldleaves01"/>
+        <diffuse_layer0_texture file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/concrete/roadparkinglotdark"/>
+		<!--<diffuse_layer1_texture file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/nature/leaves03_blendtexture"/>-->
+		<material_texture 		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+		<bump_normal_texture 	file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+		<variable				value="1 1 0" type="vector3" name="blend_control"/>
+    </material>
+	<material render_template="generic:BLEND_DIFFUSE:BLEND_MASK_CONTROL:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="nature/blend_grass_road_house" version="2">
+        <diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/nature/dirtleaves01"/>
+        <diffuse_layer0_texture file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/nature/milground007"/>
+		<!--<diffuse_layer1_texture file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/nature/leaves03_blendtexture"/>-->
+		<material_texture 		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+		<bump_normal_texture 	file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+		<variable				value="1 1 0" type="vector3" name="blend_control"/>
+    </material>
+	<material render_template="generic:BLEND_DIFFUSE:BLEND_MASK_CONTROL:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="nature/blend_dirtwall_grass_house" version="2">
+        <diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/nature/dirtleaves01"/>
+        <diffuse_layer0_texture file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/nature/milground005"/>
+		<!--<diffuse_layer1_texture file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/nature/leaves03_blendtexture"/>-->
+		<material_texture 		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+		<bump_normal_texture 	file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+		<variable				value="1 1 0" type="vector3" name="blend_control"/>
+    </material>
+	<material render_template="generic:BLEND_DIFFUSE:BLEND_MASK_CONTROL:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="nature/blend_dirtleavesgravel01" version="2">
+        <diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/nature/dirtleaves01"/>
+        <diffuse_layer0_texture file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/ground/gravel01"/>
+		<!--<diffuse_layer1_texture file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/nature/leaves03_blendtexture"/>-->
+		<material_texture 		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+		<bump_normal_texture 	file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+		<variable				value="0.01 1 0" type="vector3" name="blend_control"/>
+    </material>
+	<material render_template="generic:BLEND_DIFFUSE:BLEND_MASK_CONTROL:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="nature/blend_oldleavesgravel01" version="2">
+        <diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/nature/oldleaves01"/>
+        <diffuse_layer0_texture file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/ground/gravel01"/>
+		<!--<diffuse_layer1_texture file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/nature/leaves03_blendtexture"/>-->
+		<material_texture 		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+		<bump_normal_texture 	file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+		<variable				value="0.01 1 0" type="vector3" name="blend_control"/>
+    </material>
+	<material name="decals/gravel01" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/ground/gravel01"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+		<variable				value="0.1" type="scalar" name="alpha_ref"/>
+	</material>
+	
+	
+	
+	<!-- __________House Mesh__________ -->
+	<material name="decals/switch02" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/decals/switch02"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+		<variable				value="0.1" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="wood/housesiding01" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/wood/housesiding01"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="plaster/wall_blue02" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/plaster/wall_blue02"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="plaster/wall_white04" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/plaster/wall_white04"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="wood/housebeams01" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/wood/housebeams01"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="stone/wall_house02" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/stone/wall_house02"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="concrete/concrete_floor_06" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/concrete/concrete_floor_06"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="de_nuke/nuke_metaldoor_01" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/de_nuke/nuke_metaldoor_01"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="wood/floor03" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/wood/floor03"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="wood/houseceiling02" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/wood/houseceiling02"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="signs/road_closed" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/signs/road_closed"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="plaster/wall_red04" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/plaster/wall_red04"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="wood/shingles001" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/wood/shingles001"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="wood/houseceiling03" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/wood/houseceiling03"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="plaster/wall_red05" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/plaster/wall_red05"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="plaster/wall_yellow01" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/plaster/wall_yellow01"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="wood/shinglesiding01" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/wood/shinglesiding01"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="plaster/wall_green01" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/plaster/wall_green01"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="stone/wall_house01" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/stone/wall_house01"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="tile/house_floor01" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/tile/house_floor01"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="wood/housedeck01" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/wood/housedeck01"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="wood/housesiding02" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/wood/housesiding02"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="wood/housebeams03" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/wood/housebeams03"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="carpet/grey02" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/carpet/grey02"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="wood/housebeams04" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/wood/housebeams04"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="tile/tile_mall_floor00" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/tile/tile_mall_floor00"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="wood/houseceiling01" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/wood/houseceiling01"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="wood/lattice01" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/wood/lattice01"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+		<variable				value="0.1" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="wood/barn01" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/wood/barn01"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="wood/cabinets12" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/wood/cabinets12"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="stone/counter02" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/stone/counter02"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="stone/counter01" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/stone/counter01"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="concrete/prodstepfrnt" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/concrete/prodstepfrnt"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="concrete/prodsteptp" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/concrete/prodsteptp"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="concrete/concretefloor016a" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/concrete/concretefloor016a"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="wood/floor03cheap" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/wood/floor03cheap"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="concrete/concrete_ext_03" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/concrete/concrete_ext_03"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="wood/door_shutter01" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/wood/door_shutter01"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="decals/window_brick12" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/decals/window_brick12"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+		<variable				value="0.1" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="decals/tilebacksplash01" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/decals/tilebacksplash01"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="overlays/rug001a" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/overlays/rug001a"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+		<variable				value="0.1" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="de_train/train_dirt_decal_01" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/de_train/train_dirt_decal_01"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+		<variable				value="0.1" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="decals/oldleaves01" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/decals/oldleaves01"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+		<variable				value="0.1" type="scalar" name="alpha_ref"/>
+	</material>
+	
+	
+	
+	<!-- __________Backdrop Trees__________ -->
+	<material name="nature/miltree003" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/nature/miltree003"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+		<variable				value="0.1" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="nature/miltree005" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/nature/miltree005"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+		<variable				value="0.1" type="scalar" name="alpha_ref"/>
+	</material>
+	
+	
+	
+	<!-- __________Skybox Unit__________ -->
+	<material name="skybox/urban_horizon_even" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/skybox/urban_horizon_even"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+		<variable				value="0.1" type="scalar" name="alpha_ref"/>
+	</material>
+	
+	
+	
+	<!-- __________Props Unit__________ -->
+	<material name="materials/models/props/de_house/wall_house01" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/stone/wall_house01"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props_vehicles/pickup_trucks" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_vehicles/pickup_trucks"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props/cs_militia/logpile" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props/de_inferno/logpile"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props_highway/plywood_ext_01" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/wood/plywood_ext_01"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props_junk/glass_objects01" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_junk/glass_objects01"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props_junk/garbage001a_01" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_junk/garbage001a_01"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props_interiors/lamps_off" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_interiors/lamps"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props_interiors/books" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_interiors/books"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props/cs_office/poster_backing" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props/cs_office/poster_backing"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props/cs_office/offpaintinge" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props/cs_office/offpaintinge"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props_interiors/painting_portrait_a" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_interiors/painting_portrait_a"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props_interiors/poster_backing" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props/cs_office/poster_backing"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props_interiors/painting_landscape_a" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_interiors/painting_landscape_a"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props/cs_office/microwave" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props/cs_office/microwave"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props_misc/pan-2" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_misc/pan-2"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props_interiors/dish_soap" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_interiors/dish_soap"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props_interiors/toaster" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_interiors/toaster"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props_junk/metalbucket01a" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_junk/metalbucket01a"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props/de_inferno/clockwood01" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_c17/clockwood01"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props/de_inferno/clock01" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_c17/clock01"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props_misc/tea_pot" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_misc/tea_pot"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props/cs_office/shelves_stuff" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props/cs_office/shelves_stuff"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props_interiors/coffee_maker" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_interiors/coffee_maker"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props/de_tides/patio_chair" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props/de_tides/patio_chair"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props_interiors/tvstatic" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_interiors/tvstatic"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props_interiors/tv" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_interiors/tv"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props/cs_office/offpaintinga" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props/cs_office/offpaintinga"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props/cs_office/offpaintingk" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props/cs_office/offpaintingk"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props/cs_office/offpaintingf" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props/cs_office/offpaintingf"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props_foliage/urban_trees_branches03" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_foliage/urban_trees_branches03"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+		<variable 				value="0.1" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="materials/models/props_foliage/urban_trees_barks01_medium" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_foliage/urban_trees_barks01"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="~NOyTYmKw/props_foliage/urban_trees_branches03_medium" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_foliage/urban_trees_branches03"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+		<variable 				value="0.5" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="materials/models/props_downtown/door01" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_downtown/door01"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props_foliage/trees_farm01" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_foliage/trees_farm01"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props_foliage/branches_farm01" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_foliage/branchesfarm01_mip0"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+		<variable 				value="0.1" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="materials/models/props_foliage/urban_trees_branches02_still" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_foliage/urban_trees_branches02"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+		<variable 				value="0.1" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="materials/models/props_exteriors/fence002" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_exteriors/fence002"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props_urban/telephone_pole001" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_urban/telephone_pole001"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props/cs_militia/militiarock" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props/cs_militia/rock_riverbed01a"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props_foliage/urban_trees_barks01" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_foliage/urban_trees_barks01"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props/de_train/ladderaluminium" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props/de_train/ladderaluminium"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props_interiors/refrigerator02" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_interiors/refrigerator02"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props/de_house/de_house_railing_interior01" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props/de_house/de_house_railing_interior01"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props/de_house/de_house_curtains01" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props/de_house/de_house_curtains01"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props_urban/hotel_light002" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_urban/hotel_light002"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props_urban/hotel_light001" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_urban/hotel_light001"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props_lighting/lightfixture03_off" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_lighting/lightfixture03_off"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props/de_house/housebeams05" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props/de_house/housebeams05"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props_urban/hotel_sconce001" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_urban/hotel_sconce001"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props/de_house/doortrimwide" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props/de_house/doortrimwide"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props/de_house/house_windowframes01" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props/de_house/house_windowframes01"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props_interiors/toilet_b" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_interiors/toilet"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props_interiors/toilet" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_interiors/toilet"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props_furniture/furniturecupboard001a" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_furniture/furniturecupboard001a"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props_interiors/towel_rack" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_interiors/towel_rack"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props_interiors/bathtub01" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_interiors/bathtub01"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props_interiors/sink_kitchen" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_interiors/sink_kitchen"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props_interiors/stove02" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_interiors/stove02"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props_interiors/bed" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_interiors/bed"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props_interiors/bathroom_set" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_interiors/bathroom_set"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props_rooftop/roof_dish001" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_rooftop/roof_dish001"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/de_dust/objects/antenna_b" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props/de_dust/objects/antenna_b"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props_yard/playground_slide" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_yard/playground_slide"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props_unique/wooden_barricade" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_unique/wooden_barricade"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props_junk/trashclusters01" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_junk/trashclusters01"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props_street/trashbin01" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_street/trashbin01"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props_vehicles/pickup_trucks_glass" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_vehicles/pickup_trucks_glass"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props_downtown/gutters" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_downtown/gutters"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props/de_inferno/bench_wood" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props/de_inferno/bench_wood"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props_interiors/ac_wallunit" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_interiors/ac_wallunit"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props/cs_militia/furniture_shelf01a" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_interiors/furniture_shelf01a"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props/cs_office/sofa_chair" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props/cs_office/sofa"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props_interiors/furniture_wood01" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_interiors/furniture_wood01"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props/cs_office/sofa" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props/cs_office/sofa"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props_interiors/table_console" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_interiors/table_console"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props_urban/hotel_mirror001" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_urban/hotel_mirror001"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="~NOyTYmKw/props_interiors/toiletpaperdispenser_residential" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_interiors/toiletpaperdispenser_residential"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/cs_italy/winerack_large" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/cs_italy/winerack_large"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props_foliage/urban_trees_barks01_still" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_foliage/urban_trees_barks01"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props_foliage/urban_trees_branches03_small" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_foliage/urban_trees_branches03"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+		<variable 				value="0.1" type="scalar" name="alpha_ref"/>
+	</material>
+	<material name="materials/models/props/de_house/stonewooddeco" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props/de_house/stonewooddeco"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props/de_house/de_house_table01" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props/de_house/de_house_table01"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props_interiors/closet_clothes" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_interiors/closet_clothes"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props_interiors/waterheater" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_interiors/waterheater"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props/de_house/step_wood_a" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props/de_house/step_wood_a"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props_downtown/lights_interior" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_downtown/lights_interior"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props_furniture/kitchen_shelf1" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_furniture/kitchen_shelf1"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props/de_house/bed_rustic" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props/de_house/bed_rustic"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props/cs_militia/mailbox01" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props/cs_militia/mailbox01"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props_interiors/woodfurniture01" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_interiors/woodfurniture01"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props/de_house/fireplace" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props/de_house/fireplace"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props/de_house/house_windowframes01" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props/de_house/house_windowframes01"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="materials/models/props/de_house/stonewooddeco" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props/de_house/stonewooddeco"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>	
+	
+	
+	<!-- __________Single Prop Units__________ -->
+	<!-- window_XX -->
+	<material name="materials/models/props/de_house/house_windows01" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props/de_house/house_windows01"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
+	<material name="mat_glass" render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE" version="2">
+        <opacity_texture file="units/pd2_dlc2/csgo_models/props_windows/window_uban_apt_glass_op"/>
+        <diffuse_texture file="units/pd2_dlc2/csgo_models/props_windows/window_uban_apt_glass_df"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+        <variable value="2 1 0" type="vector3" name="fresnel_settings"/>
+    </material>
+	<material name="mat_glass_cracked" render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE:NORMALMAP" decal_material="glass_breakable" version="2">
+        <variable value="2 0 0" type="vector3" name="fresnel_settings"/>
+        <opacity_texture file="units/payday2/glass/glass_shattered_op"/>
+        <diffuse_texture file="units/payday2/glass/glass_shattered_df"/>
+        <bump_normal_texture file="units/payday2/glass/glass_shattered_nm"/>
+        <reflection_texture type="cubemap" file="units/payday2/cubemaps/cubemap_steel"/>
+    </material>
+
+	
+</materials>

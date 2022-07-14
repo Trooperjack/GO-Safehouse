@@ -1,0 +1,7 @@
+<table>
+	<collision base_id="400000" name="collision"/>
+	<editor_only base_id="200000" editor_only="true" name="editor_only"/>
+	<lights base_id="500000" editor_only="false" name="lights"/>
+	<occluders base_id="300000" name="occluders"/>
+	<world base_id="100000" editor_only="false" name="world"/>
+</table>

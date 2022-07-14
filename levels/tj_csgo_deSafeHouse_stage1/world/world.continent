@@ -1,0 +1,223 @@
+<table>
+	<editor_groups/>
+	<instances/>
+	<statics>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="3.09086e-008 0.707107 0.707107 3.09086e-008" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/de_safehouse_trees/de_safehouse_trees" name_id="de_safehouse_trees_001" position="0 0 0" rotation="0 0 1 -4.37114e-008" unit_id="100002"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 1 4.37114e-008" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/de_safehouse_mesh/de_safehouse_mesh" name_id="de_safehouse_mesh_001" position="0 0 0" rotation="0 0 1 4.37114e-008" unit_id="100000"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="3.09086e-008 0.707107 0.707107 3.09086e-008" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/de_safehouse_props/de_safehouse_props" name_id="de_safehouse_props_001" position="0 0 0" rotation="0 0 1 -4.37114e-008" unit_id="100001"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-220.134 1959.37 800.82" _prev_rot="0 0 0.97437 0.224951" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/vehicles/str_vehicle_swat_van/str_vehicle_swat_van" name_id="str_vehicle_swat_van_001" position="-220.134 1959.37 800.82" rotation="0 0 0.97437 0.224951" unit_id="100008">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="false" falloff_exponent="1" far_range="2000" multiplier="@IDbca13ba1d306f87b@" name="ls_left" near_range="0" spot_angle_end="40.0728" spot_angle_start="40.0728"/>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="false" falloff_exponent="1" far_range="2000" multiplier="@IDbca13ba1d306f87b@" name="ls_right" near_range="0" spot_angle_end="40.0728" spot_angle_start="40.0728"/>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="false" falloff_exponent="1" far_range="1000" multiplier="@IDbca13ba1d306f87b@" name="ls_t_left" near_range="0" spot_angle_end="40.0728" spot_angle_start="40.0728"/>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="false" falloff_exponent="1" far_range="1000" multiplier="@IDbca13ba1d306f87b@" name="ls_t_right" near_range="0" spot_angle_end="40.0728" spot_angle_start="40.0728"/>
+				</lights>
+				<projection_textures ls_left="units/lights/spot_light_projection_textures/default_df"/>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5811.52 -1210 1220" _prev_rot="0.707107 -3.09086e-008 -0.707107 -3.09086e-008" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_interaction_enable" name="units/pd2_dlc_fish/props/lxy_int_prop_button/lxy_int_prop_button" name_id="lxy_int_prop_button_001" position="-5811.52 -1220 1220" rotation="0.707107 -3.09086e-008 -0.707107 -3.09086e-008" unit_id="100003"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-650 -480 780" _prev_rot="-0 0 -0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_8x3m" name_id="dev_nav_splitter_8x3m_001" only_exists_in_editor="true" position="-650 -480 780" rotation="-0 0 -0 -1" unit_id="100004"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-650 -1320 780" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_8x3m" name_id="dev_nav_splitter_8x3m_002" only_exists_in_editor="true" position="-650 -1320 780" rotation="0 0 0 -1" unit_id="100005"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-650 -2300 830" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="10 930 0" local_rot="0 0 1 4.37114e-008" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_8x3m" name_id="dev_nav_splitter_8x3m_003" only_exists_in_editor="true" position="-650 -2300 830" rotation="0 0 0 -1" unit_id="100006"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-640 -1370 830" _prev_rot="0 0 1 -4.37114e-008" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_8x3m" name_id="dev_nav_splitter_8x3m_004" only_exists_in_editor="true" position="-640 -1370 830" rotation="0 0 1 -4.37114e-008" unit_id="100007"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-650 630 780" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_8x3m" name_id="dev_nav_splitter_8x3m_005" only_exists_in_editor="true" position="-650 630 780" rotation="0 0 0 -1" unit_id="100009"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-650 630 780" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_8x3m" name_id="dev_nav_splitter_8x3m_006" only_exists_in_editor="true" position="-650 820 780" rotation="0 0 0 -1" unit_id="100010"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-700 -500 750" _prev_rot="0 0 -0.707107 -0.707107" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_8x3m" name_id="dev_nav_splitter_8x3m_007" only_exists_in_editor="true" position="-700 -500 750" rotation="0 0 -0.707107 -0.707107" unit_id="100011"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1590 -490 640" _prev_rot="-0 -0 0.707107 -0.707107" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_8x3m" name_id="dev_nav_splitter_8x3m_008" only_exists_in_editor="true" position="-1590 -490 640" rotation="-0 -0 0.707107 -0.707107" unit_id="100012"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1630 -480 590" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_8x3m" name_id="dev_nav_splitter_8x3m_009" only_exists_in_editor="true" position="-1630 -480 590" rotation="0 0 0 -1" unit_id="100013"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1610 -1370 830" _prev_rot="0 0 1 -4.37114e-008" continent="world" instance_data="false" local_pos="10 930 0" local_rot="0 0 -1 4.37114e-008" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_8x3m" name_id="dev_nav_splitter_8x3m_012" only_exists_in_editor="true" position="-1610 -1370 830" rotation="0 0 1 -4.37114e-008" unit_id="100016"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1620 -2300 830" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_8x3m" name_id="dev_nav_splitter_8x3m_013" only_exists_in_editor="true" position="-1620 -2300 830" rotation="0 0 0 -1" unit_id="100017"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-700 330 750" _prev_rot="0 0 -0.707107 -0.707107" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_8x3m" name_id="dev_nav_splitter_8x3m_014" only_exists_in_editor="true" position="-700 330 750" rotation="0 0 -0.707107 -0.707107" unit_id="100018"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1590 330 640" _prev_rot="0 0 0.707107 -0.707107" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_8x3m" name_id="dev_nav_splitter_8x3m_015" only_exists_in_editor="true" position="-1590 340 640" rotation="0 0 0.707107 -0.707107" unit_id="100019"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-700 -1350 850" _prev_rot="0 0 -0.707107 -0.707107" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_8x3m" name_id="dev_nav_splitter_8x3m_016" only_exists_in_editor="true" position="-700 -1350 850" rotation="0 0 -0.707107 -0.707107" unit_id="100020"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1590 -1340 810" _prev_rot="0 0 0.707107 -0.707107" continent="world" instance_data="false" local_pos="10 890 -40" local_rot="0 0 -1 1.78814e-007" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_8x3m" name_id="dev_nav_splitter_8x3m_017" only_exists_in_editor="true" position="-1590 -1340 810" rotation="0 0 0.707107 -0.707107" unit_id="100021"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-680 -2350 820" _prev_rot="0 0 -0.707107 -0.707107" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_8x3m" name_id="dev_nav_splitter_8x3m_018" only_exists_in_editor="true" position="-680 -2350 820" rotation="0 0 -0.707107 -0.707107" unit_id="100022"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="440 -2350 850" _prev_rot="0 0 -0.707107 -0.707107" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_8x3m" name_id="dev_nav_splitter_8x3m_019" only_exists_in_editor="true" position="440 -2350 850" rotation="0 0 -0.707107 -0.707107" unit_id="100023"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-630 -2340 830" _prev_rot="-0 -0 0.707107 -0.707107" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_8x3m" name_id="dev_nav_splitter_8x3m_020" only_exists_in_editor="true" position="-630 -2340 830" rotation="-0 -0 0.707107 -0.707107" unit_id="100024"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="470 -500 790" _prev_rot="0 0 -0.707107 -0.707107" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_8x3m" name_id="dev_nav_splitter_8x3m_021" only_exists_in_editor="true" position="470 -500 790" rotation="0 0 -0.707107 -0.707107" unit_id="100025"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-620 -490 790" _prev_rot="-0 -0 0.707107 -0.707107" continent="world" instance_data="false" local_pos="9.99988 1090 0" local_rot="0 0 -1 1.78814e-007" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_8x3m" name_id="dev_nav_splitter_8x3m_022" only_exists_in_editor="true" position="-620 -490 790" rotation="-0 -0 0.707107 -0.707107" unit_id="100026"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="470 330 790" _prev_rot="0 0 -0.707107 -0.707107" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_8x3m" name_id="dev_nav_splitter_8x3m_023" only_exists_in_editor="true" position="470 330 790" rotation="0 0 -0.707107 -0.707107" unit_id="100027"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-620 340 790" _prev_rot="0 0 0.707107 -0.707107" continent="world" instance_data="false" local_pos="9.99988 1090 0" local_rot="0 0 -1 1.78814e-007" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_8x3m" name_id="dev_nav_splitter_8x3m_024" only_exists_in_editor="true" position="-620 340 790" rotation="0 0 0.707107 -0.707107" unit_id="100028"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="470 1650 790" _prev_rot="0 0 -0.707107 -0.707107" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_8x3m" name_id="dev_nav_splitter_8x3m_025" only_exists_in_editor="true" position="470 1650 790" rotation="0 0 -0.707107 -0.707107" unit_id="100029"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-620 1660 790" _prev_rot="0 0 0.707107 -0.707107" continent="world" instance_data="false" local_pos="9.99988 1090 0" local_rot="0 0 -1 1.78814e-007" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_8x3m" name_id="dev_nav_splitter_8x3m_026" only_exists_in_editor="true" position="-620 1660 790" rotation="0 0 0.707107 -0.707107" unit_id="100030"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="470 2920 790" _prev_rot="0 0 -0.707107 -0.707107" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_8x3m" name_id="dev_nav_splitter_8x3m_027" only_exists_in_editor="true" position="470 2920 790" rotation="0 0 -0.707107 -0.707107" unit_id="100031"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-620 2800 790" _prev_rot="0 0 0.707107 -0.707107" continent="world" instance_data="false" local_pos="10 1090 0" local_rot="0 0 -1 1.78814e-007" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_8x3m" name_id="dev_nav_splitter_8x3m_028" only_exists_in_editor="true" position="-620 2930 790" rotation="0 0 0.707107 -0.707107" unit_id="100032"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="110 -3580 890" _prev_rot="0 0 -0.707107 -0.707107" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_8x3m" name_id="dev_nav_splitter_8x3m_029" only_exists_in_editor="true" position="110 -3580 890" rotation="0 0 -0.707107 -0.707107" unit_id="100033"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1020 -3570 920" _prev_rot="0 0 0.707107 -0.707107" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_8x3m" name_id="dev_nav_splitter_8x3m_030" only_exists_in_editor="true" position="-1020 -3570 820" rotation="0 0 0.707107 -0.707107" unit_id="100034"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2710 -2300 710" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_8x3m" name_id="dev_nav_splitter_8x3m_031" only_exists_in_editor="true" position="-2710 -2300 710" rotation="0 0 0 -1" unit_id="100035"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2700 -1370 610" _prev_rot="0 0 1 -4.37114e-008" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_8x3m" name_id="dev_nav_splitter_8x3m_032" only_exists_in_editor="true" position="-2700 -1370 610" rotation="0 0 1 -4.37114e-008" unit_id="100036"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1650 -1350 850" _prev_rot="0 0 -0.707107 -0.707107" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_8x3m" name_id="dev_nav_splitter_8x3m_033" only_exists_in_editor="true" position="-1650 -1350 710" rotation="0 0 -0.707107 -0.707107" unit_id="100037"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2680 -1340 610" _prev_rot="0 0 0.707107 -0.707107" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_8x3m" name_id="dev_nav_splitter_8x3m_034" only_exists_in_editor="true" position="-2680 -1340 610" rotation="0 0 0.707107 -0.707107" unit_id="100038"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3970 -1340 610" _prev_rot="0 0 0.707107 -0.707107" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_8x3m" name_id="dev_nav_splitter_8x3m_035" only_exists_in_editor="true" position="-3970 -1340 590" rotation="0 0 0.707107 -0.707107" unit_id="100039"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2720 -1350 590" _prev_rot="0 0 -0.707107 -0.707107" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_8x3m" name_id="dev_nav_splitter_8x3m_036" only_exists_in_editor="true" position="-2720 -1350 590" rotation="0 0 -0.707107 -0.707107" unit_id="100040"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2710 -1320 600" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_8x3m" name_id="dev_nav_splitter_8x3m_037" only_exists_in_editor="true" position="-2710 -1320 600" rotation="0 0 0 -1" unit_id="100041"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1650 330 590" _prev_rot="0 0 -0.707107 -0.707107" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_8x3m" name_id="dev_nav_splitter_8x3m_038" only_exists_in_editor="true" position="-1650 330 590" rotation="0 0 -0.707107 -0.707107" unit_id="100042"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2840 340 590" _prev_rot="-0 -0 0.707107 -0.707107" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_8x3m" name_id="dev_nav_splitter_8x3m_039" only_exists_in_editor="true" position="-2840 340 590" rotation="-0 -0 0.707107 -0.707107" unit_id="100043"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3720 530 580" _prev_rot="0 0 0.707107 -0.707107" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_8x3m" name_id="dev_nav_splitter_8x3m_040" only_exists_in_editor="true" position="-3720 530 580" rotation="0 0 0.707107 -0.707107" unit_id="100044"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4000 -1370 610" _prev_rot="0 0 1 -4.37114e-008" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_8x3m" name_id="dev_nav_splitter_8x3m_041" only_exists_in_editor="true" position="-4000 -1370 590" rotation="0 0 1 -4.37114e-008" unit_id="100045"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4010 -2360 630" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_8x3m" name_id="dev_nav_splitter_8x3m_042" only_exists_in_editor="true" position="-4010 -2360 630" rotation="0 0 0 -1" unit_id="100046"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-674.917 -2878.12 849.234" _prev_rot="0 0 -0.12187 -0.992546" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/vehicles/str_vehicle_swat_van/str_vehicle_swat_van" name_id="str_vehicle_swat_van_002" position="-674.917 -2878.12 849.234" rotation="0 0 -0.12187 -0.992546" unit_id="100047">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="false" falloff_exponent="1" far_range="2000" multiplier="@IDbca13ba1d306f87b@" name="ls_left" near_range="0" spot_angle_end="40.0728" spot_angle_start="40.0728"/>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="false" falloff_exponent="1" far_range="2000" multiplier="@IDbca13ba1d306f87b@" name="ls_right" near_range="0" spot_angle_end="40.0728" spot_angle_start="40.0728"/>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="false" falloff_exponent="1" far_range="1000" multiplier="@IDbca13ba1d306f87b@" name="ls_t_left" near_range="0" spot_angle_end="40.0728" spot_angle_start="40.0728"/>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="false" falloff_exponent="1" far_range="1000" multiplier="@IDbca13ba1d306f87b@" name="ls_t_right" near_range="0" spot_angle_end="40.0728" spot_angle_start="40.0728"/>
+				</lights>
+				<projection_textures ls_left="units/lights/spot_light_projection_textures/default_df"/>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-6380.5 -272 1163.25" _prev_rot="0 0 0.707107 -0.707107" continent="world" disable_on_ai_graph="true" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/windows/window_54x76" name_id="window_54x76_001" position="-6380.5 -272 1163.25" rotation="0 0 0.707107 -0.707107" unit_id="100014"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-6380.5 -744 1163.25" _prev_rot="0 0 0.707107 -0.707107" continent="world" disable_on_ai_graph="true" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/windows/window_54x76" name_id="window_54x76_002" position="-6380.5 -744 1163.25" rotation="0 0 0.707107 -0.707107" unit_id="100015"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5960.5 193 1163.25" _prev_rot="0 0 1 -0" continent="world" disable_on_ai_graph="true" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/windows/window_54x76" name_id="window_54x76_003" position="-5960.5 193 1163.25" rotation="0 0 1 -0" unit_id="100048"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5303.5 193 1163.25" _prev_rot="0 0 1 -0" continent="world" disable_on_ai_graph="true" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/windows/window_54x76" name_id="window_54x76_004" position="-5303.5 193 1163.25" rotation="0 0 1 -0" unit_id="100049"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4747.5 -51 1163.25" _prev_rot="0 0 1 -0" continent="world" disable_on_ai_graph="true" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/windows/window_54x76" name_id="window_54x76_005" position="-4747.5 -51 1163.25" rotation="0 0 1 -0" unit_id="100050"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4307.5 -442 1163.25" _prev_rot="0 0 -0.707107 -0.707107" continent="world" disable_on_ai_graph="true" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/windows/window_54x76" name_id="window_54x76_006" position="-4307.5 -442 1163.25" rotation="0 0 -0.707107 -0.707107" unit_id="100051"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4307.5 -292 1163.25" _prev_rot="0 0 -0.707107 -0.707107" continent="world" disable_on_ai_graph="true" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/windows/window_54x76" name_id="window_54x76_007" position="-4307.5 -292 1163.25" rotation="0 0 -0.707107 -0.707107" unit_id="100052"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4307.5 -592 1163.25" _prev_rot="0 0 -0.707107 -0.707107" continent="world" disable_on_ai_graph="true" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/windows/window_54x76" name_id="window_54x76_008" position="-4307.5 -592 1163.25" rotation="0 0 -0.707107 -0.707107" unit_id="100053"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4307.5 -592 1163.25" _prev_rot="0 0 -0.707107 -0.707107" continent="world" disable_on_ai_graph="true" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/windows/window_54x76" name_id="window_54x76_009" position="-4307.5 -742 1163.25" rotation="0 0 -0.707107 -0.707107" unit_id="100054"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5161.5 71 721.25" _prev_rot="0 0 -0.707107 -0.707107" continent="world" disable_on_ai_graph="true" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/windows/window_54x76" name_id="window_54x76_010" position="-5161.5 71 721.25" rotation="0 0 -0.707107 -0.707107" unit_id="100055"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5161.5 -1151 721.25" _prev_rot="0 0 -0.707107 -0.707107" continent="world" disable_on_ai_graph="true" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/windows/window_54x76" name_id="window_54x76_011" position="-5161.5 -1151 721.25" rotation="0 0 -0.707107 -0.707107" unit_id="100056"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-6096.5 -1110 721.25" _prev_rot="-0 -0 0.707107 -0.707107" continent="world" disable_on_ai_graph="true" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/windows/window_54x76" name_id="window_54x76_012" position="-6096.5 -1110 721.25" rotation="-0 -0 0.707107 -0.707107" unit_id="100057"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-6096.5 69.9999 721.25" _prev_rot="0 0 0.707107 -0.707107" continent="world" disable_on_ai_graph="true" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/windows/window_54x76" name_id="window_54x76_013" position="-6096.5 70.9999 721.25" rotation="0 0 0.707107 -0.707107" unit_id="100058"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4308.5 -592 1380.25" _prev_rot="0 0 -0.707107 -0.707107" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/windows/window_54x44" name_id="window_54x44_001" position="-4308.5 -592 1380.25" rotation="0 0 -0.707107 -0.707107" unit_id="100059"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4307.5 -442 1380.25" _prev_rot="0 0 -0.707107 -0.707107" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/windows/window_54x44" name_id="window_54x44_002" position="-4308.5 -442 1380.25" rotation="0 0 -0.707107 -0.707107" unit_id="100060"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4308.5 -307.3 735.25" _prev_rot="0 0 -0.707107 -0.707107" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/windows/window_54x44" name_id="window_54x44_003" position="-4308.5 -307.3 735.25" rotation="0 0 -0.707107 -0.707107" unit_id="100061"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4732 -51.5 735.25" _prev_rot="0 0 1 -4.37114e-008" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/windows/window_54x44" name_id="window_54x44_004" position="-4732 -51.5 735.25" rotation="0 0 1 -4.37114e-008" unit_id="100062"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4511 -985 721.25" _prev_rot="-0 0 -0 -1" continent="world" disable_on_ai_graph="true" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/windows/window_54x76" name_id="window_54x76_014" position="-4511 -985 721.25" rotation="-0 0 -0 -1" unit_id="100063"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5458.5 -1310 1253.25" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/windows/window_54x44" name_id="window_54x44_005" position="-5458.5 -1310 1253.25" rotation="0 0 0 -1" unit_id="100064"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4308.5 -517 1504.25" _prev_rot="0 0 -0.707107 -0.707107" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/windows/window_48x36" name_id="window_48x36_001" position="-4308.5 -517 1504.25" rotation="0 0 -0.707107 -0.707107" unit_id="100065"/>
+		</table>
+	</statics>
+	<values>
+		<workviews/>
+	</values>
+</table>
