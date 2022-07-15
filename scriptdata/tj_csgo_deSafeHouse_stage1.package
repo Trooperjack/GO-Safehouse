@@ -42,10 +42,13 @@
 		<sequence_manager 	path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/windows/window_54x76" unload="true"/>
 		<object 			path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/windows/window_54x76" unload="true"/>
 		<unit 				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/windows/window_54x76" unload="true"/>
-		
 		<effect 			path="effects/payday2/particles/window/storefront_window_small" unload="true"/>
 		
-		
+		<!-- door_interior_112_01 -->
+		<model 				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/doors/door_interior_112_01" unload="true"/>
+		<sequence_manager 	path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/doors/door_interior_112_01" unload="true"/>
+		<object 			path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/doors/door_interior_112_01" unload="true"/>
+		<unit 				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/doors/door_interior_112_01" unload="true"/>
 		
 		
 		

@@ -9,6 +9,28 @@
 		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/tools/toolsblack"/>
 		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
 	</material>
+	<material name="hud_brackets" render_template="effect:DIFFUSE0_TEXTURE:VIEW_ANGLE_FALLOFF_OP" version="2">
+        <diffuse_texture file="units/gui/gui_brackets_df"/>
+        <variable value="identity" type="scalar" name="intensity"/>
+        <variable value="1" type="scalar" name="falloff_exp"/>
+    </material>
+    <material name="mtr_lockpick" render_template="effect:DIFFUSE0_TEXTURE:VIEW_ANGLE_FALLOFF_OP" version="2">
+        <diffuse_texture file="units/gui/lockpick_indicator_df"/>
+        <variable value="identity" type="scalar" name="intensity"/>
+        <variable value="1" type="scalar" name="falloff_exp"/>
+    </material>
+    <material name="mtr_saw" render_template="effect:DIFFUSE0_TEXTURE:DIFFUSE0_UVANIM:VIEW_ANGLE_FALLOFF_OP" version="2">
+        <diffuse_texture file="units/gui/sawblade_indicator_df"/>
+        <variable value="identity" type="scalar" name="intensity"/>
+        <variable value="2" type="scalar" name="falloff_exp"/>
+        <variable value="3 0 0" type="vector3" name="uv0_speed"/>
+    </material>
+    <material name="mat_contour" render_template="generic:ALPHA_MASKED:CONTOUR:DIFFUSE_TEXTURE:OPACITY_TEXTURE" unique="true" version="2">
+        <diffuse_texture file="units/white_df"/>
+        <variable value="0 1 0" type="vector3" name="contour_color"/>
+        <variable value="1" type="scalar" name="contour_opacity"/>
+        <opacity_texture file="units/transparent_op"/>
+    </material>
 	
 	
 	<!-- __________Terrain__________ -->
@@ -421,10 +443,6 @@
 		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
 		<variable 				value="0.5" type="scalar" name="alpha_ref"/>
 	</material>
-	<material name="materials/models/props_downtown/door01" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
-		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_downtown/door01"/>
-		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
-	</material>
 	<material name="materials/models/props_foliage/trees_farm01" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
 		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_foliage/trees_farm01"/>
 		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
@@ -689,6 +707,12 @@
         <bump_normal_texture file="units/payday2/glass/glass_shattered_nm"/>
         <reflection_texture type="cubemap" file="units/payday2/cubemaps/cubemap_steel"/>
     </material>
+
+	<!-- door_interior_112_01 -->
+	<material name="materials/models/props_downtown/door01" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_downtown/door01"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
 
 	
 </materials>

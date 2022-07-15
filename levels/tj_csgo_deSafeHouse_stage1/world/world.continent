@@ -216,6 +216,24 @@
 		<table>
 			<unit_data _prev_pos="-4308.5 -517 1504.25" _prev_rot="0 0 -0.707107 -0.707107" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/windows/window_48x36" name_id="window_48x36_001" position="-4308.5 -517 1504.25" rotation="0 0 -0.707107 -0.707107" unit_id="100065"/>
 		</table>
+		<table>
+			<unit_data _prev_pos="-6388 -229 609.6" _prev_rot="0 0 0.707107 -0.707107" continent="world" disable_on_ai_graph="true" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/doors/door_interior_112_01" name_id="door_interior_112_01_001" position="-6388 -229 609.6" rotation="0 0 0.707107 -0.707107" unit_id="100066"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4301 -571 609.6" _prev_rot="0 0 0.707107 -0.707107" continent="world" disable_on_ai_graph="true" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/doors/door_interior_112_01" name_id="door_interior_112_01_002" position="-4301 -571 609.6" rotation="0 0 0.707107 -0.707107" unit_id="100067"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5694.5 -975 1117.6" _prev_rot="-0 0 -0 -1" continent="world" disable_on_ai_graph="true" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/doors/door_interior_112_01" name_id="door_interior_112_01_003" position="-5694.5 -975 1117.6" rotation="-0 0 -0 -1" unit_id="100068"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5750 -554 1117.6" _prev_rot="0 0 0.707107 -0.707107" continent="world" disable_on_ai_graph="true" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/doors/door_interior_112_01" name_id="door_interior_112_01_004" position="-5750 -554 1117.6" rotation="0 0 0.707107 -0.707107" unit_id="100069"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5257.75 -498 1117.6" _prev_rot="0 0 1 4.37114e-008" continent="world" disable_on_ai_graph="true" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/doors/door_interior_112_01" name_id="door_interior_112_01_005" position="-5257.75 -498 1117.6" rotation="0 0 1 -4.37114e-008" unit_id="100070"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5110.5 -498 1117.6" _prev_rot="-0 0 -0 -1" continent="world" disable_on_ai_graph="true" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/doors/door_interior_112_01" name_id="door_interior_112_01_006" position="-5110.5 -498 1117.6" rotation="-0 0 -0 -1" unit_id="100071"/>
+		</table>
 	</statics>
 	<values>
 		<workviews/>
