@@ -713,6 +713,11 @@
 		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_downtown/door01"/>
 		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
 	</material>
-
+	
+	<!-- floor_safe -->
+	<material name="materials/models/props/props_gameplay/wall_safe" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props/props_gameplay/wall_safe"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+	</material>
 	
 </materials>

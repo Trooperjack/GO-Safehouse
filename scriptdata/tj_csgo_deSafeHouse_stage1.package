@@ -50,6 +50,12 @@
 		<object 			path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/doors/door_interior_112_01" unload="true"/>
 		<unit 				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/doors/door_interior_112_01" unload="true"/>
 		
+		<!-- floor_safe -->
+		<model 				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/floor_safe/floor_safe" unload="true"/>
+		<sequence_manager 	path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/floor_safe/floor_safe" unload="true"/>
+		<object 			path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/floor_safe/floor_safe" unload="true"/>
+		<unit 				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/floor_safe/floor_safe" unload="true"/>
+		
 		
 		
 		
@@ -242,6 +248,8 @@
 		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_vehicles/pickup_trucks_glass" unload="true"/>
 		
 		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_yard/playground_slide" unload="true"/>
+		
+		<dds				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props/props_gameplay/wall_safe" unload="true"/>
 		
 		
 	</add>

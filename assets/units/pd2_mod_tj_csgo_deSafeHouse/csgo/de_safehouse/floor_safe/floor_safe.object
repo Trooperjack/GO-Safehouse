@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<dynamic_object>
+	<diesel materials="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/de_safehouse_mat" orientation_object="rp_go_safehouse" />
+	<sequence_manager file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/floor_safe/floor_safe" />
+
+	<animations>
+		<animation_group name="anim_open_door" enabled="false">
+			<object name="anim_open_door" />
+		</animation_group>
+	</animations>
+
+	<bodies>
+		<body name="body_frame" enabled="true" template="static" >
+			<object name="rp_go_safehouse"/>
+			<object name="g_frame" collision_type="mesh_mopp"  />
+			<object name="g_safe_box" collision_type="mesh_mopp"  />
+		</body>
+		<body name="body_door" enabled="true" template="animated">
+			<object name="g_door" collision_type="mesh_mopp" />
+			<object name="g_dial" collision_type="mesh_mopp" />
+			<object name="g_handle" collision_type="mesh_mopp" />
+		</body>
+	</bodies>
+
+	<decal_surfaces default_material="steel" static="false">
+		<decal_mesh name="g_door" 		enabled="true" 	material="steel" />
+		<decal_mesh name="g_dial" 		enabled="true" 	material="steel" />
+		<decal_mesh name="g_handle" 	enabled="true" 	material="steel" />
+	</decal_surfaces>
+
+	<graphics>
+		<graphic_group name="safe" enabled="true">
+			<object name="g_frame" 				enabled="true" 	shadow_caster="false"/>
+			<object name="g_safe_box" 			enabled="true" 	shadow_caster="false"/>
+			<object name="g_door" 				enabled="true" 	shadow_caster="false"/>
+			<object name="g_dial" 				enabled="true" 	shadow_caster="false"/>
+			<object name="g_handle" 			enabled="true" 	shadow_caster="false"/>
+		</graphic_group>
+	</graphics>
+</dynamic_object>
+
+

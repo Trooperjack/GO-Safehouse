@@ -1,0 +1,75 @@
+<sequence_manager>
+	<unit>
+		
+		<sequence editable_state="false" name="'anim_open_door'" triggable="false">
+			<animation_group enabled="true" from="0/30" name="'anim_open_door'" to="80/30"/>
+			<sound action="'play'" event="'small_safe_open'" object="'anim_use_handle'"/>
+		</sequence>
+		
+		<sequence editable_state="true" name="'state_door_open'" triggable="true">
+			<animation_group enabled="true" from="80/30" name="'anim_open_door'" speed="0" to="80/30"/>
+			<run_sequence name="'deactivate_door'"/>
+		</sequence>
+		
+		<sequence editable_state="true" name="'state_door_close'" triggable="true">
+			<animation_group enabled="true" from="0/30" name="'anim_open_door'" speed="0" to="0/30"/>
+		</sequence>
+		
+		<sequence editable_state="true" name="'state_hide'" triggable="true">
+			<body enabled="false" name="'body_frame'"/>
+			<body enabled="false" name="'body_door'"/>
+			<graphic_group name="'safe'" visibility="false"/>
+			<run_sequence name="'deactivate_door'"/>
+		</sequence>
+		
+		<sequence editable_state="true" name="'state_show'" triggable="true">
+			<body enabled="true" name="'body_frame'"/>
+			<body enabled="true" name="'body_door'"/>
+			<graphic_group name="'safe'" visibility="true"/>
+			<run_sequence name="'activate_door'"/>
+		</sequence>
+		
+		<sequence editable_state="false" name="'open_door'" triggable="true">
+			<run_sequence name="'anim_open_door'"/>
+			<run_sequence name="'done_opened'"/>
+		</sequence>
+		
+		<sequence editable_state="true" name=" 'activate_door' " triggable="true">
+			<function extension="'base'" function="'activate'"/>
+		</sequence>
+		
+		<sequence editable_state="true" name=" 'deactivate_door' " triggable="true">
+			<function extension="'base'" function="'deactivate'"/>
+		</sequence>
+		
+		<sequence name=" 'power_off' " triggable="true">
+			<function extension="'base'" function="'set_powered'" param1="false"/>
+		</sequence>
+		
+		<sequence name=" 'power_on' " triggable="true">
+			<function extension="'base'" function="'set_powered'" param1="true"/>
+		</sequence>
+		
+		<sequence name=" 'turn_off' " triggable="true">
+			<function extension="'base'" function="'set_on'" param1="false"/>
+		</sequence>
+		
+		<sequence name=" 'turn_on' " triggable="true">
+			<function extension="'base'" function="'set_on'" param1="true"/>
+		</sequence>
+		
+		<sequence name=" 'door_opened' "/>
+		<sequence name=" 'door_closed' "/>
+		<sequence name=" 'drill_placed' "/>
+		<sequence name=" 'drill_jammed' "/>
+		<sequence name=" 'drill_resumed' "/>
+		<sequence name=" 'drill_power_off' "/>
+		<sequence name=" 'drill_power_on' "/>
+		<sequence name=" 'drill_completed' "/>
+		<sequence name=" 'all_drill_placed' "/>
+		
+		
+		<sequence editable_state="false" name="'done_opened'" triggable="false"/>
+		
+	</unit>
+</sequence_manager>

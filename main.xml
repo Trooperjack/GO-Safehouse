@@ -14,7 +14,7 @@
 		<hook file="units/beings/player/states/playerstandard.lua"		source_file="lib/units/beings/player/states/playerstandard"/>
 	</Hooks>
 	<Package file="scriptdata/tj_csgo_deSafeHouse_stage1.package" id="packages/levels/tj_csgo_deSafeHouse_stage1/world/world" unload_on_restart="true"/>
-	<Package file="scriptdata/rex_bagfilling.package" id="packages/custom/pd2_mod_rex_bagfilling/bagfilling/world/world" unload_on_restart="true"/>
+	<Package file="scriptdata/pd2_mod_rex_bagfilling.package" id="packages/custom/pd2_mod_rex_bagfilling/bagfilling/world/world" unload_on_restart="true"/>
 	<level ai_group_type="america" id="tj_csgo_deSafeHouse_stage1" max_bags="1000">
 		<assets>
 			<asset name="ammo_bag"/>
