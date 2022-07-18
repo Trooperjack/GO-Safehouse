@@ -934,6 +934,24 @@
 		<table>
 			<unit_data _prev_pos="-5110.5 -498 1117.6" _prev_rot="0 0 -0 -1" continent="editor_only" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_door_open_in" name="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/doors/door_interior_112_01" name_id="door_interior_112_01_012" position="-5110.5 -498 1117.6" rotation="0 0 -0 -1" unit_id="200301"/>
 		</table>
+		<table>
+			<unit_data _prev_pos="-5788 -61 1117.6" _prev_rot="0 0 1 -4.37114e-008" continent="editor_only" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_door_open_out" name="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/doors/door_interior_112_01" name_id="door_interior_112_01_014" position="-5788.5 -61 1117.6" rotation="0 0 1 -4.37114e-008" unit_id="200302"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3900 600 3000" _prev_rot="0 0 -0 -1" continent="editor_only" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/test/jocke/plane_black_temp" name_id="plane_black_temp_004" position="-3900 600 3000" rotation="0 0 -0 -1" unit_id="200303"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4300 500 3000" _prev_rot="0 0 -0.707107 -0.707107" continent="editor_only" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="editable_text_short_004" position="-4300 500 3000" rotation="0 0 -0.707107 -0.707107" unit_id="200304">
+				<editable_gui align="center" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="1 1 1" font_size="4" render_template="diffuse_vc_decal" text="DOORS" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
 	</statics>
 	<values>
 		<workviews/>
