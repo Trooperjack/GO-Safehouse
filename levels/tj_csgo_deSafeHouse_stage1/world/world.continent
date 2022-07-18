@@ -336,18 +336,6 @@
 		<table>
 			<unit_data _prev_pos="-10020 -1240 50" _prev_rot="0 0 -1.92723e-007 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_8x3m" name_id="dev_nav_splitter_8x3m_070" only_exists_in_editor="true" position="-10040 -1240 50" rotation="0 0 -1.92723e-007 -1" unit_id="100105"/>
 		</table>
-		<table>
-			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 1 -4.37114e-008" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/de_safehouse_safe_cover/de_safehouse_safe_cover_1" name_id="de_safehouse_safe_cover_1_001" position="0 0 0" rotation="0 0 1 -4.37114e-008" unit_id="100106"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 1 -4.37114e-008" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/de_safehouse_safe_cover/de_safehouse_safe_cover_2" name_id="de_safehouse_safe_cover_2_001" position="0 0 0" rotation="0 0 1 -4.37114e-008" unit_id="100107"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 1 4.37114e-008" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="enable_interaction" name="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/de_safehouse_safe_cover/de_safehouse_safe_cover_3" name_id="de_safehouse_safe_cover_3_001" position="0 0 0" rotation="0 0 1 4.37114e-008" unit_id="100108"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-6111.42 -560 1175" _prev_rot="0 -0.707107 0 -0.707107" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_interaction_enable" name="units/pd2_dlc_fish/props/lxy_int_prop_button/lxy_int_prop_button" name_id="lxy_int_prop_button_002" position="-6111.42 -560 1175" rotation="0 -0.707107 0 -0.707107" unit_id="100109"/>
-		</table>
 	</statics>
 	<values>
 		<workviews/>

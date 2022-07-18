@@ -6,7 +6,7 @@
 		<extension name="damage" class="UnitDamage" />
 		<extension name="interaction" class="UseInteractionExt">
 			<var name="tweak_data" value="tj_csgo_sh_remove_safe_cover" />
-			<var name="_interact_object" value="interact"/>
+			<var name="_interact_object" value="interaction"/>
 		</extension>
 	</extensions>
 </unit>

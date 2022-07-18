@@ -1,0 +1,20 @@
+<materials version="3">
+    <material render_template="generic:CONTOUR:DIFFUSE_TEXTURE:GSMA_TEXTURE" unique="true" version="2" name="wood/floor03">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/wood/floor03"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+		<variable value="1.0 0.5 0.0" type="vector3" name="contour_color"/>
+        <variable value="1" type="scalar" name="contour_opacity"/>
+    </material>
+	<material render_template="generic:CONTOUR:DIFFUSE_TEXTURE:GSMA_TEXTURE" unique="true" version="2" name="carpet/grey02">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/carpet/grey02"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+		<variable value="1.0 0.5 0.0" type="vector3" name="contour_color"/>
+        <variable value="1" type="scalar" name="contour_opacity"/>
+    </material>
+	<material render_template="generic:CONTOUR:DIFFUSE_TEXTURE:GSMA_TEXTURE" unique="true" version="2" name="de_nuke/nuke_metaldoor_01">
+		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/de_nuke/nuke_metaldoor_01"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+		<variable value="1.0 0.5 0.0" type="vector3" name="contour_color"/>
+        <variable value="1" type="scalar" name="contour_opacity"/>
+    </material>
+</materials>

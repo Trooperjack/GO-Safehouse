@@ -9,16 +9,32 @@
 		</sequence>
 		
 		<sequence editable_state="true" name="'state_vis_hide'" triggable="true">
-			<body enabled="false" name="'body_static'"/>
+			<body enabled="false" name="'body_cover'"/>
 			<graphic_group name="'grp_safe_cover'" visibility="false"/>
 		</sequence>
 		
 		<sequence editable_state="true" name="'state_vis_show'" triggable="true">
-			<body enabled="true" name="'body_static'"/>
+			<body enabled="true" name="'body_cover'"/>
 			<graphic_group name="'grp_safe_cover'" visibility="true"/>
 		</sequence>
 		
+		<sequence editable_state="true" name="'state_open'" triggable="true">
+			<interaction enabled="false"/>
+			<animation_group enabled="true" from="30/30" name="'grp_anim_raise_safe_cover'" speed="0" to="30/30"/>
+		</sequence>
+		
+		<sequence editable_state="true" name="'state_close'" triggable="true">
+			<interaction enabled="true"/>
+			<animation_group enabled="true" from="0/30" name="'grp_anim_raise_safe_cover'" speed="0" to="0/30"/>
+		</sequence>
+		
+		<sequence editable_state="true" name="'anim_open_door'" triggable="true">
+			<animation_group enabled="true" from="0/30" name="'grp_anim_raise_safe_cover'" speed="1" to="35/30"/>
+		</sequence>
+		
 		<sequence editable_state="false" name="'interact'" triggable="true"/>
+			<run_sequence name="'anim_open_door'"/>
+		</sequence>
 		
 	</unit>
 </sequence_manager>
