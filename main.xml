@@ -27,6 +27,9 @@
 			<value_node value="packages/levels/tj_csgo_deSafeHouse_stage1/world/world"/>
 			<value_node value="packages/custom/pd2_mod_rex_bagfilling/bagfilling/world/world"/>
 		</packages>
+		<Interactions>
+			<interaction based_on="hold_remove_cover" id="tj_csgo_sh_remove_safe_cover"/>
+		</Interactions>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
 				<options merge_mode="add" mode="add"/>
