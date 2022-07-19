@@ -29,12 +29,10 @@
 		</sequence>
 		
 		<sequence editable_state="true" name="'anim_open_door'" triggable="true">
-			<animation_group enabled="true" from="0/30" name="'grp_anim_raise_safe_cover'" speed="1" to="35/30"/>
+			<animation_group enabled="true" from="0/30" name="'grp_anim_raise_safe_cover'" speed="1" to="30/30"/>
 		</sequence>
 		
 		<sequence editable_state="false" name="'interact'" triggable="true"/>
-			<run_sequence name="'anim_open_door'"/>
-		</sequence>
 		
 	</unit>
 </sequence_manager>

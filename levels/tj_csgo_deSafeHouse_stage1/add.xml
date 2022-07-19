@@ -370,14 +370,49 @@
 		<object path="units/payday2/equipment/item_door_drill_small/item_door_drill_small"/>
 		<material_config path="units/payday2/equipment/item_door_drill_small/item_door_drill_small"/>
 		<sequence_manager path="units/payday2/equipment/item_door_drill_small/item_door_drill_small"/>
-		<gui path="guis/timer_gui"/>
 		<effect load="true" path="effects/payday2/environment/drill"/>
 		<effect load="true" path="effects/payday2/environment/parts/drill_sparks_particles"/>
 		<effect load="true" path="effects/payday2/environment/parts/drill_sparks"/>
 		<effect load="true" path="effects/payday2/environment/drill_jammed"/>
-		<bnk path="soundbanks/regular_sfx"/>
-		<physic_effect path="physic_effects/push_sphere"/>
 		<effect load="true" path="effects/particles/explosions/explosion_grenade"/>
 		<effect load="true" path="effects/particles/dest/smoke_pocket_puff"/>
+		<bnk path="soundbanks/regular_sfx"/>
+		<gui path="guis/timer_gui"/>
+		<physic_effect path="physic_effects/push_sphere"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_des/props/des_interactable_secret_document/des_interactable_secret_document" type="unit">
+		<material_config path="units/pd2_dlc_des/props/des_interactable_secret_document/des_interactable_secret_document"/>
+		<object path="units/pd2_dlc_des/props/des_interactable_secret_document/des_interactable_secret_document"/>
+		<sequence_manager path="units/pd2_dlc_des/props/des_interactable_secret_document/des_interactable_secret_document"/>
+		<unit path="units/pd2_dlc_des/props/des_interactable_secret_document/des_interactable_secret_document"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_sand/pickups/sand_pku_documents/sand_pku_documents_correct" type="unit">
+		<material_config path="units/pd2_dlc_sand/pickups/sand_pku_documents/sand_pku_documents_correct_contour"/>
+		<object path="units/pd2_dlc_sand/pickups/sand_pku_documents/sand_pku_documents_correct"/>
+		<sequence_manager path="units/pd2_dlc_sand/pickups/sand_pku_documents/sand_pku_documents_correct"/>
+		<unit path="units/pd2_dlc_sand/pickups/sand_pku_documents/sand_pku_documents_correct"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_sand/props/sand_interactable_copy_machine_documents/sand_interactable_copy_machine_documents" type="unit">
+		<bnk path="soundbanks/regular_sfx"/>
+		<material_config path="units/pd2_dlc_sand/props/sand_interactable_copy_machine_documents/sand_interactable_copy_machine_documents"/>
+		<object path="units/pd2_dlc_sand/props/sand_interactable_copy_machine_documents/sand_interactable_copy_machine_documents"/>
+		<sequence_manager path="units/pd2_dlc_sand/props/sand_interactable_copy_machine_documents/sand_interactable_copy_machine_documents"/>
+		<unit path="units/pd2_dlc_sand/props/sand_interactable_copy_machine_documents/sand_interactable_copy_machine_documents"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc1/vehicles/str_vehicle_truck_gensec_transport/str_vehicle_truck_gensec_transport_deposit_box_intel" type="unit">
+		<unit path="units/pd2_dlc1/vehicles/str_vehicle_truck_gensec_transport/str_vehicle_truck_gensec_transport_deposit_box_intel"/>
+		<object path="units/pd2_dlc1/vehicles/str_vehicle_truck_gensec_transport/str_vehicle_truck_gensec_transport_deposit_box_intel"/>
+		<material_config path="units/pd2_dlc1/vehicles/str_vehicle_truck_gensec_transport/str_vehicle_truck_gensec_transport_deposit_box"/>
+		<sequence_manager path="units/pd2_dlc1/vehicles/str_vehicle_truck_gensec_transport/str_vehicle_truck_gensec_transport_deposit_box_intel"/>
+		<unit path="units/payday2/props/gen_prop_loot_confidential_folder_event/gen_prop_loot_confidential_folder_event"/>
+		<object path="units/payday2/props/gen_prop_loot_confidential_folder_event/gen_prop_loot_confidential_folder_event"/>
+		<material_config path="units/payday2/props/gen_prop_loot_confidential_folder_event/gen_prop_loot_confidential_folder_event"/>
+		<sequence_manager path="units/payday2/props/gen_prop_loot_confidential_folder_event/gen_prop_loot_confidential_folder_event"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_loot_confidential_folder/gen_prop_loot_confidential_folder" type="unit">
+		<unit path="units/payday2/props/gen_prop_loot_confidential_folder/gen_prop_loot_confidential_folder"/>
+		<object path="units/payday2/props/gen_prop_loot_confidential_folder/gen_prop_loot_confidential_folder"/>
+		<material_config path="units/payday2/props/gen_prop_loot_confidential_folder/gen_prop_loot_confidential_folder"/>
+		<sequence_manager path="units/payday2/props/gen_prop_loot_confidential_folder/gen_prop_loot_confidential_folder"/>
 	</add>
 </table>

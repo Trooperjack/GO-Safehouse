@@ -14,7 +14,7 @@
 		</body>
 	</bodies>
 	
-	<decal_surfaces default_material="stone">
+	<decal_surfaces default_material="stone" static="false">
 		<decal_mesh name="g_safe_cover_002" enabled="true" material="carpet" />
 	</decal_surfaces>
 	
