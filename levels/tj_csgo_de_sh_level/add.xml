@@ -423,13 +423,43 @@
 		<unit path="units/pd2_dlc_chas/equipment/chas_interactable_c4/chas_interactable_c4"/>
 	</add>
 	<add from_db="true" path="units/pd2_dlc_chas/equipment/chas_interactable_c4_placeable/chas_interactable_c4_placeable" type="unit">
-		<unit path="units/pd2_dlc_chas/equipment/chas_interactable_c4_placeable/chas_interactable_c4_placeable"/>
-		<object path="units/pd2_dlc_chas/equipment/chas_interactable_c4_placeable/chas_interactable_c4_placeable"/>
-		<material_config path="units/pd2_dlc_chas/equipment/chas_interactable_c4_placeable/chas_interactable_c4_placeable"/>
-		<sequence_manager path="units/pd2_dlc_chas/equipment/chas_interactable_c4_placeable/chas_interactable_c4_placeable"/>
 		<effect load="true" path="effects/payday2/particles/flares/red_flare_blinking"/>
-		<font path="fonts/font_digital"/>
 		<effect load="true" path="effects/payday2/particles/explosions/grenade_explosion"/>
 		<bnk path="soundbanks/regular_sfx"/>
+		<font path="fonts/font_digital"/>
+		<material_config path="units/pd2_dlc_chas/equipment/chas_interactable_c4_placeable/chas_interactable_c4_placeable"/>
+		<object path="units/pd2_dlc_chas/equipment/chas_interactable_c4_placeable/chas_interactable_c4_placeable"/>
+		<sequence_manager path="units/pd2_dlc_chas/equipment/chas_interactable_c4_placeable/chas_interactable_c4_placeable"/>
+		<unit path="units/pd2_dlc_chas/equipment/chas_interactable_c4_placeable/chas_interactable_c4_placeable"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/str_bdrop_buildings_forest/str_bdrop_buildings_forest" type="unit">
+		<material_config path="units/payday2/architecture/str_bdrop_buildings_forest/str_bdrop_buildings_forest"/>
+		<object path="units/payday2/architecture/str_bdrop_buildings_forest/str_bdrop_buildings_forest"/>
+		<unit path="units/payday2/architecture/str_bdrop_buildings_forest/str_bdrop_buildings_forest"/>
+	</add>
+	<add from_db="true" path="units/world/vegetation/forest/zones/forest/fst_backdrop_forest/fst_backdrop_forest_01" type="unit">
+		<material_config path="units/world/vegetation/forest/zones/forest/fst_backdrop_forest/fst_backdrop_forest_01"/>
+		<object path="units/world/vegetation/forest/zones/forest/fst_backdrop_forest/fst_backdrop_forest_01"/>
+		<unit path="units/world/vegetation/forest/zones/forest/fst_backdrop_forest/fst_backdrop_forest_01"/>
+	</add>
+	<add from_db="true" path="units/payday2/nature/pnau/pnau_backdrop_forest_segment/pnau_backdrop_forest_segment_01_a" type="unit">
+		<material_config path="units/payday2/nature/pnau/pnau_backdrop_forest_segment/pnau_backdrop_forest_segment"/>
+		<object path="units/payday2/nature/pnau/pnau_backdrop_forest_segment/pnau_backdrop_forest_segment_01_a"/>
+		<unit path="units/payday2/nature/pnau/pnau_backdrop_forest_segment/pnau_backdrop_forest_segment_01_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/nature/pnau/pnau_backdrop_forest_segment/pnau_backdrop_forest_segment_02_a" type="unit">
+		<material_config path="units/payday2/nature/pnau/pnau_backdrop_forest_segment/pnau_backdrop_forest_segment"/>
+		<object path="units/payday2/nature/pnau/pnau_backdrop_forest_segment/pnau_backdrop_forest_segment_02_a"/>
+		<unit path="units/payday2/nature/pnau/pnau_backdrop_forest_segment/pnau_backdrop_forest_segment_02_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/vegetation/str_veg_forest_wall/str_veg_forest_wall_bckdrop" type="unit">
+		<material_config path="units/payday2/vegetation/str_veg_forest_wall/str_veg_forest_wall_bckdrop"/>
+		<object path="units/payday2/vegetation/str_veg_forest_wall/str_veg_forest_wall_bckdrop"/>
+		<unit path="units/payday2/vegetation/str_veg_forest_wall/str_veg_forest_wall_bckdrop"/>
+	</add>
+	<add from_db="true" path="units/payday2/vegetation/str_veg_forest_wall/str_veg_forest_wall" type="unit">
+		<unit path="units/payday2/vegetation/str_veg_forest_wall/str_veg_forest_wall"/>
+		<object path="units/payday2/vegetation/str_veg_forest_wall/str_veg_forest_wall"/>
+		<material_config path="units/payday2/vegetation/str_veg_forest_wall/str_veg_forest_wall"/>
 	</add>
 </table>

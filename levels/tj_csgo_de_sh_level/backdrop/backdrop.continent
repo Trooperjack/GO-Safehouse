@@ -1,0 +1,71 @@
+<table>
+	<editor_groups/>
+	<statics>
+		<table>
+			<unit_data _prev_pos="-20 13020 1620" _prev_rot="0 0 -0.707107 -0.707107" continent="backdrop" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/forest/zones/forest/fst_backdrop_forest/fst_backdrop_forest_01" name_id="fst_backdrop_forest_01_001" position="-20 13020 1750" rotation="0 0 -0.707107 -0.707107" unit_id="600001"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5430 13020 1310" _prev_rot="0 0 -0.707107 -0.707107" continent="backdrop" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/forest/zones/forest/fst_backdrop_forest/fst_backdrop_forest_01" name_id="fst_backdrop_forest_01_002" position="-5430 13020 1310" rotation="0 0 -0.707107 -0.707107" unit_id="600000"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-10660 13020 1620" _prev_rot="0 0 -0.707107 -0.707107" continent="backdrop" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/forest/zones/forest/fst_backdrop_forest/fst_backdrop_forest_01" name_id="fst_backdrop_forest_01_003" position="-10660 13020 1250" rotation="0 0 -0.707107 -0.707107" unit_id="600002"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-15810 13020 1620" _prev_rot="0 0 -0.707107 -0.707107" continent="backdrop" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/forest/zones/forest/fst_backdrop_forest/fst_backdrop_forest_01" name_id="fst_backdrop_forest_01_004" position="-15810 13020 1620" rotation="0 0 -0.707107 -0.707107" unit_id="600003"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="4820 13020 2370" _prev_rot="0 0 -0.707107 -0.707107" continent="backdrop" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/forest/zones/forest/fst_backdrop_forest/fst_backdrop_forest_01" name_id="fst_backdrop_forest_01_005" position="4820 13020 2370" rotation="0 0 -0.707107 -0.707107" unit_id="600004"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-22250 -820 1910" _prev_rot="0 0 0 -1" continent="backdrop" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/forest/zones/forest/fst_backdrop_forest/fst_backdrop_forest_01" name_id="fst_backdrop_forest_01_006" position="-22250 -820 1910" rotation="0 0 0 -1" unit_id="600005"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-20285 4427.75 2370" _prev_rot="0 0 0.984808 0.173648" continent="backdrop" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/forest/zones/forest/fst_backdrop_forest/fst_backdrop_forest_01" name_id="fst_backdrop_forest_01_007" position="-20285 4427.75 1840" rotation="0 0 0.984808 0.173648" unit_id="600006"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-18739.1 8675.16 1840" _prev_rot="0 0 0.173648 -0.984808" continent="backdrop" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/forest/zones/forest/fst_backdrop_forest/fst_backdrop_forest_01" name_id="fst_backdrop_forest_01_008" position="-20027.9 10016.9 1840" rotation="0 0 0.173648 -0.984808" unit_id="600007"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-21219.7 -6248.86 1910" _prev_rot="0 0 0.996195 -0.0871559" continent="backdrop" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/forest/zones/forest/fst_backdrop_forest/fst_backdrop_forest_01" name_id="fst_backdrop_forest_01_009" position="-21219.7 -6248.86 1760" rotation="0 0 0.996195 -0.0871559" unit_id="600008"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-20282 -11566.8 1910" _prev_rot="0 0 -0.422618 -0.906308" continent="backdrop" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/forest/zones/forest/fst_backdrop_forest/fst_backdrop_forest_01" name_id="fst_backdrop_forest_01_010" position="-20282 -11566.8 1650" rotation="0 0 -0.422618 -0.906308" unit_id="600009"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5499.71 -14333.2 1510" _prev_rot="0 0 -0.707107 -0.707107" continent="backdrop" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/forest/zones/forest/fst_backdrop_forest/fst_backdrop_forest_01" name_id="fst_backdrop_forest_01_011" position="-5499.71 -14333.2 1510" rotation="0 0 -0.707107 -0.707107" unit_id="600010"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-10747.8 -13720.3 1910" _prev_rot="-0 -0 0.819152 -0.573577" continent="backdrop" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/forest/zones/forest/fst_backdrop_forest/fst_backdrop_forest_01" name_id="fst_backdrop_forest_01_012" position="-10747.8 -13720.3 1350" rotation="-0 -0 0.819152 -0.573577" unit_id="600011"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-15371.7 -14379.7 1910" _prev_rot="0 0 -0.642788 -0.766044" continent="backdrop" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/forest/zones/forest/fst_backdrop_forest/fst_backdrop_forest_01" name_id="fst_backdrop_forest_01_013" position="-15371.7 -14379.7 1680" rotation="0 0 -0.642788 -0.766044" unit_id="600012"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-89.7137 -13513.2 1900" _prev_rot="-0 -0 0.707107 -0.707107" continent="backdrop" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/forest/zones/forest/fst_backdrop_forest/fst_backdrop_forest_01" name_id="fst_backdrop_forest_01_014" position="-89.7137 -13513.2 1900" rotation="-0 -0 0.707107 -0.707107" unit_id="600013"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="10829.7 390.143 3270" _prev_rot="0 0 1 -1.04308e-007" continent="backdrop" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/forest/zones/forest/fst_backdrop_forest/fst_backdrop_forest_01" name_id="fst_backdrop_forest_01_015" position="10829.7 390.143 3090" rotation="0 0 1 -1.04308e-007" unit_id="600014"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="10139.6 5633.64 2600" _prev_rot="0 0 -0.087156 -0.996195" continent="backdrop" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/forest/zones/forest/fst_backdrop_forest/fst_backdrop_forest_01" name_id="fst_backdrop_forest_01_016" position="10139.6 5633.64 2980" rotation="0 0 -0.087156 -0.996195" unit_id="600015"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="8805.98 10738.9 3160" _prev_rot="0 0 0.939692 -0.34202" continent="backdrop" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/forest/zones/forest/fst_backdrop_forest/fst_backdrop_forest_01" name_id="fst_backdrop_forest_01_017" position="8805.98 10738.9 3160" rotation="0 0 0.939692 -0.34202" unit_id="600016"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="9995.5 13410 2760" _prev_rot="0 0 -0.866025 -0.5" continent="backdrop" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/forest/zones/forest/fst_backdrop_forest/fst_backdrop_forest_01" name_id="fst_backdrop_forest_01_018" position="9995.5 13410 2650" rotation="0 0 -0.866025 -0.5" unit_id="600017"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="11756.6 -4880.22 2920" _prev_rot="0 0 0.173648 -0.984808" continent="backdrop" instance_data="false" local_pos="1133.06 5270.36 20" local_rot="0 0 0.984808 0.173648" name="units/world/vegetation/forest/zones/forest/fst_backdrop_forest/fst_backdrop_forest_01" name_id="fst_backdrop_forest_01_019" position="9696.61 -4880.22 2920" rotation="0 0 0.173648 -0.984808" unit_id="600018"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="8823.91 -9638.96 3020" _prev_rot="0 0 0.996195 0.087155" continent="backdrop" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/forest/zones/forest/fst_backdrop_forest/fst_backdrop_forest_01" name_id="fst_backdrop_forest_01_020" position="8823.91 -9638.96 3020" rotation="0 0 0.996195 0.087155" unit_id="600019"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="5860.49 -13386.9 1900" _prev_rot="0 0 -0.766045 -0.642787" continent="backdrop" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/forest/zones/forest/fst_backdrop_forest/fst_backdrop_forest_01" name_id="fst_backdrop_forest_01_021" position="5860.49 -13386.9 2510" rotation="0 0 -0.766045 -0.642787" unit_id="600020"/>
+		</table>
+	</statics>
+	<values>
+		<workviews/>
+	</values>
+</table>

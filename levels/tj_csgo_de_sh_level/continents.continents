@@ -1,4 +1,5 @@
 <table>
+	<backdrop base_id="600000" name="backdrop"/>
 	<collision base_id="400000" name="collision"/>
 	<editor_only base_id="200000" editor_only="true" name="editor_only"/>
 	<lights base_id="500000" editor_only="false" name="lights"/>
