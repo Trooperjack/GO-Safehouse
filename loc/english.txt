@@ -19,5 +19,8 @@
 	
 	"hud_carry_level_max":			"Max",
 	
+	"hud_int_tj_csgo_sh_remove_safe_cover" : 	"Hold $BTN_INTERACT to remove safe cover",
+	"hud_action_tj_csgo_sh_remove_safe_cover" : 	"Removing safe cover",
+
 	"":""
 }

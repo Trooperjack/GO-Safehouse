@@ -13,6 +13,9 @@
 		<hook file="interactiontweakdata.lua"							source_file="lib/tweak_data/interactiontweakdata"/>
 		<hook file="units/beings/player/states/playerstandard.lua"		source_file="lib/units/beings/player/states/playerstandard"/>
 	</Hooks>
+	<Interactions>
+		<interaction based_on="breach_door" id="tj_csgo_sh_remove_safe_cover" text_id="hud_int_tj_csgo_sh_remove_safe_cover" action_text_id="hud_action_tj_csgo_sh_remove_safe_cover"/>
+	</Interactions>
 	<Package file="scriptdata/tj_csgo_deSafeHouse_stage1.package" id="packages/levels/tj_csgo_deSafeHouse_stage1/world/world" unload_on_restart="true"/>
 	<Package file="scriptdata/pd2_mod_rex_bagfilling.package" id="packages/custom/pd2_mod_rex_bagfilling/bagfilling/world/world" unload_on_restart="true"/>
 	<level ai_group_type="america" id="tj_csgo_deSafeHouse_stage1" max_bags="1000">
@@ -27,9 +30,6 @@
 			<value_node value="packages/levels/tj_csgo_deSafeHouse_stage1/world/world"/>
 			<value_node value="packages/custom/pd2_mod_rex_bagfilling/bagfilling/world/world"/>
 		</packages>
-		<Interactions>
-			<interaction based_on="hold_remove_cover" id="tj_csgo_sh_remove_safe_cover"/>
-		</Interactions>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
 				<options merge_mode="add" mode="add"/>
