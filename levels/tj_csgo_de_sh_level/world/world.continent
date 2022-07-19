@@ -383,6 +383,18 @@
 		<table>
 			<unit_data _prev_pos="-4622 -664.918 1179.73" _prev_rot="0 -0.707107 0 -0.707107" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_interaction_enable" name="units/pd2_dlc_fish/props/lxy_int_prop_button/lxy_int_prop_button" name_id="lxy_int_prop_button_004" position="-4622 -664.918 1179.73" rotation="0 -0.707107 0 -0.707107" unit_id="100118"/>
 		</table>
+		<table>
+			<unit_data _prev_pos="-548.245 581.646 863" _prev_rot="0.541675 0.45452 -0.45452 -0.541675" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_interaction_disabled" name="units/pd2_dlc_chas/equipment/chas_interactable_c4/chas_interactable_c4" name_id="chas_interactable_c4_001" position="-548.245 581.646 863" rotation="0.541675 0.45452 -0.45452 -0.541675" unit_id="100119"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4518 -557 1120" _prev_rot="0.5 0.5 -0.5 -0.5" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_interaction_enabled" name="units/pd2_dlc_chas/equipment/chas_interactable_c4_placeable/chas_interactable_c4_placeable" name_id="chas_interactable_c4_placeable_001" position="-4518 -557 1120" rotation="0.5 0.5 -0.5 -0.5" unit_id="100120"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-6000 -502 1120" _prev_rot="0.5 0.5 -0.5 -0.5" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_interaction_enabled" name="units/pd2_dlc_chas/equipment/chas_interactable_c4_placeable/chas_interactable_c4_placeable" name_id="chas_interactable_c4_placeable_002" position="-6000 -500 1120" rotation="0.5 0.5 -0.5 -0.5" unit_id="100121"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5494 -100 1120" _prev_rot="0.5 0.5 -0.5 -0.5" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_interaction_enabled" name="units/pd2_dlc_chas/equipment/chas_interactable_c4_placeable/chas_interactable_c4_placeable" name_id="chas_interactable_c4_placeable_003" position="-5500 -100 1120" rotation="0.5 0.5 -0.5 -0.5" unit_id="100122"/>
+		</table>
 	</statics>
 	<values>
 		<workviews/>

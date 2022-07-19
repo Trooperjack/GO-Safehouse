@@ -410,9 +410,26 @@
 		<sequence_manager path="units/payday2/props/gen_prop_loot_confidential_folder_event/gen_prop_loot_confidential_folder_event"/>
 	</add>
 	<add from_db="true" path="units/payday2/props/gen_prop_loot_confidential_folder/gen_prop_loot_confidential_folder" type="unit">
-		<unit path="units/payday2/props/gen_prop_loot_confidential_folder/gen_prop_loot_confidential_folder"/>
-		<object path="units/payday2/props/gen_prop_loot_confidential_folder/gen_prop_loot_confidential_folder"/>
 		<material_config path="units/payday2/props/gen_prop_loot_confidential_folder/gen_prop_loot_confidential_folder"/>
+		<object path="units/payday2/props/gen_prop_loot_confidential_folder/gen_prop_loot_confidential_folder"/>
 		<sequence_manager path="units/payday2/props/gen_prop_loot_confidential_folder/gen_prop_loot_confidential_folder"/>
+		<unit path="units/payday2/props/gen_prop_loot_confidential_folder/gen_prop_loot_confidential_folder"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chas/equipment/chas_interactable_c4/chas_interactable_c4" type="unit">
+		<font path="fonts/font_digital"/>
+		<material_config path="units/pd2_dlc_chas/equipment/chas_interactable_destructible_crate/chas_interactable_destructible_crate"/>
+		<object path="units/pd2_dlc_chas/equipment/chas_interactable_c4/chas_interactable_c4"/>
+		<sequence_manager path="units/pd2_dlc_chas/equipment/chas_interactable_c4/chas_interactable_c4"/>
+		<unit path="units/pd2_dlc_chas/equipment/chas_interactable_c4/chas_interactable_c4"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chas/equipment/chas_interactable_c4_placeable/chas_interactable_c4_placeable" type="unit">
+		<unit path="units/pd2_dlc_chas/equipment/chas_interactable_c4_placeable/chas_interactable_c4_placeable"/>
+		<object path="units/pd2_dlc_chas/equipment/chas_interactable_c4_placeable/chas_interactable_c4_placeable"/>
+		<material_config path="units/pd2_dlc_chas/equipment/chas_interactable_c4_placeable/chas_interactable_c4_placeable"/>
+		<sequence_manager path="units/pd2_dlc_chas/equipment/chas_interactable_c4_placeable/chas_interactable_c4_placeable"/>
+		<effect load="true" path="effects/payday2/particles/flares/red_flare_blinking"/>
+		<font path="fonts/font_digital"/>
+		<effect load="true" path="effects/payday2/particles/explosions/grenade_explosion"/>
+		<bnk path="soundbanks/regular_sfx"/>
 	</add>
 </table>
