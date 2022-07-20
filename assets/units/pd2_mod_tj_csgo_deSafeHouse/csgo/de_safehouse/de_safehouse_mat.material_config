@@ -293,12 +293,12 @@
 	<material name="nature/miltree003" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
 		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/nature/miltree003"/>
 		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
-		<variable				value="0.1" type="scalar" name="alpha_ref"/>
+		<variable				value="0.5" type="scalar" name="alpha_ref"/>
 	</material>
 	<material name="nature/miltree005" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
 		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/nature/miltree005"/>
 		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
-		<variable				value="0.1" type="scalar" name="alpha_ref"/>
+		<variable				value="0.5" type="scalar" name="alpha_ref"/>
 	</material>
 	
 	

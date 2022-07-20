@@ -1,0 +1,26 @@
+<sequence_manager>
+	<unit>				
+		
+		<sequence editable_state="true" name="'hide_cover_dest_001'" triggable="true">
+			<object name="g_safe_cover_dest_001" enabled="false" shadow_caster="false"/>
+		</sequence>
+		<sequence editable_state="true" name="'show_cover_dest_001'" triggable="true">
+			<object name="g_safe_cover_dest_001" enabled="true" shadow_caster="true"/>
+		</sequence>
+		
+		<sequence editable_state="true" name="'hide_cover_dest_002'" triggable="true">
+			<object name="g_safe_cover_dest_002" enabled="false" shadow_caster="false"/>
+		</sequence>
+		<sequence editable_state="true" name="'show_cover_dest_002'" triggable="true">
+			<object name="g_safe_cover_dest_002" enabled="true" shadow_caster="true"/>
+		</sequence>
+		
+		<sequence editable_state="true" name="'hide_cover_dest_003'" triggable="true">
+			<object name="g_safe_cover_dest_003" enabled="false" shadow_caster="false"/>
+		</sequence>
+		<sequence editable_state="true" name="'show_cover_dest_003'" triggable="true">
+			<object name="g_safe_cover_dest_003" enabled="true" shadow_caster="true"/>
+		</sequence>
+		
+	</unit>
+</sequence_manager>

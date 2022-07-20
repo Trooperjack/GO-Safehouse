@@ -1,0 +1,8 @@
+<unit type="gen" slot="1">
+	<object file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/de_safehouse_safe_cover_dest/de_safehouse_safe_cover_dest" />
+	<network sync="spawn" />
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+	</extensions>
+</unit>

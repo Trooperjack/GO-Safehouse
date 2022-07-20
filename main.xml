@@ -18,6 +18,9 @@
 	<Localization default="english.txt" directory="loc">
 		<loc file="english.txt" language="english"/>
 	</Localization>
+	<instance id="csgo_c4">
+		<packages/>
+	</instance>
 	<level ai_group_type="america" briefing_dialog="" id="tj_csgo_de_sh_level" intro_event="" max_bags="999" player_style="generic">
 		<assets>
 			<asset name="ammo_bag"/>
