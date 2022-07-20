@@ -1,0 +1,786 @@
+<sequence_manager>
+	<unit>
+		
+		<variables>
+			<var_number_order value="1"/>
+		</variables>
+		<filter name="'filter_first'">
+			<check value="vars.var_number_order == 1"/>
+		</filter>
+		<filter name="'filter_second'">
+			<check value="vars.var_number_order == 2"/>
+		</filter>
+		<filter name="'filter_third'">
+			<check value="vars.var_number_order == 3"/>
+		</filter>
+		<filter name="'filter_fourth'">
+			<check value="vars.var_number_order == 4"/>
+		</filter>
+		<filter name="'filter_fifth'">
+			<check value="vars.var_number_order == 5"/>
+		</filter>
+		<filter name="'filter_sixth'">
+			<check value="vars.var_number_order == 6"/>
+		</filter>
+		<filter name="'filter_seventh'">
+			<check value="vars.var_number_order == 7"/>
+		</filter>
+		
+		
+		<sequence editable_state="true" name="'set_number_0'" triggable="true">
+			<object enabled="true" filter="'filter_first'" name="'g_number_0_pos_01'"/>
+			<object enabled="true" filter="'filter_second'" name="'g_number_0_pos_02'"/>
+			<object enabled="true" filter="'filter_third'" name="'g_number_0_pos_03'"/>
+			<object enabled="true" filter="'filter_fourth'" name="'g_number_0_pos_04'"/>
+			<object enabled="true" filter="'filter_fifth'" name="'g_number_0_pos_05'"/>
+			<object enabled="true" filter="'filter_sixth'" name="'g_number_0_pos_06'"/>
+			<object enabled="true" filter="'filter_seventh'" name="'g_number_0_pos_07'"/>
+			<set_variables filter="'filter_sixth'" var_number_order="7"/>
+			<set_variables filter="'filter_fifth'" var_number_order="6"/>
+			<set_variables filter="'filter_fourth'" var_number_order="5"/>
+			<set_variables filter="'filter_third'" var_number_order="4"/>
+			<set_variables filter="'filter_second'" var_number_order="3"/>
+			<set_variables filter="'filter_first'" var_number_order="2"/>
+			<object enabled="false" filter="'filter_first'" name="'g_number_asterisk_pos_01'"/>
+			<object enabled="false" filter="'filter_second'" name="'g_number_asterisk_pos_02'"/>
+			<object enabled="false" filter="'filter_third'" name="'g_number_asterisk_pos_03'"/>
+			<object enabled="false" filter="'filter_fourth'" name="'g_number_asterisk_pos_04'"/>
+			<object enabled="false" filter="'filter_fifth'" name="'g_number_asterisk_pos_05'"/>
+			<object enabled="false" filter="'filter_sixth'" name="'g_number_asterisk_pos_06'"/>
+			<object enabled="false" filter="'filter_seventh'" name="'g_number_asterisk_pos_07'"/>
+		</sequence>
+		<sequence editable_state="true" name="'set_number_1'" triggable="true">
+			<object enabled="true" filter="'filter_first'" name="'g_number_1_pos_01'"/>
+			<object enabled="true" filter="'filter_second'" name="'g_number_1_pos_02'"/>
+			<object enabled="true" filter="'filter_third'" name="'g_number_1_pos_03'"/>
+			<object enabled="true" filter="'filter_fourth'" name="'g_number_1_pos_04'"/>
+			<object enabled="true" filter="'filter_fifth'" name="'g_number_1_pos_05'"/>
+			<object enabled="true" filter="'filter_sixth'" name="'g_number_1_pos_06'"/>
+			<object enabled="true" filter="'filter_seventh'" name="'g_number_1_pos_07'"/>
+			<set_variables filter="'filter_sixth'" var_number_order="7"/>
+			<set_variables filter="'filter_fifth'" var_number_order="6"/>
+			<set_variables filter="'filter_fourth'" var_number_order="5"/>
+			<set_variables filter="'filter_third'" var_number_order="4"/>
+			<set_variables filter="'filter_second'" var_number_order="3"/>
+			<set_variables filter="'filter_first'" var_number_order="2"/>
+			<object enabled="false" filter="'filter_first'" name="'g_number_asterisk_pos_01'"/>
+			<object enabled="false" filter="'filter_second'" name="'g_number_asterisk_pos_02'"/>
+			<object enabled="false" filter="'filter_third'" name="'g_number_asterisk_pos_03'"/>
+			<object enabled="false" filter="'filter_fourth'" name="'g_number_asterisk_pos_04'"/>
+			<object enabled="false" filter="'filter_fifth'" name="'g_number_asterisk_pos_05'"/>
+			<object enabled="false" filter="'filter_sixth'" name="'g_number_asterisk_pos_06'"/>
+			<object enabled="false" filter="'filter_seventh'" name="'g_number_asterisk_pos_07'"/>
+		</sequence>
+		<sequence editable_state="true" name="'set_number_2'" triggable="true">
+			<object enabled="true" filter="'filter_first'" name="'g_number_2_pos_01'"/>
+			<object enabled="true" filter="'filter_second'" name="'g_number_2_pos_02'"/>
+			<object enabled="true" filter="'filter_third'" name="'g_number_2_pos_03'"/>
+			<object enabled="true" filter="'filter_fourth'" name="'g_number_2_pos_04'"/>
+			<object enabled="true" filter="'filter_fifth'" name="'g_number_2_pos_05'"/>
+			<object enabled="true" filter="'filter_sixth'" name="'g_number_2_pos_06'"/>
+			<object enabled="true" filter="'filter_seventh'" name="'g_number_2_pos_07'"/>
+			<set_variables filter="'filter_sixth'" var_number_order="7"/>
+			<set_variables filter="'filter_fifth'" var_number_order="6"/>
+			<set_variables filter="'filter_fourth'" var_number_order="5"/>
+			<set_variables filter="'filter_third'" var_number_order="4"/>
+			<set_variables filter="'filter_second'" var_number_order="3"/>
+			<set_variables filter="'filter_first'" var_number_order="2"/>
+			<object enabled="false" filter="'filter_first'" name="'g_number_asterisk_pos_01'"/>
+			<object enabled="false" filter="'filter_second'" name="'g_number_asterisk_pos_02'"/>
+			<object enabled="false" filter="'filter_third'" name="'g_number_asterisk_pos_03'"/>
+			<object enabled="false" filter="'filter_fourth'" name="'g_number_asterisk_pos_04'"/>
+			<object enabled="false" filter="'filter_fifth'" name="'g_number_asterisk_pos_05'"/>
+			<object enabled="false" filter="'filter_sixth'" name="'g_number_asterisk_pos_06'"/>
+			<object enabled="false" filter="'filter_seventh'" name="'g_number_asterisk_pos_07'"/>
+		</sequence>
+		<sequence editable_state="true" name="'set_number_3'" triggable="true">
+			<object enabled="true" filter="'filter_first'" name="'g_number_3_pos_01'"/>
+			<object enabled="true" filter="'filter_second'" name="'g_number_3_pos_02'"/>
+			<object enabled="true" filter="'filter_third'" name="'g_number_3_pos_03'"/>
+			<object enabled="true" filter="'filter_fourth'" name="'g_number_3_pos_04'"/>
+			<object enabled="true" filter="'filter_fifth'" name="'g_number_3_pos_05'"/>
+			<object enabled="true" filter="'filter_sixth'" name="'g_number_3_pos_06'"/>
+			<object enabled="true" filter="'filter_seventh'" name="'g_number_3_pos_07'"/>
+			<set_variables filter="'filter_sixth'" var_number_order="7"/>
+			<set_variables filter="'filter_fifth'" var_number_order="6"/>
+			<set_variables filter="'filter_fourth'" var_number_order="5"/>
+			<set_variables filter="'filter_third'" var_number_order="4"/>
+			<set_variables filter="'filter_second'" var_number_order="3"/>
+			<set_variables filter="'filter_first'" var_number_order="2"/>
+			<object enabled="false" filter="'filter_first'" name="'g_number_asterisk_pos_01'"/>
+			<object enabled="false" filter="'filter_second'" name="'g_number_asterisk_pos_02'"/>
+			<object enabled="false" filter="'filter_third'" name="'g_number_asterisk_pos_03'"/>
+			<object enabled="false" filter="'filter_fourth'" name="'g_number_asterisk_pos_04'"/>
+			<object enabled="false" filter="'filter_fifth'" name="'g_number_asterisk_pos_05'"/>
+			<object enabled="false" filter="'filter_sixth'" name="'g_number_asterisk_pos_06'"/>
+			<object enabled="false" filter="'filter_seventh'" name="'g_number_asterisk_pos_07'"/>
+		</sequence>
+		<sequence editable_state="true" name="'set_number_4'" triggable="true">
+			<object enabled="true" filter="'filter_first'" name="'g_number_4_pos_01'"/>
+			<object enabled="true" filter="'filter_second'" name="'g_number_4_pos_02'"/>
+			<object enabled="true" filter="'filter_third'" name="'g_number_4_pos_03'"/>
+			<object enabled="true" filter="'filter_fourth'" name="'g_number_4_pos_04'"/>
+			<object enabled="true" filter="'filter_fifth'" name="'g_number_4_pos_05'"/>
+			<object enabled="true" filter="'filter_sixth'" name="'g_number_4_pos_06'"/>
+			<object enabled="true" filter="'filter_seventh'" name="'g_number_4_pos_07'"/>
+			<set_variables filter="'filter_sixth'" var_number_order="7"/>
+			<set_variables filter="'filter_fifth'" var_number_order="6"/>
+			<set_variables filter="'filter_fourth'" var_number_order="5"/>
+			<set_variables filter="'filter_third'" var_number_order="4"/>
+			<set_variables filter="'filter_second'" var_number_order="3"/>
+			<set_variables filter="'filter_first'" var_number_order="2"/>
+			<object enabled="false" filter="'filter_first'" name="'g_number_asterisk_pos_01'"/>
+			<object enabled="false" filter="'filter_second'" name="'g_number_asterisk_pos_02'"/>
+			<object enabled="false" filter="'filter_third'" name="'g_number_asterisk_pos_03'"/>
+			<object enabled="false" filter="'filter_fourth'" name="'g_number_asterisk_pos_04'"/>
+			<object enabled="false" filter="'filter_fifth'" name="'g_number_asterisk_pos_05'"/>
+			<object enabled="false" filter="'filter_sixth'" name="'g_number_asterisk_pos_06'"/>
+			<object enabled="false" filter="'filter_seventh'" name="'g_number_asterisk_pos_07'"/>
+		</sequence>
+		<sequence editable_state="true" name="'set_number_5'" triggable="true">
+			<object enabled="true" filter="'filter_first'" name="'g_number_5_pos_01'"/>
+			<object enabled="true" filter="'filter_second'" name="'g_number_5_pos_02'"/>
+			<object enabled="true" filter="'filter_third'" name="'g_number_5_pos_03'"/>
+			<object enabled="true" filter="'filter_fourth'" name="'g_number_5_pos_04'"/>
+			<object enabled="true" filter="'filter_fifth'" name="'g_number_5_pos_05'"/>
+			<object enabled="true" filter="'filter_sixth'" name="'g_number_5_pos_06'"/>
+			<object enabled="true" filter="'filter_seventh'" name="'g_number_5_pos_07'"/>
+			<set_variables filter="'filter_sixth'" var_number_order="7"/>
+			<set_variables filter="'filter_fifth'" var_number_order="6"/>
+			<set_variables filter="'filter_fourth'" var_number_order="5"/>
+			<set_variables filter="'filter_third'" var_number_order="4"/>
+			<set_variables filter="'filter_second'" var_number_order="3"/>
+			<set_variables filter="'filter_first'" var_number_order="2"/>
+			<object enabled="false" filter="'filter_first'" name="'g_number_asterisk_pos_01'"/>
+			<object enabled="false" filter="'filter_second'" name="'g_number_asterisk_pos_02'"/>
+			<object enabled="false" filter="'filter_third'" name="'g_number_asterisk_pos_03'"/>
+			<object enabled="false" filter="'filter_fourth'" name="'g_number_asterisk_pos_04'"/>
+			<object enabled="false" filter="'filter_fifth'" name="'g_number_asterisk_pos_05'"/>
+			<object enabled="false" filter="'filter_sixth'" name="'g_number_asterisk_pos_06'"/>
+			<object enabled="false" filter="'filter_seventh'" name="'g_number_asterisk_pos_07'"/>
+		</sequence>
+		<sequence editable_state="true" name="'set_number_6'" triggable="true">
+			<object enabled="true" filter="'filter_first'" name="'g_number_6_pos_01'"/>
+			<object enabled="true" filter="'filter_second'" name="'g_number_6_pos_02'"/>
+			<object enabled="true" filter="'filter_third'" name="'g_number_6_pos_03'"/>
+			<object enabled="true" filter="'filter_fourth'" name="'g_number_6_pos_04'"/>
+			<object enabled="true" filter="'filter_fifth'" name="'g_number_6_pos_05'"/>
+			<object enabled="true" filter="'filter_sixth'" name="'g_number_6_pos_06'"/>
+			<object enabled="true" filter="'filter_seventh'" name="'g_number_6_pos_07'"/>
+			<set_variables filter="'filter_sixth'" var_number_order="7"/>
+			<set_variables filter="'filter_fifth'" var_number_order="6"/>
+			<set_variables filter="'filter_fourth'" var_number_order="5"/>
+			<set_variables filter="'filter_third'" var_number_order="4"/>
+			<set_variables filter="'filter_second'" var_number_order="3"/>
+			<set_variables filter="'filter_first'" var_number_order="2"/>
+			<object enabled="false" filter="'filter_first'" name="'g_number_asterisk_pos_01'"/>
+			<object enabled="false" filter="'filter_second'" name="'g_number_asterisk_pos_02'"/>
+			<object enabled="false" filter="'filter_third'" name="'g_number_asterisk_pos_03'"/>
+			<object enabled="false" filter="'filter_fourth'" name="'g_number_asterisk_pos_04'"/>
+			<object enabled="false" filter="'filter_fifth'" name="'g_number_asterisk_pos_05'"/>
+			<object enabled="false" filter="'filter_sixth'" name="'g_number_asterisk_pos_06'"/>
+			<object enabled="false" filter="'filter_seventh'" name="'g_number_asterisk_pos_07'"/>
+		</sequence>
+		<sequence editable_state="true" name="'set_number_7'" triggable="true">
+			<object enabled="true" filter="'filter_first'" name="'g_number_7_pos_01'"/>
+			<object enabled="true" filter="'filter_second'" name="'g_number_7_pos_02'"/>
+			<object enabled="true" filter="'filter_third'" name="'g_number_7_pos_03'"/>
+			<object enabled="true" filter="'filter_fourth'" name="'g_number_7_pos_04'"/>
+			<object enabled="true" filter="'filter_fifth'" name="'g_number_7_pos_05'"/>
+			<object enabled="true" filter="'filter_sixth'" name="'g_number_7_pos_06'"/>
+			<object enabled="true" filter="'filter_seventh'" name="'g_number_7_pos_07'"/>
+			<set_variables filter="'filter_sixth'" var_number_order="7"/>
+			<set_variables filter="'filter_fifth'" var_number_order="6"/>
+			<set_variables filter="'filter_fourth'" var_number_order="5"/>
+			<set_variables filter="'filter_third'" var_number_order="4"/>
+			<set_variables filter="'filter_second'" var_number_order="3"/>
+			<set_variables filter="'filter_first'" var_number_order="2"/>
+			<object enabled="false" filter="'filter_first'" name="'g_number_asterisk_pos_01'"/>
+			<object enabled="false" filter="'filter_second'" name="'g_number_asterisk_pos_02'"/>
+			<object enabled="false" filter="'filter_third'" name="'g_number_asterisk_pos_03'"/>
+			<object enabled="false" filter="'filter_fourth'" name="'g_number_asterisk_pos_04'"/>
+			<object enabled="false" filter="'filter_fifth'" name="'g_number_asterisk_pos_05'"/>
+			<object enabled="false" filter="'filter_sixth'" name="'g_number_asterisk_pos_06'"/>
+			<object enabled="false" filter="'filter_seventh'" name="'g_number_asterisk_pos_07'"/>
+		</sequence>
+		<sequence editable_state="true" name="'set_number_8'" triggable="true">
+			<object enabled="true" filter="'filter_first'" name="'g_number_8_pos_01'"/>
+			<object enabled="true" filter="'filter_second'" name="'g_number_8_pos_02'"/>
+			<object enabled="true" filter="'filter_third'" name="'g_number_8_pos_03'"/>
+			<object enabled="true" filter="'filter_fourth'" name="'g_number_8_pos_04'"/>
+			<object enabled="true" filter="'filter_fifth'" name="'g_number_8_pos_05'"/>
+			<object enabled="true" filter="'filter_sixth'" name="'g_number_8_pos_06'"/>
+			<object enabled="true" filter="'filter_seventh'" name="'g_number_8_pos_07'"/>
+			<set_variables filter="'filter_sixth'" var_number_order="7"/>
+			<set_variables filter="'filter_fifth'" var_number_order="6"/>
+			<set_variables filter="'filter_fourth'" var_number_order="5"/>
+			<set_variables filter="'filter_third'" var_number_order="4"/>
+			<set_variables filter="'filter_second'" var_number_order="3"/>
+			<set_variables filter="'filter_first'" var_number_order="2"/>
+			<object enabled="false" filter="'filter_first'" name="'g_number_asterisk_pos_01'"/>
+			<object enabled="false" filter="'filter_second'" name="'g_number_asterisk_pos_02'"/>
+			<object enabled="false" filter="'filter_third'" name="'g_number_asterisk_pos_03'"/>
+			<object enabled="false" filter="'filter_fourth'" name="'g_number_asterisk_pos_04'"/>
+			<object enabled="false" filter="'filter_fifth'" name="'g_number_asterisk_pos_05'"/>
+			<object enabled="false" filter="'filter_sixth'" name="'g_number_asterisk_pos_06'"/>
+			<object enabled="false" filter="'filter_seventh'" name="'g_number_asterisk_pos_07'"/>
+		</sequence>
+		<sequence editable_state="true" name="'set_number_9'" triggable="true">
+			<object enabled="true" filter="'filter_first'" name="'g_number_9_pos_01'"/>
+			<object enabled="true" filter="'filter_second'" name="'g_number_9_pos_02'"/>
+			<object enabled="true" filter="'filter_third'" name="'g_number_9_pos_03'"/>
+			<object enabled="true" filter="'filter_fourth'" name="'g_number_9_pos_04'"/>
+			<object enabled="true" filter="'filter_fifth'" name="'g_number_9_pos_05'"/>
+			<object enabled="true" filter="'filter_sixth'" name="'g_number_9_pos_06'"/>
+			<object enabled="true" filter="'filter_seventh'" name="'g_number_9_pos_07'"/>
+			<set_variables filter="'filter_sixth'" var_number_order="7"/>
+			<set_variables filter="'filter_fifth'" var_number_order="6"/>
+			<set_variables filter="'filter_fourth'" var_number_order="5"/>
+			<set_variables filter="'filter_third'" var_number_order="4"/>
+			<set_variables filter="'filter_second'" var_number_order="3"/>
+			<set_variables filter="'filter_first'" var_number_order="2"/>
+			<object enabled="false" filter="'filter_first'" name="'g_number_asterisk_pos_01'"/>
+			<object enabled="false" filter="'filter_second'" name="'g_number_asterisk_pos_02'"/>
+			<object enabled="false" filter="'filter_third'" name="'g_number_asterisk_pos_03'"/>
+			<object enabled="false" filter="'filter_fourth'" name="'g_number_asterisk_pos_04'"/>
+			<object enabled="false" filter="'filter_fifth'" name="'g_number_asterisk_pos_05'"/>
+			<object enabled="false" filter="'filter_sixth'" name="'g_number_asterisk_pos_06'"/>
+			<object enabled="false" filter="'filter_seventh'" name="'g_number_asterisk_pos_07'"/>
+		</sequence>
+		
+		
+		<sequence editable_state="true" name="'state_vis_hide'" triggable="true">
+			<body enabled="false" name="'body_static'"/>
+			<object enabled="false" name="'g_c4'"/>
+			<object enabled="false" name="'g_number_0_pos_01'"/>
+			<object enabled="false" name="'g_number_0_pos_02'"/>
+			<object enabled="false" name="'g_number_0_pos_03'"/>
+			<object enabled="false" name="'g_number_0_pos_04'"/>
+			<object enabled="false" name="'g_number_0_pos_05'"/>
+			<object enabled="false" name="'g_number_0_pos_06'"/>
+			<object enabled="false" name="'g_number_0_pos_07'"/>
+			<object enabled="false" name="'g_number_1_pos_01'"/>
+			<object enabled="false" name="'g_number_1_pos_02'"/>
+			<object enabled="false" name="'g_number_1_pos_03'"/>
+			<object enabled="false" name="'g_number_1_pos_04'"/>
+			<object enabled="false" name="'g_number_1_pos_05'"/>
+			<object enabled="false" name="'g_number_1_pos_06'"/>
+			<object enabled="false" name="'g_number_1_pos_07'"/>
+			<object enabled="false" name="'g_number_2_pos_01'"/>
+			<object enabled="false" name="'g_number_2_pos_02'"/>
+			<object enabled="false" name="'g_number_2_pos_03'"/>
+			<object enabled="false" name="'g_number_2_pos_04'"/>
+			<object enabled="false" name="'g_number_2_pos_05'"/>
+			<object enabled="false" name="'g_number_2_pos_06'"/>
+			<object enabled="false" name="'g_number_2_pos_07'"/>
+			<object enabled="false" name="'g_number_3_pos_01'"/>
+			<object enabled="false" name="'g_number_3_pos_02'"/>
+			<object enabled="false" name="'g_number_3_pos_03'"/>
+			<object enabled="false" name="'g_number_3_pos_04'"/>
+			<object enabled="false" name="'g_number_3_pos_05'"/>
+			<object enabled="false" name="'g_number_3_pos_06'"/>
+			<object enabled="false" name="'g_number_3_pos_07'"/>
+			<object enabled="false" name="'g_number_4_pos_01'"/>
+			<object enabled="false" name="'g_number_4_pos_02'"/>
+			<object enabled="false" name="'g_number_4_pos_03'"/>
+			<object enabled="false" name="'g_number_4_pos_04'"/>
+			<object enabled="false" name="'g_number_4_pos_05'"/>
+			<object enabled="false" name="'g_number_4_pos_06'"/>
+			<object enabled="false" name="'g_number_4_pos_07'"/>
+			<object enabled="false" name="'g_number_5_pos_01'"/>
+			<object enabled="false" name="'g_number_5_pos_02'"/>
+			<object enabled="false" name="'g_number_5_pos_03'"/>
+			<object enabled="false" name="'g_number_5_pos_04'"/>
+			<object enabled="false" name="'g_number_5_pos_05'"/>
+			<object enabled="false" name="'g_number_5_pos_06'"/>
+			<object enabled="false" name="'g_number_5_pos_07'"/>
+			<object enabled="false" name="'g_number_6_pos_01'"/>
+			<object enabled="false" name="'g_number_6_pos_02'"/>
+			<object enabled="false" name="'g_number_6_pos_03'"/>
+			<object enabled="false" name="'g_number_6_pos_04'"/>
+			<object enabled="false" name="'g_number_6_pos_05'"/>
+			<object enabled="false" name="'g_number_6_pos_06'"/>
+			<object enabled="false" name="'g_number_6_pos_07'"/>
+			<object enabled="false" name="'g_number_7_pos_01'"/>
+			<object enabled="false" name="'g_number_7_pos_02'"/>
+			<object enabled="false" name="'g_number_7_pos_03'"/>
+			<object enabled="false" name="'g_number_7_pos_04'"/>
+			<object enabled="false" name="'g_number_7_pos_05'"/>
+			<object enabled="false" name="'g_number_7_pos_06'"/>
+			<object enabled="false" name="'g_number_7_pos_07'"/>
+			<object enabled="false" name="'g_number_8_pos_01'"/>
+			<object enabled="false" name="'g_number_8_pos_02'"/>
+			<object enabled="false" name="'g_number_8_pos_03'"/>
+			<object enabled="false" name="'g_number_8_pos_04'"/>
+			<object enabled="false" name="'g_number_8_pos_05'"/>
+			<object enabled="false" name="'g_number_8_pos_06'"/>
+			<object enabled="false" name="'g_number_8_pos_07'"/>
+			<object enabled="false" name="'g_number_9_pos_01'"/>
+			<object enabled="false" name="'g_number_9_pos_02'"/>
+			<object enabled="false" name="'g_number_9_pos_03'"/>
+			<object enabled="false" name="'g_number_9_pos_04'"/>
+			<object enabled="false" name="'g_number_9_pos_05'"/>
+			<object enabled="false" name="'g_number_9_pos_06'"/>
+			<object enabled="false" name="'g_number_9_pos_07'"/>
+			<object enabled="false" name="'g_number_asterisk_pos_01'"/>
+			<object enabled="false" name="'g_number_asterisk_pos_02'"/>
+			<object enabled="false" name="'g_number_asterisk_pos_03'"/>
+			<object enabled="false" name="'g_number_asterisk_pos_04'"/>
+			<object enabled="false" name="'g_number_asterisk_pos_05'"/>
+			<object enabled="false" name="'g_number_asterisk_pos_06'"/>
+			<object enabled="false" name="'g_number_asterisk_pos_07'"/>
+			<object enabled="false" name="'g_number_underscore_pos_01'"/>
+			<object enabled="false" name="'g_number_underscore_pos_02'"/>
+			<object enabled="false" name="'g_number_underscore_pos_03'"/>
+			<object enabled="false" name="'g_number_underscore_pos_04'"/>
+			<object enabled="false" name="'g_number_underscore_pos_05'"/>
+			<object enabled="false" name="'g_number_underscore_pos_06'"/>
+			<object enabled="false" name="'g_number_underscore_pos_07'"/>
+		</sequence>
+		
+		<sequence editable_state="true" name="'state_vis_show'" triggable="true">
+			<body enabled="true" name="'body_static'"/>
+			<object enabled="true" name="'g_c4'"/>
+			<object enabled="false" name="'g_number_0_pos_01'"/>
+			<object enabled="false" name="'g_number_0_pos_02'"/>
+			<object enabled="false" name="'g_number_0_pos_03'"/>
+			<object enabled="false" name="'g_number_0_pos_04'"/>
+			<object enabled="false" name="'g_number_0_pos_05'"/>
+			<object enabled="false" name="'g_number_0_pos_06'"/>
+			<object enabled="false" name="'g_number_0_pos_07'"/>
+			<object enabled="false" name="'g_number_1_pos_01'"/>
+			<object enabled="false" name="'g_number_1_pos_02'"/>
+			<object enabled="false" name="'g_number_1_pos_03'"/>
+			<object enabled="false" name="'g_number_1_pos_04'"/>
+			<object enabled="false" name="'g_number_1_pos_05'"/>
+			<object enabled="false" name="'g_number_1_pos_06'"/>
+			<object enabled="false" name="'g_number_1_pos_07'"/>
+			<object enabled="false" name="'g_number_2_pos_01'"/>
+			<object enabled="false" name="'g_number_2_pos_02'"/>
+			<object enabled="false" name="'g_number_2_pos_03'"/>
+			<object enabled="false" name="'g_number_2_pos_04'"/>
+			<object enabled="false" name="'g_number_2_pos_05'"/>
+			<object enabled="false" name="'g_number_2_pos_06'"/>
+			<object enabled="false" name="'g_number_2_pos_07'"/>
+			<object enabled="false" name="'g_number_3_pos_01'"/>
+			<object enabled="false" name="'g_number_3_pos_02'"/>
+			<object enabled="false" name="'g_number_3_pos_03'"/>
+			<object enabled="false" name="'g_number_3_pos_04'"/>
+			<object enabled="false" name="'g_number_3_pos_05'"/>
+			<object enabled="false" name="'g_number_3_pos_06'"/>
+			<object enabled="false" name="'g_number_3_pos_07'"/>
+			<object enabled="false" name="'g_number_4_pos_01'"/>
+			<object enabled="false" name="'g_number_4_pos_02'"/>
+			<object enabled="false" name="'g_number_4_pos_03'"/>
+			<object enabled="false" name="'g_number_4_pos_04'"/>
+			<object enabled="false" name="'g_number_4_pos_05'"/>
+			<object enabled="false" name="'g_number_4_pos_06'"/>
+			<object enabled="false" name="'g_number_4_pos_07'"/>
+			<object enabled="false" name="'g_number_5_pos_01'"/>
+			<object enabled="false" name="'g_number_5_pos_02'"/>
+			<object enabled="false" name="'g_number_5_pos_03'"/>
+			<object enabled="false" name="'g_number_5_pos_04'"/>
+			<object enabled="false" name="'g_number_5_pos_05'"/>
+			<object enabled="false" name="'g_number_5_pos_06'"/>
+			<object enabled="false" name="'g_number_5_pos_07'"/>
+			<object enabled="false" name="'g_number_6_pos_01'"/>
+			<object enabled="false" name="'g_number_6_pos_02'"/>
+			<object enabled="false" name="'g_number_6_pos_03'"/>
+			<object enabled="false" name="'g_number_6_pos_04'"/>
+			<object enabled="false" name="'g_number_6_pos_05'"/>
+			<object enabled="false" name="'g_number_6_pos_06'"/>
+			<object enabled="false" name="'g_number_6_pos_07'"/>
+			<object enabled="false" name="'g_number_7_pos_01'"/>
+			<object enabled="false" name="'g_number_7_pos_02'"/>
+			<object enabled="false" name="'g_number_7_pos_03'"/>
+			<object enabled="false" name="'g_number_7_pos_04'"/>
+			<object enabled="false" name="'g_number_7_pos_05'"/>
+			<object enabled="false" name="'g_number_7_pos_06'"/>
+			<object enabled="false" name="'g_number_7_pos_07'"/>
+			<object enabled="false" name="'g_number_8_pos_01'"/>
+			<object enabled="false" name="'g_number_8_pos_02'"/>
+			<object enabled="false" name="'g_number_8_pos_03'"/>
+			<object enabled="false" name="'g_number_8_pos_04'"/>
+			<object enabled="false" name="'g_number_8_pos_05'"/>
+			<object enabled="false" name="'g_number_8_pos_06'"/>
+			<object enabled="false" name="'g_number_8_pos_07'"/>
+			<object enabled="false" name="'g_number_9_pos_01'"/>
+			<object enabled="false" name="'g_number_9_pos_02'"/>
+			<object enabled="false" name="'g_number_9_pos_03'"/>
+			<object enabled="false" name="'g_number_9_pos_04'"/>
+			<object enabled="false" name="'g_number_9_pos_05'"/>
+			<object enabled="false" name="'g_number_9_pos_06'"/>
+			<object enabled="false" name="'g_number_9_pos_07'"/>
+			<object enabled="false" name="'g_number_asterisk_pos_01'"/>
+			<object enabled="false" name="'g_number_asterisk_pos_02'"/>
+			<object enabled="false" name="'g_number_asterisk_pos_03'"/>
+			<object enabled="false" name="'g_number_asterisk_pos_04'"/>
+			<object enabled="false" name="'g_number_asterisk_pos_05'"/>
+			<object enabled="false" name="'g_number_asterisk_pos_06'"/>
+			<object enabled="false" name="'g_number_asterisk_pos_07'"/>
+			<object enabled="false" name="'g_number_underscore_pos_01'"/>
+			<object enabled="false" name="'g_number_underscore_pos_02'"/>
+			<object enabled="false" name="'g_number_underscore_pos_03'"/>
+			<object enabled="false" name="'g_number_underscore_pos_04'"/>
+			<object enabled="false" name="'g_number_underscore_pos_05'"/>
+			<object enabled="false" name="'g_number_underscore_pos_06'"/>
+			<object enabled="false" name="'g_number_underscore_pos_07'"/>
+		</sequence>
+		
+		
+		<sequence editable_state="true" name="'set_all_asterisks'" triggable="true">
+			<object enabled="false" name="'g_number_0_pos_01'"/>
+			<object enabled="false" name="'g_number_0_pos_02'"/>
+			<object enabled="false" name="'g_number_0_pos_03'"/>
+			<object enabled="false" name="'g_number_0_pos_04'"/>
+			<object enabled="false" name="'g_number_0_pos_05'"/>
+			<object enabled="false" name="'g_number_0_pos_06'"/>
+			<object enabled="false" name="'g_number_0_pos_07'"/>
+			<object enabled="false" name="'g_number_1_pos_01'"/>
+			<object enabled="false" name="'g_number_1_pos_02'"/>
+			<object enabled="false" name="'g_number_1_pos_03'"/>
+			<object enabled="false" name="'g_number_1_pos_04'"/>
+			<object enabled="false" name="'g_number_1_pos_05'"/>
+			<object enabled="false" name="'g_number_1_pos_06'"/>
+			<object enabled="false" name="'g_number_1_pos_07'"/>
+			<object enabled="false" name="'g_number_2_pos_01'"/>
+			<object enabled="false" name="'g_number_2_pos_02'"/>
+			<object enabled="false" name="'g_number_2_pos_03'"/>
+			<object enabled="false" name="'g_number_2_pos_04'"/>
+			<object enabled="false" name="'g_number_2_pos_05'"/>
+			<object enabled="false" name="'g_number_2_pos_06'"/>
+			<object enabled="false" name="'g_number_2_pos_07'"/>
+			<object enabled="false" name="'g_number_3_pos_01'"/>
+			<object enabled="false" name="'g_number_3_pos_02'"/>
+			<object enabled="false" name="'g_number_3_pos_03'"/>
+			<object enabled="false" name="'g_number_3_pos_04'"/>
+			<object enabled="false" name="'g_number_3_pos_05'"/>
+			<object enabled="false" name="'g_number_3_pos_06'"/>
+			<object enabled="false" name="'g_number_3_pos_07'"/>
+			<object enabled="false" name="'g_number_4_pos_01'"/>
+			<object enabled="false" name="'g_number_4_pos_02'"/>
+			<object enabled="false" name="'g_number_4_pos_03'"/>
+			<object enabled="false" name="'g_number_4_pos_04'"/>
+			<object enabled="false" name="'g_number_4_pos_05'"/>
+			<object enabled="false" name="'g_number_4_pos_06'"/>
+			<object enabled="false" name="'g_number_4_pos_07'"/>
+			<object enabled="false" name="'g_number_5_pos_01'"/>
+			<object enabled="false" name="'g_number_5_pos_02'"/>
+			<object enabled="false" name="'g_number_5_pos_03'"/>
+			<object enabled="false" name="'g_number_5_pos_04'"/>
+			<object enabled="false" name="'g_number_5_pos_05'"/>
+			<object enabled="false" name="'g_number_5_pos_06'"/>
+			<object enabled="false" name="'g_number_5_pos_07'"/>
+			<object enabled="false" name="'g_number_6_pos_01'"/>
+			<object enabled="false" name="'g_number_6_pos_02'"/>
+			<object enabled="false" name="'g_number_6_pos_03'"/>
+			<object enabled="false" name="'g_number_6_pos_04'"/>
+			<object enabled="false" name="'g_number_6_pos_05'"/>
+			<object enabled="false" name="'g_number_6_pos_06'"/>
+			<object enabled="false" name="'g_number_6_pos_07'"/>
+			<object enabled="false" name="'g_number_7_pos_01'"/>
+			<object enabled="false" name="'g_number_7_pos_02'"/>
+			<object enabled="false" name="'g_number_7_pos_03'"/>
+			<object enabled="false" name="'g_number_7_pos_04'"/>
+			<object enabled="false" name="'g_number_7_pos_05'"/>
+			<object enabled="false" name="'g_number_7_pos_06'"/>
+			<object enabled="false" name="'g_number_7_pos_07'"/>
+			<object enabled="false" name="'g_number_8_pos_01'"/>
+			<object enabled="false" name="'g_number_8_pos_02'"/>
+			<object enabled="false" name="'g_number_8_pos_03'"/>
+			<object enabled="false" name="'g_number_8_pos_04'"/>
+			<object enabled="false" name="'g_number_8_pos_05'"/>
+			<object enabled="false" name="'g_number_8_pos_06'"/>
+			<object enabled="false" name="'g_number_8_pos_07'"/>
+			<object enabled="false" name="'g_number_9_pos_01'"/>
+			<object enabled="false" name="'g_number_9_pos_02'"/>
+			<object enabled="false" name="'g_number_9_pos_03'"/>
+			<object enabled="false" name="'g_number_9_pos_04'"/>
+			<object enabled="false" name="'g_number_9_pos_05'"/>
+			<object enabled="false" name="'g_number_9_pos_06'"/>
+			<object enabled="false" name="'g_number_9_pos_07'"/>
+			<object enabled="true" name="'g_number_asterisk_pos_01'"/>
+			<object enabled="true" name="'g_number_asterisk_pos_02'"/>
+			<object enabled="true" name="'g_number_asterisk_pos_03'"/>
+			<object enabled="true" name="'g_number_asterisk_pos_04'"/>
+			<object enabled="true" name="'g_number_asterisk_pos_05'"/>
+			<object enabled="true" name="'g_number_asterisk_pos_06'"/>
+			<object enabled="true" name="'g_number_asterisk_pos_07'"/>
+			<object enabled="false" name="'g_number_underscore_pos_01'"/>
+			<object enabled="false" name="'g_number_underscore_pos_02'"/>
+			<object enabled="false" name="'g_number_underscore_pos_03'"/>
+			<object enabled="false" name="'g_number_underscore_pos_04'"/>
+			<object enabled="false" name="'g_number_underscore_pos_05'"/>
+			<object enabled="false" name="'g_number_underscore_pos_06'"/>
+			<object enabled="false" name="'g_number_underscore_pos_07'"/>
+		</sequence>
+		
+		
+		<sequence editable_state="true" name="'set_all_underscores'" triggable="true">
+			<object enabled="false" name="'g_number_0_pos_01'"/>
+			<object enabled="false" name="'g_number_0_pos_02'"/>
+			<object enabled="false" name="'g_number_0_pos_03'"/>
+			<object enabled="false" name="'g_number_0_pos_04'"/>
+			<object enabled="false" name="'g_number_0_pos_05'"/>
+			<object enabled="false" name="'g_number_0_pos_06'"/>
+			<object enabled="false" name="'g_number_0_pos_07'"/>
+			<object enabled="false" name="'g_number_1_pos_01'"/>
+			<object enabled="false" name="'g_number_1_pos_02'"/>
+			<object enabled="false" name="'g_number_1_pos_03'"/>
+			<object enabled="false" name="'g_number_1_pos_04'"/>
+			<object enabled="false" name="'g_number_1_pos_05'"/>
+			<object enabled="false" name="'g_number_1_pos_06'"/>
+			<object enabled="false" name="'g_number_1_pos_07'"/>
+			<object enabled="false" name="'g_number_2_pos_01'"/>
+			<object enabled="false" name="'g_number_2_pos_02'"/>
+			<object enabled="false" name="'g_number_2_pos_03'"/>
+			<object enabled="false" name="'g_number_2_pos_04'"/>
+			<object enabled="false" name="'g_number_2_pos_05'"/>
+			<object enabled="false" name="'g_number_2_pos_06'"/>
+			<object enabled="false" name="'g_number_2_pos_07'"/>
+			<object enabled="false" name="'g_number_3_pos_01'"/>
+			<object enabled="false" name="'g_number_3_pos_02'"/>
+			<object enabled="false" name="'g_number_3_pos_03'"/>
+			<object enabled="false" name="'g_number_3_pos_04'"/>
+			<object enabled="false" name="'g_number_3_pos_05'"/>
+			<object enabled="false" name="'g_number_3_pos_06'"/>
+			<object enabled="false" name="'g_number_3_pos_07'"/>
+			<object enabled="false" name="'g_number_4_pos_01'"/>
+			<object enabled="false" name="'g_number_4_pos_02'"/>
+			<object enabled="false" name="'g_number_4_pos_03'"/>
+			<object enabled="false" name="'g_number_4_pos_04'"/>
+			<object enabled="false" name="'g_number_4_pos_05'"/>
+			<object enabled="false" name="'g_number_4_pos_06'"/>
+			<object enabled="false" name="'g_number_4_pos_07'"/>
+			<object enabled="false" name="'g_number_5_pos_01'"/>
+			<object enabled="false" name="'g_number_5_pos_02'"/>
+			<object enabled="false" name="'g_number_5_pos_03'"/>
+			<object enabled="false" name="'g_number_5_pos_04'"/>
+			<object enabled="false" name="'g_number_5_pos_05'"/>
+			<object enabled="false" name="'g_number_5_pos_06'"/>
+			<object enabled="false" name="'g_number_5_pos_07'"/>
+			<object enabled="false" name="'g_number_6_pos_01'"/>
+			<object enabled="false" name="'g_number_6_pos_02'"/>
+			<object enabled="false" name="'g_number_6_pos_03'"/>
+			<object enabled="false" name="'g_number_6_pos_04'"/>
+			<object enabled="false" name="'g_number_6_pos_05'"/>
+			<object enabled="false" name="'g_number_6_pos_06'"/>
+			<object enabled="false" name="'g_number_6_pos_07'"/>
+			<object enabled="false" name="'g_number_7_pos_01'"/>
+			<object enabled="false" name="'g_number_7_pos_02'"/>
+			<object enabled="false" name="'g_number_7_pos_03'"/>
+			<object enabled="false" name="'g_number_7_pos_04'"/>
+			<object enabled="false" name="'g_number_7_pos_05'"/>
+			<object enabled="false" name="'g_number_7_pos_06'"/>
+			<object enabled="false" name="'g_number_7_pos_07'"/>
+			<object enabled="false" name="'g_number_8_pos_01'"/>
+			<object enabled="false" name="'g_number_8_pos_02'"/>
+			<object enabled="false" name="'g_number_8_pos_03'"/>
+			<object enabled="false" name="'g_number_8_pos_04'"/>
+			<object enabled="false" name="'g_number_8_pos_05'"/>
+			<object enabled="false" name="'g_number_8_pos_06'"/>
+			<object enabled="false" name="'g_number_8_pos_07'"/>
+			<object enabled="false" name="'g_number_9_pos_01'"/>
+			<object enabled="false" name="'g_number_9_pos_02'"/>
+			<object enabled="false" name="'g_number_9_pos_03'"/>
+			<object enabled="false" name="'g_number_9_pos_04'"/>
+			<object enabled="false" name="'g_number_9_pos_05'"/>
+			<object enabled="false" name="'g_number_9_pos_06'"/>
+			<object enabled="false" name="'g_number_9_pos_07'"/>
+			<object enabled="false" name="'g_number_asterisk_pos_01'"/>
+			<object enabled="false" name="'g_number_asterisk_pos_02'"/>
+			<object enabled="false" name="'g_number_asterisk_pos_03'"/>
+			<object enabled="false" name="'g_number_asterisk_pos_04'"/>
+			<object enabled="false" name="'g_number_asterisk_pos_05'"/>
+			<object enabled="false" name="'g_number_asterisk_pos_06'"/>
+			<object enabled="false" name="'g_number_asterisk_pos_07'"/>
+			<object enabled="true" name="'g_number_underscore_pos_01'"/>
+			<object enabled="true" name="'g_number_underscore_pos_02'"/>
+			<object enabled="true" name="'g_number_underscore_pos_03'"/>
+			<object enabled="true" name="'g_number_underscore_pos_04'"/>
+			<object enabled="true" name="'g_number_underscore_pos_05'"/>
+			<object enabled="true" name="'g_number_underscore_pos_06'"/>
+			<object enabled="true" name="'g_number_underscore_pos_07'"/>
+		</sequence>
+		
+		
+		<sequence editable_state="true" name="'hide_all_text'" triggable="true">
+			<object enabled="false" name="'g_number_0_pos_01'"/>
+			<object enabled="false" name="'g_number_0_pos_02'"/>
+			<object enabled="false" name="'g_number_0_pos_03'"/>
+			<object enabled="false" name="'g_number_0_pos_04'"/>
+			<object enabled="false" name="'g_number_0_pos_05'"/>
+			<object enabled="false" name="'g_number_0_pos_06'"/>
+			<object enabled="false" name="'g_number_0_pos_07'"/>
+			<object enabled="false" name="'g_number_1_pos_01'"/>
+			<object enabled="false" name="'g_number_1_pos_02'"/>
+			<object enabled="false" name="'g_number_1_pos_03'"/>
+			<object enabled="false" name="'g_number_1_pos_04'"/>
+			<object enabled="false" name="'g_number_1_pos_05'"/>
+			<object enabled="false" name="'g_number_1_pos_06'"/>
+			<object enabled="false" name="'g_number_1_pos_07'"/>
+			<object enabled="false" name="'g_number_2_pos_01'"/>
+			<object enabled="false" name="'g_number_2_pos_02'"/>
+			<object enabled="false" name="'g_number_2_pos_03'"/>
+			<object enabled="false" name="'g_number_2_pos_04'"/>
+			<object enabled="false" name="'g_number_2_pos_05'"/>
+			<object enabled="false" name="'g_number_2_pos_06'"/>
+			<object enabled="false" name="'g_number_2_pos_07'"/>
+			<object enabled="false" name="'g_number_3_pos_01'"/>
+			<object enabled="false" name="'g_number_3_pos_02'"/>
+			<object enabled="false" name="'g_number_3_pos_03'"/>
+			<object enabled="false" name="'g_number_3_pos_04'"/>
+			<object enabled="false" name="'g_number_3_pos_05'"/>
+			<object enabled="false" name="'g_number_3_pos_06'"/>
+			<object enabled="false" name="'g_number_3_pos_07'"/>
+			<object enabled="false" name="'g_number_4_pos_01'"/>
+			<object enabled="false" name="'g_number_4_pos_02'"/>
+			<object enabled="false" name="'g_number_4_pos_03'"/>
+			<object enabled="false" name="'g_number_4_pos_04'"/>
+			<object enabled="false" name="'g_number_4_pos_05'"/>
+			<object enabled="false" name="'g_number_4_pos_06'"/>
+			<object enabled="false" name="'g_number_4_pos_07'"/>
+			<object enabled="false" name="'g_number_5_pos_01'"/>
+			<object enabled="false" name="'g_number_5_pos_02'"/>
+			<object enabled="false" name="'g_number_5_pos_03'"/>
+			<object enabled="false" name="'g_number_5_pos_04'"/>
+			<object enabled="false" name="'g_number_5_pos_05'"/>
+			<object enabled="false" name="'g_number_5_pos_06'"/>
+			<object enabled="false" name="'g_number_5_pos_07'"/>
+			<object enabled="false" name="'g_number_6_pos_01'"/>
+			<object enabled="false" name="'g_number_6_pos_02'"/>
+			<object enabled="false" name="'g_number_6_pos_03'"/>
+			<object enabled="false" name="'g_number_6_pos_04'"/>
+			<object enabled="false" name="'g_number_6_pos_05'"/>
+			<object enabled="false" name="'g_number_6_pos_06'"/>
+			<object enabled="false" name="'g_number_6_pos_07'"/>
+			<object enabled="false" name="'g_number_7_pos_01'"/>
+			<object enabled="false" name="'g_number_7_pos_02'"/>
+			<object enabled="false" name="'g_number_7_pos_03'"/>
+			<object enabled="false" name="'g_number_7_pos_04'"/>
+			<object enabled="false" name="'g_number_7_pos_05'"/>
+			<object enabled="false" name="'g_number_7_pos_06'"/>
+			<object enabled="false" name="'g_number_7_pos_07'"/>
+			<object enabled="false" name="'g_number_8_pos_01'"/>
+			<object enabled="false" name="'g_number_8_pos_02'"/>
+			<object enabled="false" name="'g_number_8_pos_03'"/>
+			<object enabled="false" name="'g_number_8_pos_04'"/>
+			<object enabled="false" name="'g_number_8_pos_05'"/>
+			<object enabled="false" name="'g_number_8_pos_06'"/>
+			<object enabled="false" name="'g_number_8_pos_07'"/>
+			<object enabled="false" name="'g_number_9_pos_01'"/>
+			<object enabled="false" name="'g_number_9_pos_02'"/>
+			<object enabled="false" name="'g_number_9_pos_03'"/>
+			<object enabled="false" name="'g_number_9_pos_04'"/>
+			<object enabled="false" name="'g_number_9_pos_05'"/>
+			<object enabled="false" name="'g_number_9_pos_06'"/>
+			<object enabled="false" name="'g_number_9_pos_07'"/>
+			<object enabled="false" name="'g_number_asterisk_pos_01'"/>
+			<object enabled="false" name="'g_number_asterisk_pos_02'"/>
+			<object enabled="false" name="'g_number_asterisk_pos_03'"/>
+			<object enabled="false" name="'g_number_asterisk_pos_04'"/>
+			<object enabled="false" name="'g_number_asterisk_pos_05'"/>
+			<object enabled="false" name="'g_number_asterisk_pos_06'"/>
+			<object enabled="false" name="'g_number_asterisk_pos_07'"/>
+			<object enabled="false" name="'g_number_underscore_pos_01'"/>
+			<object enabled="false" name="'g_number_underscore_pos_02'"/>
+			<object enabled="false" name="'g_number_underscore_pos_03'"/>
+			<object enabled="false" name="'g_number_underscore_pos_04'"/>
+			<object enabled="false" name="'g_number_underscore_pos_05'"/>
+			<object enabled="false" name="'g_number_underscore_pos_06'"/>
+			<object enabled="false" name="'g_number_underscore_pos_07'"/>
+			<set_variables var_number_order="1"/>
+		</sequence>
+		
+		
+		<sequence editable_state="true" name="'reset'" triggable="true">
+			<object enabled="false" name="'g_number_0_pos_01'"/>
+			<object enabled="false" name="'g_number_0_pos_02'"/>
+			<object enabled="false" name="'g_number_0_pos_03'"/>
+			<object enabled="false" name="'g_number_0_pos_04'"/>
+			<object enabled="false" name="'g_number_0_pos_05'"/>
+			<object enabled="false" name="'g_number_0_pos_06'"/>
+			<object enabled="false" name="'g_number_0_pos_07'"/>
+			<object enabled="false" name="'g_number_1_pos_01'"/>
+			<object enabled="false" name="'g_number_1_pos_02'"/>
+			<object enabled="false" name="'g_number_1_pos_03'"/>
+			<object enabled="false" name="'g_number_1_pos_04'"/>
+			<object enabled="false" name="'g_number_1_pos_05'"/>
+			<object enabled="false" name="'g_number_1_pos_06'"/>
+			<object enabled="false" name="'g_number_1_pos_07'"/>
+			<object enabled="false" name="'g_number_2_pos_01'"/>
+			<object enabled="false" name="'g_number_2_pos_02'"/>
+			<object enabled="false" name="'g_number_2_pos_03'"/>
+			<object enabled="false" name="'g_number_2_pos_04'"/>
+			<object enabled="false" name="'g_number_2_pos_05'"/>
+			<object enabled="false" name="'g_number_2_pos_06'"/>
+			<object enabled="false" name="'g_number_2_pos_07'"/>
+			<object enabled="false" name="'g_number_3_pos_01'"/>
+			<object enabled="false" name="'g_number_3_pos_02'"/>
+			<object enabled="false" name="'g_number_3_pos_03'"/>
+			<object enabled="false" name="'g_number_3_pos_04'"/>
+			<object enabled="false" name="'g_number_3_pos_05'"/>
+			<object enabled="false" name="'g_number_3_pos_06'"/>
+			<object enabled="false" name="'g_number_3_pos_07'"/>
+			<object enabled="false" name="'g_number_4_pos_01'"/>
+			<object enabled="false" name="'g_number_4_pos_02'"/>
+			<object enabled="false" name="'g_number_4_pos_03'"/>
+			<object enabled="false" name="'g_number_4_pos_04'"/>
+			<object enabled="false" name="'g_number_4_pos_05'"/>
+			<object enabled="false" name="'g_number_4_pos_06'"/>
+			<object enabled="false" name="'g_number_4_pos_07'"/>
+			<object enabled="false" name="'g_number_5_pos_01'"/>
+			<object enabled="false" name="'g_number_5_pos_02'"/>
+			<object enabled="false" name="'g_number_5_pos_03'"/>
+			<object enabled="false" name="'g_number_5_pos_04'"/>
+			<object enabled="false" name="'g_number_5_pos_05'"/>
+			<object enabled="false" name="'g_number_5_pos_06'"/>
+			<object enabled="false" name="'g_number_5_pos_07'"/>
+			<object enabled="false" name="'g_number_6_pos_01'"/>
+			<object enabled="false" name="'g_number_6_pos_02'"/>
+			<object enabled="false" name="'g_number_6_pos_03'"/>
+			<object enabled="false" name="'g_number_6_pos_04'"/>
+			<object enabled="false" name="'g_number_6_pos_05'"/>
+			<object enabled="false" name="'g_number_6_pos_06'"/>
+			<object enabled="false" name="'g_number_6_pos_07'"/>
+			<object enabled="false" name="'g_number_7_pos_01'"/>
+			<object enabled="false" name="'g_number_7_pos_02'"/>
+			<object enabled="false" name="'g_number_7_pos_03'"/>
+			<object enabled="false" name="'g_number_7_pos_04'"/>
+			<object enabled="false" name="'g_number_7_pos_05'"/>
+			<object enabled="false" name="'g_number_7_pos_06'"/>
+			<object enabled="false" name="'g_number_7_pos_07'"/>
+			<object enabled="false" name="'g_number_8_pos_01'"/>
+			<object enabled="false" name="'g_number_8_pos_02'"/>
+			<object enabled="false" name="'g_number_8_pos_03'"/>
+			<object enabled="false" name="'g_number_8_pos_04'"/>
+			<object enabled="false" name="'g_number_8_pos_05'"/>
+			<object enabled="false" name="'g_number_8_pos_06'"/>
+			<object enabled="false" name="'g_number_8_pos_07'"/>
+			<object enabled="false" name="'g_number_9_pos_01'"/>
+			<object enabled="false" name="'g_number_9_pos_02'"/>
+			<object enabled="false" name="'g_number_9_pos_03'"/>
+			<object enabled="false" name="'g_number_9_pos_04'"/>
+			<object enabled="false" name="'g_number_9_pos_05'"/>
+			<object enabled="false" name="'g_number_9_pos_06'"/>
+			<object enabled="false" name="'g_number_9_pos_07'"/>
+			<object enabled="true" name="'g_number_asterisk_pos_01'"/>
+			<object enabled="true" name="'g_number_asterisk_pos_02'"/>
+			<object enabled="true" name="'g_number_asterisk_pos_03'"/>
+			<object enabled="true" name="'g_number_asterisk_pos_04'"/>
+			<object enabled="true" name="'g_number_asterisk_pos_05'"/>
+			<object enabled="true" name="'g_number_asterisk_pos_06'"/>
+			<object enabled="true" name="'g_number_asterisk_pos_07'"/>
+			<object enabled="false" name="'g_number_underscore_pos_01'"/>
+			<object enabled="false" name="'g_number_underscore_pos_02'"/>
+			<object enabled="false" name="'g_number_underscore_pos_03'"/>
+			<object enabled="false" name="'g_number_underscore_pos_04'"/>
+			<object enabled="false" name="'g_number_underscore_pos_05'"/>
+			<object enabled="false" name="'g_number_underscore_pos_06'"/>
+			<object enabled="false" name="'g_number_underscore_pos_07'"/>
+			<set_variables var_number_order="1"/>
+		</sequence>
+		
+		
+	</unit>
+</sequence_manager>

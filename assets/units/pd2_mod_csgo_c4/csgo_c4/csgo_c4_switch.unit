@@ -1,0 +1,13 @@
+<unit type="gen" slot="1" >
+	<object file="units/pd2_mod_csgo_c4/csgo_c4/csgo_c4_switch" />
+	<network sync="spawn"/>
+	<extensions>
+		<extension class="ScriptUnitData" name="unit_data" />
+		<extension name="damage" class="UnitDamage" />
+		<extension name="interaction" class="UseInteractionExt">
+			<var name="tweak_data" value="hold_circuit_breaker" />
+			<var name="_interact_object" value="interaction_use_c4_switch"/>
+			<var name="drop_in_sync_tweak_data" value="true" /> 
+		</extension>
+	</extensions>
+</unit>

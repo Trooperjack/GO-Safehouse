@@ -1,0 +1,11 @@
+<sequence_manager>
+	<unit>
+		<sequence editable_state="true" name="'enable_interaction'" triggable="true">
+			<interaction enabled="true"/>
+		</sequence>
+		<sequence editable_state="true" name="'disable_interaction'" triggable="true">
+			<interaction enabled="false"/>
+		</sequence>
+		<sequence editable_state="false" name="'interact'" triggable="false"/>
+	</unit>
+</sequence_manager>

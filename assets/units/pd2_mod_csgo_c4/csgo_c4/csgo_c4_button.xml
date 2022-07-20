@@ -1,0 +1,47 @@
+<sequence_manager>
+	<unit>
+		<sequence editable_state="true" name="'enable_interaction'" triggable="true">
+			<interaction enabled="true"/>
+		</sequence>
+		<sequence editable_state="true" name="'disable_interaction'" triggable="true">
+			<interaction enabled="false"/>
+		</sequence>
+		<sequence editable_state="true" name="'set_button_01'" triggable="false">
+			<function extension="'interaction'" function="'set_tweak_data'" param1="'cas_button_01'"/>
+		</sequence>
+		<sequence editable_state="true" name="'set_button_02'" triggable="false">
+			<function extension="'interaction'" function="'set_tweak_data'" param1="'cas_button_02'"/>
+		</sequence>
+		<sequence editable_state="true" name="'set_button_03'" triggable="false">
+			<function extension="'interaction'" function="'set_tweak_data'" param1="'cas_button_03'"/>
+		</sequence>
+		<sequence editable_state="true" name="'set_button_04'" triggable="false">
+			<function extension="'interaction'" function="'set_tweak_data'" param1="'cas_button_04'"/>
+		</sequence>
+		<sequence editable_state="true" name="'set_button_05'" triggable="false">
+			<function extension="'interaction'" function="'set_tweak_data'" param1="'cas_button_05'"/>
+		</sequence>
+		<sequence editable_state="true" name="'set_button_06'" triggable="false">
+			<function extension="'interaction'" function="'set_tweak_data'" param1="'cas_button_06'"/>
+		</sequence>
+		<sequence editable_state="true" name="'set_button_07'" triggable="false">
+			<function extension="'interaction'" function="'set_tweak_data'" param1="'cas_button_07'"/>
+		</sequence>
+		<sequence editable_state="true" name="'set_button_08'" triggable="false">
+			<function extension="'interaction'" function="'set_tweak_data'" param1="'cas_button_08'"/>
+		</sequence>
+		<sequence editable_state="true" name="'set_button_09'" triggable="false">
+			<function extension="'interaction'" function="'set_tweak_data'" param1="'cas_button_09'"/>
+		</sequence>
+		<sequence editable_state="true" name="'set_button_0'" triggable="false">
+			<function extension="'interaction'" function="'set_tweak_data'" param1="'cas_button_0'"/>
+		</sequence>
+		<sequence editable_state="true" name="'set_button_clear'" triggable="false">
+			<function extension="'interaction'" function="'set_tweak_data'" param1="'cas_button_clear'"/>
+		</sequence>
+		<sequence editable_state="true" name="'set_button_enter'" triggable="false">
+			<function extension="'interaction'" function="'set_tweak_data'" param1="'cas_button_enter'"/>
+		</sequence>
+		<sequence editable_state="false" name="'interact'" triggable="false"/>
+	</unit>
+</sequence_manager>

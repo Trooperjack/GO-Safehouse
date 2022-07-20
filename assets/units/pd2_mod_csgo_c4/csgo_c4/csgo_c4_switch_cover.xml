@@ -1,0 +1,13 @@
+<sequence_manager>
+	<unit>
+		<sequence editable_state="true" name="'enable_interaction'" triggable="true">
+			<interaction enabled="true"/>
+		</sequence>
+		<sequence editable_state="true" name="'disable_interaction'" triggable="true">
+			<interaction enabled="false"/>
+		</sequence>
+		<sequence editable_state="false" name="'interact'" triggable="false">
+			<animation_group enabled="true" from="0/30" name="'anim_open_c4_switch_cover'" speed="1" to="15/30"/>
+		</sequence>
+	</unit>
+</sequence_manager>

@@ -1,0 +1,32 @@
+<table directory="assets">
+	<add>
+		
+		<material_config	path="units/pd2_mod_csgo_c4/csgo_c4/csgo_c4_mat"						unload="true"/>
+		
+		<unit				path="units/pd2_mod_csgo_c4/csgo_c4/csgo_c4"							unload="true"/>
+		<object				path="units/pd2_mod_csgo_c4/csgo_c4/csgo_c4"							unload="true"/>
+		<model				path="units/pd2_mod_csgo_c4/csgo_c4/csgo_c4"							unload="true"/>
+		<sequence_manager	path="units/pd2_mod_csgo_c4/csgo_c4/csgo_c4"							unload="true"/>
+		
+		<unit				path="units/pd2_mod_csgo_c4/csgo_c4/csgo_c4_button"						unload="true"/>
+		<object				path="units/pd2_mod_csgo_c4/csgo_c4/csgo_c4_button"						unload="true"/>
+		<model				path="units/pd2_mod_csgo_c4/csgo_c4/csgo_c4_button"						unload="true"/>
+		<sequence_manager	path="units/pd2_mod_csgo_c4/csgo_c4/csgo_c4_button"						unload="true"/>
+		
+		<unit				path="units/pd2_mod_csgo_c4/csgo_c4/csgo_c4_switch"						unload="true"/>
+		<object				path="units/pd2_mod_csgo_c4/csgo_c4/csgo_c4_switch"						unload="true"/>
+		<model				path="units/pd2_mod_csgo_c4/csgo_c4/csgo_c4_switch"						unload="true"/>
+		<sequence_manager	path="units/pd2_mod_csgo_c4/csgo_c4/csgo_c4_switch"						unload="true"/>
+		
+		<unit				path="units/pd2_mod_csgo_c4/csgo_c4/csgo_c4_switch_cover"				unload="true"/>
+		<object				path="units/pd2_mod_csgo_c4/csgo_c4/csgo_c4_switch_cover"				unload="true"/>
+		<model				path="units/pd2_mod_csgo_c4/csgo_c4/csgo_c4_switch_cover"				unload="true"/>
+		<sequence_manager	path="units/pd2_mod_csgo_c4/csgo_c4/csgo_c4_switch_cover"				unload="true"/>
+		
+		<dds				path="units/pd2_mod_csgo_c4/csgo_c4/textures/c4" 						unload="true"/>
+		<dds				path="units/pd2_mod_csgo_c4/csgo_c4/textures/c4_switch" 				unload="true"/>
+		<dds				path="units/pd2_mod_csgo_c4/csgo_c4/textures/csgo_c4_keypad_text_df" 	unload="true"/>
+		<texture			path="units/pd2_mod_csgo_c4/csgo_c4/textures/gsma_none" 				unload="true"/>
+		
+	</add>
+</table>

@@ -1,6 +1,7 @@
 <table min_lib_ver="4.5" name="GO Safehouse">
 	<Package file="scriptdata/tj_csgo_deSafeHouse_stage1.package" id="packages/levels/tj_csgo_deSafeHouse_stage1/world/world" unload_on_restart="true"/>
 	<Package file="scriptdata/pd2_mod_rex_bagfilling.package" id="packages/custom/pd2_mod_rex_bagfilling/bagfilling/world/world" unload_on_restart="true"/>
+	<Package file="scriptdata/pd2_mod_csgo_c4.package" id="packages/custom/pd2_mod_csgo_c4/csgo_c4/world/world" unload_on_restart="true"/>
 	<Hooks directory="hooks">
 		<hook file="Setup.lua" source_file="lib/setups/gamesetup"/>
 		<hook file="playermanager.lua" source_file="lib/managers/playermanager"/>
@@ -19,7 +20,9 @@
 		<loc file="english.txt" language="english"/>
 	</Localization>
 	<instance id="csgo_c4">
-		<packages/>
+		<packages>
+			<value_node value="packages/custom/pd2_mod_csgo_c4/csgo_c4/world/world"/>
+		</packages>
 	</instance>
 	<level ai_group_type="america" briefing_dialog="" id="tj_csgo_de_sh_level" intro_event="" max_bags="999" player_style="generic">
 		<assets>
