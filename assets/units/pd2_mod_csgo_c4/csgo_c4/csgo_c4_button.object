@@ -6,7 +6,7 @@
 	<bodies>
 		<body name="body_static" enabled="true" template="static">
 			<object name="rp_csgo_c4" />
-			<object name="g_c4_button" collision_type="box" padding="-2.5" />
+			<!--<object name="g_c4_button" collision_type="box" padding="-2.5" />-->
 		</body>
 	</bodies>
 

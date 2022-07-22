@@ -779,6 +779,7 @@
 			<object enabled="false" name="'g_number_underscore_pos_06'"/>
 			<object enabled="false" name="'g_number_underscore_pos_07'"/>
 			<set_variables var_number_order="1"/>
+			<sound action="'play'" event="'csgo_c4_initiate'" object="'g_c4'"/>
 		</sequence>
 		
 		

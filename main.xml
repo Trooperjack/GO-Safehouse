@@ -13,8 +13,49 @@
 		<hook file="interactiontweakdata.lua" source_file="lib/tweak_data/interactiontweakdata"/>
 		<hook file="units/beings/player/states/playerstandard.lua" source_file="lib/units/beings/player/states/playerstandard"/>
 	</Hooks>
+	<Sounds directory="assets/units/pd2_mod_csgo_c4/csgo_c4/sounds">
+		<sound id="csgo_c4_arm_bomb" path="arm_bomb.ogg"/>
+		<sound id="csgo_c4_bombdef" path="bombdef.ogg"/>
+		<sound id="csgo_c4_bombpl" path="bombpl.ogg"/>
+		<sound id="csgo_c4_beep1" path="c4_beep1.ogg"/>
+		<sound id="csgo_c4_disarmfinish" path="c4_disarmfinish.ogg"/>
+		<sound id="csgo_c4_disarmstart" path="c4_disarmstart.ogg"/>
+		<sound id="csgo_c4_draw" path="c4_draw.ogg"/>
+		<sound id="csgo_c4_explode1" path="c4_explode1.ogg"/>
+		<sound id="csgo_c4_initiate" path="c4_initiate.ogg"/>
+		<sound id="csgo_c4_plant" path="c4_plant.ogg"/>
+		<sound id="csgo_c4_key_press_1" path="key_press1.ogg"/>
+		<sound id="csgo_c4_key_press_2" path="key_press2.ogg"/>
+		<sound id="csgo_c4_key_press_3" path="key_press3.ogg"/>
+		<sound id="csgo_c4_key_press_4" path="key_press4.ogg"/>
+		<sound id="csgo_c4_key_press_5" path="key_press5.ogg"/>
+		<sound id="csgo_c4_key_press_6" path="key_press6.ogg"/>
+		<sound id="csgo_c4_key_press_7" path="key_press7.ogg"/>
+		<sound id="csgo_nvg_on" path="nvg_on.ogg"/>
+		<random id="csgo_c4_key_press_grp">
+			<sound id="csgo_c4_key_press_1"/>
+			<sound id="csgo_c4_key_press_2"/>
+			<sound id="csgo_c4_key_press_3"/>
+			<sound id="csgo_c4_key_press_4"/>
+			<sound id="csgo_c4_key_press_5"/>
+			<sound id="csgo_c4_key_press_6"/>
+			<sound id="csgo_c4_key_press_7"/>
+		</random>
+	</Sounds>
 	<Interactions>
 		<interaction action_text_id="hud_action_tj_csgo_sh_remove_safe_cover" based_on="breach_door" id="tj_csgo_sh_remove_safe_cover" text_id="hud_int_tj_csgo_sh_remove_safe_cover"/>
+		<interaction based_on="cas_button_0" id="csgo_c4_button_00" interact_distance="100"/>
+		<interaction based_on="cas_button_01" id="csgo_c4_button_01" interact_distance="100"/>
+		<interaction based_on="cas_button_02" id="csgo_c4_button_02" interact_distance="100"/>
+		<interaction based_on="cas_button_03" id="csgo_c4_button_03" interact_distance="100"/>
+		<interaction based_on="cas_button_04" id="csgo_c4_button_04" interact_distance="100"/>
+		<interaction based_on="cas_button_05" id="csgo_c4_button_05" interact_distance="100"/>
+		<interaction based_on="cas_button_06" id="csgo_c4_button_06" interact_distance="100"/>
+		<interaction based_on="cas_button_07" id="csgo_c4_button_07" interact_distance="100"/>
+		<interaction based_on="cas_button_08" id="csgo_c4_button_08" interact_distance="100"/>
+		<interaction based_on="cas_button_09" id="csgo_c4_button_09" interact_distance="100"/>
+		<interaction based_on="cas_button_enter" id="csgo_c4_button_enter" interact_distance="100"/>
+		<interaction based_on="cas_button_clear" id="csgo_c4_button_clear" interact_distance="100"/>
 	</Interactions>
 	<Localization default="english.txt" directory="loc">
 		<loc file="english.txt" language="english"/>

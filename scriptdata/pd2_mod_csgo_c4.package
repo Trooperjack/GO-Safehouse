@@ -28,5 +28,24 @@
 		<dds				path="units/pd2_mod_csgo_c4/csgo_c4/textures/csgo_c4_keypad_text_df" 	unload="true"/>
 		<texture			path="units/pd2_mod_csgo_c4/csgo_c4/textures/gsma_none" 				unload="true"/>
 		
+		<ogg				path="units/pd2_mod_csgo_c4/csgo_c4/sounds/arm_bomb" 					unload="true"/>
+		<ogg				path="units/pd2_mod_csgo_c4/csgo_c4/sounds/bombdef" 					unload="true"/>
+		<ogg				path="units/pd2_mod_csgo_c4/csgo_c4/sounds/bombpl" 						unload="true"/>
+		<ogg				path="units/pd2_mod_csgo_c4/csgo_c4/sounds/c4_beep1" 					unload="true"/>
+		<ogg				path="units/pd2_mod_csgo_c4/csgo_c4/sounds/c4_disarmfinish" 			unload="true"/>
+		<ogg				path="units/pd2_mod_csgo_c4/csgo_c4/sounds/c4_disarmstart" 				unload="true"/>
+		<ogg				path="units/pd2_mod_csgo_c4/csgo_c4/sounds/c4_draw" 					unload="true"/>
+		<ogg				path="units/pd2_mod_csgo_c4/csgo_c4/sounds/c4_explode1" 				unload="true"/>
+		<ogg				path="units/pd2_mod_csgo_c4/csgo_c4/sounds/c4_initiate" 				unload="true"/>
+		<ogg				path="units/pd2_mod_csgo_c4/csgo_c4/sounds/c4_plant" 					unload="true"/>
+		<ogg				path="units/pd2_mod_csgo_c4/csgo_c4/sounds/key_press1" 					unload="true"/>
+		<ogg				path="units/pd2_mod_csgo_c4/csgo_c4/sounds/key_press2" 					unload="true"/>
+		<ogg				path="units/pd2_mod_csgo_c4/csgo_c4/sounds/key_press3" 					unload="true"/>
+		<ogg				path="units/pd2_mod_csgo_c4/csgo_c4/sounds/key_press4" 					unload="true"/>
+		<ogg				path="units/pd2_mod_csgo_c4/csgo_c4/sounds/key_press5" 					unload="true"/>
+		<ogg				path="units/pd2_mod_csgo_c4/csgo_c4/sounds/key_press6" 					unload="true"/>
+		<ogg				path="units/pd2_mod_csgo_c4/csgo_c4/sounds/key_press7" 					unload="true"/>
+		<ogg				path="units/pd2_mod_csgo_c4/csgo_c4/sounds/nvg_on" 						unload="true"/>
+		
 	</add>
 </table>

@@ -76,10 +76,10 @@
 		<material_config 	path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/de_safehouse_safe_cover/de_safehouse_safe_cover_contour" unload="true"/>
 		
 		<!-- safe_cover_dest -->
-		<model 				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/de_safehouse_safe_cover/de_safehouse_safe_cover_dest" unload="true"/>
-		<object 			path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/de_safehouse_safe_cover/de_safehouse_safe_cover_dest" unload="true"/>
-		<unit 				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/de_safehouse_safe_cover/de_safehouse_safe_cover_dest" unload="true"/>
-		<sequence_manager 	path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/de_safehouse_safe_cover/de_safehouse_safe_cover_dest" unload="true"/>
+		<model 				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/de_safehouse_safe_cover_dest/de_safehouse_safe_cover_dest" unload="true"/>
+		<object 			path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/de_safehouse_safe_cover_dest/de_safehouse_safe_cover_dest" unload="true"/>
+		<unit 				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/de_safehouse_safe_cover_dest/de_safehouse_safe_cover_dest" unload="true"/>
+		<sequence_manager 	path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/de_safehouse_safe_cover_dest/de_safehouse_safe_cover_dest" unload="true"/>
 		
 		
 		
