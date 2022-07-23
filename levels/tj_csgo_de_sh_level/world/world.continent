@@ -9,9 +9,7 @@
 		</table>
 	</editor_groups>
 	<instances>
-		<table continent="world" folder="levels/instances/mods/GO Safehouse/csgo_c4/world" index_size="250" name="csgo_c4_001" position="-4518 -557 1121" rotation="0 0 0.707107 -0.707107" script="default" start_index="0"/>
-		<table continent="world" folder="levels/instances/mods/GO Safehouse/csgo_c4/world" index_size="250" name="csgo_c4_002" position="-6000 -500 1121" rotation="0 0 0.707107 -0.707107" script="default" start_index="250"/>
-		<table continent="world" folder="levels/instances/mods/GO Safehouse/csgo_c4/world" index_size="250" name="csgo_c4_003" position="-5500 -100 1121" rotation="0 0 0.707107 -0.707107" script="default" start_index="500"/>
+		<table continent="world" folder="levels/instances/mods/GO Safehouse/csgo_c4/world" index_size="250" mission_placed="true" name="csgo_c4_001" position="-4250 -3000 3000" rotation="0 0 0.707107 -0.707107" script="default" start_index="0"/>
 	</instances>
 	<statics>
 		<table>
@@ -173,9 +171,6 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="-4622 -664.918 1179.73" _prev_rot="0 -0.707107 0 -0.707107" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_interaction_enable" name="units/pd2_dlc_fish/props/lxy_int_prop_button/lxy_int_prop_button" name_id="lxy_int_prop_button_004" position="-4622 -664.918 1179.73" rotation="0 -0.707107 0 -0.707107" unit_id="100118"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-548.245 581.646 863" _prev_rot="0.541675 0.45452 -0.45452 -0.541675" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_interaction_disabled" name="units/pd2_dlc_chas/equipment/chas_interactable_c4/chas_interactable_c4" name_id="chas_interactable_c4_001" position="-548.245 581.646 863" rotation="0.541675 0.45452 -0.45452 -0.541675" unit_id="100119"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-5180 -1351 609.6" _prev_rot="0.640856 0.640856 -0.298836 0.298836" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_collision/dev_collision_8x3m" name_id="dev_collision_8x3m_001" only_visible_in_editor="true" position="-5180 -1351 609.6" rotation="-0.640856 -0.640856 0.298836 -0.298836" unit_id="100004"/>

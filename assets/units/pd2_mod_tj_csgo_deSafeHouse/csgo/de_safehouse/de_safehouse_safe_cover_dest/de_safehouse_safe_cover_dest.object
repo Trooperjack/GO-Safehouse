@@ -17,9 +17,9 @@
 	</decal_surfaces>
 	
 	<graphics>
-		<object name="g_safe_cover_dest_001" enabled="true" shadow_caster="true"/>
-		<object name="g_safe_cover_dest_002" enabled="true" shadow_caster="true"/>
-		<object name="g_safe_cover_dest_003" enabled="true" shadow_caster="true"/>
+		<object name="g_safe_cover_dest_001" enabled="true"/>
+		<object name="g_safe_cover_dest_002" enabled="true"/>
+		<object name="g_safe_cover_dest_003" enabled="true"/>
 	</graphics>
 	
 </dynamic_object>

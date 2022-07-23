@@ -13,25 +13,25 @@
 		<hook file="interactiontweakdata.lua" source_file="lib/tweak_data/interactiontweakdata"/>
 		<hook file="units/beings/player/states/playerstandard.lua" source_file="lib/units/beings/player/states/playerstandard"/>
 	</Hooks>
-	<Sounds directory="assets/units/pd2_mod_csgo_c4/csgo_c4/sounds">
-		<sound id="csgo_c4_arm_bomb" path="arm_bomb.ogg"/>
-		<sound id="csgo_c4_bombdef" path="bombdef.ogg"/>
-		<sound id="csgo_c4_bombpl" path="bombpl.ogg"/>
-		<sound id="csgo_c4_beep1" path="c4_beep1.ogg"/>
-		<sound id="csgo_c4_disarmfinish" path="c4_disarmfinish.ogg"/>
-		<sound id="csgo_c4_disarmstart" path="c4_disarmstart.ogg"/>
-		<sound id="csgo_c4_draw" path="c4_draw.ogg"/>
-		<sound id="csgo_c4_explode1" path="c4_explode1.ogg"/>
-		<sound id="csgo_c4_initiate" path="c4_initiate.ogg"/>
-		<sound id="csgo_c4_plant" path="c4_plant.ogg"/>
-		<sound id="csgo_c4_key_press_1" path="key_press1.ogg"/>
-		<sound id="csgo_c4_key_press_2" path="key_press2.ogg"/>
-		<sound id="csgo_c4_key_press_3" path="key_press3.ogg"/>
-		<sound id="csgo_c4_key_press_4" path="key_press4.ogg"/>
-		<sound id="csgo_c4_key_press_5" path="key_press5.ogg"/>
-		<sound id="csgo_c4_key_press_6" path="key_press6.ogg"/>
-		<sound id="csgo_c4_key_press_7" path="key_press7.ogg"/>
-		<sound id="csgo_nvg_on" path="nvg_on.ogg"/>
+	<Sounds auto_pause="true" directory="assets/units/pd2_mod_csgo_c4/csgo_c4/sounds">
+		<sound id="csgo_c4_arm_bomb" path="arm_bomb.ogg" relative="false"/>
+		<sound id="csgo_c4_bombdef" path="bombdef.ogg" relative="false"/>
+		<sound id="csgo_c4_bombpl" path="bombpl.ogg" relative="false"/>
+		<sound id="csgo_c4_beep1" path="c4_beep1.ogg" relative="false"/>
+		<sound id="csgo_c4_disarmfinish" path="c4_disarmfinish.ogg" relative="false"/>
+		<sound id="csgo_c4_disarmstart" path="c4_disarmstart.ogg" relative="false"/>
+		<sound id="csgo_c4_draw" path="c4_draw.ogg" relative="true"/>
+		<sound id="csgo_c4_explode1" path="c4_explode1.ogg" relative="false"/>
+		<sound id="csgo_c4_initiate" path="c4_initiate.ogg" relative="false"/>
+		<sound id="csgo_c4_plant" path="c4_plant.ogg" relative="false"/>
+		<sound id="csgo_c4_key_press_1" path="key_press1.ogg" relative="false"/>
+		<sound id="csgo_c4_key_press_2" path="key_press2.ogg" relative="false"/>
+		<sound id="csgo_c4_key_press_3" path="key_press3.ogg" relative="false"/>
+		<sound id="csgo_c4_key_press_4" path="key_press4.ogg" relative="false"/>
+		<sound id="csgo_c4_key_press_5" path="key_press5.ogg" relative="false"/>
+		<sound id="csgo_c4_key_press_6" path="key_press6.ogg" relative="false"/>
+		<sound id="csgo_c4_key_press_7" path="key_press7.ogg" relative="false"/>
+		<sound id="csgo_nvg_on" path="nvg_on.ogg" relative="false"/>
 		<random id="csgo_c4_key_press_grp">
 			<sound id="csgo_c4_key_press_1"/>
 			<sound id="csgo_c4_key_press_2"/>

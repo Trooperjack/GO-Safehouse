@@ -10,7 +10,8 @@
 	</bodies>
 
 	<graphics>
-		<object name="g_c4" enabled="true" shadow_caster="true"/>
+		<object name="g_c4" enabled="false"/>
+		<object name="g_c4_outline" enabled="true"/>
 		<object name="g_number_0_pos_1" enabled="false"/>
 		<object name="g_number_0_pos_2" enabled="false"/>
 		<object name="g_number_0_pos_3" enabled="false"/>
