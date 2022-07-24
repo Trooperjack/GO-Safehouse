@@ -4,4 +4,10 @@
 		<object path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" unload="true"/>
 		<unit path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" unload="true"/>
 	</add>
+	<add from_db="true" path="core/units/light_omni_seq/light_omni_seq" type="unit">
+		<unit path="core/units/light_omni_seq/light_omni_seq"/>
+		<object path="core/units/light_omni_seq/light_omni_seq"/>
+		<material_config path="core/material_configs/hub_elements"/>
+		<sequence_manager path="core/units/light_omni_seq/light_omni_seq"/>
+	</add>
 </table>

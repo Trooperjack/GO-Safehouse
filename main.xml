@@ -56,6 +56,9 @@
 		<interaction based_on="cas_button_09" id="csgo_c4_button_09" interact_distance="100"/>
 		<interaction based_on="cas_button_enter" id="csgo_c4_button_enter" interact_distance="100"/>
 		<interaction based_on="cas_button_clear" id="csgo_c4_button_clear" interact_distance="100"/>
+		<interaction based_on="hold_circuit_breaker" id="csgo_c4_switch_on" interact_distance="100" timer="1"/>
+		<interaction based_on="hold_remove_cover" id="csgo_c4_open_switch_cover" interact_distance="100" timer="0"/>
+		<interaction based_on="c4" id="csgo_c4_plant_c4"/>
 	</Interactions>
 	<Localization default="english.txt" directory="loc">
 		<loc file="english.txt" language="english"/>

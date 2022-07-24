@@ -8364,7 +8364,7 @@
 					<entry key="instance" type="string" value="csgo_c4_001"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="-4520 -560 1118.6"/>
+					<entry key="position" type="vector3" value="-4520 -560 1121"/>
 					<entry key="rotation" type="quaternion" value="0 0 0.707107 -0.707107"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
@@ -8382,7 +8382,7 @@
 					<entry key="instance" type="string" value="csgo_c4_001"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="-5995 -500 1118.6"/>
+					<entry key="position" type="vector3" value="-5995 -500 1121"/>
 					<entry key="rotation" type="quaternion" value="0 0 0.707107 -0.707107"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
@@ -8400,7 +8400,7 @@
 					<entry key="instance" type="string" value="csgo_c4_001"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="-5495 -100 1118.6"/>
+					<entry key="position" type="vector3" value="-5495 -100 1121"/>
 					<entry key="rotation" type="quaternion" value="0 0 0.707107 -0.707107"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>

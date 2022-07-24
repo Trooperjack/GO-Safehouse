@@ -1,0 +1,17 @@
+<materials version="3">
+	
+	<material name="materials/models/weapons/v_models/c4/c4" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_csgo_c4/csgo_c4/textures/c4"/>
+		<material_texture		file="units/pd2_mod_csgo_c4/csgo_c4/textures/gsma_none" />
+		<variable value="1.0 0.5 0.0" type="vector3" name="contour_color"/>
+        <variable value="1" type="scalar" name="contour_opacity"/>
+	</material>
+	
+	<material name="materials/models/weapons/v_models/c4/c4_switch" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+		<diffuse_texture	 	file="units/pd2_mod_csgo_c4/csgo_c4/textures/c4_switch"/>
+		<material_texture		file="units/pd2_mod_csgo_c4/csgo_c4/textures/gsma_none" />
+		<variable value="1.0 0.5 0.0" type="vector3" name="contour_color"/>
+        <variable value="1" type="scalar" name="contour_opacity"/>
+	</material>
+	
+</materials>

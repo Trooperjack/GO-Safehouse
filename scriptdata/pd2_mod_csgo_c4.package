@@ -2,6 +2,7 @@
 	<add>
 		
 		<material_config	path="units/pd2_mod_csgo_c4/csgo_c4/csgo_c4_mat"						unload="true"/>
+		<material_config	path="units/pd2_mod_csgo_c4/csgo_c4/csgo_c4_mat_contour"				unload="true"/>
 		
 		<unit				path="units/pd2_mod_csgo_c4/csgo_c4/csgo_c4"							unload="true"/>
 		<object				path="units/pd2_mod_csgo_c4/csgo_c4/csgo_c4"							unload="true"/>
@@ -46,6 +47,12 @@
 		<ogg				path="units/pd2_mod_csgo_c4/csgo_c4/sounds/key_press6" 					unload="true"/>
 		<ogg				path="units/pd2_mod_csgo_c4/csgo_c4/sounds/key_press7" 					unload="true"/>
 		<ogg				path="units/pd2_mod_csgo_c4/csgo_c4/sounds/nvg_on" 						unload="true"/>
-		
+				
+	</add>
+	<add from_db="true">
+		<unit path="core/units/light_omni_seq/light_omni_seq"/>
+		<object path="core/units/light_omni_seq/light_omni_seq"/>
+		<material_config path="core/material_configs/hub_elements"/>
+		<sequence_manager path="core/units/light_omni_seq/light_omni_seq"/>
 	</add>
 </table>

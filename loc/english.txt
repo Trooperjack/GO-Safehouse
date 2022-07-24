@@ -21,6 +21,24 @@
 	
 	"hud_int_tj_csgo_sh_remove_safe_cover" : 	"Hold $BTN_INTERACT to remove safe cover",
 	"hud_action_tj_csgo_sh_remove_safe_cover" : 	"Removing safe cover",
-
+	
+	"hud_csgo_c4_button_00":			"Press $BTN_INTERACT to enter 0",
+	"hud_csgo_c4_button_01":			"Press $BTN_INTERACT to enter 1",
+	"hud_csgo_c4_button_02":			"Press $BTN_INTERACT to enter 2",
+	"hud_csgo_c4_button_03":			"Press $BTN_INTERACT to enter 3",
+	"hud_csgo_c4_button_04":			"Press $BTN_INTERACT to enter 4",
+	"hud_csgo_c4_button_05":			"Press $BTN_INTERACT to enter 5",
+	"hud_csgo_c4_button_06":			"Press $BTN_INTERACT to enter 6",
+	"hud_csgo_c4_button_07":			"Press $BTN_INTERACT to enter 7",
+	"hud_csgo_c4_button_08":			"Press $BTN_INTERACT to enter 8",
+	"hud_csgo_c4_button_09":			"Press $BTN_INTERACT to enter 9",
+	"hud_csgo_c4_button_enter":			"Press $BTN_INTERACT to enter the code",
+	"hud_csgo_c4_button_clear":			"Press $BTN_INTERACT to clear the code",
+	"hud_csgo_c4_switch_on":			"Hold $BTN_INTERACT to switch on the C4",
+	"hud_action_csgo_c4_switch_on":		"Switching on the C4",
+	"hud_csgo_c4_open_switch_cover":	"Press $BTN_INTERACT to open the switch cover",
+	"hud_csgo_c4_plant_c4":				"Hold $BTN_INTERACT to plant the C4",
+	"hud_action_csgo_c4_plant_c4":		"Planting the C4",
+	
 	"":""
 }
