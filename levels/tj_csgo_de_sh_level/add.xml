@@ -538,8 +538,63 @@
 		<unit path="units/dev_tools/level_tools/dev_collision/dev_collision_1x1m"/>
 	</add>
 	<add from_db="true" path="units/dev_tools/level_tools/dev_collision/dev_collision_16x32m" type="unit">
-		<unit path="units/dev_tools/level_tools/dev_collision/dev_collision_16x32m"/>
-		<object path="units/dev_tools/level_tools/dev_collision/dev_collision_16x32m"/>
 		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_collision/dev_collision_16x32m"/>
+		<unit path="units/dev_tools/level_tools/dev_collision/dev_collision_16x32m"/>
+	</add>
+	<add from_db="true" path="units/world/props/apartment/residential/props_residential_tv" type="unit">
+		<material_config path="units/world/props/apartment/residential/props_residential_tv"/>
+		<object path="units/world/props/apartment/residential/props_residential_tv"/>
+		<unit path="units/world/props/apartment/residential/props_residential_tv"/>
+	</add>
+	<add from_db="true" path="units/world/props/apartment/residential/props_residential_tvshelf" type="unit">
+		<material_config path="units/world/props/apartment/residential/props_residential_tv"/>
+		<object path="units/world/props/apartment/residential/props_residential_tvshelf"/>
+		<unit path="units/world/props/apartment/residential/props_residential_tvshelf"/>
+	</add>
+	<add from_db="true" path="units/world/props/apartment/tv/tv_01" type="unit">
+		<material_config path="units/world/props/apartment/tv/tv_01"/>
+		<effect load="true" path="effects/payday2/particles/window/storefront_window_small"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<effect load="true" path="effects/particles/dest/security_camera_dest"/>
+		<effect load="true" path="effects/particles/dest/sparks_lamp_dest"/>
+		<object path="units/world/props/apartment/tv/tv_01"/>
+		<sequence_manager path="units/world/props/apartment/tv/tv_01"/>
+		<unit path="units/world/props/apartment/tv/tv_01"/>
+	</add>
+	<add from_db="true" path="units/world/props/diamond_heist/apartment/apartment_room/tv/tv" type="unit">
+		<material_config path="units/world/props/diamond_heist/apartment/apartment_room/tv/tv"/>
+		<object path="units/world/props/diamond_heist/apartment/apartment_room/tv/tv"/>
+		<unit path="units/world/props/diamond_heist/apartment/apartment_room/tv/tv"/>
+	</add>
+	<add from_db="true" path="units/world/props/tv/tv_lcd4" type="unit">
+		<material_config path="units/world/props/tv/tv_lcd4"/>
+		<object path="units/world/props/tv/tv_lcd4"/>
+		<unit path="units/world/props/tv/tv_lcd4"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_vit/props/vit_prop_peoc_tv/vit_prop_peoc_tv" type="unit">
+		<material_config path="units/pd2_dlc_vit/props/vit_prop_peoc_tv/vit_prop_peoc_tv"/>
+		<object path="units/pd2_dlc_vit/props/vit_prop_peoc_tv/vit_prop_peoc_tv"/>
+		<sequence_manager path="units/pd2_dlc_vit/props/vit_prop_peoc_tv/vit_prop_peoc_tv"/>
+		<unit path="units/pd2_dlc_vit/props/vit_prop_peoc_tv/vit_prop_peoc_tv"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_friend/props/sfm_prop_office_surveillance_tvstand/sfm_prop_office_surveillance_tvstand" type="unit">
+		<material_config path="units/pd2_dlc_friend/props/sfm_prop_office_surveillance_tvstand/sfm_prop_office_surveillance_tvstand"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/pd2_dlc_friend/props/sfm_prop_office_surveillance_tvstand/sfm_prop_office_surveillance_tvstand"/>
+		<unit path="units/pd2_dlc_friend/props/sfm_prop_office_surveillance_tvstand/sfm_prop_office_surveillance_tvstand"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_friend/props/sfm_prop_bedroom_tv/sfm_prop_bedroom_tv" type="unit">
+		<material_config path="units/pd2_dlc_friend/props/sfm_prop_bedroom_tv/sfm_prop_bedroom_tv"/>
+		<object path="units/pd2_dlc_friend/props/sfm_prop_bedroom_tv/sfm_prop_bedroom_tv"/>
+		<unit path="units/pd2_dlc_friend/props/sfm_prop_bedroom_tv/sfm_prop_bedroom_tv"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc1/props/res_prop_motel_tv/res_prop_motel_tv" type="unit">
+		<unit path="units/pd2_dlc1/props/res_prop_motel_tv/res_prop_motel_tv"/>
+		<object path="units/pd2_dlc1/props/res_prop_motel_tv/res_prop_motel_tv"/>
+		<material_config path="units/pd2_dlc1/props/res_prop_motel_tv/res_prop_motel_tv"/>
+		<sequence_manager path="units/pd2_dlc1/props/res_prop_motel_tv/res_prop_motel_tv"/>
+		<effect load="true" path="effects/payday2/particles/window/car_window_small"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
 	</add>
 </table>
