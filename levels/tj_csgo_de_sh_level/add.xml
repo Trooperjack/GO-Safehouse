@@ -590,11 +590,47 @@
 		<unit path="units/pd2_dlc_friend/props/sfm_prop_bedroom_tv/sfm_prop_bedroom_tv"/>
 	</add>
 	<add from_db="true" path="units/pd2_dlc1/props/res_prop_motel_tv/res_prop_motel_tv" type="unit">
-		<unit path="units/pd2_dlc1/props/res_prop_motel_tv/res_prop_motel_tv"/>
-		<object path="units/pd2_dlc1/props/res_prop_motel_tv/res_prop_motel_tv"/>
 		<material_config path="units/pd2_dlc1/props/res_prop_motel_tv/res_prop_motel_tv"/>
-		<sequence_manager path="units/pd2_dlc1/props/res_prop_motel_tv/res_prop_motel_tv"/>
-		<effect load="true" path="effects/payday2/particles/window/car_window_small"/>
 		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<effect load="true" path="effects/payday2/particles/window/car_window_small"/>
+		<object path="units/pd2_dlc1/props/res_prop_motel_tv/res_prop_motel_tv"/>
+		<sequence_manager path="units/pd2_dlc1/props/res_prop_motel_tv/res_prop_motel_tv"/>
+		<unit path="units/pd2_dlc1/props/res_prop_motel_tv/res_prop_motel_tv"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_cro/gen_prop_ladder_marker/gen_prop_ladder_marker" type="unit">
+		<material_config path="units/pd2_dlc_cro/gen_prop_ladder_marker/gen_prop_ladder_marker"/>
+		<object path="units/pd2_dlc_cro/gen_prop_ladder_marker/gen_prop_ladder_marker"/>
+		<sequence_manager path="units/pd2_dlc_cro/gen_prop_ladder_marker/gen_prop_ladder_marker"/>
+		<unit path="units/pd2_dlc_cro/gen_prop_ladder_marker/gen_prop_ladder_marker"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/dev_ladder/dev_ladder" type="unit">
+		<material_config path="units/dev_tools/dev_ladder/dev_ladder"/>
+		<object path="units/dev_tools/dev_ladder/dev_ladder"/>
+		<sequence_manager path="units/dev_tools/dev_ladder/dev_ladder"/>
+		<unit path="units/dev_tools/dev_ladder/dev_ladder"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_jerry/equipment/jry_int_placeable_ladder/jry_int_placeable_ladder" type="unit">
+		<material_config path="units/pd2_dlc_jerry/equipment/jry_int_placeable_ladder/jry_int_placeable_ladder"/>
+		<object path="units/pd2_dlc_jerry/equipment/jry_int_placeable_ladder/jry_int_placeable_ladder"/>
+		<sequence_manager path="units/pd2_dlc_jerry/equipment/jry_int_placeable_ladder/jry_int_placeable_ladder"/>
+		<unit path="units/pd2_dlc_jerry/equipment/jry_int_placeable_ladder/jry_int_placeable_ladder"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc1/pickups/gen_pku_c4_explosives/gen_pku_c4_explosives" type="unit">
+		<material_config path="units/pd2_dlc1/pickups/gen_pku_c4_explosives/gen_pku_c4_explosives"/>
+		<object path="units/pd2_dlc1/pickups/gen_pku_c4_explosives/gen_pku_c4_explosives"/>
+		<sequence_manager path="units/pd2_dlc1/pickups/gen_pku_c4_explosives/gen_pku_c4_explosives"/>
+		<unit path="units/pd2_dlc1/pickups/gen_pku_c4_explosives/gen_pku_c4_explosives"/>
+	</add>
+	<add from_db="true" path="units/payday2/equipment/gen_interactable_objective_laptop/gen_interactable_objective_laptop" type="unit">
+		<material_config path="units/payday2/equipment/gen_interactable_objective_laptop/gen_interactable_objective_laptop"/>
+		<object path="units/payday2/equipment/gen_interactable_objective_laptop/gen_interactable_objective_laptop"/>
+		<sequence_manager path="units/payday2/equipment/gen_interactable_objective_laptop/gen_interactable_objective_laptop"/>
+		<unit path="units/payday2/equipment/gen_interactable_objective_laptop/gen_interactable_objective_laptop"/>
+	</add>
+	<add from_db="true" path="units/payday2/equipment/gen_interactable_laptop/gen_interactable_laptop" type="unit">
+		<unit path="units/payday2/equipment/gen_interactable_laptop/gen_interactable_laptop"/>
+		<object path="units/payday2/equipment/gen_interactable_laptop/gen_interactable_laptop"/>
+		<material_config path="units/payday2/equipment/gen_interactable_laptop/gen_interactable_laptop"/>
+		<sequence_manager path="units/payday2/equipment/gen_interactable_laptop/gen_interactable_laptop"/>
 	</add>
 </table>

@@ -249,6 +249,33 @@
 				<ladder height="500" width="60"/>
 			</unit_data>
 		</table>
+		<table>
+			<unit_data _prev_pos="-643.9 573.508 824.265" _prev_rot="0 0 0.743145 -0.669131" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc1/pickups/gen_pku_c4_explosives/gen_pku_c4_explosives" name_id="gen_pku_c4_explosives_001" position="-643.9 573.508 824.265" rotation="0 0 0.743145 -0.669131" unit_id="100030"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-8997.46 -179.695 301.659" _prev_rot="-0.110616 0.0861747 0.698401 -0.701836" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc1/pickups/gen_pku_c4_explosives/gen_pku_c4_explosives" name_id="gen_pku_c4_explosives_002" position="-8997.46 -179.695 301.659" rotation="-0.110616 0.0861747 0.698401 -0.701836" unit_id="100031"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4877.54 -475.927 702.627" _prev_rot="0 0 0.993572 0.113203" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/equipment/gen_interactable_laptop/gen_interactable_laptop" name_id="gen_interactable_laptop_001" position="-4877.54 -475.927 702.627" rotation="0 0 0.993572 0.113203" unit_id="100032"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5297.65 -476.266 702.627" _prev_rot="0 0 0.993572 -0.113203" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/equipment/gen_interactable_laptop/gen_interactable_laptop" name_id="gen_interactable_laptop_002" position="-5297.65 -476.266 702.627" rotation="0 0 0.993572 -0.113203" unit_id="100033"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5629.22 -282.492 695.26" _prev_rot="0 0 0.0784591 -0.996917" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/equipment/gen_interactable_laptop/gen_interactable_laptop" name_id="gen_interactable_laptop_003" position="-5629.22 -282.492 695.26" rotation="0 0 0.0784591 -0.996917" unit_id="100034"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5901.77 -1256.38 726.44" _prev_rot="0 0 0.996917 0.0784591" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/equipment/gen_interactable_laptop/gen_interactable_laptop" name_id="gen_interactable_laptop_004" position="-5901.77 -1256.38 726.44" rotation="0 0 0.996917 0.0784591" unit_id="100035"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5682 -938.31 703.522" _prev_rot="0 0 0.165048 -0.986286" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/equipment/gen_interactable_laptop/gen_interactable_laptop" name_id="gen_interactable_laptop_005" position="-5682 -938.31 703.522" rotation="0 0 0.165048 -0.986286" unit_id="100036"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4544.44 -115.939 706.12" _prev_rot="0 0 0.113203 -0.993572" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/equipment/gen_interactable_laptop/gen_interactable_laptop" name_id="gen_interactable_laptop_006" position="-4544.44 -115.939 706.12" rotation="0 0 0.113203 -0.993572" unit_id="100037"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5298.41 -1273.69 1224.28" _prev_rot="0 0 0.998135 -0.061049" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/equipment/gen_interactable_laptop/gen_interactable_laptop" name_id="gen_interactable_laptop_007" position="-5298.41 -1273.69 1224.28" rotation="0 0 0.998135 -0.061049" unit_id="100038"/>
+		</table>
 	</statics>
 	<values>
 		<workviews/>
