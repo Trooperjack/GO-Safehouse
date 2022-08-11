@@ -14,6 +14,15 @@
 		<table continent="world" folder="levels/instances/unique/crojob/locked_ladder/world" index_size="250" name="locked_ladder_002" position="-5508 -2270 650" rotation="3.09086e-008 0.707107 0.707107 3.09086e-008" script="default" start_index="1000"/>
 		<table continent="world" folder="levels/instances/unique/crojob/locked_ladder/world" index_size="250" name="locked_ladder_003" position="-5587 -1620 600" rotation="-0.707107 0 0 -0.707107" script="default" start_index="1250"/>
 		<table continent="world" folder="levels/instances/unique/crojob/locked_ladder/world" index_size="250" name="locked_ladder_004" position="-6910 1606 550" rotation="-0.5 -0.5 -0.5 -0.5" script="default" start_index="1500"/>
+		<table continent="world" folder="levels/instances/unique/bex/bex_manual/world" index_size="250" mission_placed="true" name="bex_manual_001" position="-2100 -2000 3000" rotation="0 0 1 4.37114e-008" script="default" start_index="250"/>
+		<table continent="world" folder="levels/instances/unique/bex/bex_box/world" index_size="250" mission_placed="true" name="security_box_outside_red_001" position="-1000 -3000 3000" rotation="0 0 1 4.37114e-008" script="default" start_index="750"/>
+		<table continent="world" folder="levels/instances/unique/bex/bex_box/world" index_size="250" mission_placed="true" name="security_box_outside_blue_001" position="-1000 -2900 3000" rotation="0 0 1 4.37114e-008" script="default" start_index="1750"/>
+		<table continent="world" folder="levels/instances/unique/bex/bex_box/world" index_size="250" mission_placed="true" name="security_box_outside_green_001" position="-1000 -2800 3000" rotation="0 0 1 4.37114e-008" script="default" start_index="2000"/>
+		<table continent="world" folder="levels/instances/unique/bex/bex_box/world" index_size="250" mission_placed="true" name="security_box_outside_yellow_001" position="-1000 -2700 3000" rotation="0 0 1 4.37114e-008" script="default" start_index="2250"/>
+		<table continent="world" folder="levels/instances/unique/bex/bex_box/world" index_size="250" mission_placed="true" name="security_box_inside_red_001" position="-900 -3000 3000" rotation="0 0 1 4.37114e-008" script="default" start_index="2500"/>
+		<table continent="world" folder="levels/instances/unique/bex/bex_box/world" index_size="250" mission_placed="true" name="security_box_inside_blue_001" position="-900 -2900 3000" rotation="0 0 1 4.37114e-008" script="default" start_index="2750"/>
+		<table continent="world" folder="levels/instances/unique/bex/bex_box/world" index_size="250" mission_placed="true" name="security_box_inside_green_001" position="-900 -2800 3000" rotation="0 0 1 4.37114e-008" script="default" start_index="3000"/>
+		<table continent="world" folder="levels/instances/unique/bex/bex_box/world" index_size="250" mission_placed="true" name="security_box_inside_yellow_001" position="-900 -2700 3000" rotation="0 0 1 4.37114e-008" script="default" start_index="3250"/>
 	</instances>
 	<statics>
 		<table>
