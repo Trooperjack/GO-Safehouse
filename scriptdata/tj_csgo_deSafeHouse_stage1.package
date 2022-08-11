@@ -56,6 +56,12 @@
 		<object 			path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/floor_safe/floor_safe" unload="true"/>
 		<unit 				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/floor_safe/floor_safe" unload="true"/>
 		
+		<!-- floor_safe_handle_contour -->
+		<model 				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/floor_safe/floor_safe_handle_contour" unload="true"/>
+		<sequence_manager 	path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/floor_safe/floor_safe_handle_contour" unload="true"/>
+		<object 			path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/floor_safe/floor_safe_handle_contour" unload="true"/>
+		<unit 				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/floor_safe/floor_safe_handle_contour" unload="true"/>
+		
 		<!-- safe_cover_1 -->
 		<model 				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/de_safehouse_safe_cover/de_safehouse_safe_cover_1" unload="true"/>
 		<object 			path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/de_safehouse_safe_cover/de_safehouse_safe_cover_1" unload="true"/>

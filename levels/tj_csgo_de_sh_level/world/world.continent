@@ -315,6 +315,24 @@
 		<table>
 			<unit_data _prev_pos="-5910 -110 1110" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x1x3" name_id="dev_door_blocker_1x1x3_007" only_visible_in_editor="true" position="-5910 -140 1110" rotation="0 0 0 -1" unit_id="100079"/>
 		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 1 4.37114e-008" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="disable_interaction" name="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/floor_safe/floor_safe_handle_contour" name_id="floor_safe_handle_contour_001" position="0 0 0" rotation="0 0 1 -4.37114e-008" unit_id="100080"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-230 -2.01072e-005 0" _prev_rot="0 0 1 -4.37114e-008" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="disable_interaction" name="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/floor_safe/floor_safe_handle_contour" name_id="floor_safe_handle_contour_002" position="-1478.8 58.8 0" rotation="0 0 1 4.37114e-008" unit_id="100081"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-230 290 0" _prev_rot="0 0 1 -4.37114e-008" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="disable_interaction" name="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/floor_safe/floor_safe_handle_contour" name_id="floor_safe_handle_contour_003" position="-978.8 459 0" rotation="0 0 1 4.37114e-008" unit_id="100082"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1033.71 2107.97 10" _prev_rot="0 0 0.965926 -0.258819" continent="world" disable_collision="false" disable_on_ai_graph="true" disable_shadows="true" hide_on_projection_light="true" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="disable_interaction" name="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/de_safehouse_safe_cover/de_safehouse_safe_cover_1" name_id="de_safehouse_safe_cover_1_002" position="-1033.71 2107.97 10" rotation="0 0 0.965926 -0.258819" unit_id="100083"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-710.142 -3065.61 10" _prev_rot="0 0 0.965926 0.258819" continent="world" disable_collision="false" disable_on_ai_graph="true" disable_shadows="true" hide_on_projection_light="true" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="disable_interaction" name="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/de_safehouse_safe_cover/de_safehouse_safe_cover_2" name_id="de_safehouse_safe_cover_2_002" position="-710.142 -3065.61 10" rotation="0 0 0.965926 0.258819" unit_id="100084"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-433 1702 10" _prev_rot="0 0 0.984808 -0.173648" continent="world" disable_collision="false" disable_on_ai_graph="true" disable_shadows="true" hide_on_projection_light="true" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="disable_interaction" name="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/de_safehouse_safe_cover/de_safehouse_safe_cover_3" name_id="de_safehouse_safe_cover_3_002" position="-433 1702 10" rotation="0 0 0.984808 -0.173648" unit_id="100085"/>
+		</table>
 	</statics>
 	<values>
 		<workviews/>

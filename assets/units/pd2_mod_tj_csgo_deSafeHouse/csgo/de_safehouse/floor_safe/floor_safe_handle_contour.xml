@@ -1,0 +1,19 @@
+<sequence_manager>
+	<unit>
+		<sequence editable_state="true" name="'enable_interaction'" triggable="true">
+			<interaction enabled="true"/>
+		</sequence>
+		<sequence editable_state="true" name="'disable_interaction'" triggable="true">
+			<interaction enabled="false"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_vis_show'" triggable="true">
+			<body enabled="true" name="'body_static'"/>
+			<object enabled="true" name="'g_handle'"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_vis_hide'" triggable="true">
+			<body enabled="false" name="'body_static'"/>			
+			<object enabled="false" name="'g_handle'"/>
+		</sequence>
+		<sequence editable_state="false" name="'interact'" triggable="false"/>
+	</unit>
+</sequence_manager>
