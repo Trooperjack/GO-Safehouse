@@ -689,10 +689,15 @@
 		<unit path="units/pd2_dlc_fish/lxy_interactable_laptop/lxy_interactable_laptop"/>
 	</add>
 	<add from_db="true" path="units/pd2_dlc_casino/props/cas_prop_laptop_interactable/cas_prop_laptop_interactable" type="unit">
-		<unit path="units/pd2_dlc_casino/props/cas_prop_laptop_interactable/cas_prop_laptop_interactable"/>
-		<object path="units/pd2_dlc_casino/props/cas_prop_laptop_interactable/cas_prop_laptop_interactable"/>
 		<material_config path="units/pd2_dlc_casino/props/cas_prop_laptop_interactable/cas_prop_laptop_interactable"/>
-		<sequence_manager path="units/pd2_dlc_casino/props/cas_prop_laptop_interactable/cas_prop_laptop_interactable"/>
 		<material_config path="units/pd2_dlc_casino/props/cas_prop_laptop_interactable/cas_prop_laptop_interactable_no_outline"/>
+		<object path="units/pd2_dlc_casino/props/cas_prop_laptop_interactable/cas_prop_laptop_interactable"/>
+		<sequence_manager path="units/pd2_dlc_casino/props/cas_prop_laptop_interactable/cas_prop_laptop_interactable"/>
+		<unit path="units/pd2_dlc_casino/props/cas_prop_laptop_interactable/cas_prop_laptop_interactable"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x1x3" type="unit">
+		<unit path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x1x3"/>
+		<object path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x1x3"/>
+		<material_config path="core/material_configs/hub_elements"/>
 	</add>
 </table>

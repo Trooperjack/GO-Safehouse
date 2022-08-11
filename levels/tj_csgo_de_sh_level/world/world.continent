@@ -294,6 +294,27 @@
 		<table>
 			<unit_data _prev_pos="-5548.03 -162.967 1190.81" _prev_rot="0 0 -0.642788 -0.766044" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation=" interact_disabled " name="units/pd2_dlc_tag/equipment/tag_interactable_laptop/tag_interactable_laptop" name_id="tag_interactable_laptop_003" position="-5515.69 -264.489 1190.86" rotation="0 0 -0.642788 -0.766044" unit_id="100040"/>
 		</table>
+		<table>
+			<unit_data _prev_pos="-6430 -350 600" _prev_rot="-0 0 -0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x1x3" name_id="dev_door_blocker_1x1x3_001" only_visible_in_editor="true" position="-6460 -350 600" rotation="-0 0 -0 -1" unit_id="100041"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4340 -690 600" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x1x3" name_id="dev_door_blocker_1x1x3_002" only_visible_in_editor="true" position="-4330 -690 600" rotation="0 0 0 -1" unit_id="100046"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5670 -1040 1110" _prev_rot="-0 0 -0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x1x3" name_id="dev_door_blocker_1x1x3_003" only_visible_in_editor="true" position="-5670 -1060 1110" rotation="-0 0 -0 -1" unit_id="100075"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5810 -680 1110" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x1x3" name_id="dev_door_blocker_1x1x3_004" only_visible_in_editor="true" position="-5770 -680 1110" rotation="0 0 0 -1" unit_id="100076"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5380 -540 1110" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x1x3" name_id="dev_door_blocker_1x1x3_005" only_visible_in_editor="true" position="-5380 -580 1110" rotation="0 0 0 -1" unit_id="100077"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5090 -540 1110" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x1x3" name_id="dev_door_blocker_1x1x3_006" only_visible_in_editor="true" position="-5090 -580 1110" rotation="0 0 0 -1" unit_id="100078"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5910 -110 1110" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x1x3" name_id="dev_door_blocker_1x1x3_007" only_visible_in_editor="true" position="-5910 -140 1110" rotation="0 0 0 -1" unit_id="100079"/>
+		</table>
 	</statics>
 	<values>
 		<workviews/>
