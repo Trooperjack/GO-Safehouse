@@ -1,0 +1,122 @@
+<sequence_manager>
+	<unit>
+	
+	
+		<sequence editable_state="true" name="'door_open_left_back'" triggable="true">
+			<animation_group enabled="true" name="'ag_left_door'"/>
+		</sequence>
+		
+		
+		<sequence editable_state="true" name="'door_open_right_back'" triggable="true">
+			<animation_group enabled="true" name="'ag_right_door'"/>
+		</sequence>
+		
+		
+		<sequence editable_state="true" name="'open'" triggable="true">
+			<animation_group enabled="true" name="'ag_right_door'"/>
+			<animation_group enabled="true" name="'ag_left_door'"/>
+		</sequence>
+		
+		
+		<sequence editable_state="true" name="'closed'" triggable="true">
+			<animation_group enabled="true" from="1/30" name="'ag_right_door'" to="1/30"/>
+			<animation_group enabled="true" from="1/30" name="'ag_left_door'" to="1/30"/>
+		</sequence>
+		
+		
+		<sequence name="'default'" reset_editable_state="true">
+			<animation_group enabled="true" from="0/30" name="'ag_right_door'" to="0/30"/>
+			<animation_group enabled="true" from="0/30" name="'ag_left_door'" to="0/30"/>
+		</sequence>
+		
+		
+		<sequence editable_state="true" name="'anim_swat_entry_1'" triggable="true">
+			<animation_group enabled="true" from="0/30" name="'main_animation'" to="300/30"/>
+		</sequence>
+		<sequence editable_state="true" name="'anim_swat_entry_2'" triggable="true">
+			<animation_group enabled="true" from="320/30" name="'main_animation'" to="620/30"/>
+		</sequence>
+		<sequence editable_state="true" name="'anim_swat_entry_3'" triggable="true">
+			<animation_group enabled="true" from="640/30" name="'main_animation'" to="940/30"/>
+		</sequence>
+		<sequence editable_state="true" name="'anim_swat_entry_4'" triggable="true">
+			<animation_group enabled="true" from="960/30" name="'main_animation'" to="1260/30"/>
+		</sequence>
+		<sequence editable_state="true" name="'anim_swat_entry_5'" triggable="true">
+			<animation_group enabled="true" from="1280/30" name="'main_animation'" to="1580/30"/>
+		</sequence>
+		<sequence editable_state="true" name="'anim_swat_entry_6'" triggable="true">
+			<animation_group enabled="true" from="1600/30" name="'main_animation'" to="1900/30"/>
+		</sequence>
+		<sequence editable_state="true" name="'anim_swat_entry_7'" triggable="true">
+			<animation_group enabled="true" from="1920/30" name="'main_animation'" to="2220/30"/>
+		</sequence>
+		<sequence editable_state="true" name="'anim_swat_entry_8'" triggable="true">
+			<animation_group enabled="true" from="2240/30" name="'main_animation'" to="2540/30"/>
+		</sequence>
+		
+		
+		<sequence editable_state="true" name="'hide'" triggable="true">
+			<object enabled="false" name="'g_body'"/>
+			<object enabled="false" name="'g_lamp'"/>
+			<object enabled="false" name="'g_left_door'"/>
+			<object enabled="false" name="'g_left_door_net'"/>
+			<object enabled="false" name="'g_right_door'"/>
+			<object enabled="false" name="'g_right_door_net'"/>
+			<object enabled="false" name="'g_top_door'"/>
+			<object enabled="false" name="'g_net'"/>
+			<object enabled="false" name="'g_tires_back'"/>
+			<object enabled="false" name="'g_tire_left'"/>
+			<object enabled="false" name="'g_tire_right'"/>
+			<decal_mesh enabled="false" name="'g_body'"/>
+			<body enabled="false" name="'animated_body'"/>
+			<body enabled="false" name="'player_nono'"/>
+			<body enabled="false" name="'static_body2'"/>
+			<body enabled="false" name="'static_body3'"/>
+			<body enabled="false" name="'bag_blocker'"/>
+		</sequence>
+		
+		
+		<sequence editable_state="true" name="'show'" triggable="true">
+			<object enabled="true" name="'g_body'"/>
+			<object enabled="true" name="'g_left_door'"/>
+			<object enabled="true" name="'g_left_door_net'"/>
+			<object enabled="true" name="'g_right_door'"/>
+			<object enabled="true" name="'g_right_door_net'"/>
+			<object enabled="true" name="'g_top_door'"/>
+			<object enabled="true" name="'g_net'"/>
+			<object enabled="true" name="'g_tires_back'"/>
+			<object enabled="true" name="'g_tire_left'"/>
+			<object enabled="true" name="'g_tire_right'"/>
+			<decal_mesh enabled="true" name="'g_body'"/>
+			<body enabled="true" name="'animated_body'"/>
+			<body enabled="true" name="'player_nono'"/>
+			<body enabled="true" name="'static_body2'"/>
+			<body enabled="true" name="'static_body3'"/>
+			<body enabled="true" name="'bag_blocker'"/>
+		</sequence>
+		
+		
+		<sequence editable_state="true" name="'mull_plane_enable'" triggable="true">
+			<object enabled="true" name="'g_mull'"/>
+		</sequence>
+		
+		
+		<sequence editable_state="true" name="'mull_plane_disable'" triggable="true">
+			<object enabled="false" name="'g_mull'"/>
+		</sequence>
+		
+		
+		<sequence editable_state="true" name="'turret_spawn'" triggable="true">
+			<function extension="'base'" function="'spawn_module'" param1="'units/payday2/vehicles/gen_vehicle_turret/gen_vehicle_turret'" param2="'spawn_turret'" param3="'turret1'"/>
+		</sequence>
+		
+		
+		<sequence editable_state="true" name="'turret_activate'" triggable="true">
+			<animation_group enabled="true" from="0" name="'anim_door_top'"/>
+			<function extension="'base'" function="'run_module_function'" param1="'turret1'" param2="'base'" param3="'activate_as_module'" param4="'combatant'" param5="'swat_van_turret_module'"/>
+		</sequence>
+		
+		
+	</unit>
+</sequence_manager>

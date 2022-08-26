@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<unit type="gen" slot="1">
+	<object file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/swat_van/str_vehicle_swat_van" />
+	<network sync="spawn"/>
+		<dependencies>
+			<depends_on unit="units/payday2/vehicles/gen_vehicle_turret/gen_vehicle_turret" />
+		</dependencies>
+
+		<extensions>
+			<extension name="base" class="AnimatedVehicleBase">
+				<var name="_body_name" value="a_main_animation"/>
+			</extension>
+			<extension name="unit_data" class="ScriptUnitData" />
+			<extension name="damage" class="UnitDamage" />
+			<extension name="sync_unit_data" class="SyncUnitData" />
+	</extensions>
+</unit>

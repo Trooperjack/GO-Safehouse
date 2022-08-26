@@ -87,6 +87,13 @@
 		<unit 				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/de_safehouse_safe_cover_dest/de_safehouse_safe_cover_dest" unload="true"/>
 		<sequence_manager 	path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/de_safehouse_safe_cover_dest/de_safehouse_safe_cover_dest" unload="true"/>
 		
+		<!-- swat_van -->
+		<model 				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/swat_van/str_vehicle_swat_van" unload="true"/>
+		<sequence_manager 	path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/swat_van/str_vehicle_swat_van" unload="true"/>
+		<object 			path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/swat_van/str_vehicle_swat_van" unload="true"/>
+		<unit 				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/swat_van/str_vehicle_swat_van" unload="true"/>
+		<material_config 	path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/swat_van/str_vehicle_swat_van" unload="true"/>
+		
 		
 		
 		
