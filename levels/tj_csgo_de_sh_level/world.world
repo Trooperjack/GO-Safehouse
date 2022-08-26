@@ -635,7 +635,7 @@
 				</entry>
 			</entry>
 			<entry key="unit_data" type="table">
-				<entry key="_prev_pos" type="vector3" value="36.7305 2519.92 838.294"/>
+				<entry key="_prev_pos" type="vector3" value="-54.5002 2639.95 831.328"/>
 				<entry key="_prev_rot" type="quaternion" value="0 0 0 -1"/>
 				<entry key="continent" type="string" value="world"/>
 				<entry key="instance_data" type="boolean" value="false"/>
@@ -643,7 +643,7 @@
 				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
 				<entry key="name" type="string" value="core/units/nav_surface/nav_surface"/>
 				<entry key="name_id" type="string" value="nav_surface_029"/>
-				<entry key="position" type="vector3" value="36.7305 2519.92 838.294"/>
+				<entry key="position" type="vector3" value="-54.5002 2639.95 831.328"/>
 				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 				<entry key="unit_id" type="number" value="29"/>
 			</entry>
@@ -659,7 +659,7 @@
 				</entry>
 			</entry>
 			<entry key="unit_data" type="table">
-				<entry key="_prev_pos" type="vector3" value="-200.509 -3176.08 886.31"/>
+				<entry key="_prev_pos" type="vector3" value="-452.957 -3298.46 859.712"/>
 				<entry key="_prev_rot" type="quaternion" value="0 0 0 -1"/>
 				<entry key="continent" type="string" value="world"/>
 				<entry key="instance_data" type="boolean" value="false"/>
@@ -667,7 +667,7 @@
 				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
 				<entry key="name" type="string" value="core/units/nav_surface/nav_surface"/>
 				<entry key="name_id" type="string" value="nav_surface_030"/>
-				<entry key="position" type="vector3" value="-200.509 -3176.08 886.31"/>
+				<entry key="position" type="vector3" value="-452.957 -3298.46 859.712"/>
 				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 				<entry key="unit_id" type="number" value="30"/>
 			</entry>
@@ -1211,7 +1211,7 @@
 				</entry>
 			</entry>
 			<entry key="unit_data" type="table">
-				<entry key="_prev_pos" type="vector3" value="-10709.3 1779.14 172.41"/>
+				<entry key="_prev_pos" type="vector3" value="-10735.2 2337.9 183.697"/>
 				<entry key="_prev_rot" type="quaternion" value="0 0 0 -1"/>
 				<entry key="continent" type="string" value="world"/>
 				<entry key="instance_data" type="boolean" value="false"/>
@@ -1219,7 +1219,7 @@
 				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
 				<entry key="name" type="string" value="core/units/nav_surface/nav_surface"/>
 				<entry key="name_id" type="string" value="nav_surface_053"/>
-				<entry key="position" type="vector3" value="-10709.3 1779.14 172.41"/>
+				<entry key="position" type="vector3" value="-10735.2 2337.9 183.697"/>
 				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 				<entry key="unit_id" type="number" value="53"/>
 			</entry>
@@ -1235,7 +1235,7 @@
 				</entry>
 			</entry>
 			<entry key="unit_data" type="table">
-				<entry key="_prev_pos" type="vector3" value="-10671.6 -3018.19 101.341"/>
+				<entry key="_prev_pos" type="vector3" value="-10581.1 -3388.95 101.623"/>
 				<entry key="_prev_rot" type="quaternion" value="0 0 0 -1"/>
 				<entry key="continent" type="string" value="world"/>
 				<entry key="instance_data" type="boolean" value="false"/>
@@ -1243,7 +1243,7 @@
 				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
 				<entry key="name" type="string" value="core/units/nav_surface/nav_surface"/>
 				<entry key="name_id" type="string" value="nav_surface_054"/>
-				<entry key="position" type="vector3" value="-10671.6 -3018.19 101.341"/>
+				<entry key="position" type="vector3" value="-10581.1 -3388.95 101.623"/>
 				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 				<entry key="unit_id" type="number" value="54"/>
 			</entry>
