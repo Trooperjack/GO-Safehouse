@@ -701,15 +701,21 @@
 		<unit path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x1x3"/>
 	</add>
 	<add from_db="true" path="units/payday2/vehicles/anim_vehicle_car_police/anim_vehicle_car_police" type="unit">
-		<unit path="units/payday2/vehicles/anim_vehicle_car_police/anim_vehicle_car_police"/>
-		<object path="units/payday2/vehicles/anim_vehicle_car_police/anim_vehicle_car_police"/>
 		<material_config path="units/payday2/vehicles/anim_vehicle_car_police/anim_vehicle_car_police"/>
-		<sequence_manager path="units/payday2/vehicles/anim_vehicle_car_police/anim_vehicle_car_police"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
 		<animation_def path="anims/units/car/car"/>
-		<animation_subset path="anims/units/car/std"/>
 		<animation_state_machine path="anims/units/car/car"/>
 		<animation_states path="anims/units/car/std"/>
-		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<animation_subset path="anims/units/car/std"/>
 		<bnk path="soundbanks/regular_sfx"/>
+		<object path="units/payday2/vehicles/anim_vehicle_car_police/anim_vehicle_car_police"/>
+		<sequence_manager path="units/payday2/vehicles/anim_vehicle_car_police/anim_vehicle_car_police"/>
+		<unit path="units/payday2/vehicles/anim_vehicle_car_police/anim_vehicle_car_police"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/ene_sniper_1/ene_sniper_1" type="unit">
+		<unit path="units/payday2/characters/ene_sniper_1/ene_sniper_1"/>
+		<object path="units/payday2/characters/ene_sniper_1/ene_sniper_1"/>
+		<material_config path="units/payday2/characters/ene_sniper_1/ene_sniper_1"/>
+		<unit load="true" path="units/payday2/characters/ene_sniper_1/ene_sniper_1_husk"/>
 	</add>
 </table>
