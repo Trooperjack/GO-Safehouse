@@ -290,12 +290,12 @@
 	
 	
 	<!-- __________Backdrop Trees__________ -->
-	<material name="nature/miltree003" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<material name="nature/miltree003" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:DOUBLE_SIDED:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
 		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/nature/miltree003"/>
 		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
 		<variable				value="0.5" type="scalar" name="alpha_ref"/>
 	</material>
-	<material name="nature/miltree005" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<material name="nature/miltree005" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:DOUBLE_SIDED:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
 		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/nature/miltree005"/>
 		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
 		<variable				value="0.5" type="scalar" name="alpha_ref"/>
@@ -429,7 +429,7 @@
 		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props/cs_office/offpaintingf"/>
 		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
 	</material>
-	<material name="materials/models/props_foliage/urban_trees_branches03" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<material name="materials/models/props_foliage/urban_trees_branches03" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:DOUBLE_SIDED:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
 		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_foliage/urban_trees_branches03"/>
 		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
 		<variable 				value="0.1" type="scalar" name="alpha_ref"/>
@@ -438,7 +438,7 @@
 		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_foliage/urban_trees_barks01"/>
 		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
 	</material>
-	<material name="~NOyTYmKw/props_foliage/urban_trees_branches03_medium" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<material name="~NOyTYmKw/props_foliage/urban_trees_branches03_medium" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:DOUBLE_SIDED:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
 		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_foliage/urban_trees_branches03"/>
 		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
 		<variable 				value="0.5" type="scalar" name="alpha_ref"/>
@@ -447,12 +447,12 @@
 		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_foliage/trees_farm01"/>
 		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
 	</material>
-	<material name="materials/models/props_foliage/branches_farm01" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<material name="materials/models/props_foliage/branches_farm01" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:DOUBLE_SIDED:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
 		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_foliage/branchesfarm01_mip0"/>
 		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
 		<variable 				value="0.1" type="scalar" name="alpha_ref"/>
 	</material>
-	<material name="materials/models/props_foliage/urban_trees_branches02_still" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<material name="materials/models/props_foliage/urban_trees_branches02_still" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:DOUBLE_SIDED:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
 		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_foliage/urban_trees_branches02"/>
 		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
 		<variable 				value="0.1" type="scalar" name="alpha_ref"/>
@@ -629,7 +629,7 @@
 		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_foliage/urban_trees_barks01"/>
 		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
 	</material>
-	<material name="materials/models/props_foliage/urban_trees_branches03_small" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+	<material name="materials/models/props_foliage/urban_trees_branches03_small" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:DOUBLE_SIDED:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
 		<diffuse_texture	 	file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/models/props_foliage/urban_trees_branches03"/>
 		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
 		<variable 				value="0.1" type="scalar" name="alpha_ref"/>
