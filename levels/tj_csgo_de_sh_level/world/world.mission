@@ -28594,10 +28594,6 @@
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="100984"/>
 						</entry>
-						<entry index="2" type="table">
-							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100986"/>
-						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-2800 -100 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
@@ -28614,6 +28610,10 @@
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100987"/>
+						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-2690 -100 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
@@ -28642,7 +28642,7 @@
 					<entry key="on_executed" type="table">
 					</entry>
 					<entry key="participate_to_group_ai" type="boolean" value="true"/>
-					<entry key="position" type="vector3" value="-8160.36 -2683.12 487.163"/>
+					<entry key="position" type="vector3" value="-10835.1 2430.92 184.098"/>
 					<entry key="rotation" type="quaternion" value="0 0 1 -0"/>
 					<entry key="spawn_action" type="string" value="none"/>
 					<entry key="team" type="string" value="default"/>
@@ -28667,7 +28667,7 @@
 					<entry key="interval" type="number" value="0"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="-8160.36 -2683.12 707.163"/>
+					<entry key="position" type="vector3" value="-10835.1 2430.92 404.099"/>
 					<entry key="preferred_spawn_groups" type="table">
 						<entry index="1" type="string" value="Phalanx"/>
 					</entry>
@@ -28694,8 +28694,8 @@
 					<entry key="on_executed" type="table">
 					</entry>
 					<entry key="participate_to_group_ai" type="boolean" value="true"/>
-					<entry key="position" type="vector3" value="-7888.06 1709.69 528.048"/>
-					<entry key="rotation" type="quaternion" value="0 0 -4.37114e-008 -1"/>
+					<entry key="position" type="vector3" value="-42.0163 2660.1 833.936"/>
+					<entry key="rotation" type="quaternion" value="0 0 1 -1.06581e-014"/>
 					<entry key="spawn_action" type="string" value="none"/>
 					<entry key="team" type="string" value="default"/>
 					<entry key="trigger_times" type="number" value="0"/>
@@ -28719,11 +28719,11 @@
 					<entry key="interval" type="number" value="0"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="-7888.06 1709.7 748.048"/>
+					<entry key="position" type="vector3" value="-42.0163 2660.09 1053.94"/>
 					<entry key="preferred_spawn_groups" type="table">
 						<entry index="1" type="string" value="Phalanx"/>
 					</entry>
-					<entry key="rotation" type="quaternion" value="0 0 -0.707107 -0.707107"/>
+					<entry key="rotation" type="quaternion" value="0 0 0.707107 -0.707107"/>
 					<entry key="spawn_type" type="string" value="ordered"/>
 					<entry key="team" type="string" value="default"/>
 					<entry key="trigger_times" type="number" value="0"/>
@@ -28739,6 +28739,10 @@
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100985"/>
+						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-2650 -100 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
@@ -28871,34 +28875,6 @@
 				</entry>
 			</entry>
 			<entry index="988" type="table">
-				<entry key="class" type="string" value="ElementRandom"/>
-				<entry key="editor_name" type="string" value="random_winters_so"/>
-				<entry key="id" type="number" value="100986"/>
-				<entry key="module" type="string" value="CoreElementRandom"/>
-				<entry key="script" type="string" value="default"/>
-				<entry key="values" type="table">
-					<entry key="amount" type="number" value="1"/>
-					<entry key="amount_random" type="number" value="0"/>
-					<entry key="base_delay" type="number" value="0"/>
-					<entry key="enabled" type="boolean" value="true"/>
-					<entry key="execute_on_startup" type="boolean" value="false"/>
-					<entry key="ignore_disabled" type="boolean" value="true"/>
-					<entry key="on_executed" type="table">
-						<entry index="1" type="table">
-							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100987"/>
-						</entry>
-						<entry index="2" type="table">
-							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100985"/>
-						</entry>
-					</entry>
-					<entry key="position" type="vector3" value="-2600 -100 3000"/>
-					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
-					<entry key="trigger_times" type="number" value="0"/>
-				</entry>
-			</entry>
-			<entry index="989" type="table">
 				<entry key="class" type="string" value="MissionScriptElement"/>
 				<entry key="editor_name" type="string" value="exec_snipers_stuff"/>
 				<entry key="id" type="number" value="100988"/>
@@ -28919,7 +28895,7 @@
 					<entry key="trigger_times" type="number" value="1"/>
 				</entry>
 			</entry>
-			<entry index="990" type="table">
+			<entry index="989" type="table">
 				<entry key="class" type="string" value="ElementGlobalEventTrigger"/>
 				<entry key="editor_name" type="string" value="on_start_assault"/>
 				<entry key="id" type="number" value="100989"/>
@@ -28945,7 +28921,7 @@
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
-			<entry index="991" type="table">
+			<entry index="990" type="table">
 				<entry key="class" type="string" value="ElementLogicChance"/>
 				<entry key="editor_name" type="string" value="chance_sniper"/>
 				<entry key="id" type="number" value="100990"/>
@@ -28963,7 +28939,7 @@
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
-			<entry index="992" type="table">
+			<entry index="991" type="table">
 				<entry key="class" type="string" value="ElementLogicChanceTrigger"/>
 				<entry key="editor_name" type="string" value="if_chance_sniper_FAILED"/>
 				<entry key="id" type="number" value="100991"/>
@@ -28992,14 +28968,14 @@
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
-			<entry index="993" type="table">
+			<entry index="992" type="table">
 				<entry key="class" type="string" value="MissionScriptElement"/>
 				<entry key="editor_name" type="string" value="exec_sniper_loop_START"/>
 				<entry key="id" type="number" value="100992"/>
 				<entry key="module" type="string" value="CoreMissionScriptElement"/>
 				<entry key="script" type="string" value="default"/>
 				<entry key="values" type="table">
-					<entry key="base_delay" type="number" value="45"/>
+					<entry key="base_delay" type="number" value="35"/>
 					<entry key="base_delay_rand" type="number" value="10"/>
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
@@ -29014,7 +28990,7 @@
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
-			<entry index="994" type="table">
+			<entry index="993" type="table">
 				<entry key="class" type="string" value="ElementLogicChanceTrigger"/>
 				<entry key="editor_name" type="string" value="if_chance_sniper_SUCCESS"/>
 				<entry key="id" type="number" value="100993"/>
@@ -29047,7 +29023,7 @@
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
-			<entry index="995" type="table">
+			<entry index="994" type="table">
 				<entry key="class" type="string" value="ElementLogicChanceOperator"/>
 				<entry key="editor_name" type="string" value="add_chance_sniper_+5"/>
 				<entry key="id" type="number" value="100994"/>
@@ -29069,7 +29045,7 @@
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
-			<entry index="996" type="table">
+			<entry index="995" type="table">
 				<entry key="class" type="string" value="ElementLogicChanceOperator"/>
 				<entry key="editor_name" type="string" value="set_chance_sniper_==20"/>
 				<entry key="id" type="number" value="100995"/>
@@ -29091,7 +29067,7 @@
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
-			<entry index="997" type="table">
+			<entry index="996" type="table">
 				<entry key="class" type="string" value="ElementCounter"/>
 				<entry key="editor_name" type="string" value="int_snipers"/>
 				<entry key="id" type="number" value="100996"/>
@@ -29111,7 +29087,7 @@
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
-			<entry index="998" type="table">
+			<entry index="997" type="table">
 				<entry key="class" type="string" value="ElementCounterFilter"/>
 				<entry key="editor_name" type="string" value="if_int_snipers_&lt;4"/>
 				<entry key="id" type="number" value="100997"/>
@@ -29142,7 +29118,7 @@
 					<entry key="value" type="number" value="4"/>
 				</entry>
 			</entry>
-			<entry index="999" type="table">
+			<entry index="998" type="table">
 				<entry key="class" type="string" value="ElementCounterFilter"/>
 				<entry key="editor_name" type="string" value="if_int_snipers_>=4"/>
 				<entry key="id" type="number" value="100998"/>
@@ -29165,7 +29141,7 @@
 					<entry key="value" type="number" value="4"/>
 				</entry>
 			</entry>
-			<entry index="1000" type="table">
+			<entry index="999" type="table">
 				<entry key="class" type="string" value="MissionScriptElement"/>
 				<entry key="editor_name" type="string" value="exec_sniper_loop_LOOP"/>
 				<entry key="id" type="number" value="100999"/>
@@ -29186,7 +29162,7 @@
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
-			<entry index="1001" type="table">
+			<entry index="1000" type="table">
 				<entry key="class" type="string" value="MissionScriptElement"/>
 				<entry key="editor_name" type="string" value="exec_spawn_random_sniper"/>
 				<entry key="id" type="number" value="101000"/>
@@ -29207,7 +29183,7 @@
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
-			<entry index="1002" type="table">
+			<entry index="1001" type="table">
 				<entry key="class" type="string" value="ElementEnemyDummyTrigger"/>
 				<entry key="editor_name" type="string" value="on_any_enemy_sniper_spawned"/>
 				<entry key="id" type="number" value="101001"/>
@@ -29235,7 +29211,7 @@
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
-			<entry index="1003" type="table">
+			<entry index="1002" type="table">
 				<entry key="class" type="string" value="ElementEnemyDummyTrigger"/>
 				<entry key="editor_name" type="string" value="on_any_enemy_sniper_death"/>
 				<entry key="id" type="number" value="101002"/>
@@ -29257,13 +29233,17 @@
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="101004"/>
 						</entry>
+						<entry index="2" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100994"/>
+						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-2100 300 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
-			<entry index="1004" type="table">
+			<entry index="1003" type="table">
 				<entry key="class" type="string" value="ElementCounterOperator"/>
 				<entry key="editor_name" type="string" value="add_int_snipers_+1"/>
 				<entry key="id" type="number" value="101003"/>
@@ -29284,7 +29264,7 @@
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
-			<entry index="1005" type="table">
+			<entry index="1004" type="table">
 				<entry key="class" type="string" value="ElementCounterOperator"/>
 				<entry key="editor_name" type="string" value="subtract_int_snipers_-1"/>
 				<entry key="id" type="number" value="101004"/>
@@ -29305,7 +29285,7 @@
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
-			<entry index="1006" type="table">
+			<entry index="1005" type="table">
 				<entry key="class" type="string" value="ElementRandom"/>
 				<entry key="editor_name" type="string" value="random_spawn_sniper"/>
 				<entry key="id" type="number" value="101005"/>
@@ -29341,7 +29321,7 @@
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
-			<entry index="1007" type="table">
+			<entry index="1006" type="table">
 				<entry key="class" type="string" value="ElementSpawnEnemyDummy"/>
 				<entry key="editor_name" type="string" value="spawn_enemy_sniper_001a"/>
 				<entry key="id" type="number" value="101006"/>
@@ -29373,7 +29353,7 @@
 					<entry key="voice" type="number" value="0"/>
 				</entry>
 			</entry>
-			<entry index="1008" type="table">
+			<entry index="1007" type="table">
 				<entry key="class" type="string" value="ElementSpawnEnemyDummy"/>
 				<entry key="editor_name" type="string" value="spawn_enemy_sniper_002"/>
 				<entry key="id" type="number" value="101007"/>
@@ -29405,7 +29385,7 @@
 					<entry key="voice" type="number" value="0"/>
 				</entry>
 			</entry>
-			<entry index="1009" type="table">
+			<entry index="1008" type="table">
 				<entry key="class" type="string" value="ElementSpawnEnemyDummy"/>
 				<entry key="editor_name" type="string" value="spawn_enemy_sniper_003"/>
 				<entry key="id" type="number" value="101008"/>
@@ -29437,7 +29417,7 @@
 					<entry key="voice" type="number" value="0"/>
 				</entry>
 			</entry>
-			<entry index="1010" type="table">
+			<entry index="1009" type="table">
 				<entry key="class" type="string" value="ElementSpawnEnemyDummy"/>
 				<entry key="editor_name" type="string" value="spawn_enemy_sniper_004"/>
 				<entry key="id" type="number" value="101009"/>
@@ -29469,7 +29449,7 @@
 					<entry key="voice" type="number" value="0"/>
 				</entry>
 			</entry>
-			<entry index="1011" type="table">
+			<entry index="1010" type="table">
 				<entry key="class" type="string" value="ElementSpawnEnemyDummy"/>
 				<entry key="editor_name" type="string" value="spawn_enemy_sniper_001b"/>
 				<entry key="id" type="number" value="101010"/>
@@ -29501,7 +29481,7 @@
 					<entry key="voice" type="number" value="0"/>
 				</entry>
 			</entry>
-			<entry index="1012" type="table">
+			<entry index="1011" type="table">
 				<entry key="class" type="string" value="MissionScriptElement"/>
 				<entry key="editor_name" type="string" value="exec_spawn_sniper_001"/>
 				<entry key="id" type="number" value="101011"/>
@@ -29522,7 +29502,7 @@
 					<entry key="trigger_times" type="number" value="1"/>
 				</entry>
 			</entry>
-			<entry index="1013" type="table">
+			<entry index="1012" type="table">
 				<entry key="class" type="string" value="MissionScriptElement"/>
 				<entry key="editor_name" type="string" value="exec_spawn_sniper_002"/>
 				<entry key="id" type="number" value="101012"/>
@@ -29543,7 +29523,7 @@
 					<entry key="trigger_times" type="number" value="1"/>
 				</entry>
 			</entry>
-			<entry index="1014" type="table">
+			<entry index="1013" type="table">
 				<entry key="class" type="string" value="MissionScriptElement"/>
 				<entry key="editor_name" type="string" value="exec_spawn_sniper_003"/>
 				<entry key="id" type="number" value="101013"/>
@@ -29564,7 +29544,7 @@
 					<entry key="trigger_times" type="number" value="1"/>
 				</entry>
 			</entry>
-			<entry index="1015" type="table">
+			<entry index="1014" type="table">
 				<entry key="class" type="string" value="MissionScriptElement"/>
 				<entry key="editor_name" type="string" value="exec_spawn_sniper_004"/>
 				<entry key="id" type="number" value="101014"/>
@@ -29585,7 +29565,7 @@
 					<entry key="trigger_times" type="number" value="1"/>
 				</entry>
 			</entry>
-			<entry index="1016" type="table">
+			<entry index="1015" type="table">
 				<entry key="class" type="string" value="ElementRandom"/>
 				<entry key="editor_name" type="string" value="random_sniper_001x"/>
 				<entry key="id" type="number" value="101015"/>
@@ -29613,7 +29593,7 @@
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
-			<entry index="1017" type="table">
+			<entry index="1016" type="table">
 				<entry key="class" type="string" value="MissionScriptElement"/>
 				<entry key="editor_name" type="string" value="sniper_spawn_point_001a"/>
 				<entry key="id" type="number" value="101016"/>
@@ -29630,7 +29610,7 @@
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
-			<entry index="1018" type="table">
+			<entry index="1017" type="table">
 				<entry key="class" type="string" value="MissionScriptElement"/>
 				<entry key="editor_name" type="string" value="sniper_spawn_point_001b"/>
 				<entry key="id" type="number" value="101017"/>
@@ -29647,7 +29627,7 @@
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
-			<entry index="1019" type="table">
+			<entry index="1018" type="table">
 				<entry key="class" type="string" value="MissionScriptElement"/>
 				<entry key="editor_name" type="string" value="sniper_spawn_point_002"/>
 				<entry key="id" type="number" value="101018"/>
@@ -29664,7 +29644,7 @@
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
-			<entry index="1020" type="table">
+			<entry index="1019" type="table">
 				<entry key="class" type="string" value="MissionScriptElement"/>
 				<entry key="editor_name" type="string" value="sniper_spawn_point_003"/>
 				<entry key="id" type="number" value="101019"/>
@@ -29681,7 +29661,7 @@
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
-			<entry index="1021" type="table">
+			<entry index="1020" type="table">
 				<entry key="class" type="string" value="MissionScriptElement"/>
 				<entry key="editor_name" type="string" value="sniper_spawn_point_004"/>
 				<entry key="id" type="number" value="101020"/>
@@ -29698,7 +29678,7 @@
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
-			<entry index="1022" type="table">
+			<entry index="1021" type="table">
 				<entry key="class" type="string" value="ElementSpecialObjective"/>
 				<entry key="editor_name" type="string" value="sniper_SO_001"/>
 				<entry key="id" type="number" value="101021"/>
@@ -29745,7 +29725,7 @@
 					<entry key="use_instigator" type="boolean" value="true"/>
 				</entry>
 			</entry>
-			<entry index="1023" type="table">
+			<entry index="1022" type="table">
 				<entry key="class" type="string" value="ElementSpecialObjective"/>
 				<entry key="editor_name" type="string" value="sniper_SO_002"/>
 				<entry key="id" type="number" value="101022"/>
@@ -29792,7 +29772,7 @@
 					<entry key="use_instigator" type="boolean" value="true"/>
 				</entry>
 			</entry>
-			<entry index="1024" type="table">
+			<entry index="1023" type="table">
 				<entry key="class" type="string" value="ElementSpecialObjective"/>
 				<entry key="editor_name" type="string" value="sniper_SO_003"/>
 				<entry key="id" type="number" value="101023"/>
@@ -29839,7 +29819,7 @@
 					<entry key="use_instigator" type="boolean" value="true"/>
 				</entry>
 			</entry>
-			<entry index="1025" type="table">
+			<entry index="1024" type="table">
 				<entry key="class" type="string" value="ElementSpecialObjective"/>
 				<entry key="editor_name" type="string" value="sniper_SO_004"/>
 				<entry key="id" type="number" value="101024"/>
@@ -29886,7 +29866,7 @@
 					<entry key="use_instigator" type="boolean" value="true"/>
 				</entry>
 			</entry>
-			<entry index="1026" type="table">
+			<entry index="1025" type="table">
 				<entry key="class" type="string" value="ElementSpecialObjective"/>
 				<entry key="editor_name" type="string" value="climb_over_sniper_wall_link_001"/>
 				<entry key="id" type="number" value="101025"/>
@@ -29933,7 +29913,7 @@
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
-			<entry index="1027" type="table">
+			<entry index="1026" type="table">
 				<entry key="class" type="string" value="ElementSpecialObjective"/>
 				<entry key="editor_name" type="string" value="climb_over_sniper_wall_link_002"/>
 				<entry key="id" type="number" value="101026"/>
@@ -29980,7 +29960,7 @@
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
-			<entry index="1028" type="table">
+			<entry index="1027" type="table">
 				<entry key="class" type="string" value="MissionScriptElement"/>
 				<entry key="editor_name" type="string" value="exec_navlink_snipers"/>
 				<entry key="id" type="number" value="101027"/>
@@ -30005,7 +29985,7 @@
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
-			<entry index="1029" type="table">
+			<entry index="1028" type="table">
 				<entry key="class" type="string" value="ElementEnemyDummyTrigger"/>
 				<entry key="editor_name" type="string" value="on_enemy_sniper_death_001"/>
 				<entry key="id" type="number" value="101028"/>
@@ -30030,7 +30010,7 @@
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
-			<entry index="1030" type="table">
+			<entry index="1029" type="table">
 				<entry key="class" type="string" value="ElementEnemyDummyTrigger"/>
 				<entry key="editor_name" type="string" value="on_enemy_sniper_death_002"/>
 				<entry key="id" type="number" value="101029"/>
@@ -30054,7 +30034,7 @@
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
-			<entry index="1031" type="table">
+			<entry index="1030" type="table">
 				<entry key="class" type="string" value="ElementEnemyDummyTrigger"/>
 				<entry key="editor_name" type="string" value="on_enemy_sniper_death_003"/>
 				<entry key="id" type="number" value="101030"/>
@@ -30078,7 +30058,7 @@
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
-			<entry index="1032" type="table">
+			<entry index="1031" type="table">
 				<entry key="class" type="string" value="ElementEnemyDummyTrigger"/>
 				<entry key="editor_name" type="string" value="on_enemy_sniper_death_004"/>
 				<entry key="id" type="number" value="101031"/>
@@ -30102,7 +30082,7 @@
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
-			<entry index="1033" type="table">
+			<entry index="1032" type="table">
 				<entry key="class" type="string" value="ElementToggle"/>
 				<entry key="editor_name" type="string" value="toggle_spawn_sniper_ON_001"/>
 				<entry key="id" type="number" value="101033"/>
@@ -30124,7 +30104,7 @@
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
-			<entry index="1034" type="table">
+			<entry index="1033" type="table">
 				<entry key="class" type="string" value="ElementToggle"/>
 				<entry key="editor_name" type="string" value="toggle_spawn_sniper_ON_002"/>
 				<entry key="id" type="number" value="101034"/>
@@ -30146,7 +30126,7 @@
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
-			<entry index="1035" type="table">
+			<entry index="1034" type="table">
 				<entry key="class" type="string" value="ElementToggle"/>
 				<entry key="editor_name" type="string" value="toggle_spawn_sniper_ON_003"/>
 				<entry key="id" type="number" value="101035"/>
@@ -30168,7 +30148,7 @@
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
-			<entry index="1036" type="table">
+			<entry index="1035" type="table">
 				<entry key="class" type="string" value="ElementToggle"/>
 				<entry key="editor_name" type="string" value="toggle_spawn_sniper_ON_004"/>
 				<entry key="id" type="number" value="101036"/>
