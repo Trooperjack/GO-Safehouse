@@ -14,7 +14,11 @@
 
 	<bodies>
 		<body name="body_door" enabled="true" template="animated">
-			<object name="g_door_001" collision_type="box" padding="-2.5" />
+			<object name="g_door_001" collision_type="mesh_mopp" />
+		</body>
+		<body name="body_hitbox_door_handle" enabled="true" template="static">
+			<object name="rp_safehouse_door" />
+			<object name="c_hitbox_door_handle" collision_type="box" padding="-2.5" />
 		</body>
 	</bodies>
 
