@@ -714,8 +714,12 @@
 	</add>
 	<add from_db="true" path="units/payday2/characters/ene_sniper_1/ene_sniper_1" type="unit">
 		<unit path="units/payday2/characters/ene_sniper_1/ene_sniper_1"/>
-		<object path="units/payday2/characters/ene_sniper_1/ene_sniper_1"/>
-		<material_config path="units/payday2/characters/ene_sniper_1/ene_sniper_1"/>
 		<unit load="true" path="units/payday2/characters/ene_sniper_1/ene_sniper_1_husk"/>
+		<material_config path="units/payday2/characters/ene_sniper_1/ene_sniper_1"/>
+		<object path="units/payday2/characters/ene_sniper_1/ene_sniper_1"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/civ_male_casual_1/civ_male_casual_1" type="unit">
+		<unit path="units/payday2/characters/civ_male_casual_1/civ_male_casual_1"/>
+		<unit load="true" path="units/payday2/characters/civ_male_casual_1/civ_male_casual_1_husk"/>
 	</add>
 </table>
