@@ -29,7 +29,7 @@
 			<run_sequence name="'activate_door'"/>
 		</sequence>
 		
-		<sequence editable_state="false" name="'open_door'" triggable="true">
+		<sequence editable_state="false" name="'open_floor_safe_door'" triggable="true">
 			<run_sequence name="'anim_open_door'"/>
 			<run_sequence name="'done_opened'"/>
 		</sequence>
