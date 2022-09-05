@@ -214,11 +214,11 @@
 							<entry key="id" type="number" value="100559"/>
 						</entry>
 						<entry index="9" type="table">
-							<entry key="delay" type="number" value="0"/>
+							<entry key="delay" type="number" value="3"/>
 							<entry key="id" type="number" value="100562"/>
 						</entry>
 						<entry index="10" type="table">
-							<entry key="delay" type="number" value="2"/>
+							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="100564"/>
 						</entry>
 						<entry index="11" type="table">
@@ -18768,6 +18768,14 @@
 							<entry key="event" type="string" value="set_red_000"/>
 							<entry key="instance" type="string" value="bex_manual_001"/>
 						</entry>
+						<entry index="2" type="table">
+							<entry key="event" type="string" value="set_box_number_000"/>
+							<entry key="instance" type="string" value="security_box_outside_red_001"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="event" type="string" value="set_box_number_000"/>
+							<entry key="instance" type="string" value="security_box_inside_red_001"/>
+						</entry>
 					</entry>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
@@ -19007,6 +19015,14 @@
 							<entry key="event" type="string" value="set_red_001"/>
 							<entry key="instance" type="string" value="bex_manual_001"/>
 						</entry>
+						<entry index="2" type="table">
+							<entry key="event" type="string" value="set_box_number_001"/>
+							<entry key="instance" type="string" value="security_box_outside_red_001"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="event" type="string" value="set_box_number_001"/>
+							<entry key="instance" type="string" value="security_box_inside_red_001"/>
+						</entry>
 					</entry>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
@@ -19033,6 +19049,14 @@
 						<entry index="1" type="table">
 							<entry key="event" type="string" value="set_red_002"/>
 							<entry key="instance" type="string" value="bex_manual_001"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="event" type="string" value="set_box_number_002"/>
+							<entry key="instance" type="string" value="security_box_outside_red_001"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="event" type="string" value="set_box_number_002"/>
+							<entry key="instance" type="string" value="security_box_inside_red_001"/>
 						</entry>
 					</entry>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
@@ -19061,6 +19085,14 @@
 							<entry key="event" type="string" value="set_red_003"/>
 							<entry key="instance" type="string" value="bex_manual_001"/>
 						</entry>
+						<entry index="2" type="table">
+							<entry key="event" type="string" value="set_box_number_003"/>
+							<entry key="instance" type="string" value="security_box_inside_red_001"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="event" type="string" value="set_box_number_003"/>
+							<entry key="instance" type="string" value="security_box_outside_red_001"/>
+						</entry>
 					</entry>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
@@ -19087,6 +19119,14 @@
 						<entry index="1" type="table">
 							<entry key="event" type="string" value="set_red_004"/>
 							<entry key="instance" type="string" value="bex_manual_001"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="event" type="string" value="set_box_number_004"/>
+							<entry key="instance" type="string" value="security_box_outside_red_001"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="event" type="string" value="set_box_number_004"/>
+							<entry key="instance" type="string" value="security_box_inside_red_001"/>
 						</entry>
 					</entry>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
@@ -19115,6 +19155,14 @@
 							<entry key="event" type="string" value="set_red_005"/>
 							<entry key="instance" type="string" value="bex_manual_001"/>
 						</entry>
+						<entry index="2" type="table">
+							<entry key="event" type="string" value="set_box_number_005"/>
+							<entry key="instance" type="string" value="security_box_outside_red_001"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="event" type="string" value="set_box_number_005"/>
+							<entry key="instance" type="string" value="security_box_inside_red_001"/>
+						</entry>
 					</entry>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
@@ -19141,6 +19189,14 @@
 						<entry index="1" type="table">
 							<entry key="event" type="string" value="set_red_006"/>
 							<entry key="instance" type="string" value="bex_manual_001"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="event" type="string" value="set_box_number_006"/>
+							<entry key="instance" type="string" value="security_box_outside_red_001"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="event" type="string" value="set_box_number_006"/>
+							<entry key="instance" type="string" value="security_box_inside_red_001"/>
 						</entry>
 					</entry>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
@@ -19169,6 +19225,14 @@
 							<entry key="event" type="string" value="set_red_007"/>
 							<entry key="instance" type="string" value="bex_manual_001"/>
 						</entry>
+						<entry index="2" type="table">
+							<entry key="event" type="string" value="set_box_number_007"/>
+							<entry key="instance" type="string" value="security_box_outside_red_001"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="event" type="string" value="set_box_number_007"/>
+							<entry key="instance" type="string" value="security_box_inside_red_001"/>
+						</entry>
 					</entry>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
@@ -19196,6 +19260,14 @@
 							<entry key="event" type="string" value="set_red_008"/>
 							<entry key="instance" type="string" value="bex_manual_001"/>
 						</entry>
+						<entry index="2" type="table">
+							<entry key="event" type="string" value="set_box_number_008"/>
+							<entry key="instance" type="string" value="security_box_outside_red_001"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="event" type="string" value="set_box_number_008"/>
+							<entry key="instance" type="string" value="security_box_inside_red_001"/>
+						</entry>
 					</entry>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
@@ -19222,6 +19294,14 @@
 						<entry index="1" type="table">
 							<entry key="event" type="string" value="set_red_009"/>
 							<entry key="instance" type="string" value="bex_manual_001"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="event" type="string" value="set_box_number_009"/>
+							<entry key="instance" type="string" value="security_box_outside_red_001"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="event" type="string" value="set_box_number_009"/>
+							<entry key="instance" type="string" value="security_box_inside_red_001"/>
 						</entry>
 					</entry>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
@@ -19310,6 +19390,14 @@
 							<entry key="event" type="string" value="set_blue_000"/>
 							<entry key="instance" type="string" value="bex_manual_001"/>
 						</entry>
+						<entry index="2" type="table">
+							<entry key="event" type="string" value="set_box_number_000"/>
+							<entry key="instance" type="string" value="security_box_outside_blue_001"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="event" type="string" value="set_box_number_000"/>
+							<entry key="instance" type="string" value="security_box_inside_blue_001"/>
+						</entry>
 					</entry>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
@@ -19336,6 +19424,14 @@
 						<entry index="1" type="table">
 							<entry key="event" type="string" value="set_blue_001"/>
 							<entry key="instance" type="string" value="bex_manual_001"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="event" type="string" value="set_box_number_001"/>
+							<entry key="instance" type="string" value="security_box_outside_blue_001"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="event" type="string" value="set_box_number_001"/>
+							<entry key="instance" type="string" value="security_box_inside_blue_001"/>
 						</entry>
 					</entry>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
@@ -19364,6 +19460,14 @@
 							<entry key="event" type="string" value="set_blue_002"/>
 							<entry key="instance" type="string" value="bex_manual_001"/>
 						</entry>
+						<entry index="2" type="table">
+							<entry key="event" type="string" value="set_box_number_002"/>
+							<entry key="instance" type="string" value="security_box_outside_blue_001"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="event" type="string" value="set_box_number_002"/>
+							<entry key="instance" type="string" value="security_box_inside_blue_001"/>
+						</entry>
 					</entry>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
@@ -19390,6 +19494,14 @@
 						<entry index="1" type="table">
 							<entry key="event" type="string" value="set_blue_003"/>
 							<entry key="instance" type="string" value="bex_manual_001"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="event" type="string" value="set_box_number_003"/>
+							<entry key="instance" type="string" value="security_box_outside_blue_001"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="event" type="string" value="set_box_number_003"/>
+							<entry key="instance" type="string" value="security_box_inside_blue_001"/>
 						</entry>
 					</entry>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
@@ -19418,6 +19530,14 @@
 							<entry key="event" type="string" value="set_blue_004"/>
 							<entry key="instance" type="string" value="bex_manual_001"/>
 						</entry>
+						<entry index="2" type="table">
+							<entry key="event" type="string" value="set_box_number_004"/>
+							<entry key="instance" type="string" value="security_box_outside_blue_001"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="event" type="string" value="set_box_number_004"/>
+							<entry key="instance" type="string" value="security_box_inside_blue_001"/>
+						</entry>
 					</entry>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
@@ -19444,6 +19564,14 @@
 						<entry index="1" type="table">
 							<entry key="event" type="string" value="set_blue_005"/>
 							<entry key="instance" type="string" value="bex_manual_001"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="event" type="string" value="set_box_number_005"/>
+							<entry key="instance" type="string" value="security_box_outside_blue_001"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="event" type="string" value="set_box_number_005"/>
+							<entry key="instance" type="string" value="security_box_inside_blue_001"/>
 						</entry>
 					</entry>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
@@ -19472,6 +19600,14 @@
 							<entry key="event" type="string" value="set_blue_006"/>
 							<entry key="instance" type="string" value="bex_manual_001"/>
 						</entry>
+						<entry index="2" type="table">
+							<entry key="event" type="string" value="set_box_number_006"/>
+							<entry key="instance" type="string" value="security_box_outside_blue_001"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="event" type="string" value="set_box_number_006"/>
+							<entry key="instance" type="string" value="security_box_inside_blue_001"/>
+						</entry>
 					</entry>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
@@ -19499,6 +19635,14 @@
 							<entry key="event" type="string" value="set_blue_007"/>
 							<entry key="instance" type="string" value="bex_manual_001"/>
 						</entry>
+						<entry index="2" type="table">
+							<entry key="event" type="string" value="set_box_number_007"/>
+							<entry key="instance" type="string" value="security_box_outside_blue_001"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="event" type="string" value="set_box_number_007"/>
+							<entry key="instance" type="string" value="security_box_inside_blue_001"/>
+						</entry>
 					</entry>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
@@ -19523,8 +19667,16 @@
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="event_list" type="table">
 						<entry index="1" type="table">
-							<entry key="event" type="string" value="set_green_008"/>
+							<entry key="event" type="string" value="set_blue_008"/>
 							<entry key="instance" type="string" value="bex_manual_001"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="event" type="string" value="set_box_number_008"/>
+							<entry key="instance" type="string" value="security_box_inside_blue_001"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="event" type="string" value="set_box_number_008"/>
+							<entry key="instance" type="string" value="security_box_outside_blue_001"/>
 						</entry>
 					</entry>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
@@ -19552,6 +19704,14 @@
 						<entry index="1" type="table">
 							<entry key="event" type="string" value="set_blue_009"/>
 							<entry key="instance" type="string" value="bex_manual_001"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="event" type="string" value="set_box_number_009"/>
+							<entry key="instance" type="string" value="security_box_outside_blue_001"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="event" type="string" value="set_box_number_009"/>
+							<entry key="instance" type="string" value="security_box_inside_blue_001"/>
 						</entry>
 					</entry>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
@@ -19640,6 +19800,14 @@
 							<entry key="event" type="string" value="set_green_000"/>
 							<entry key="instance" type="string" value="bex_manual_001"/>
 						</entry>
+						<entry index="2" type="table">
+							<entry key="event" type="string" value="set_box_number_000"/>
+							<entry key="instance" type="string" value="security_box_outside_green_001"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="event" type="string" value="set_box_number_000"/>
+							<entry key="instance" type="string" value="security_box_inside_green_001"/>
+						</entry>
 					</entry>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
@@ -19666,6 +19834,14 @@
 						<entry index="1" type="table">
 							<entry key="event" type="string" value="set_green_001"/>
 							<entry key="instance" type="string" value="bex_manual_001"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="event" type="string" value="set_box_number_001"/>
+							<entry key="instance" type="string" value="security_box_outside_green_001"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="event" type="string" value="set_box_number_001"/>
+							<entry key="instance" type="string" value="security_box_inside_green_001"/>
 						</entry>
 					</entry>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
@@ -19694,6 +19870,14 @@
 							<entry key="event" type="string" value="set_green_002"/>
 							<entry key="instance" type="string" value="bex_manual_001"/>
 						</entry>
+						<entry index="2" type="table">
+							<entry key="event" type="string" value="set_box_number_002"/>
+							<entry key="instance" type="string" value="security_box_outside_green_001"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="event" type="string" value="set_box_number_002"/>
+							<entry key="instance" type="string" value="security_box_inside_green_001"/>
+						</entry>
 					</entry>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
@@ -19720,6 +19904,14 @@
 						<entry index="1" type="table">
 							<entry key="event" type="string" value="set_green_003"/>
 							<entry key="instance" type="string" value="bex_manual_001"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="event" type="string" value="set_box_number_003"/>
+							<entry key="instance" type="string" value="security_box_outside_green_001"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="event" type="string" value="set_box_number_003"/>
+							<entry key="instance" type="string" value="security_box_inside_green_001"/>
 						</entry>
 					</entry>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
@@ -19748,6 +19940,14 @@
 							<entry key="event" type="string" value="set_green_004"/>
 							<entry key="instance" type="string" value="bex_manual_001"/>
 						</entry>
+						<entry index="2" type="table">
+							<entry key="event" type="string" value="set_box_number_004"/>
+							<entry key="instance" type="string" value="security_box_outside_green_001"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="event" type="string" value="set_box_number_004"/>
+							<entry key="instance" type="string" value="security_box_inside_green_001"/>
+						</entry>
 					</entry>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
@@ -19774,6 +19974,14 @@
 						<entry index="1" type="table">
 							<entry key="event" type="string" value="set_green_005"/>
 							<entry key="instance" type="string" value="bex_manual_001"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="event" type="string" value="set_box_number_005"/>
+							<entry key="instance" type="string" value="security_box_outside_green_001"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="event" type="string" value="set_box_number_005"/>
+							<entry key="instance" type="string" value="security_box_inside_green_001"/>
 						</entry>
 					</entry>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
@@ -19802,6 +20010,14 @@
 							<entry key="event" type="string" value="set_green_006"/>
 							<entry key="instance" type="string" value="bex_manual_001"/>
 						</entry>
+						<entry index="2" type="table">
+							<entry key="event" type="string" value="set_box_number_006"/>
+							<entry key="instance" type="string" value="security_box_outside_green_001"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="event" type="string" value="set_box_number_006"/>
+							<entry key="instance" type="string" value="security_box_inside_green_001"/>
+						</entry>
 					</entry>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
@@ -19828,6 +20044,14 @@
 						<entry index="1" type="table">
 							<entry key="event" type="string" value="set_green_007"/>
 							<entry key="instance" type="string" value="bex_manual_001"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="event" type="string" value="set_box_number_007"/>
+							<entry key="instance" type="string" value="security_box_inside_green_001"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="event" type="string" value="set_box_number_007"/>
+							<entry key="instance" type="string" value="security_box_outside_green_001"/>
 						</entry>
 					</entry>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
@@ -19856,6 +20080,14 @@
 							<entry key="event" type="string" value="set_green_008"/>
 							<entry key="instance" type="string" value="bex_manual_001"/>
 						</entry>
+						<entry index="2" type="table">
+							<entry key="event" type="string" value="set_box_number_008"/>
+							<entry key="instance" type="string" value="security_box_outside_green_001"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="event" type="string" value="set_box_number_008"/>
+							<entry key="instance" type="string" value="security_box_inside_green_001"/>
+						</entry>
 					</entry>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
@@ -19882,6 +20114,14 @@
 						<entry index="1" type="table">
 							<entry key="event" type="string" value="set_green_009"/>
 							<entry key="instance" type="string" value="bex_manual_001"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="event" type="string" value="set_box_number_009"/>
+							<entry key="instance" type="string" value="security_box_outside_green_001"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="event" type="string" value="set_box_number_009"/>
+							<entry key="instance" type="string" value="security_box_inside_green_001"/>
 						</entry>
 					</entry>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
@@ -19970,6 +20210,14 @@
 							<entry key="event" type="string" value="set_yellow_000"/>
 							<entry key="instance" type="string" value="bex_manual_001"/>
 						</entry>
+						<entry index="2" type="table">
+							<entry key="event" type="string" value="set_box_number_000"/>
+							<entry key="instance" type="string" value="security_box_outside_yellow_001"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="event" type="string" value="set_box_number_000"/>
+							<entry key="instance" type="string" value="security_box_inside_yellow_001"/>
+						</entry>
 					</entry>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
@@ -19996,6 +20244,14 @@
 						<entry index="1" type="table">
 							<entry key="event" type="string" value="set_yellow_001"/>
 							<entry key="instance" type="string" value="bex_manual_001"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="event" type="string" value="set_box_number_001"/>
+							<entry key="instance" type="string" value="security_box_outside_yellow_001"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="event" type="string" value="set_box_number_001"/>
+							<entry key="instance" type="string" value="security_box_inside_yellow_001"/>
 						</entry>
 					</entry>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
@@ -20024,6 +20280,14 @@
 							<entry key="event" type="string" value="set_yellow_002"/>
 							<entry key="instance" type="string" value="bex_manual_001"/>
 						</entry>
+						<entry index="2" type="table">
+							<entry key="event" type="string" value="set_box_number_002"/>
+							<entry key="instance" type="string" value="security_box_outside_yellow_001"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="event" type="string" value="set_box_number_002"/>
+							<entry key="instance" type="string" value="security_box_inside_yellow_001"/>
+						</entry>
 					</entry>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
@@ -20050,6 +20314,14 @@
 						<entry index="1" type="table">
 							<entry key="event" type="string" value="set_yellow_003"/>
 							<entry key="instance" type="string" value="bex_manual_001"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="event" type="string" value="set_box_number_003"/>
+							<entry key="instance" type="string" value="security_box_outside_yellow_001"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="event" type="string" value="set_box_number_003"/>
+							<entry key="instance" type="string" value="security_box_inside_yellow_001"/>
 						</entry>
 					</entry>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
@@ -20078,6 +20350,14 @@
 							<entry key="event" type="string" value="set_yellow_004"/>
 							<entry key="instance" type="string" value="bex_manual_001"/>
 						</entry>
+						<entry index="2" type="table">
+							<entry key="event" type="string" value="set_box_number_004"/>
+							<entry key="instance" type="string" value="security_box_outside_yellow_001"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="event" type="string" value="set_box_number_004"/>
+							<entry key="instance" type="string" value="security_box_inside_yellow_001"/>
+						</entry>
 					</entry>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
@@ -20104,6 +20384,14 @@
 						<entry index="1" type="table">
 							<entry key="event" type="string" value="set_yellow_005"/>
 							<entry key="instance" type="string" value="bex_manual_001"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="event" type="string" value="set_box_number_005"/>
+							<entry key="instance" type="string" value="security_box_outside_yellow_001"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="event" type="string" value="set_box_number_005"/>
+							<entry key="instance" type="string" value="security_box_inside_yellow_001"/>
 						</entry>
 					</entry>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
@@ -20132,6 +20420,14 @@
 							<entry key="event" type="string" value="set_yellow_006"/>
 							<entry key="instance" type="string" value="bex_manual_001"/>
 						</entry>
+						<entry index="2" type="table">
+							<entry key="event" type="string" value="set_box_number_006"/>
+							<entry key="instance" type="string" value="security_box_outside_yellow_001"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="event" type="string" value="set_box_number_006"/>
+							<entry key="instance" type="string" value="security_box_inside_yellow_001"/>
+						</entry>
 					</entry>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
@@ -20158,6 +20454,14 @@
 						<entry index="1" type="table">
 							<entry key="event" type="string" value="set_yellow_007"/>
 							<entry key="instance" type="string" value="bex_manual_001"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="event" type="string" value="set_box_number_007"/>
+							<entry key="instance" type="string" value="security_box_outside_yellow_001"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="event" type="string" value="set_box_number_007"/>
+							<entry key="instance" type="string" value="security_box_inside_yellow_001"/>
 						</entry>
 					</entry>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
@@ -20186,6 +20490,14 @@
 							<entry key="event" type="string" value="set_yellow_008"/>
 							<entry key="instance" type="string" value="bex_manual_001"/>
 						</entry>
+						<entry index="2" type="table">
+							<entry key="event" type="string" value="set_box_number_008"/>
+							<entry key="instance" type="string" value="security_box_outside_yellow_001"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="event" type="string" value="set_box_number_008"/>
+							<entry key="instance" type="string" value="security_box_inside_yellow_001"/>
+						</entry>
 					</entry>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
@@ -20212,6 +20524,14 @@
 						<entry index="1" type="table">
 							<entry key="event" type="string" value="set_yellow_009"/>
 							<entry key="instance" type="string" value="bex_manual_001"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="event" type="string" value="set_box_number_009"/>
+							<entry key="instance" type="string" value="security_box_outside_yellow_001"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="event" type="string" value="set_box_number_009"/>
+							<entry key="instance" type="string" value="security_box_inside_yellow_001"/>
 						</entry>
 					</entry>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
@@ -20243,10 +20563,10 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="-1800 -1900 3050"/>
+					<entry key="position" type="vector3" value="-1800 -1850 3000"/>
 					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -20267,10 +20587,10 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="-1750 -1900 3050"/>
+					<entry key="position" type="vector3" value="-1750 -1850 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -20291,10 +20611,10 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="-1700 -1900 3050"/>
+					<entry key="position" type="vector3" value="-1700 -1850 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -20315,10 +20635,10 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="-1650 -1900 3050"/>
+					<entry key="position" type="vector3" value="-1650 -1850 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -20339,10 +20659,10 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="-1600 -1900 3050"/>
+					<entry key="position" type="vector3" value="-1600 -1850 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -20363,10 +20683,10 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="-1550 -1900 3050"/>
+					<entry key="position" type="vector3" value="-1550 -1850 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -20387,10 +20707,10 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="-1500 -1900 3050"/>
+					<entry key="position" type="vector3" value="-1500 -1850 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -20411,10 +20731,10 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="-1450 -1900 3050"/>
+					<entry key="position" type="vector3" value="-1450 -1850 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -20435,10 +20755,10 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="-1400 -1900 3050"/>
+					<entry key="position" type="vector3" value="-1400 -1850 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -20459,10 +20779,10 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="-1350 -1900 3050"/>
+					<entry key="position" type="vector3" value="-1350 -1850 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -20482,10 +20802,10 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="-1800 -1700 3050"/>
+					<entry key="position" type="vector3" value="-1800 -1650 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -20505,10 +20825,10 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="-1750 -1700 3050"/>
+					<entry key="position" type="vector3" value="-1750 -1650 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -20528,10 +20848,10 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="-1700 -1700 3050"/>
+					<entry key="position" type="vector3" value="-1700 -1650 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -20551,10 +20871,10 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="-1650 -1700 3050"/>
+					<entry key="position" type="vector3" value="-1650 -1650 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -20574,10 +20894,10 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="-1600 -1700 3050"/>
+					<entry key="position" type="vector3" value="-1600 -1650 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -20597,10 +20917,10 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="-1550 -1700 3050"/>
+					<entry key="position" type="vector3" value="-1550 -1650 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -20620,10 +20940,10 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="-1500 -1700 3050"/>
+					<entry key="position" type="vector3" value="-1500 -1650 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -20643,10 +20963,10 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="-1450 -1700 3050"/>
+					<entry key="position" type="vector3" value="-1450 -1650 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -20666,10 +20986,10 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="-1400 -1700 3050"/>
+					<entry key="position" type="vector3" value="-1400 -1650 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -20689,10 +21009,10 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="-1350 -1700 3050"/>
+					<entry key="position" type="vector3" value="-1350 -1650 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -20711,10 +21031,10 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="-1800 -1500 3050"/>
+					<entry key="position" type="vector3" value="-1800 -1450 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -20733,10 +21053,10 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="-1750 -1500 3050"/>
+					<entry key="position" type="vector3" value="-1750 -1450 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -20755,10 +21075,10 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="-1700 -1500 3050"/>
+					<entry key="position" type="vector3" value="-1700 -1450 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -20777,10 +21097,10 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="-1650 -1500 3050"/>
+					<entry key="position" type="vector3" value="-1650 -1450 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -20799,10 +21119,10 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="-1600 -1500 3050"/>
+					<entry key="position" type="vector3" value="-1600 -1450 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -20821,10 +21141,10 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="-1550 -1500 3050"/>
+					<entry key="position" type="vector3" value="-1550 -1450 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -20843,10 +21163,10 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="-1500 -1500 3050"/>
+					<entry key="position" type="vector3" value="-1500 -1450 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -20865,10 +21185,10 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="-1450 -1500 3050"/>
+					<entry key="position" type="vector3" value="-1450 -1450 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -20887,10 +21207,10 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="-1400 -1500 3050"/>
+					<entry key="position" type="vector3" value="-1400 -1450 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -20909,10 +21229,10 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="-1350 -1500 3050"/>
+					<entry key="position" type="vector3" value="-1350 -1450 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -20930,10 +21250,10 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="-1800 -1300 3050"/>
+					<entry key="position" type="vector3" value="-1800 -1250 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -20951,10 +21271,10 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="-1750 -1300 3050"/>
+					<entry key="position" type="vector3" value="-1750 -1250 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -20972,10 +21292,10 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="-1700 -1300 3050"/>
+					<entry key="position" type="vector3" value="-1700 -1250 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -20993,10 +21313,10 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="-1650 -1300 3050"/>
+					<entry key="position" type="vector3" value="-1650 -1250 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -21014,10 +21334,10 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="-1600 -1300 3050"/>
+					<entry key="position" type="vector3" value="-1600 -1250 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -21035,10 +21355,10 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="-1550 -1300 3050"/>
+					<entry key="position" type="vector3" value="-1550 -1250 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -21056,10 +21376,10 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="-1500 -1300 3050"/>
+					<entry key="position" type="vector3" value="-1500 -1250 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -21077,10 +21397,10 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="-1450 -1300 3050"/>
+					<entry key="position" type="vector3" value="-1450 -1250 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -21098,10 +21418,10 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="-1400 -1300 3050"/>
+					<entry key="position" type="vector3" value="-1400 -1250 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -21119,10 +21439,10 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="-1350 -1300 3050"/>
+					<entry key="position" type="vector3" value="-1350 -1250 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -21139,11 +21459,11 @@
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100966"/>
+							<entry key="id" type="number" value="100688"/>
 						</entry>
 						<entry index="2" type="table">
-							<entry key="delay" type="number" value="1"/>
-							<entry key="id" type="number" value="100688"/>
+							<entry key="delay" type="number" value="3"/>
+							<entry key="id" type="number" value="100657"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-850 -2150 3000"/>
@@ -21238,7 +21558,7 @@
 					</entry>
 					<entry key="position" type="vector3" value="-850 -2500 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
-					<entry key="trigger_times" type="number" value="1"/>
+					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
 			<entry index="658" type="table">
@@ -22501,19 +22821,19 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
-							<entry key="delay" type="number" value="0.2"/>
+							<entry key="delay" type="number" value="0.5"/>
 							<entry key="id" type="number" value="100727"/>
 						</entry>
 						<entry index="2" type="table">
-							<entry key="delay" type="number" value="0.4"/>
+							<entry key="delay" type="number" value="1"/>
 							<entry key="id" type="number" value="100752"/>
 						</entry>
 						<entry index="3" type="table">
-							<entry key="delay" type="number" value="0.6"/>
+							<entry key="delay" type="number" value="1.5"/>
 							<entry key="id" type="number" value="100777"/>
 						</entry>
 						<entry index="4" type="table">
-							<entry key="delay" type="number" value="0.8"/>
+							<entry key="delay" type="number" value="2"/>
 							<entry key="id" type="number" value="100802"/>
 						</entry>
 					</entry>
@@ -22534,19 +22854,19 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
-							<entry key="delay" type="number" value="0.2"/>
+							<entry key="delay" type="number" value="0.5"/>
 							<entry key="id" type="number" value="100901"/>
 						</entry>
 						<entry index="2" type="table">
-							<entry key="delay" type="number" value="0.4"/>
+							<entry key="delay" type="number" value="1"/>
 							<entry key="id" type="number" value="100865"/>
 						</entry>
 						<entry index="3" type="table">
-							<entry key="delay" type="number" value="0.6"/>
+							<entry key="delay" type="number" value="1.5"/>
 							<entry key="id" type="number" value="100841"/>
 						</entry>
 						<entry index="4" type="table">
-							<entry key="delay" type="number" value="0.8"/>
+							<entry key="delay" type="number" value="2"/>
 							<entry key="id" type="number" value="100838"/>
 						</entry>
 					</entry>
@@ -22668,7 +22988,7 @@
 					<entry key="position" type="vector3" value="-450 -2850 3000"/>
 					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -22717,7 +23037,7 @@
 					<entry key="position" type="vector3" value="-450 -2800 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -22766,7 +23086,7 @@
 					<entry key="position" type="vector3" value="-450 -2750 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -22815,7 +23135,7 @@
 					<entry key="position" type="vector3" value="-450 -2700 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -22864,7 +23184,7 @@
 					<entry key="position" type="vector3" value="-450 -2650 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -22913,7 +23233,7 @@
 					<entry key="position" type="vector3" value="-450 -2600 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -22962,7 +23282,7 @@
 					<entry key="position" type="vector3" value="-450 -2550 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -23011,7 +23331,7 @@
 					<entry key="position" type="vector3" value="-450 -2500 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -23060,7 +23380,7 @@
 					<entry key="position" type="vector3" value="-450 -2450 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -23109,7 +23429,7 @@
 					<entry key="position" type="vector3" value="-450 -2400 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -23158,7 +23478,7 @@
 					<entry key="position" type="vector3" value="-450 -2350 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -23207,7 +23527,7 @@
 					<entry key="position" type="vector3" value="-450 -2300 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -23323,7 +23643,7 @@
 					<entry key="position" type="vector3" value="-250 -2850 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -23371,7 +23691,7 @@
 					<entry key="position" type="vector3" value="-250 -2800 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -23419,7 +23739,7 @@
 					<entry key="position" type="vector3" value="-250 -2750 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -23467,7 +23787,7 @@
 					<entry key="position" type="vector3" value="-250 -2700 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -23515,7 +23835,7 @@
 					<entry key="position" type="vector3" value="-250 -2650 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -23563,7 +23883,7 @@
 					<entry key="position" type="vector3" value="-250 -2600 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -23611,7 +23931,7 @@
 					<entry key="position" type="vector3" value="-250 -2550 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -23659,7 +23979,7 @@
 					<entry key="position" type="vector3" value="-250 -2500 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -23707,7 +24027,7 @@
 					<entry key="position" type="vector3" value="-250 -2450 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -23755,7 +24075,7 @@
 					<entry key="position" type="vector3" value="-250 -2400 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -23803,7 +24123,7 @@
 					<entry key="position" type="vector3" value="-250 -2350 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -23851,7 +24171,7 @@
 					<entry key="position" type="vector3" value="-250 -2300 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -23966,7 +24286,7 @@
 					<entry key="position" type="vector3" value="-50 -2850 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -24013,7 +24333,7 @@
 					<entry key="position" type="vector3" value="-50 -2800 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -24060,7 +24380,7 @@
 					<entry key="position" type="vector3" value="-50 -2750 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -24107,7 +24427,7 @@
 					<entry key="position" type="vector3" value="-50 -2700 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -24154,7 +24474,7 @@
 					<entry key="position" type="vector3" value="-50 -2650 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -24201,7 +24521,7 @@
 					<entry key="position" type="vector3" value="-50 -2600 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -24248,7 +24568,7 @@
 					<entry key="position" type="vector3" value="-50 -2550 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -24295,7 +24615,7 @@
 					<entry key="position" type="vector3" value="-50 -2500 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -24342,7 +24662,7 @@
 					<entry key="position" type="vector3" value="-50 -2450 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -24389,7 +24709,7 @@
 					<entry key="position" type="vector3" value="-50 -2400 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -24436,7 +24756,7 @@
 					<entry key="position" type="vector3" value="-50 -2350 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -24483,7 +24803,7 @@
 					<entry key="position" type="vector3" value="-50 -2300 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -24597,7 +24917,7 @@
 					<entry key="position" type="vector3" value="150 -2850 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -24643,7 +24963,7 @@
 					<entry key="position" type="vector3" value="150 -2800 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -24689,7 +25009,7 @@
 					<entry key="position" type="vector3" value="150 -2750 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -24735,7 +25055,7 @@
 					<entry key="position" type="vector3" value="150 -2700 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -24781,7 +25101,7 @@
 					<entry key="position" type="vector3" value="150 -2650 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -24827,7 +25147,7 @@
 					<entry key="position" type="vector3" value="150 -2600 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -24873,7 +25193,7 @@
 					<entry key="position" type="vector3" value="150 -2550 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -24919,7 +25239,7 @@
 					<entry key="position" type="vector3" value="150 -2500 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -24965,7 +25285,7 @@
 					<entry key="position" type="vector3" value="150 -2450 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -25011,7 +25331,7 @@
 					<entry key="position" type="vector3" value="150 -2400 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -25057,7 +25377,7 @@
 					<entry key="position" type="vector3" value="150 -2350 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -25103,7 +25423,7 @@
 					<entry key="position" type="vector3" value="150 -2300 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -25125,7 +25445,7 @@
 					<entry key="position" type="vector3" value="-50 -1850 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -25172,7 +25492,7 @@
 					<entry key="position" type="vector3" value="-50 -1800 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -25244,7 +25564,7 @@
 					<entry key="position" type="vector3" value="-50 -1750 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -25290,7 +25610,7 @@
 					<entry key="position" type="vector3" value="150 -1850 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -25336,7 +25656,7 @@
 					<entry key="position" type="vector3" value="150 -1800 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -25450,7 +25770,7 @@
 					<entry key="position" type="vector3" value="150 -1750 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -25472,7 +25792,7 @@
 					<entry key="position" type="vector3" value="-50 -1700 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -25611,7 +25931,7 @@
 					<entry key="position" type="vector3" value="150 -1700 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -25633,7 +25953,7 @@
 					<entry key="position" type="vector3" value="-50 -1650 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -25704,7 +26024,7 @@
 					<entry key="position" type="vector3" value="150 -1650 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -25727,7 +26047,7 @@
 					<entry key="position" type="vector3" value="-250 -1850 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -25749,7 +26069,7 @@
 					<entry key="position" type="vector3" value="-50 -1600 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -25772,7 +26092,7 @@
 					<entry key="position" type="vector3" value="-250 -1800 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -25845,7 +26165,7 @@
 					<entry key="position" type="vector3" value="-250 -1750 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -25866,7 +26186,7 @@
 					<entry key="position" type="vector3" value="150 -1600 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -25889,7 +26209,7 @@
 					<entry key="position" type="vector3" value="-250 -1700 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -25936,7 +26256,7 @@
 					<entry key="position" type="vector3" value="-50 -1550 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -26057,7 +26377,7 @@
 					<entry key="position" type="vector3" value="150 -1550 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -26080,7 +26400,7 @@
 					<entry key="position" type="vector3" value="-250 -1650 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -26195,7 +26515,7 @@
 					<entry key="position" type="vector3" value="-50 -1500 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -26243,7 +26563,7 @@
 					<entry key="position" type="vector3" value="-250 -1600 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -26314,7 +26634,7 @@
 					<entry key="position" type="vector3" value="150 -1500 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -26337,7 +26657,7 @@
 					<entry key="position" type="vector3" value="-250 -1550 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -26384,7 +26704,7 @@
 					<entry key="position" type="vector3" value="-50 -1450 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -26455,7 +26775,7 @@
 					<entry key="position" type="vector3" value="150 -1450 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -26503,7 +26823,7 @@
 					<entry key="position" type="vector3" value="-250 -1500 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -26527,7 +26847,7 @@
 					<entry key="position" type="vector3" value="-450 -1850 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -26549,7 +26869,7 @@
 					<entry key="position" type="vector3" value="-50 -1400 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -26598,7 +26918,7 @@
 					<entry key="position" type="vector3" value="-450 -1800 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -26647,7 +26967,7 @@
 					<entry key="position" type="vector3" value="-450 -1750 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -26693,7 +27013,7 @@
 					<entry key="position" type="vector3" value="150 -1400 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -26716,7 +27036,7 @@
 					<entry key="position" type="vector3" value="-250 -1450 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -26740,7 +27060,7 @@
 					<entry key="position" type="vector3" value="-450 -1700 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -26764,7 +27084,7 @@
 					<entry key="position" type="vector3" value="-450 -1650 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -26786,7 +27106,7 @@
 					<entry key="position" type="vector3" value="-50 -1350 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -26957,7 +27277,7 @@
 					<entry key="position" type="vector3" value="150 -1350 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -26980,7 +27300,7 @@
 					<entry key="position" type="vector3" value="-250 -1400 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -27072,7 +27392,7 @@
 					<entry key="position" type="vector3" value="-450 -1600 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -27171,7 +27491,7 @@
 					<entry key="position" type="vector3" value="-450 -1550 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -27193,7 +27513,7 @@
 					<entry key="position" type="vector3" value="-50 -1300 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -27266,7 +27586,7 @@
 					<entry key="position" type="vector3" value="-250 -1350 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -27287,7 +27607,7 @@
 					<entry key="position" type="vector3" value="150 -1300 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -27336,7 +27656,7 @@
 					<entry key="position" type="vector3" value="-450 -1500 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -27409,7 +27729,7 @@
 					<entry key="position" type="vector3" value="-250 -1300 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -27433,7 +27753,7 @@
 					<entry key="position" type="vector3" value="-450 -1450 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -27507,7 +27827,7 @@
 					<entry key="position" type="vector3" value="-450 -1400 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -27556,7 +27876,7 @@
 					<entry key="position" type="vector3" value="-450 -1350 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -27630,7 +27950,7 @@
 					<entry key="position" type="vector3" value="-450 -1300 3000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="toggle"/>
+					<entry key="toggle" type="string" value="off"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -28321,10 +28641,6 @@
 						<entry index="1" type="table">
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="100964"/>
-						</entry>
-						<entry index="2" type="table">
-							<entry key="delay" type="number" value="1"/>
-							<entry key="id" type="number" value="100657"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-850 -1700 3000"/>
@@ -34993,7 +35309,7 @@
 				<entry key="module" type="string" value="CoreElementRandom"/>
 				<entry key="script" type="string" value="default"/>
 				<entry key="values" type="table">
-					<entry key="amount" type="number" value="2"/>
+					<entry key="amount" type="number" value="1"/>
 					<entry key="amount_random" type="number" value="0"/>
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="enabled" type="boolean" value="false"/>
@@ -35029,7 +35345,7 @@
 				<entry key="module" type="string" value="CoreElementRandom"/>
 				<entry key="script" type="string" value="default"/>
 				<entry key="values" type="table">
-					<entry key="amount" type="number" value="3"/>
+					<entry key="amount" type="number" value="2"/>
 					<entry key="amount_random" type="number" value="0"/>
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="enabled" type="boolean" value="false"/>
