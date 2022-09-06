@@ -7,13 +7,6 @@
 			<value_node value="packages/custom/pd2_mod_csgo_c4/csgo_c4/world/world"/>
 		</packages>
 	</instance>
-	<instance id="tj_csgo_desh_box">
-		<packages>
-			<value_node value="levels/instances/unique/bex/bex_box/world"/>
-			<value_node value="levels/instances/unique/bex/bex_box/world_sounds"/>
-			<value_node value="levels/instances/unique/bex/bex_box/world/world"/>
-		</packages>
-	</instance>
 	<Hooks directory="hooks">
 		<hook file="Setup.lua" source_file="lib/setups/gamesetup"/>
 		<hook file="playermanager.lua" source_file="lib/managers/playermanager"/>
