@@ -759,9 +759,21 @@
 		<unit path="units/dev_tools/level_tools/dev_ai_vis_blocker/dev_ai_vis_blocker_005x6x6m"/>
 	</add>
 	<add from_db="true" path="units/dev_tools/level_tools/dev_ai_vis_blocker/dev_ai_vis_blocker_005x8x8m" type="unit">
-		<unit path="units/dev_tools/level_tools/dev_ai_vis_blocker/dev_ai_vis_blocker_005x8x8m"/>
-		<object path="units/dev_tools/level_tools/dev_ai_vis_blocker/dev_ai_vis_blocker_005x8x8m"/>
 		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_ai_vis_blocker/dev_ai_vis_blocker_005x8x8m"/>
 		<sequence_manager path="units/dev_tools/level_tools/dev_ai_vis_blocker/dev_ai_vis_blocker_005x8x8m"/>
+		<unit path="units/dev_tools/level_tools/dev_ai_vis_blocker/dev_ai_vis_blocker_005x8x8m"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/invisible_interaction_searching/invisible_interaction_searching" type="unit">
+		<material_config path="units/dev_tools/invisible_interaction_searching/invisible_interaction_searching"/>
+		<object path="units/dev_tools/invisible_interaction_searching/invisible_interaction_searching"/>
+		<sequence_manager path="units/dev_tools/invisible_interaction_searching/invisible_interaction_searching"/>
+		<unit path="units/dev_tools/invisible_interaction_searching/invisible_interaction_searching"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/invisible_interaction_searching/invisible_interaction_searching_false" type="unit">
+		<unit path="units/dev_tools/invisible_interaction_searching/invisible_interaction_searching_false"/>
+		<object path="units/dev_tools/invisible_interaction_searching/invisible_interaction_searching_false"/>
+		<material_config path="units/dev_tools/invisible_interaction_searching/invisible_interaction_searching"/>
+		<sequence_manager path="units/dev_tools/invisible_interaction_searching/invisible_interaction_searching"/>
 	</add>
 </table>
