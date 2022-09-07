@@ -3010,6 +3010,116 @@
 		<table>
 			<unit_data _prev_pos="-5247.21 74.537 719.418" _prev_rot="0 0 0.707107 -0.707107" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/dev_tools/invisible_interaction_searching/invisible_interaction_searching_false" name_id="invisible_interaction_searching_false_012" position="-5291.74 134.733 763.096" rotation="0 0 0.707107 -0.707107" unit_id="100954"/>
 		</table>
+		<table>
+			<unit_data _prev_pos="-860 -460 190" _prev_rot="0 0 0.707107 -0.707107" continent="world" disable_on_ai_graph="true" hide_on_projection_light="true" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/vehicles/air_vehicle_blackhawk/helicopter_cops_ref_bag_catcher" name_id="helicopter_cops_ref_bag_catcher_001" position="-860 -460 190" rotation="0 0 0.707107 -0.707107" unit_id="100955">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 0.858824 0.580392" enabled="false" falloff_exponent="4" far_range="150" multiplier="@IDbca13ba1d306f87b@" name="lo_omni" near_range="0" spot_angle_end="1" spot_angle_start="1"/>
+				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-10340 -660 -510" _prev_rot="0 0 -0.707107 -0.707107" continent="world" disable_on_ai_graph="true" hide_on_projection_light="true" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/vehicles/air_vehicle_blackhawk/helicopter_cops_ref_bag_catcher" name_id="helicopter_cops_ref_bag_catcher_002" position="-10340 -660 -510" rotation="0 0 -0.707107 -0.707107" unit_id="100956">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 0.858824 0.580392" enabled="false" falloff_exponent="4" far_range="150" multiplier="@IDbca13ba1d306f87b@" name="lo_omni" near_range="0" spot_angle_end="1" spot_angle_start="1"/>
+				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1000 -620 740" _prev_rot="-0 0 -0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x1x3" name_id="dev_door_blocker_1x1x3_HELI_1_001" only_visible_in_editor="true" position="-1000 -620 740" rotation="-0 0 -0 -1" unit_id="100957"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1000 -520 740" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 100 0" local_rot="-0 0 0 1" name="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x1x3" name_id="dev_door_blocker_1x1x3_HELI_1_002" only_visible_in_editor="true" position="-1000 -520 740" rotation="0 0 0 -1" unit_id="100958"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1000 -420 740" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x1x3" name_id="dev_door_blocker_1x1x3_HELI_1_003" only_visible_in_editor="true" position="-1000 -420 740" rotation="0 0 0 -1" unit_id="100959"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1000 -620 740" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x1x3" name_id="dev_door_blocker_1x1x3_HELI_1_004" only_visible_in_editor="true" position="-900 -620 740" rotation="0 0 0 -1" unit_id="100960"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1000 -520 740" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 100 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x1x3" name_id="dev_door_blocker_1x1x3_HELI_1_005" only_visible_in_editor="true" position="-900 -520 740" rotation="0 0 0 -1" unit_id="100961"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1000 -420 740" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 200 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x1x3" name_id="dev_door_blocker_1x1x3_HELI_1_006" only_visible_in_editor="true" position="-900 -420 740" rotation="0 0 0 -1" unit_id="100962"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-900 -620 740" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x1x3" name_id="dev_door_blocker_1x1x3_HELI_1_007" only_visible_in_editor="true" position="-800 -620 740" rotation="0 0 0 -1" unit_id="100963"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-900 -520 740" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 100 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x1x3" name_id="dev_door_blocker_1x1x3_HELI_1_008" only_visible_in_editor="true" position="-800 -520 740" rotation="0 0 0 -1" unit_id="100964"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-900 -420 740" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 200 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x1x3" name_id="dev_door_blocker_1x1x3_HELI_1_009" only_visible_in_editor="true" position="-800 -420 740" rotation="0 0 0 -1" unit_id="100965"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-800 -620 740" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x1x3" name_id="dev_door_blocker_1x1x3_HELI_1_010" only_visible_in_editor="true" position="-700 -620 740" rotation="0 0 0 -1" unit_id="100966"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-800 -520 740" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 100 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x1x3" name_id="dev_door_blocker_1x1x3_HELI_1_011" only_visible_in_editor="true" position="-700 -520 740" rotation="0 0 0 -1" unit_id="100967"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-800 -420 740" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 200 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x1x3" name_id="dev_door_blocker_1x1x3_HELI_1_012" only_visible_in_editor="true" position="-700 -420 740" rotation="0 0 0 -1" unit_id="100968"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-700 -620 740" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x1x3" name_id="dev_door_blocker_1x1x3_HELI_1_013" only_visible_in_editor="true" position="-600 -620 740" rotation="0 0 0 -1" unit_id="100969"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-700 -520 740" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 100 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x1x3" name_id="dev_door_blocker_1x1x3_HELI_1_014" only_visible_in_editor="true" position="-600 -520 740" rotation="0 0 0 -1" unit_id="100970"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-700 -420 740" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 200 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x1x3" name_id="dev_door_blocker_1x1x3_HELI_1_015" only_visible_in_editor="true" position="-600 -420 740" rotation="0 0 0 -1" unit_id="100971"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-10290 -800 50" _prev_rot="-0 0 -0 -1" continent="world" instance_data="false" local_pos="0 -200 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x1x3" name_id="dev_door_blocker_1x1x3_HELI_2_001" only_visible_in_editor="true" position="-10290 -790 50" rotation="-0 0 -0 -1" unit_id="100972"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-10290 -700 50" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 -100 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x1x3" name_id="dev_door_blocker_1x1x3_HELI_2_002" only_visible_in_editor="true" position="-10290 -690 50" rotation="0 0 0 -1" unit_id="100973"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-10290 -600 50" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x1x3" name_id="dev_door_blocker_1x1x3_HELI_2_003" only_visible_in_editor="true" position="-10290 -590 50" rotation="0 0 0 -1" unit_id="100974"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-10290 -590 50" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x1x3" name_id="dev_door_blocker_1x1x3_HELI_2_004" only_visible_in_editor="true" position="-10390 -590 50" rotation="0 0 0 -1" unit_id="100975"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-10290 -690 50" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 -100 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x1x3" name_id="dev_door_blocker_1x1x3_HELI_2_005" only_visible_in_editor="true" position="-10390 -690 50" rotation="0 0 0 -1" unit_id="100976"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-10290 -790 50" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 -200 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x1x3" name_id="dev_door_blocker_1x1x3_HELI_2_006" only_visible_in_editor="true" position="-10390 -790 50" rotation="0 0 0 -1" unit_id="100977"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-10390 -590 50" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x1x3" name_id="dev_door_blocker_1x1x3_HELI_2_007" only_visible_in_editor="true" position="-10490 -590 50" rotation="0 0 0 -1" unit_id="100978"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-10390 -690 50" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 -100 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x1x3" name_id="dev_door_blocker_1x1x3_HELI_2_008" only_visible_in_editor="true" position="-10490 -690 50" rotation="0 0 0 -1" unit_id="100979"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-10390 -790 50" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 -200 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x1x3" name_id="dev_door_blocker_1x1x3_HELI_2_009" only_visible_in_editor="true" position="-10490 -790 50" rotation="0 0 0 -1" unit_id="100980"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-10590 -590 50" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x1x3" name_id="dev_door_blocker_1x1x3_HELI_2_010" only_visible_in_editor="true" position="-10590 -590 50" rotation="0 0 0 -1" unit_id="100981"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-10490 -690 50" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 -100 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x1x3" name_id="dev_door_blocker_1x1x3_HELI_2_011" only_visible_in_editor="true" position="-10590 -690 50" rotation="0 0 0 -1" unit_id="100982"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-10490 -790 50" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 -200 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x1x3" name_id="dev_door_blocker_1x1x3_HELI_2_012" only_visible_in_editor="true" position="-10590 -790 50" rotation="0 0 0 -1" unit_id="100983"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-10590 -590 50" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x1x3" name_id="dev_door_blocker_1x1x3_HELI_2_013" only_visible_in_editor="true" position="-10640 -590 50" rotation="0 0 0 -1" unit_id="100984"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-10590 -690 50" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 -100 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x1x3" name_id="dev_door_blocker_1x1x3_HELI_2_014" only_visible_in_editor="true" position="-10640 -690 50" rotation="0 0 0 -1" unit_id="100985"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-10590 -790 50" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 -200 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x1x3" name_id="dev_door_blocker_1x1x3_HELI_2_015" only_visible_in_editor="true" position="-10640 -790 50" rotation="0 0 0 -1" unit_id="100986"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-250 -500 820" _prev_rot="-0 0 -0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/props/gen_prop_circle_goal_marker_7x7/gen_prop_circle_goal_marker_7x7" name_id="gen_prop_circle_goal_marker_7x7_001" position="-250 -500 820" rotation="-0 0 -0 -1" unit_id="100987"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-10982.1 -650 158.182" _prev_rot="0.0871557 -3.8097e-009 0.996195 4.35451e-008" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/props/gen_prop_circle_goal_marker_7x7/gen_prop_circle_goal_marker_7x7" name_id="gen_prop_circle_goal_marker_7x7_002" position="-10982.1 -650 158.182" rotation="0.0871557 -3.8097e-009 0.996195 4.35451e-008" unit_id="100988"/>
+		</table>
 	</statics>
 	<values>
 		<workviews/>
