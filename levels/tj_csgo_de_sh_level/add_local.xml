@@ -8,12 +8,12 @@
 	<massunit path="massunit" reload="true"/>
 	<continent path="collision/collision" script_data_type="custom_xml"/>
 	<mission path="collision/collision" script_data_type="generic_xml"/>
-	<continent path="backdrop/backdrop" script_data_type="custom_xml"/>
-	<mission path="backdrop/backdrop" script_data_type="generic_xml"/>
-	<continent path="lights/lights" script_data_type="custom_xml"/>
-	<mission path="lights/lights" script_data_type="generic_xml"/>
 	<continent path="world/world" script_data_type="custom_xml"/>
 	<mission path="world/world" script_data_type="generic_xml"/>
+	<continent path="lights/lights" script_data_type="custom_xml"/>
+	<mission path="lights/lights" script_data_type="generic_xml"/>
+	<continent path="backdrop/backdrop" script_data_type="custom_xml"/>
+	<mission path="backdrop/backdrop" script_data_type="generic_xml"/>
 	<continent path="occluders/occluders" script_data_type="custom_xml"/>
 	<mission path="occluders/occluders" script_data_type="generic_xml"/>
 	<continent path="editor_only/editor_only" script_data_type="custom_xml"/>

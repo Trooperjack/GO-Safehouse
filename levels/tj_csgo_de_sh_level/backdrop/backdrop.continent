@@ -1,5 +1,6 @@
 <table>
 	<editor_groups/>
+	<instances/>
 	<statics>
 		<table>
 			<unit_data _prev_pos="-20 13020 1620" _prev_rot="0 0 -0.707107 -0.707107" continent="backdrop" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/forest/zones/forest/fst_backdrop_forest/fst_backdrop_forest_01" name_id="fst_backdrop_forest_01_001" position="-20 13020 1750" rotation="0 0 -0.707107 -0.707107" unit_id="600001"/>
@@ -68,5 +69,4 @@
 	<values>
 		<workviews/>
 	</values>
-	<instances/>
 </table>

@@ -784,8 +784,14 @@
 		<unit path="units/payday2/vehicles/air_vehicle_blackhawk/helicopter_cops_ref_bag_catcher"/>
 	</add>
 	<add from_db="true" path="units/payday2/props/gen_prop_circle_goal_marker_7x7/gen_prop_circle_goal_marker_7x7" type="unit">
-		<unit path="units/payday2/props/gen_prop_circle_goal_marker_7x7/gen_prop_circle_goal_marker_7x7"/>
 		<object path="units/payday2/props/gen_prop_circle_goal_marker_7x7/gen_prop_circle_goal_marker_7x7"/>
 		<sequence_manager path="units/payday2/props/gen_prop_circle_goal_marker_7x7/gen_prop_circle_goal_marker_7x7"/>
+		<unit path="units/payday2/props/gen_prop_circle_goal_marker_7x7/gen_prop_circle_goal_marker_7x7"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_cro/ladder_train_compact/ladder_train_compact" type="unit">
+		<unit path="units/pd2_dlc_cro/ladder_train_compact/ladder_train_compact"/>
+		<object path="units/pd2_dlc_cro/ladder_train_compact/ladder_train_compact"/>
+		<material_config path="units/pd2_dlc_cro/ladder_train_compact/ladder_train_compact"/>
+		<sequence_manager path="units/pd2_dlc_cro/ladder_train_compact/ladder_train_compact"/>
 	</add>
 </table>

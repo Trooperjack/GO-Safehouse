@@ -1,5 +1,6 @@
 <table>
 	<editor_groups/>
+	<instances/>
 	<statics>
 		<table>
 			<unit_data _prev_pos="460 -1120 880" _prev_rot="-0 0 -0 -1" continent="collision" instance_data="false" local_pos="0 1600 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_8x32m" name_id="dev_bag_collision_8x32m_001" only_visible_in_editor="true" position="460 -1120 800" rotation="-0 0 -0 -1" unit_id="400000"/>
@@ -1046,5 +1047,4 @@
 	<values>
 		<workviews/>
 	</values>
-	<instances/>
 </table>
