@@ -3126,7 +3126,7 @@
 			<unit_data _prev_pos="-3745.73 1262.16 623.766" _prev_rot="0.45452 0.541675 -0.454519 -0.541675" continent="world" hide_on_projection_light="true" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_dlc_cro/ladder_train_compact/ladder_train_compact" name_id="ladder_train_compact_004" position="-3745.73 1262.16 623.766" rotation="0.45452 0.541675 -0.454519 -0.541675" unit_id="100992"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-3116.29 -1221.26 717.272" _prev_rot="0.153679 0.702576 0.0886604 -0.689136" continent="world" hide_on_projection_light="true" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_dlc_cro/ladder_train_compact/ladder_train_compact" name_id="ladder_train_compact_005" position="-3163.34 -1204.44 715.549" rotation="0.153679 0.702576 0.0886604 -0.689136" unit_id="100993"/>
+			<unit_data _prev_pos="-3163.34 -1204.44 715.549" _prev_rot="0.689136 -0.0886604 0.702576 0.153679" continent="world" hide_on_projection_light="true" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_dlc_cro/ladder_train_compact/ladder_train_compact" name_id="ladder_train_compact_005" position="-3473.9 -1093.43 704.177" rotation="0.689137 -0.0886604 0.702576 0.153679" unit_id="100993"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-5143.35 242.687 609.6" _prev_rot="0 -0.0784591 0 -0.996917" continent="world" hide_on_projection_light="true" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_dlc_cro/ladder_train_compact/ladder_train_compact" name_id="ladder_train_compact_006" position="-5143.35 252.687 609.6" rotation="0 -0.0784591 0 -0.996917" unit_id="100994"/>
