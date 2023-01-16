@@ -34,8 +34,12 @@
 		<interaction based_on="cas_button_clear" id="csgo_c4_button_clear" interact_distance="100"/>
 		<interaction based_on="hold_circuit_breaker" id="csgo_c4_switch_on" interact_distance="100" timer="1"/>
 		<interaction based_on="hold_remove_cover" id="csgo_c4_open_switch_cover" interact_distance="100" timer="0"/>
-		<interaction based_on="c4" id="csgo_c4_plant_c4"/>
+		<interaction based_on="c4_consume_x1" id="csgo_c4_plant_c4" special_equipment="csgo_c4"/>
 	</Interactions>
+	<HUDIcon id="csgo_c4_icon" texture="units/pd2_mod_csgo_c4/csgo_c4/textures/csgo_c4_icon_df"/>
+	<Equipments>
+		<special id="csgo_c4" based_on="c4_x1" icon="csgo_c4_icon" text_id="hud_equipment_pickup_csgo_c4" quantity="1"/>
+	</Equipments>
 	<Localization default="english.txt" directory="loc">
 		<loc file="english.txt" language="english"/>
 	</Localization>

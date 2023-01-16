@@ -14037,7 +14037,7 @@
 						</entry>
 						<entry key="player" type="table">
 							<entry key="mission_equipment" type="table">
-								<entry index="1" type="string" value="c4"/>
+								<entry index="1" type="string" value="csgo_c4"/>
 							</entry>
 						</entry>
 					</entry>

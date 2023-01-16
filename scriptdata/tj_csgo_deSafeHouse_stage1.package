@@ -94,6 +94,9 @@
 		<unit 				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/swat_van/str_vehicle_swat_van" unload="true"/>
 		<material_config 	path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/swat_van/str_vehicle_swat_van" unload="true"/>
 		
+		<!-- csgo_c4_bag -->
+		<unit 				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/gen_csgo_c4_bag/gen_csgo_c4_bag" unload="true"/>
+		
 		
 		
 		

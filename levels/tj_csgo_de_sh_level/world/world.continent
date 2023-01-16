@@ -232,12 +232,6 @@
 			</unit_data>
 		</table>
 		<table>
-			<unit_data _prev_pos="-643.9 573.508 824.265" _prev_rot="0 0 0.743145 -0.669131" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc1/pickups/gen_pku_c4_explosives/gen_pku_c4_explosives" name_id="gen_pku_c4_explosives_001" position="-643.9 573.508 824.265" rotation="0 0 0.743145 -0.669131" unit_id="100030"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-8997.46 -179.695 301.659" _prev_rot="-0.110616 0.0861747 0.698401 -0.701836" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc1/pickups/gen_pku_c4_explosives/gen_pku_c4_explosives" name_id="gen_pku_c4_explosives_002" position="-8997.46 -179.695 301.659" rotation="-0.110616 0.0861747 0.698401 -0.701836" unit_id="100031"/>
-		</table>
-		<table>
 			<unit_data _prev_pos="-4867.65 -473.08 702.627" _prev_rot="0 0 0.993572 0.113203" continent="world" disable_shadows="true" hide_on_projection_light="true" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/equipment/gen_interactable_laptop/gen_interactable_laptop" name_id="gen_interactable_laptop_001" position="-4868.85 -473.829 702.627" rotation="0 0 0.993572 0.113203" unit_id="100032"/>
 		</table>
 		<table>
@@ -3130,6 +3124,12 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="-5143.35 242.687 609.6" _prev_rot="0 -0.0784591 0 -0.996917" continent="world" hide_on_projection_light="true" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_dlc_cro/ladder_train_compact/ladder_train_compact" name_id="ladder_train_compact_006" position="-5143.35 252.687 609.6" rotation="0 -0.0784591 0 -0.996917" unit_id="100994"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-643.9 573.508 824.265" _prev_rot="0 0 0.743145 -0.669131" continent="world" disable_on_ai_graph="true" hide_on_projection_light="true" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/gen_csgo_c4_bag/gen_csgo_c4_bag" name_id="gen_pku_c4_explosives_001" position="-643.9 573.508 824.265" rotation="0 0 0.743145 -0.669131" unit_id="100030"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-8997.46 -179.695 301.659" _prev_rot="-0.110611 0.0861766 0.698404 -0.701834" continent="world" disable_on_ai_graph="true" hide_on_projection_light="true" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/gen_csgo_c4_bag/gen_csgo_c4_bag" name_id="gen_pku_c4_explosives_002" position="-8997.46 -179.695 301.659" rotation="-0.110611 0.0861766 0.698404 -0.701834" unit_id="100031"/>
 		</table>
 	</statics>
 	<values>

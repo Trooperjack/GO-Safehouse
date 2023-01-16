@@ -27,6 +27,7 @@
 		<dds				path="units/pd2_mod_csgo_c4/csgo_c4/textures/c4" 						unload="true"/>
 		<dds				path="units/pd2_mod_csgo_c4/csgo_c4/textures/c4_switch" 				unload="true"/>
 		<dds				path="units/pd2_mod_csgo_c4/csgo_c4/textures/csgo_c4_keypad_text_df" 	unload="true"/>
+		<dds				path="units/pd2_mod_csgo_c4/csgo_c4/textures/csgo_c4_icon_df" 			unload="true"/>
 		<texture			path="units/pd2_mod_csgo_c4/csgo_c4/textures/gsma_none" 				unload="true"/>
 		
 		<ogg				path="units/pd2_mod_csgo_c4/csgo_c4/sounds/arm_bomb" 					unload="true"/>
