@@ -1,8 +1,13 @@
 <unit type="gen" slot="1">
-<network sync="spawn"/>
 	<object file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/windows/window_54x76" />
 	<extensions>
 		<extension name="unit_data" class="ScriptUnitData" />
 		<extension name="damage" class="UnitDamage" />
+		<extension name="interaction" class="UseInteractionExt">
+            <var name="tweak_data" value="tj_csgo_sh_cut_open_window"/>
+            <var name="_interact_object" value="interact"/>
+        </extension>
+        <extension name="sync_unit_data" class="SyncUnitData"/>
 	</extensions>
+	<network sync="spawn"/>
 </unit>

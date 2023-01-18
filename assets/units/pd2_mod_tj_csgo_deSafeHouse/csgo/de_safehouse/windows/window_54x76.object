@@ -1,13 +1,27 @@
 <dynamic_object>
 	<diesel materials="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/de_safehouse_mat" orientation_object="rp_go_safehouse" />
 	<sequence_manager file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/windows/window_54x76" />
+	
 	<bodies>
-		<body name="glass_body" enabled="true" template="window">
-			<object name="rp_go_safehouse" />
-			<object name="g_window_54x76" collision_type="mesh_mopp" />
+		<body name="glass_body_bottom" enabled="true" template="window">
+			<object name="c_box_001" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="glass_body_top" enabled="true" template="window">
+			<object name="c_box_002" collision_type="box" padding="-2.5"/>
 		</body>
 	</bodies>
+	
 	<graphics>
 		<object name="g_window_54x76" enabled="true" shadow_caster="true"/>
+		<object name="g_window_54x76_dmg" enabled="false" shadow_caster="true"/>
+		<object name="g_window_54x76_hole" enabled="false" shadow_caster="true"/>
+		<object name="g_window_54x76_dmg_hole" enabled="false" shadow_caster="true"/>
+		<graphic_group name="grp_icon" enabled="true">
+            <lod_object name="lod_icon">
+                <object name="g_icon_glass_cut" enabled="true" max_distance="500"/>
+                <object name="g_icon_glass_cut_lod1" enabled="true"/>
+            </lod_object>
+        </graphic_group>
 	</graphics>
+	
 </dynamic_object>

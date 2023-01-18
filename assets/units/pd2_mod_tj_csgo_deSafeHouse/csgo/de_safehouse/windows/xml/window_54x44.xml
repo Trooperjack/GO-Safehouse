@@ -1,16 +1,30 @@
 <sequence_manager>
 	<unit>
-		<sequence name=" 'destroy' " once="true" triggable="true">
+	
+		<sequence name=" 'crack_window' " once="true" triggable="true">
 			<object enabled="false" name=" 'g_window_54x44' "/>
+			<object enabled="true" name=" 'g_window_54x44_dmg' "/>
+			<sound action="'play'" event="'glass_crack'" object="'e_glass'"/>
+			<alert/>
+		</sequence>
+		
+		<sequence name=" 'break_window' " once="true" triggable="true">
+			<object enabled="false" name=" 'g_window_54x44' "/>
+			<object enabled="false" name=" 'g_window_54x44_dmg' "/>
 			<sound action="'play'" event="'window_large_shatter'" object="'e_glass'"/>
 			<effect name="'effects/payday2/particles/window/storefront_window_small'" parent="object( 'e_glass' )" position="v()"/>
 			<alert/>
 			<body enabled="false" name=" 'glass_body' "/>
 		</sequence>
+
 		<body name="'glass_body'">
-			<endurance bullet="1" explosion="1" melee="0.5">
-				<run_sequence name="'destroy'"/>
+			<endurance bullet="1" melee="0.5">
+				<run_sequence name="'crack_window'"/>
+			</endurance>
+			<endurance bullet="2" explosion="1" melee="1">
+				<run_sequence name="'break_window'"/>
 			</endurance>
 		</body>
+		
 	</unit>
 </sequence_manager>

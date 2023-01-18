@@ -25,6 +25,11 @@
         <variable value="2" type="scalar" name="falloff_exp"/>
         <variable value="3 0 0" type="vector3" name="uv0_speed"/>
     </material>
+	<material render_template="effect:DIFFUSE0_TEXTURE:VIEW_ANGLE_FALLOFF_OP" name="mtr_glass_cut" version="2">
+        <diffuse_texture file="units/gui/glasscutter_indicator_df"/>
+        <variable type="scalar" name="intensity" value="identity"/>
+        <variable type="scalar" name="falloff_exp" value="0"/>
+    </material>
     <material name="mat_contour" render_template="generic:ALPHA_MASKED:CONTOUR:DIFFUSE_TEXTURE:OPACITY_TEXTURE" unique="true" version="2">
         <diffuse_texture file="units/white_df"/>
         <variable value="0 1 0" type="vector3" name="contour_color"/>

@@ -1,16 +1,133 @@
 <sequence_manager>
 	<unit>
-		<sequence name=" 'destroy' " once="true" triggable="true">
+	
+		<variables>
+			<var_window_cracked_state value="0"/>
+			<var_window_hole value="0"/>
+		</variables>
+	
+		<filter name="'filter_is_window_cracked_true'">
+			<check value="vars.var_window_cracked_state == 1"/>
+		</filter>
+		
+		<filter name="'filter_is_window_cracked_false'">
+			<check value="vars.var_window_cracked_state == 0"/>
+		</filter>
+	
+		<filter name="'filter_is_window_hole_true'">
+			<check value="vars.var_window_hole == 1"/>
+		</filter>
+		
+		<filter name="'filter_is_window_hole_false'">
+			<check value="vars.var_window_hole == 0"/>
+		</filter>
+	
+		<sequence editable_state="true" name="'interact'" triggable="true">
+			<interaction enabled="false"/>
+			<set_variables var_window_hole="1"/>
 			<object enabled="false" name=" 'g_window_54x76' "/>
+			<object enabled="false" name=" 'g_window_54x76_dmg' "/>
+			<run_sequence filter="'filter_is_window_cracked_false'" name="'show_window_hole'"/>
+			<run_sequence filter="'filter_is_window_cracked_true'" name="'show_window_hole_cracked'"/>
+			<graphic_group enabled="true" name="'grp_icon'" visibility="false"/>
+			<body enabled="false" name="'glass_body_bottom'"/>
+		</sequence>
+	
+		<sequence editable_state="true" name="'state_interaction_on'" triggable="true">
+			<interaction enabled="true"/>
+			<graphic_group enabled="true" name="'grp_icon'" visibility="true"/>
+		</sequence>
+		
+		<sequence editable_state="true" name="'state_interaction_off'" triggable="true">
+			<interaction enabled="false"/>
+			<graphic_group enabled="true" name="'grp_icon'" visibility="false"/>
+		</sequence>
+	
+		<sequence editable_state="true" name="'show_window_hole'" triggable="true">
+			<object enabled="false" name=" 'g_window_54x76' "/>
+			<object enabled="false" name=" 'g_window_54x76_dmg' "/>
+			<object enabled="true" name=" 'g_window_54x76_hole' "/>
+			<object enabled="false" name=" 'g_window_54x76_hole_dmg' "/>
+			<graphic_group enabled="true" name="'grp_icon'" visibility="false"/>
+			<body enabled="false" name="'glass_body_bottom'"/>
+		</sequence>
+		
+		<sequence editable_state="true" name="'show_window_hole_cracked'" triggable="true">
+			<object enabled="false" name=" 'g_window_54x76' "/>
+			<object enabled="false" name=" 'g_window_54x76_dmg' "/>
+			<object enabled="false" name=" 'g_window_54x76_hole' "/>
+			<object enabled="true" name=" 'g_window_54x76_hole_dmg' "/>
+			<graphic_group enabled="true" name="'grp_icon'" visibility="false"/>
+			<body enabled="false" name="'glass_body_bottom'"/>
+		</sequence>
+	
+		<sequence name=" 'crack_window_check' " triggable="true">
+			<run_sequence filter="'filter_is_window_hole_false'" name="'crack_window_01'"/>
+			<run_sequence filter="'filter_is_window_hole_true'" name="'crack_window_02'"/>
+		</sequence>
+		
+		<sequence name=" 'break_window_check' " triggable="true">
+			<run_sequence filter="'filter_is_window_hole_false'" name="'break_window_01'"/>
+			<run_sequence filter="'filter_is_window_hole_true'" name="'break_window_02'"/>
+		</sequence>
+	
+		<sequence name=" 'crack_window_01' " once="true" triggable="true">
+			<object enabled="false" name=" 'g_window_54x76' "/>
+			<object enabled="true" name=" 'g_window_54x76_dmg' "/>
+			<set_variables var_window_cracked_state="1"/>
+			<sound action="'play'" event="'glass_crack'" object="'e_glass'"/>
+			<alert/>
+		</sequence>
+		
+		<sequence name=" 'crack_window_02' " once="true" triggable="true">
+			<object enabled="false" name=" 'g_window_54x76_hole' "/>
+			<object enabled="true" name=" 'g_window_54x76_hole_dmg' "/>
+			<set_variables var_window_cracked_state="1"/>
+			<sound action="'play'" event="'glass_crack'" object="'e_glass'"/>
+			<alert/>
+		</sequence>
+		
+		<sequence name=" 'break_window_01' " once="true" triggable="true">
+			<object enabled="false" name=" 'g_window_54x76' "/>
+			<object enabled="false" name=" 'g_window_54x76_dmg' "/>
+			<interaction enabled="false"/>
 			<sound action="'play'" event="'window_large_shatter'" object="'e_glass'"/>
 			<effect name="'effects/payday2/particles/window/storefront_window_small'" parent="object( 'e_glass' )" position="v()"/>
 			<alert/>
-			<body enabled="false" name=" 'glass_body' "/>
+			<graphic_group enabled="true" name="'grp_icon'" visibility="false"/>
+			<body enabled="false" name="'glass_body_bottom'"/>
+			<body enabled="false" name="'glass_body_top'"/>
 		</sequence>
-		<body name="'glass_body'">
-			<endurance bullet="1" explosion="1" melee="0.5">
-				<run_sequence name="'destroy'"/>
+		
+		<sequence name=" 'break_window_02' " once="true" triggable="true">
+			<object enabled="false" name=" 'g_window_54x76_hole' "/>
+			<object enabled="false" name=" 'g_window_54x76_hole_dmg' "/>
+			<interaction enabled="false"/>
+			<sound action="'play'" event="'window_large_shatter'" object="'e_glass'"/>
+			<effect name="'effects/payday2/particles/window/storefront_window_small'" parent="object( 'e_glass' )" position="v()"/>
+			<alert/>
+			<graphic_group enabled="true" name="'grp_icon'" visibility="false"/>
+			<body enabled="false" name="'glass_body_bottom'"/>
+			<body enabled="false" name="'glass_body_top'"/>
+		</sequence>
+		
+		<body name="'glass_body_bottom'">
+			<endurance bullet="1" melee="0.5">
+				<run_sequence name="'crack_window_check'"/>
+			</endurance>
+			<endurance bullet="2" explosion="1" melee="1">
+				<run_sequence name="'break_window_check'"/>
 			</endurance>
 		</body>
+		
+		<body name="'glass_body_top'">
+			<endurance bullet="1" melee="0.5">
+				<run_sequence name="'crack_window_check'"/>
+			</endurance>
+			<endurance bullet="2" explosion="1" melee="1">
+				<run_sequence name="'break_window_check'"/>
+			</endurance>
+		</body>
+		
 	</unit>
 </sequence_manager>

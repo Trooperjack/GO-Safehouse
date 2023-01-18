@@ -3,8 +3,7 @@
 	<sequence_manager file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/windows/window_54x44" />
 	<bodies>
 		<body name="glass_body" enabled="true" template="window">
-			<object name="rp_go_safehouse" />
-			<object name="g_window_54x44" collision_type="mesh_mopp" />
+			<object name="c_box_001" collision_type="box" padding="-2.5"/>
 		</body>
 	</bodies>
 	<graphics>
