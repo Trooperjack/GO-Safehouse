@@ -90,28 +90,56 @@
 		
 		
 		
+		<sequence editable_state="true" name="'explode_effect_in'" triggable="true">
+			<effect name="'effects/payday2/particles/wood/wood_door_shotgun_dmg_in'" parent="object( 'interaction_point' )" position="v()"/>
+		</sequence>
+		
+		<sequence editable_state="true" name="'explode_effect_out'" triggable="true">
+			<effect name="'effects/payday2/particles/wood/wood_door_shotgun_dmg_out'" parent="object( 'interaction_point' )" position="v()"/>
+		</sequence>
+		
+		
+		
 		<body name="'body_hitbox_door_handle'">
 			<endurance bullet="4">
-				<run_sequence name="'open_door'"/>
+				<run_sequence name="'open_door_exploded'"/>
 			</endurance>
 			<endurance lock="12">
-				<run_sequence name="'open_door'"/>
+				<run_sequence name="'open_door_exploded'"/>
 			</endurance>
 			<endurance explosion="1">
-				<run_sequence name="'open_door'"/>
+				<run_sequence name="'open_door_exploded'"/>
 			</endurance>
 		</body>
 		
 		
-		<sequence editable_state="false" name="'interact'" triggable="true"/>
+		<sequence editable_state="false" name="'interact'" triggable="true">
+			<run_sequence name="'open_door'"/>
+		</sequence>
 				
 		<sequence editable_state="true" name="'open_door'" triggable="true">
 			<interaction enabled="false"/>
 			<run_sequence filter="'filter_is_open_in'" name="'anim_open_door_in'"/>
 			<run_sequence filter="'filter_is_open_out'" name="'anim_open_door_out'"/>
 			<body enabled="false" name="'body_hitbox_door_handle'"/>
+			<run_sequence name="'done_opened'"/>
 		</sequence>
 		
+		<sequence editable_state="true" name="'open_door_exploded'" triggable="true">
+			<interaction enabled="false"/>
+			<object enabled="false" name="'g_door_001'"/>
+			<object enabled="true" name="'g_door_002'"/>
+			<decal_mesh enabled="false" name="'dm_wood_001'"/>
+			<decal_mesh enabled="true" name="'dm_wood_002'"/>
+			<decal_mesh enabled="false" name="'dm_metal'"/>
+			<run_sequence filter="'filter_is_open_in'" name="'anim_open_door_in'"/>
+			<run_sequence filter="'filter_is_open_out'" name="'anim_open_door_out'"/>
+			<run_sequence filter="'filter_is_open_in'" name="'explode_effect_in'"/>
+			<run_sequence filter="'filter_is_open_out'" name="'explode_effect_out'"/>
+			<body enabled="false" name="'body_hitbox_door_handle'"/>
+			<run_sequence name="'done_opened'"/>
+			<run_sequence name="'done_exploded'"/>
+		</sequence>
 		
 		
 		<sequence editable_state="false" name="'done_exploded'" triggable="false"/>
