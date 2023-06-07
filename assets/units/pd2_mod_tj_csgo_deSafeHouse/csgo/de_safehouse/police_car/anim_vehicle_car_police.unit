@@ -1,0 +1,21 @@
+<unit type="gen" slot="1">
+	<object file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/police_car/anim_vehicle_car_police" />
+	<network sync="spawn"/>
+
+	<dependencies>
+		<depends_on effect="effects/payday2/particles/window/storefront_window_small" />
+		<depends_on bnk="soundbanks/regular_sfx" />
+	</dependencies>
+	<extensions>
+		<extension name="base" class="AnimatedVehicleBase">
+			<var name="_body_name" value="a_main_animation"/>
+		</extension>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+	</extensions>
+	<sounds>
+		<default_soundsource source="a_main_animation"/>
+		<soundsource name="cop_siren" source="siren" />
+		<soundsource name="snd" source="a_main_animation" />
+	</sounds>
+</unit>

@@ -3131,6 +3131,14 @@
 		<table>
 			<unit_data _prev_pos="-8997.46 -179.695 301.659" _prev_rot="-0.110611 0.0861766 0.698404 -0.701834" continent="world" disable_on_ai_graph="true" hide_on_projection_light="true" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/gen_csgo_c4_bag/gen_csgo_c4_bag" name_id="gen_pku_c4_explosives_002" position="-8997.46 -179.695 301.659" rotation="-0.110611 0.0861766 0.698404 -0.701834" unit_id="100031"/>
 		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/vehicles/anim_vehicle_car_police/anim_vehicle_car_police" name_id="anim_vehicle_car_police_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100038">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="0.118 0.5149 1" enabled="false" falloff_exponent="4" far_range="350" multiplier="@IDd07c4dc12188729d@" name="li_light_blue" near_range="0" spot_angle_end="0" spot_angle_start="0"/>
+					<table clipping_values="10000 -10000 0" color="1 0.118 0.118" enabled="false" falloff_exponent="4" far_range="350" multiplier="@ID90cc6917c5799ad8@" name="li_light_red" near_range="0" spot_angle_end="0" spot_angle_start="0"/>
+				</lights>
+			</unit_data>
+		</table>
 	</statics>
 	<values>
 		<workviews/>

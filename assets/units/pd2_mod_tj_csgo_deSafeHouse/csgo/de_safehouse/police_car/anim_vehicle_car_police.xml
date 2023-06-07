@@ -1,0 +1,273 @@
+<sequence_manager>
+	<unit>
+	
+	
+		<sequence editable_state="true" name="'spawn_cops_sfpd'" triggable="true">
+			<function extension="'spawn_manager'" function="'spawn_unit'" param1="'police_1'" param2="'rp_anim_car'" param3="'units/pd2_dlc_chas/vehicles/spawn_police_officer_01_sfpd/spawn_police_officer_01_sfpd'"/>
+			<function extension="'spawn_manager'" function="'spawn_unit'" param1="'police_2'" param2="'rp_anim_car'" param3="'units/pd2_dlc_chas/vehicles/spawn_police_officer_02_sfpd/spawn_police_officer_02_sfpd'"/>
+			<object enabled="false" name="'g_police'"/>
+		</sequence>
+		<sequence editable_state="true" name="'despawn_cops_sfpd'" triggable="true">
+			<function extension="'spawn_manager'" function="'remove_unit'" param1="'police_1'"/>
+			<function extension="'spawn_manager'" function="'remove_unit'" param1="'police_2'"/>
+		</sequence>
+		
+		
+		<sequence editable_state="true" name="'state_vis_hide'" triggable="true">
+			<graphic_group name="'grp_vehicle_whole'" visibility="false"/>
+			<body enabled="false" name="'body_body'"/>
+			<body enabled="false" name="'body_anim_blocker'"/>
+			<body enabled="false" name="'body_door_left'"/>
+			<body enabled="false" name="'body_door_right'"/>
+			<body enabled="false" name="'body_wheel_front_right'"/>
+			<body enabled="false" name="'body_wheel_front_left'"/>
+			<body enabled="false" name="'body_win_front'"/>
+			<body enabled="false" name="'body_win_left_front'"/>
+			<body enabled="false" name="'body_win_right_front'"/>
+			<body enabled="false" name="'body_win_left_rear'"/>
+			<body enabled="false" name="'body_win_right_rear'"/>
+			<body enabled="false" name="'body_win_back'"/>
+			<body enabled="false" name="'body_blocker_mover'"/>
+			<decal_mesh enabled="false" name="'dm_window_front'"/>
+			<decal_mesh enabled="false" name="'dm_door_left_window'"/>
+			<decal_mesh enabled="false" name="'dm_door_right_window'"/>
+			<decal_mesh enabled="false" name="'dm_window_rear_left'"/>
+			<decal_mesh enabled="false" name="'dm_window_rear_right'"/>
+			<decal_mesh enabled="false" name="'dm_window_back'"/>
+			<decal_mesh enabled="false" name="'dm_body'"/>
+			<decal_mesh enabled="false" name="'dm_wheel_front_left'"/>
+			<decal_mesh enabled="false" name="'dm_wheel_front_right'"/>
+			<decal_mesh enabled="false" name="'dm_door_left'"/>
+			<decal_mesh enabled="false" name="'dm_door_right'"/>
+			<run_sequence name="'state_lights_siren_off'"/>
+			<body enabled="false" name="'mover_blocker'"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_vis_show'" triggable="true">
+			<graphic_group name="'grp_vehicle_whole'" visibility="true"/>
+			<body enabled="true" name="'body_body'"/>
+			<body enabled="true" name="'body_anim_blocker'"/>
+			<body enabled="true" name="'body_door_left'"/>
+			<body enabled="true" name="'body_door_right'"/>
+			<body enabled="true" name="'body_wheel_front_right'"/>
+			<body enabled="true" name="'body_wheel_front_left'"/>
+			<body enabled="true" name="'body_win_front'"/>
+			<body enabled="true" name="'body_win_left_front'"/>
+			<body enabled="true" name="'body_win_right_front'"/>
+			<body enabled="true" name="'body_win_left_rear'"/>
+			<body enabled="true" name="'body_win_right_rear'"/>
+			<body enabled="true" name="'body_win_back'"/>
+			<body enabled="false" name="'body_blocker_mover'"/>
+			<decal_mesh enabled="true" name="'dm_window_front'"/>
+			<decal_mesh enabled="true" name="'dm_door_left_window'"/>
+			<decal_mesh enabled="true" name="'dm_door_right_window'"/>
+			<decal_mesh enabled="true" name="'dm_window_rear_left'"/>
+			<decal_mesh enabled="true" name="'dm_window_rear_right'"/>
+			<decal_mesh enabled="true" name="'dm_window_back'"/>
+			<decal_mesh enabled="true" name="'dm_body'"/>
+			<decal_mesh enabled="true" name="'dm_wheel_front_left'"/>
+			<decal_mesh enabled="true" name="'dm_wheel_front_right'"/>
+			<decal_mesh enabled="true" name="'dm_door_left'"/>
+			<decal_mesh enabled="true" name="'dm_door_right'"/>
+			<body enabled="true" name="'mover_blocker'"/>
+		</sequence>
+		
+		
+		<sequence editable_state="true" name="'state_anim_blocker_disable'" triggable="true">
+			<body enabled="false" name="'body_anim_blocker'"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_anim_blocker_enable'" triggable="true">
+			<body enabled="true" name="'body_anim_blocker'"/>
+		</sequence>
+		
+		
+		<sequence editable_state="true" name="'state_lights_siren_on'" triggable="true">
+			<object enabled="true" name="'g_il_red'"/>
+			<object enabled="true" name="'g_il_blue'"/>
+			<light enabled="true" name="'li_light_blue'"/>
+			<light enabled="true" name="'li_light_red'"/>
+			<animation_group enabled="true" from="0/30" loop="true" name="'show'" speed="1.7" to="33/30"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_lights_siren_off'" triggable="true">
+			<object enabled="false" name="'g_il_red'"/>
+			<object enabled="false" name="'g_il_blue'"/>
+			<light enabled="false" name="'li_light_blue'"/>
+			<light enabled="false" name="'li_light_red'"/>
+			<animation_group enabled="false" name="'show'"/>
+		</sequence>
+		
+		
+		<sequence editable_state="true" name="'state_police_officers_off'" triggable="true">
+			<object enabled="false" name="'g_police'"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_police_officers_on'" triggable="true">
+			<object enabled="true" name="'g_police'"/>
+		</sequence>
+		
+		
+		<sequence editable_state="true" name="'state_sfpd'" triggable="true">
+			<material_config name="'units/pd2_dlc_chas/vehicles/chas_vehicle_car_police_sfpd/chas_vehicle_car_police_sfpd'"/>
+			<object enabled="true" name="'g_body_decal_right'"/>
+			<object enabled="true" name="'g_body_decal_left'"/>
+		</sequence>
+		
+		
+		<sequence editable_state="true" name="'__reset_animation__'" triggable="true">
+			<function extension="'base'" function="'move_to_stored_pos'"/>
+			<run_sequence name="'state_lights_siren_off'"/>
+			<object enabled="true" name="'g_police'"/>
+			<body enabled="true" name="'body_anim_blocker'"/>
+			<animation_group enabled="true" from="0" name="'anim_door_right'" to="0"/>
+			<animation_group enabled="true" from="0" name="'anim_door_left'" to="0"/>
+		</sequence>
+		<sequence editable_state="true" name="'__allow_sync_reset_animation__'" triggable="true">
+			<function extension="'base'" function="'allow_sync_stored_pos'" param1="'true'"/>
+		</sequence>
+		
+		
+		<sequence editable_state="true" name="'anim_door_left_open'" triggable="true">
+			<animation_group enabled="true" name="'anim_door_left'"/>
+		</sequence>
+		<sequence editable_state="true" name="'anim_door_right_open'" triggable="true">
+			<animation_group enabled="true" name="'anim_door_right'"/>
+		</sequence>
+		<sequence editable_state="true" name="'anim_door_left_close'" triggable="true">
+			<animation_group enabled="true" from="10/30" name="'anim_door_left'" speed="-1" to="0"/>
+		</sequence>
+		<sequence editable_state="true" name="'anim_door_left_close_half'" triggable="true">
+			<animation_group enabled="true" from="10/30" name="'anim_door_left'" speed="-1" to="6.5/30"/>
+		</sequence>
+		<sequence editable_state="true" name="'anim_door_right_close'" triggable="true">
+			<animation_group enabled="true" from="10/30" name="'anim_door_right'" speed="-1" to="0"/>
+		</sequence>
+		
+		
+		<sequence editable_state="true" name="'anim_cop_entry_1'" triggable="true">
+			<function extension="'base'" function="'store_current_pos'"/>
+			<animation_group enabled="true" from="0/30" name="'main_animation'" to="300/30"/>
+			<run_sequence name="'state_lights_siren_on'"/>
+			<sound action="'play'" event="'cop_car_01'" source="'cop_siren'"/>
+			<run_sequence name="'done_anim_police_responce'" start_time="300/30"/>
+			<animation_group enabled="true" name="'anim_door_right'" start_time="300/30"/>
+			<animation_group enabled="true" name="'anim_door_left'" start_time="300/30"/>
+		</sequence>
+		<sequence editable_state="true" name="'anim_cop_entry_2'" triggable="true">
+			<function extension="'base'" function="'store_current_pos'"/>
+			<animation_group enabled="true" from="320/30" name="'main_animation'" to="620/30"/>
+			<run_sequence name="'state_lights_siren_on'"/>
+			<sound action="'play'" event="'cop_car_01'" source="'cop_siren'"/>
+			<run_sequence name="'done_anim_police_responce'" start_time="620/30"/>
+			<animation_group enabled="true" name="'anim_door_right'" start_time="620/30"/>
+			<animation_group enabled="true" name="'anim_door_left'" start_time="620/30"/>
+		</sequence>
+		<sequence editable_state="true" name="'anim_cop_entry_3'" triggable="true">
+			<function extension="'base'" function="'store_current_pos'"/>
+			<animation_group enabled="true" from="640/30" name="'main_animation'" to="940/30"/>
+			<run_sequence name="'state_lights_siren_on'"/>
+			<sound action="'play'" event="'cop_car_01'" source="'cop_siren'"/>
+			<run_sequence name="'done_anim_police_responce'" start_time="940/30"/>
+			<animation_group enabled="true" name="'anim_door_right'" start_time="940/30"/>
+			<animation_group enabled="true" name="'anim_door_left'" start_time="940/30"/>
+		</sequence>
+		<sequence editable_state="true" name="'anim_cop_entry_4'" triggable="true">
+			<function extension="'base'" function="'store_current_pos'"/>
+			<animation_group enabled="true" from="960/30" name="'main_animation'" to="1260/30"/>
+			<run_sequence name="'state_lights_siren_on'"/>
+			<sound action="'play'" event="'cop_car_01'" source="'cop_siren'"/>
+			<run_sequence name="'done_anim_police_responce'" start_time="1260/30"/>
+			<animation_group enabled="true" name="'anim_door_right'" start_time="1260/30"/>
+			<animation_group enabled="true" name="'anim_door_left'" start_time="1260/30"/>
+		</sequence>
+		
+		
+		<sequence editable_state="false" name="'done_anim_police_responce'" triggable="false">
+			<object enabled="false" name="'g_police'"/>
+			<body enabled="false" name="'body_anim_blocker'"/>
+		</sequence>
+		
+		
+		<sequence editable_state="false" name="'int_seq_win_left_front'" once="true" triggable="false">
+			<effect name="'effects/payday2/particles/window/storefront_window_small'" parent="object( 'e_window_front_left' )" position="v()"/>
+			<sound action="'play'" event="'window_small_shatter'" object="'e_window_front_left'"/>
+			<object enabled="false" name="'g_door_left_window'"/>
+			<object enabled="false" name="'g_door_left_window_lod'"/>
+			<body enabled="false" name="'body_win_left_front'"/>
+			<decal_mesh enabled="false" name="'dm_door_left_window'"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_win_right_front'" once="true" triggable="false">
+			<effect name="'effects/payday2/particles/window/storefront_window_small'" parent="object( 'e_window_front_right' )" position="v()"/>
+			<sound action="'play'" event="'window_small_shatter'" object="'e_window_front_right'"/>
+			<object enabled="false" name="'g_door_right_window'"/>
+			<object enabled="false" name="'g_door_right_window_lod'"/>
+			<body enabled="false" name="'body_win_right_front'"/>
+			<decal_mesh enabled="false" name="'dm_door_right_window'"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_win_left_rear'" once="true" triggable="false">
+			<effect name="'effects/payday2/particles/window/storefront_window_small'" parent="object( 'e_window_rear_left' )" position="v()"/>
+			<sound action="'play'" event="'window_small_shatter'" object="'e_window_rear_left'"/>
+			<object enabled="false" name="'g_window_rear_left'"/>
+			<object enabled="false" name="'g_window_rear_left_lod'"/>
+			<body enabled="false" name="'body_win_left_rear'"/>
+			<decal_mesh enabled="false" name="'dm_window_rear_left'"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_win_right_rear'" once="true" triggable="false">
+			<effect name="'effects/payday2/particles/window/storefront_window_small'" parent="object( 'e_window_rear_right' )" position="v()"/>
+			<sound action="'play'" event="'window_small_shatter'" object="'e_window_rear_right'"/>
+			<object enabled="false" name="'g_window_rear_right'"/>
+			<object enabled="false" name="'g_window_rear_right_lod'"/>
+			<body enabled="false" name="'body_win_right_rear'"/>
+			<decal_mesh enabled="false" name="'dm_window_rear_right'"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_win_front'" once="true" triggable="false">
+			<object enabled="false" name="'g_window_front'"/>
+			<object enabled="false" name="'g_window_front_lod'"/>
+			<object enabled="true" name="'g_window_front_dmg'"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_win_back'" once="true" triggable="false">
+			<object enabled="false" name="'g_window_back'"/>
+			<object enabled="false" name="'g_window_back_lod'"/>
+			<object enabled="true" name="'g_window_back_dmg'"/>
+		</sequence>
+		
+		
+		<sequence editable_state="true" name="'state_hide_mullplan'" triggable="true">
+			<object enabled="false" name="'g_mullplan'"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_show_mullplan'" triggable="true">
+			<object enabled="true" name="'g_mullplan'"/>
+		</sequence>
+		
+		
+		<body name="'body_win_left_front'">
+			<endurance bullet="2" explosion="1">
+				<run_sequence name="'int_seq_win_left_front'"/>
+			</endurance>
+		</body>
+		<body name="'body_win_right_front'">
+			<endurance bullet="2" explosion="1">
+				<run_sequence name="'int_seq_win_right_front'"/>
+			</endurance>
+		</body>
+		<body name="'body_win_left_rear'">
+			<endurance bullet="2" explosion="1">
+				<run_sequence name="'int_seq_win_left_rear'"/>
+			</endurance>
+		</body>
+		<body name="'body_win_right_rear'">
+			<endurance bullet="2" explosion="1">
+				<run_sequence name="'int_seq_win_right_rear'"/>
+			</endurance>
+		</body>
+		<body name="'body_win_front'">
+			<endurance bullet="5" explosion="1">
+				<run_sequence name="'int_seq_win_front'"/>
+			</endurance>
+		</body>
+		<body name="'body_win_back'">
+			<endurance bullet="5" explosion="1">
+				<run_sequence name="'int_seq_win_back'"/>
+			</endurance>
+		</body>
+		
+		
+	</unit>
+</sequence_manager>
