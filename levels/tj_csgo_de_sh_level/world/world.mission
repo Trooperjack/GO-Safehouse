@@ -33647,7 +33647,7 @@
 						<entry index="1" type="table">
 							<entry key="name" type="string" value="run_sequence"/>
 							<entry key="notify_unit_id" type="number" value="100055"/>
-							<entry key="notify_unit_sequence" type="string" value="destroy"/>
+							<entry key="notify_unit_sequence" type="string" value="break_window_01"/>
 							<entry key="time" type="number" value="0"/>
 						</entry>
 					</entry>
@@ -33697,7 +33697,7 @@
 						<entry index="1" type="table">
 							<entry key="name" type="string" value="run_sequence"/>
 							<entry key="notify_unit_id" type="number" value="100056"/>
-							<entry key="notify_unit_sequence" type="string" value="destroy"/>
+							<entry key="notify_unit_sequence" type="string" value="break_window_01"/>
 							<entry key="time" type="number" value="0"/>
 						</entry>
 					</entry>
@@ -33747,7 +33747,7 @@
 						<entry index="1" type="table">
 							<entry key="name" type="string" value="run_sequence"/>
 							<entry key="notify_unit_id" type="number" value="100063"/>
-							<entry key="notify_unit_sequence" type="string" value="destroy"/>
+							<entry key="notify_unit_sequence" type="string" value="break_window_01"/>
 							<entry key="time" type="number" value="0"/>
 						</entry>
 					</entry>
@@ -33797,7 +33797,7 @@
 						<entry index="1" type="table">
 							<entry key="name" type="string" value="run_sequence"/>
 							<entry key="notify_unit_id" type="number" value="100057"/>
-							<entry key="notify_unit_sequence" type="string" value="destroy"/>
+							<entry key="notify_unit_sequence" type="string" value="break_window_01"/>
 							<entry key="time" type="number" value="0"/>
 						</entry>
 					</entry>
@@ -33847,7 +33847,7 @@
 						<entry index="1" type="table">
 							<entry key="name" type="string" value="run_sequence"/>
 							<entry key="notify_unit_id" type="number" value="100058"/>
-							<entry key="notify_unit_sequence" type="string" value="destroy"/>
+							<entry key="notify_unit_sequence" type="string" value="break_window_01"/>
 							<entry key="time" type="number" value="0"/>
 						</entry>
 					</entry>
@@ -33872,7 +33872,7 @@
 						<entry index="1" type="table">
 							<entry key="name" type="string" value="run_sequence"/>
 							<entry key="notify_unit_id" type="number" value="100053"/>
-							<entry key="notify_unit_sequence" type="string" value="destroy"/>
+							<entry key="notify_unit_sequence" type="string" value="break_window_01"/>
 							<entry key="time" type="number" value="0"/>
 						</entry>
 					</entry>
@@ -33891,7 +33891,7 @@
 					<entry key="depth" type="number" value="140"/>
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
-					<entry key="height" type="number" value="210"/>
+					<entry key="height" type="number" value="265"/>
 					<entry key="instigator" type="string" value="persons"/>
 					<entry key="interval" type="number" value="0.1"/>
 					<entry key="on_executed" type="table">
@@ -33909,7 +33909,7 @@
 					<entry key="trigger_on" type="string" value="on_enter"/>
 					<entry key="trigger_times" type="number" value="1"/>
 					<entry key="use_disabled_shapes" type="boolean" value="false"/>
-					<entry key="width" type="number" value="40"/>
+					<entry key="width" type="number" value="100"/>
 				</entry>
 			</entry>
 			<entry index="1144" type="table">
@@ -33924,7 +33924,7 @@
 					<entry key="depth" type="number" value="140"/>
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
-					<entry key="height" type="number" value="210"/>
+					<entry key="height" type="number" value="265"/>
 					<entry key="instigator" type="string" value="persons"/>
 					<entry key="interval" type="number" value="0.1"/>
 					<entry key="on_executed" type="table">
@@ -33942,7 +33942,7 @@
 					<entry key="trigger_on" type="string" value="on_enter"/>
 					<entry key="trigger_times" type="number" value="1"/>
 					<entry key="use_disabled_shapes" type="boolean" value="false"/>
-					<entry key="width" type="number" value="40"/>
+					<entry key="width" type="number" value="100"/>
 				</entry>
 			</entry>
 			<entry index="1145" type="table">
@@ -33963,7 +33963,7 @@
 						<entry index="1" type="table">
 							<entry key="name" type="string" value="run_sequence"/>
 							<entry key="notify_unit_id" type="number" value="100051"/>
-							<entry key="notify_unit_sequence" type="string" value="destroy"/>
+							<entry key="notify_unit_sequence" type="string" value="break_window_01"/>
 							<entry key="time" type="number" value="0"/>
 						</entry>
 					</entry>
@@ -33982,7 +33982,7 @@
 					<entry key="depth" type="number" value="140"/>
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
-					<entry key="height" type="number" value="210"/>
+					<entry key="height" type="number" value="265"/>
 					<entry key="instigator" type="string" value="persons"/>
 					<entry key="interval" type="number" value="0.1"/>
 					<entry key="on_executed" type="table">
@@ -34000,7 +34000,7 @@
 					<entry key="trigger_on" type="string" value="on_enter"/>
 					<entry key="trigger_times" type="number" value="1"/>
 					<entry key="use_disabled_shapes" type="boolean" value="false"/>
-					<entry key="width" type="number" value="40"/>
+					<entry key="width" type="number" value="100"/>
 				</entry>
 			</entry>
 			<entry index="1147" type="table">
@@ -34021,7 +34021,7 @@
 						<entry index="1" type="table">
 							<entry key="name" type="string" value="run_sequence"/>
 							<entry key="notify_unit_id" type="number" value="100050"/>
-							<entry key="notify_unit_sequence" type="string" value="destroy"/>
+							<entry key="notify_unit_sequence" type="string" value="break_window_01"/>
 							<entry key="time" type="number" value="0"/>
 						</entry>
 					</entry>
@@ -34040,7 +34040,7 @@
 					<entry key="depth" type="number" value="140"/>
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
-					<entry key="height" type="number" value="210"/>
+					<entry key="height" type="number" value="265"/>
 					<entry key="instigator" type="string" value="persons"/>
 					<entry key="interval" type="number" value="0.1"/>
 					<entry key="on_executed" type="table">
@@ -34058,7 +34058,7 @@
 					<entry key="trigger_on" type="string" value="on_enter"/>
 					<entry key="trigger_times" type="number" value="1"/>
 					<entry key="use_disabled_shapes" type="boolean" value="false"/>
-					<entry key="width" type="number" value="40"/>
+					<entry key="width" type="number" value="60"/>
 				</entry>
 			</entry>
 			<entry index="1149" type="table">
@@ -34079,7 +34079,7 @@
 						<entry index="1" type="table">
 							<entry key="name" type="string" value="run_sequence"/>
 							<entry key="notify_unit_id" type="number" value="100049"/>
-							<entry key="notify_unit_sequence" type="string" value="destroy"/>
+							<entry key="notify_unit_sequence" type="string" value="break_window_01"/>
 							<entry key="time" type="number" value="0"/>
 						</entry>
 					</entry>
@@ -34098,7 +34098,7 @@
 					<entry key="depth" type="number" value="140"/>
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
-					<entry key="height" type="number" value="210"/>
+					<entry key="height" type="number" value="265"/>
 					<entry key="instigator" type="string" value="persons"/>
 					<entry key="interval" type="number" value="0.1"/>
 					<entry key="on_executed" type="table">
@@ -34116,7 +34116,7 @@
 					<entry key="trigger_on" type="string" value="on_enter"/>
 					<entry key="trigger_times" type="number" value="1"/>
 					<entry key="use_disabled_shapes" type="boolean" value="false"/>
-					<entry key="width" type="number" value="40"/>
+					<entry key="width" type="number" value="60"/>
 				</entry>
 			</entry>
 			<entry index="1151" type="table">
@@ -34137,7 +34137,7 @@
 						<entry index="1" type="table">
 							<entry key="name" type="string" value="run_sequence"/>
 							<entry key="notify_unit_id" type="number" value="100048"/>
-							<entry key="notify_unit_sequence" type="string" value="destroy"/>
+							<entry key="notify_unit_sequence" type="string" value="break_window_01"/>
 							<entry key="time" type="number" value="0"/>
 						</entry>
 					</entry>
@@ -34156,7 +34156,7 @@
 					<entry key="depth" type="number" value="140"/>
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
-					<entry key="height" type="number" value="210"/>
+					<entry key="height" type="number" value="265"/>
 					<entry key="instigator" type="string" value="persons"/>
 					<entry key="interval" type="number" value="0.1"/>
 					<entry key="on_executed" type="table">
@@ -34174,7 +34174,7 @@
 					<entry key="trigger_on" type="string" value="on_enter"/>
 					<entry key="trigger_times" type="number" value="1"/>
 					<entry key="use_disabled_shapes" type="boolean" value="false"/>
-					<entry key="width" type="number" value="40"/>
+					<entry key="width" type="number" value="100"/>
 				</entry>
 			</entry>
 			<entry index="1153" type="table">
@@ -34195,7 +34195,7 @@
 						<entry index="1" type="table">
 							<entry key="name" type="string" value="run_sequence"/>
 							<entry key="notify_unit_id" type="number" value="100014"/>
-							<entry key="notify_unit_sequence" type="string" value="destroy"/>
+							<entry key="notify_unit_sequence" type="string" value="break_window_01"/>
 							<entry key="time" type="number" value="0"/>
 						</entry>
 					</entry>
@@ -34214,7 +34214,7 @@
 					<entry key="depth" type="number" value="140"/>
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
-					<entry key="height" type="number" value="210"/>
+					<entry key="height" type="number" value="265"/>
 					<entry key="instigator" type="string" value="persons"/>
 					<entry key="interval" type="number" value="0.1"/>
 					<entry key="on_executed" type="table">
@@ -34232,7 +34232,7 @@
 					<entry key="trigger_on" type="string" value="on_enter"/>
 					<entry key="trigger_times" type="number" value="1"/>
 					<entry key="use_disabled_shapes" type="boolean" value="false"/>
-					<entry key="width" type="number" value="40"/>
+					<entry key="width" type="number" value="100"/>
 				</entry>
 			</entry>
 			<entry index="1155" type="table">
@@ -34253,7 +34253,7 @@
 						<entry index="1" type="table">
 							<entry key="name" type="string" value="run_sequence"/>
 							<entry key="notify_unit_id" type="number" value="100015"/>
-							<entry key="notify_unit_sequence" type="string" value="destroy"/>
+							<entry key="notify_unit_sequence" type="string" value="break_window_01"/>
 							<entry key="time" type="number" value="0"/>
 						</entry>
 					</entry>
@@ -49145,6 +49145,56 @@
 							<entry key="time" type="number" value="0"/>
 						</entry>
 					</entry>
+					<entry key="trigger_times" type="number" value="1"/>
+				</entry>
+			</entry>
+			<entry index="1649" type="table">
+				<entry key="class" type="string" value="ElementSpecialObjectiveTrigger"/>
+				<entry key="editor_name" type="string" value="on_house_upstairs_window_climbed_001"/>
+				<entry key="id" type="number" value="101648"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="100093"/>
+						<entry index="2" type="number" value="100091"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event" type="string" value="anim_start"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101167"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="-5303.5 133 1250"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+					<entry key="trigger_times" type="number" value="1"/>
+				</entry>
+			</entry>
+			<entry index="1650" type="table">
+				<entry key="class" type="string" value="ElementSpecialObjectiveTrigger"/>
+				<entry key="editor_name" type="string" value="on_house_upstairs_window_climbed_002"/>
+				<entry key="id" type="number" value="101649"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="100094"/>
+						<entry index="2" type="number" value="100092"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event" type="string" value="anim_start"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101169"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="-5963.5 133 1250"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="trigger_times" type="number" value="1"/>
 				</entry>
 			</entry>
