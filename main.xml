@@ -94,6 +94,38 @@
 			</mod>
 		</script_data_mods>
 	</level>
+	<Achievements banner="guis/textures/mods/CustomAchievement/tj_csgo_de_sh/tj_csgo_de_sh_banner" icon="guis/textures/mods/CustomAchievement/tj_csgo_de_sh/tj_csgo_de_sh_pack" id="tj_csgo_de_sh_achievements">
+		<achievement icon="guis/textures/mods/CustomAchievement/tj_csgo_de_sh/tj_csgo_de_sh_deathSentence_OD" id="tj_csgo_de_sh_deathSentence_OD" rank="4"/>
+		<achievement icon="guis/textures/mods/CustomAchievement/tj_csgo_de_sh/tj_csgo_de_sh_deathSentence" id="tj_csgo_de_sh_deathSentence" rank="4"/>
+		<achievement icon="guis/textures/mods/CustomAchievement/tj_csgo_de_sh/tj_csgo_de_sh_deathWish" id="tj_csgo_de_sh_deathWish" rank="3"/>
+		<achievement icon="guis/textures/mods/CustomAchievement/tj_csgo_de_sh/tj_csgo_de_sh_mayhem" id="tj_csgo_de_sh_mayhem" rank="3"/>
+		<achievement icon="guis/textures/mods/CustomAchievement/tj_csgo_de_sh/tj_csgo_de_sh_overkill" id="tj_csgo_de_sh_overkill" rank="2"/>
+		<achievement icon="guis/textures/mods/CustomAchievement/tj_csgo_de_sh/tj_csgo_de_sh_veryHard" id="tj_csgo_de_sh_veryHard" rank="2"/>
+		<achievement icon="guis/textures/mods/CustomAchievement/tj_csgo_de_sh/tj_csgo_de_sh_hard" id="tj_csgo_de_sh_hard" rank="1"/>
+		<achievement icon="guis/textures/mods/CustomAchievement/tj_csgo_de_sh/tj_csgo_de_sh_normal" id="tj_csgo_de_sh_normal" rank="1"/>
+		<achievement icon="guis/textures/mods/CustomAchievement/tj_csgo_de_sh/tj_csgo_de_sh_rushB" id="tj_csgo_de_sh_rushB" rank="2"/>
+		<achievement icon="guis/textures/mods/CustomAchievement/tj_csgo_de_sh/tj_csgo_de_sh_lightGold" id="tj_csgo_de_sh_lightGold" rank="3"/>
+		<achievement icon="guis/textures/mods/CustomAchievement/tj_csgo_de_sh/tj_csgo_de_sh_heavyGold" id="tj_csgo_de_sh_heavyGold" rank="3"/>
+		<achievement icon="guis/textures/mods/CustomAchievement/tj_csgo_de_sh/tj_csgo_de_sh_safeCombo" id="tj_csgo_de_sh_safeCombo" rank="2"/>
+		<achievement icon="guis/textures/mods/CustomAchievement/tj_csgo_de_sh/tj_csgo_de_sh_kitcoin" id="tj_csgo_de_sh_kitcoin" rank="4"/>
+	</Achievements>
+	<AddFiles directory="assets">
+		<texture force="true" path="guis/textures/mods/CustomAchievement/tj_csgo_de_sh/tj_csgo_de_sh_pack"/>
+		<texture force="true" path="guis/textures/mods/CustomAchievement/tj_csgo_de_sh/tj_csgo_de_sh_deathSentence_OD"/>
+		<texture force="true" path="guis/textures/mods/CustomAchievement/tj_csgo_de_sh/tj_csgo_de_sh_deathSentence"/>
+		<texture force="true" path="guis/textures/mods/CustomAchievement/tj_csgo_de_sh/tj_csgo_de_sh_deathWish"/>
+		<texture force="true" path="guis/textures/mods/CustomAchievement/tj_csgo_de_sh/tj_csgo_de_sh_mayhem"/>
+		<texture force="true" path="guis/textures/mods/CustomAchievement/tj_csgo_de_sh/tj_csgo_de_sh_overkill"/>
+		<texture force="true" path="guis/textures/mods/CustomAchievement/tj_csgo_de_sh/tj_csgo_de_sh_veryHard"/>
+		<texture force="true" path="guis/textures/mods/CustomAchievement/tj_csgo_de_sh/tj_csgo_de_sh_hard"/>
+		<texture force="true" path="guis/textures/mods/CustomAchievement/tj_csgo_de_sh/tj_csgo_de_sh_normal"/>
+		<texture force="true" path="guis/textures/mods/CustomAchievement/tj_csgo_de_sh/tj_csgo_de_sh_rushB"/>
+		<texture force="true" path="guis/textures/mods/CustomAchievement/tj_csgo_de_sh/tj_csgo_de_sh_lightGold"/>
+		<texture force="true" path="guis/textures/mods/CustomAchievement/tj_csgo_de_sh/tj_csgo_de_sh_heavyGold"/>
+		<texture force="true" path="guis/textures/mods/CustomAchievement/tj_csgo_de_sh/tj_csgo_de_sh_safeCombo"/>
+		<texture force="true" path="guis/textures/mods/CustomAchievement/tj_csgo_de_sh/tj_csgo_de_sh_kitcoin"/>
+		<png force="true" path="guis/textures/mods/CustomAchievement/tj_csgo_de_sh/tj_csgo_de_sh_banner"/>
+	</AddFiles>
 	<narrative briefing_event="" contact="custom" id="tj_csgo_de_sh_narr">
 		<chain>
 			<table level_id="tj_csgo_de_sh_level" type="d" type_id="heist_type_assault"/>
