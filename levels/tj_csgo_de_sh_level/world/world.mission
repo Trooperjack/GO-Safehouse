@@ -43055,17 +43055,21 @@
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100179"/>
+							<entry key="id" type="number" value="101866"/>
 						</entry>
 						<entry index="2" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="101759"/>
+							<entry key="id" type="number" value="100179"/>
 						</entry>
 						<entry index="3" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="101758"/>
+							<entry key="id" type="number" value="101759"/>
 						</entry>
 						<entry index="4" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101758"/>
+						</entry>
+						<entry index="5" type="table">
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="101757"/>
 						</entry>
@@ -54419,6 +54423,252 @@
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
+			<entry index="1855" type="table">
+				<entry key="class" type="string" value="ElementInstancePoint"/>
+				<entry key="editor_name" type="string" value="instance_point_safeCombo_note_1_001"/>
+				<entry key="id" type="number" value="101854"/>
+				<entry key="module" type="string" value="CoreElementInstance"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="instance" type="string" value="tj_csgo_de_sh_safeCombo_note_001"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="-5699.45 -842.478 1143.54"/>
+					<entry key="rotation" type="quaternion" value="0.707107 3.09086e-008 0.707107 -3.09086e-008"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="1856" type="table">
+				<entry key="class" type="string" value="ElementInstancePoint"/>
+				<entry key="editor_name" type="string" value="instance_point_safeCombo_note_1_002"/>
+				<entry key="id" type="number" value="101855"/>
+				<entry key="module" type="string" value="CoreElementInstance"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="instance" type="string" value="tj_csgo_de_sh_safeCombo_note_001"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="-5703.5 -898.302 1186.01"/>
+					<entry key="rotation" type="quaternion" value="0.707107 -3.09086e-008 0.707107 3.09086e-008"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="1857" type="table">
+				<entry key="class" type="string" value="ElementInstancePoint"/>
+				<entry key="editor_name" type="string" value="instance_point_safeCombo_note_1_003"/>
+				<entry key="id" type="number" value="101856"/>
+				<entry key="module" type="string" value="CoreElementInstance"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="instance" type="string" value="tj_csgo_de_sh_safeCombo_note_001"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="-5703.17 -834.375 1225.03"/>
+					<entry key="rotation" type="quaternion" value="0.707107 3.09086e-008 0.707107 -3.09086e-008"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="1858" type="table">
+				<entry key="class" type="string" value="ElementInstancePoint"/>
+				<entry key="editor_name" type="string" value="instance_point_safeCombo_note_1_004"/>
+				<entry key="id" type="number" value="101857"/>
+				<entry key="module" type="string" value="CoreElementInstance"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="instance" type="string" value="tj_csgo_de_sh_safeCombo_note_001"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="-5703.54 -849.584 1271.29"/>
+					<entry key="rotation" type="quaternion" value="0.707107 -3.09086e-008 0.707107 3.09086e-008"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="1859" type="table">
+				<entry key="class" type="string" value="ElementInstancePoint"/>
+				<entry key="editor_name" type="string" value="instance_point_safeCombo_note_1_005"/>
+				<entry key="id" type="number" value="101858"/>
+				<entry key="module" type="string" value="CoreElementInstance"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="instance" type="string" value="tj_csgo_de_sh_safeCombo_note_001"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="-4721.68 -935.727 1231.85"/>
+					<entry key="rotation" type="quaternion" value="0.5 0.5 0.5 -0.5"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="1860" type="table">
+				<entry key="class" type="string" value="ElementInstancePoint"/>
+				<entry key="editor_name" type="string" value="instance_point_safeCombo_note_1_006"/>
+				<entry key="id" type="number" value="101859"/>
+				<entry key="module" type="string" value="CoreElementInstance"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="instance" type="string" value="tj_csgo_de_sh_safeCombo_note_001"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="-5921.62 132.698 677.932"/>
+					<entry key="rotation" type="quaternion" value="0.5 -0.5 0.5 0.5"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="1861" type="table">
+				<entry key="class" type="string" value="ElementInstancePoint"/>
+				<entry key="editor_name" type="string" value="instance_point_safeCombo_note_1_007"/>
+				<entry key="id" type="number" value="101860"/>
+				<entry key="module" type="string" value="CoreElementInstance"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="instance" type="string" value="tj_csgo_de_sh_safeCombo_note_001"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="-5974.05 132.344 717.7"/>
+					<entry key="rotation" type="quaternion" value="0.5 -0.5 0.5 0.5"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="1862" type="table">
+				<entry key="class" type="string" value="ElementInstancePoint"/>
+				<entry key="editor_name" type="string" value="instance_point_safeCombo_note_1_008"/>
+				<entry key="id" type="number" value="101861"/>
+				<entry key="module" type="string" value="CoreElementInstance"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="instance" type="string" value="tj_csgo_de_sh_safeCombo_note_001"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="-5912.35 133.08 763.038"/>
+					<entry key="rotation" type="quaternion" value="0.5 -0.5 0.5 0.5"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="1863" type="table">
+				<entry key="class" type="string" value="ElementInstancePoint"/>
+				<entry key="editor_name" type="string" value="instance_point_safeCombo_note_1_009"/>
+				<entry key="id" type="number" value="101862"/>
+				<entry key="module" type="string" value="CoreElementInstance"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="instance" type="string" value="tj_csgo_de_sh_safeCombo_note_001"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="-5285.52 129.356 637.338"/>
+					<entry key="rotation" type="quaternion" value="0.5 -0.5 0.5 0.5"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="1864" type="table">
+				<entry key="class" type="string" value="ElementInstancePoint"/>
+				<entry key="editor_name" type="string" value="instance_point_safeCombo_note_1_010"/>
+				<entry key="id" type="number" value="101863"/>
+				<entry key="module" type="string" value="CoreElementInstance"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="instance" type="string" value="tj_csgo_de_sh_safeCombo_note_001"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="-5340.35 133.481 678.081"/>
+					<entry key="rotation" type="quaternion" value="0.5 -0.5 0.5 0.5"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="1865" type="table">
+				<entry key="class" type="string" value="ElementInstancePoint"/>
+				<entry key="editor_name" type="string" value="instance_point_safeCombo_note_1_011"/>
+				<entry key="id" type="number" value="101864"/>
+				<entry key="module" type="string" value="CoreElementInstance"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="instance" type="string" value="tj_csgo_de_sh_safeCombo_note_001"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="-5277.21 130.537 719.418"/>
+					<entry key="rotation" type="quaternion" value="0.5 -0.5 0.5 0.5"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="1866" type="table">
+				<entry key="class" type="string" value="ElementInstancePoint"/>
+				<entry key="editor_name" type="string" value="instance_point_safeCombo_note_1_012"/>
+				<entry key="id" type="number" value="101865"/>
+				<entry key="module" type="string" value="CoreElementInstance"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="instance" type="string" value="tj_csgo_de_sh_safeCombo_note_001"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="-5291.74 131.733 763.096"/>
+					<entry key="rotation" type="quaternion" value="0.5 -0.5 0.5 0.5"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="1867" type="table">
+				<entry key="class" type="string" value="ElementDisableUnit"/>
+				<entry key="editor_name" type="string" value="disable_all_bookcase_papers"/>
+				<entry key="id" type="number" value="101866"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="-4250 -4500 3000"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="unit_ids" type="table">
+						<entry index="1" type="number" value="101006"/>
+						<entry index="2" type="number" value="101005"/>
+						<entry index="3" type="number" value="101004"/>
+						<entry index="4" type="number" value="101003"/>
+						<entry index="5" type="number" value="101002"/>
+						<entry index="6" type="number" value="101001"/>
+						<entry index="7" type="number" value="101000"/>
+						<entry index="8" type="number" value="100999"/>
+						<entry index="9" type="number" value="100998"/>
+						<entry index="10" type="number" value="100997"/>
+						<entry index="11" type="number" value="100996"/>
+						<entry index="12" type="number" value="100995"/>
+					</entry>
+				</entry>
+			</entry>
 		</entry>
 		<entry key="instances" type="table">
 			<entry index="1" type="string" value="csgo_c4_001"/>
@@ -54431,6 +54681,9 @@
 			<entry index="8" type="string" value="security_box_inside_blue_001"/>
 			<entry index="9" type="string" value="security_box_inside_green_001"/>
 			<entry index="10" type="string" value="security_box_inside_yellow_001"/>
+			<entry index="11" type="string" value="tj_csgo_de_sh_safeCombo_note_001"/>
+			<entry index="12" type="string" value="tj_csgo_de_sh_safeCombo_note_002"/>
+			<entry index="13" type="string" value="tj_csgo_de_sh_safeCombo_note_003"/>
 		</entry>
 		<entry key="name" type="string" value="default"/>
 	</entry>

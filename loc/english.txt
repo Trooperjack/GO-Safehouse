@@ -22,6 +22,11 @@
 	"hud_int_tj_csgo_sh_remove_safe_cover" : 		"Hold $BTN_INTERACT to remove safe cover",
 	"hud_action_tj_csgo_sh_remove_safe_cover" : 	"Removing safe cover",
 	
+	"hud_int_tj_csgo_sh_search_books_false" : 		"Hold $BTN_INTERACT to search books",
+	"hud_action_tj_csgo_sh_search_books_false" : 	"Searching books",
+	"hud_int_tj_csgo_sh_search_books_true" : 		"Hold $BTN_INTERACT to search books",
+	"hud_action_tj_csgo_sh_search_books_true" : 	"Searching books",
+	
 	"hud_csgo_c4_button_00":			"Press $BTN_INTERACT to enter 0",
 	"hud_csgo_c4_button_01":			"Press $BTN_INTERACT to enter 1",
 	"hud_csgo_c4_button_02":			"Press $BTN_INTERACT to enter 2",

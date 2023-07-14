@@ -113,6 +113,10 @@
 		<cooked_physics 	path="units/pd2_mod_tj_csgo_deSafeHouse/safeCombo_note/safeCombo_note" unload="true"/>
 		<texture 			path="units/pd2_mod_tj_csgo_deSafeHouse/safeCombo_note/safeCombo_note_df" unload="true"/>
 		
+		<!-- safeCombo_book_interaction -->
+		<unit 				path="units/pd2_mod_tj_csgo_deSafeHouse/safeCombo_book_interaction/safeCombo_book_interaction_false" unload="true"/>
+		<unit 				path="units/pd2_mod_tj_csgo_deSafeHouse/safeCombo_book_interaction/safeCombo_book_interaction_true" unload="true"/>
+		
 		
 		
 		

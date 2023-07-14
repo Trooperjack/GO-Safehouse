@@ -1,0 +1,720 @@
+<table>
+	<editor_groups/>
+	<instances/>
+	<statics>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="1 0 0 -4.37114e-008" continent="world" hide_on_projection_light="true" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_tj_csgo_deSafeHouse/safeCombo_note/safeCombo_note" name_id="safeCombo_note_001" position="0 0 0" rotation="1 0 0 4.37114e-008" unit_id="100000"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-0.5 9 -1" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 -7.5 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="text_01_02" position="-0.5 9 -1" rotation="0 0 0.707107 -0.707107" unit_id="100002">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_large_mf" font_color="0 0 0" font_size="0.2" render_template="diffuse_vc_decal" text="RIGHT  -" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="7 9 -1" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="text_01_01" position="7 9 -1" rotation="0 0 0.707107 -0.707107" unit_id="100003">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_large_mf" font_color="0 0 0" font_size="0.2" render_template="diffuse_vc_decal" text="LEFT    - " vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-8 8 -1" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="1 -15 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="text_01_03" position="-8 8 -1" rotation="0 0 0.707107 -0.707107" unit_id="100004">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_large_mf" font_color="0 0 0" font_size="0.2" render_template="diffuse_vc_decal" text="LEFT   -" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="7 9 -1" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="text_02_01" position="7 9 -1" rotation="0 0 0.707107 -0.707107" unit_id="100001">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_large_mf" font_color="0 0 0" font_size="0.2" render_template="diffuse_vc_decal" text="RIGHT  - " vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-0.5 9 -1" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 -7.5 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="text_02_02" position="-0.5 9 -1" rotation="0 0 0.707107 -0.707107" unit_id="100005">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_large_mf" font_color="0 0 0" font_size="0.2" render_template="diffuse_vc_decal" text="LEFT    -" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-8 9 -1" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 -15 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="text_02_03" position="-8 9 -1" rotation="0 0 0.707107 -0.707107" unit_id="100006">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_large_mf" font_color="0 0 0" font_size="0.2" render_template="diffuse_vc_decal" text="RIGHT  - " vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="7 -4 -1" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="13 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="text_num_01_1x" position="7 -4 -1" rotation="0 0 0.707107 -0.707107" unit_id="100007">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_large_mf" font_color="0 0 0" font_size="0.2" render_template="diffuse_vc_decal" text="1x" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="7 -4 -1" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="13 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="text_num_01_2x" position="7 -4 -1" rotation="0 0 0.707107 -0.707107" unit_id="100008">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_large_mf" font_color="0 0 0" font_size="0.2" render_template="diffuse_vc_decal" text="2x" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="7 -4 -1" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="13 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="text_num_01_3x" position="7 -4 -1" rotation="0 0 0.707107 -0.707107" unit_id="100009">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_large_mf" font_color="0 0 0" font_size="0.2" render_template="diffuse_vc_decal" text="3x" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="7 -4 -1" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="13 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="text_num_01_4x" position="7 -4 -1" rotation="0 0 0.707107 -0.707107" unit_id="100010">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_large_mf" font_color="0 0 0" font_size="0.2" render_template="diffuse_vc_decal" text="4x" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="7 -4 -1" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="13 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="text_num_01_5x" position="7 -4 -1" rotation="0 0 0.707107 -0.707107" unit_id="100011">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_large_mf" font_color="0 0 0" font_size="0.2" render_template="diffuse_vc_decal" text="5x" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="7 -4 -1" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="13 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="text_num_01_6x" position="7 -4 -1" rotation="0 0 0.707107 -0.707107" unit_id="100012">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_large_mf" font_color="0 0 0" font_size="0.2" render_template="diffuse_vc_decal" text="6x" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="7 -4 -1" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="13 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="text_num_01_7x" position="7 -4 -1" rotation="0 0 0.707107 -0.707107" unit_id="100013">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_large_mf" font_color="0 0 0" font_size="0.2" render_template="diffuse_vc_decal" text="7x" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="7 -4 -1" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="13 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="text_num_01_8x" position="7 -4 -1" rotation="0 0 0.707107 -0.707107" unit_id="100014">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_large_mf" font_color="0 0 0" font_size="0.2" render_template="diffuse_vc_decal" text="8x" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="7 -4 -1" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="13 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="text_num_01_9x" position="7 -4 -1" rotation="0 0 0.707107 -0.707107" unit_id="100015">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_large_mf" font_color="0 0 0" font_size="0.2" render_template="diffuse_vc_decal" text="9x" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="7 -4 -1" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="13 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="text_num_01_10x" position="7 -4 -1" rotation="0 0 0.707107 -0.707107" unit_id="100016">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_large_mf" font_color="0 0 0" font_size="0.2" render_template="diffuse_vc_decal" text="10x" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="7 -4 -1" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="13 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="text_num_01_11x" position="7 -4 -1" rotation="0 0 0.707107 -0.707107" unit_id="100017">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_large_mf" font_color="0 0 0" font_size="0.2" render_template="diffuse_vc_decal" text="11x" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="7 -4 -1" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="13 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="text_num_01_12x" position="7 -4 -1" rotation="0 0 0.707107 -0.707107" unit_id="100018">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_large_mf" font_color="0 0 0" font_size="0.2" render_template="diffuse_vc_decal" text="12x" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="7 -4 -1" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="13 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="text_num_01_13x" position="7 -4 -1" rotation="0 0 0.707107 -0.707107" unit_id="100019">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_large_mf" font_color="0 0 0" font_size="0.2" render_template="diffuse_vc_decal" text="13x" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="7 -4 -1" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="13 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="text_num_01_14x" position="7 -4 -1" rotation="0 0 0.707107 -0.707107" unit_id="100020">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_large_mf" font_color="0 0 0" font_size="0.2" render_template="diffuse_vc_decal" text="14x" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="7 -4 -1" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="13 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="text_num_01_15x" position="7 -4 -1" rotation="0 0 0.707107 -0.707107" unit_id="100021">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_large_mf" font_color="0 0 0" font_size="0.2" render_template="diffuse_vc_decal" text="15x" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-0.5 -4 -1" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="13 -7.5 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="text_num_02_10x" position="-0.5 -4 -1" rotation="0 0 0.707107 -0.707107" unit_id="100022">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_large_mf" font_color="0 0 0" font_size="0.2" render_template="diffuse_vc_decal" text="10x" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-0.5 -4 -1" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="13 -7.5 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="text_num_02_11x" position="-0.5 -4 -1" rotation="0 0 0.707107 -0.707107" unit_id="100023">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_large_mf" font_color="0 0 0" font_size="0.2" render_template="diffuse_vc_decal" text="11x" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-0.5 -4 -1" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="13 -7.5 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="text_num_02_12x" position="-0.5 -4 -1" rotation="0 0 0.707107 -0.707107" unit_id="100024">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_large_mf" font_color="0 0 0" font_size="0.2" render_template="diffuse_vc_decal" text="12x" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-0.5 -4 -1" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="13 -7.5 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="text_num_02_13x" position="-0.5 -4 -1" rotation="0 0 0.707107 -0.707107" unit_id="100025">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_large_mf" font_color="0 0 0" font_size="0.2" render_template="diffuse_vc_decal" text="13x" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-0.5 -4 -1" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="13 -7.5 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="text_num_02_14x" position="-0.5 -4 -1" rotation="0 0 0.707107 -0.707107" unit_id="100026">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_large_mf" font_color="0 0 0" font_size="0.2" render_template="diffuse_vc_decal" text="14x" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-0.5 -4 -1" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="13 -7.5 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="text_num_02_15x" position="-0.5 -4 -1" rotation="0 0 0.707107 -0.707107" unit_id="100027">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_large_mf" font_color="0 0 0" font_size="0.2" render_template="diffuse_vc_decal" text="15x" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-0.5 -4 -1" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="13 -7.5 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="text_num_02_1x" position="-0.5 -4 -1" rotation="0 0 0.707107 -0.707107" unit_id="100028">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_large_mf" font_color="0 0 0" font_size="0.2" render_template="diffuse_vc_decal" text="1x" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-0.5 -4 -1" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="13 -7.5 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="text_num_02_2x" position="-0.5 -4 -1" rotation="0 0 0.707107 -0.707107" unit_id="100029">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_large_mf" font_color="0 0 0" font_size="0.2" render_template="diffuse_vc_decal" text="2x" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-0.5 -4 -1" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="13 -7.5 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="text_num_02_3x" position="-0.5 -4 -1" rotation="0 0 0.707107 -0.707107" unit_id="100030">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_large_mf" font_color="0 0 0" font_size="0.2" render_template="diffuse_vc_decal" text="3x" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-0.5 -4 -1" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="13 -7.5 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="text_num_02_4x" position="-0.5 -4 -1" rotation="0 0 0.707107 -0.707107" unit_id="100031">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_large_mf" font_color="0 0 0" font_size="0.2" render_template="diffuse_vc_decal" text="4x" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-0.5 -4 -1" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="13 -7.5 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="text_num_02_5x" position="-0.5 -4 -1" rotation="0 0 0.707107 -0.707107" unit_id="100032">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_large_mf" font_color="0 0 0" font_size="0.2" render_template="diffuse_vc_decal" text="5x" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-0.5 -4 -1" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="13 -7.5 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="text_num_02_6x" position="-0.5 -4 -1" rotation="0 0 0.707107 -0.707107" unit_id="100033">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_large_mf" font_color="0 0 0" font_size="0.2" render_template="diffuse_vc_decal" text="6x" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-0.5 -4 -1" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="13 -7.5 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="text_num_02_7x" position="-0.5 -4 -1" rotation="0 0 0.707107 -0.707107" unit_id="100034">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_large_mf" font_color="0 0 0" font_size="0.2" render_template="diffuse_vc_decal" text="7x" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-0.5 -4 -1" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="13 -7.5 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="text_num_02_8x" position="-0.5 -4 -1" rotation="0 0 0.707107 -0.707107" unit_id="100035">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_large_mf" font_color="0 0 0" font_size="0.2" render_template="diffuse_vc_decal" text="8x" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-0.5 -4 -1" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="13 -7.5 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="text_num_02_9x" position="-0.5 -4 -1" rotation="0 0 0.707107 -0.707107" unit_id="100036">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_large_mf" font_color="0 0 0" font_size="0.2" render_template="diffuse_vc_decal" text="9x" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-8 -4 -1" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="13 -15 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="text_num_03_10x" position="-8 -4 -1" rotation="0 0 0.707107 -0.707107" unit_id="100037">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_large_mf" font_color="0 0 0" font_size="0.2" render_template="diffuse_vc_decal" text="10x" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-8 -4 -1" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="13 -15 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="text_num_03_11x" position="-8 -4 -1" rotation="0 0 0.707107 -0.707107" unit_id="100038">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_large_mf" font_color="0 0 0" font_size="0.2" render_template="diffuse_vc_decal" text="11x" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-8 -4 -1" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="13 -15 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="text_num_03_12x" position="-8 -4 -1" rotation="0 0 0.707107 -0.707107" unit_id="100039">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_large_mf" font_color="0 0 0" font_size="0.2" render_template="diffuse_vc_decal" text="12x" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-8 -4 -1" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="13 -15 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="text_num_03_13x" position="-8 -4 -1" rotation="0 0 0.707107 -0.707107" unit_id="100040">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_large_mf" font_color="0 0 0" font_size="0.2" render_template="diffuse_vc_decal" text="13x" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-8 -4 -1" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="13 -15 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="text_num_03_14x" position="-8 -4 -1" rotation="0 0 0.707107 -0.707107" unit_id="100041">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_large_mf" font_color="0 0 0" font_size="0.2" render_template="diffuse_vc_decal" text="14x" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-8 -4 -1" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="13 -15 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="text_num_03_15x" position="-8 -4 -1" rotation="0 0 0.707107 -0.707107" unit_id="100042">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_large_mf" font_color="0 0 0" font_size="0.2" render_template="diffuse_vc_decal" text="15x" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-8 -4 -1" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="13 -15 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="text_num_03_1x" position="-8 -4 -1" rotation="0 0 0.707107 -0.707107" unit_id="100043">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_large_mf" font_color="0 0 0" font_size="0.2" render_template="diffuse_vc_decal" text="1x" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-8 -4 -1" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="13 -15 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="text_num_03_2x" position="-8 -4 -1" rotation="0 0 0.707107 -0.707107" unit_id="100044">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_large_mf" font_color="0 0 0" font_size="0.2" render_template="diffuse_vc_decal" text="2x" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-8 -4 -1" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="13 -15 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="text_num_03_3x" position="-8 -4 -1" rotation="0 0 0.707107 -0.707107" unit_id="100045">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_large_mf" font_color="0 0 0" font_size="0.2" render_template="diffuse_vc_decal" text="3x" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-8 -4 -1" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="13 -15 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="text_num_03_4x" position="-8 -4 -1" rotation="0 0 0.707107 -0.707107" unit_id="100046">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_large_mf" font_color="0 0 0" font_size="0.2" render_template="diffuse_vc_decal" text="4x" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-8 -4 -1" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="13 -15 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="text_num_03_5x" position="-8 -4 -1" rotation="0 0 0.707107 -0.707107" unit_id="100047">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_large_mf" font_color="0 0 0" font_size="0.2" render_template="diffuse_vc_decal" text="5x" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-8 -4 -1" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="13 -15 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="text_num_03_6x" position="-8 -4 -1" rotation="0 0 0.707107 -0.707107" unit_id="100048">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_large_mf" font_color="0 0 0" font_size="0.2" render_template="diffuse_vc_decal" text="6x" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-8 -4 -1" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="13 -15 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="text_num_03_7x" position="-8 -4 -1" rotation="0 0 0.707107 -0.707107" unit_id="100049">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_large_mf" font_color="0 0 0" font_size="0.2" render_template="diffuse_vc_decal" text="7x" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-8 -4 -1" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="13 -15 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="text_num_03_8x" position="-8 -4 -1" rotation="0 0 0.707107 -0.707107" unit_id="100050">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_large_mf" font_color="0 0 0" font_size="0.2" render_template="diffuse_vc_decal" text="8x" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-8 -4 -1" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="13 -15 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="text_num_03_9x" position="-8 -4 -1" rotation="0 0 0.707107 -0.707107" unit_id="100051">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_large_mf" font_color="0 0 0" font_size="0.2" render_template="diffuse_vc_decal" text="9x" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="12.5 100 -1" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="text_page_title" position="12.5 100 -1" rotation="0 0 0.707107 -0.707107" unit_id="100052">
+				<editable_gui align="center" alpha="1" blend_mode="normal" font="fonts/font_large_mf" font_color="0 0 0" font_size="0.15" render_template="diffuse_vc_decal" text="SAFE COMBO" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-13.5 100 -1" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="text_bottom_seperator" position="-13.5 100 -1" rotation="0 0 0.707107 -0.707107" unit_id="100053">
+				<editable_gui align="center" alpha="1" blend_mode="normal" font="fonts/font_large_mf" font_color="0 0 0" font_size="0.15" render_template="diffuse_vc_decal" text="/" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-13.5 102 -1" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="text_bottom_currentPage_1" position="-13.5 102 -1" rotation="0 0 0.707107 -0.707107" unit_id="100054">
+				<editable_gui align="center" alpha="1" blend_mode="normal" font="fonts/font_large_mf" font_color="0 0 0" font_size="0.15" render_template="diffuse_vc_decal" text="1" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-13.5 102 -1" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="text_bottom_currentPage_2" position="-13.5 102 -1" rotation="0 0 0.707107 -0.707107" unit_id="100055">
+				<editable_gui align="center" alpha="1" blend_mode="normal" font="fonts/font_large_mf" font_color="0 0 0" font_size="0.15" render_template="diffuse_vc_decal" text="2" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-13.5 102 -1" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="text_bottom_currentPage_3" position="-13.5 102 -1" rotation="0 0 0.707107 -0.707107" unit_id="100056">
+				<editable_gui align="center" alpha="1" blend_mode="normal" font="fonts/font_large_mf" font_color="0 0 0" font_size="0.15" render_template="diffuse_vc_decal" text="3" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-13.5 98 -1" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="text_bottom_maxPage_1" position="-13.5 98 -1" rotation="0 0 0.707107 -0.707107" unit_id="100057">
+				<editable_gui align="center" alpha="1" blend_mode="normal" font="fonts/font_large_mf" font_color="0 0 0" font_size="0.15" render_template="diffuse_vc_decal" text="1" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-13.5 98 -1" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="text_bottom_maxPage_2" position="-13.5 98 -1" rotation="0 0 0.707107 -0.707107" unit_id="100058">
+				<editable_gui align="center" alpha="1" blend_mode="normal" font="fonts/font_large_mf" font_color="0 0 0" font_size="0.15" render_template="diffuse_vc_decal" text="2" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-13.5 98 -1" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="text_bottom_maxPage_3" position="-13.5 98 -1" rotation="0 0 0.707107 -0.707107" unit_id="100059">
+				<editable_gui align="center" alpha="1" blend_mode="normal" font="fonts/font_large_mf" font_color="0 0 0" font_size="0.15" render_template="diffuse_vc_decal" text="3" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+	</statics>
+	<values>
+		<workviews/>
+	</values>
+</table>

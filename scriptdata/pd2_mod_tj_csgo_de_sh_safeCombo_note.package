@@ -1,0 +1,26 @@
+<table directory="assets">
+	<add>
+		<model 				path="units/pd2_mod_tj_csgo_deSafeHouse/safeCombo_note/safeCombo_note" unload="true"/>
+		<sequence_manager 	path="units/pd2_mod_tj_csgo_deSafeHouse/safeCombo_note/safeCombo_note" unload="true"/>
+		<object 			path="units/pd2_mod_tj_csgo_deSafeHouse/safeCombo_note/safeCombo_note" unload="true"/>
+		<unit 				path="units/pd2_mod_tj_csgo_deSafeHouse/safeCombo_note/safeCombo_note" unload="true"/>
+		<material_config 	path="units/pd2_mod_tj_csgo_deSafeHouse/safeCombo_note/safeCombo_note" unload="true"/>
+		<cooked_physics 	path="units/pd2_mod_tj_csgo_deSafeHouse/safeCombo_note/safeCombo_note" unload="true"/>
+		<texture 			path="units/pd2_mod_tj_csgo_deSafeHouse/safeCombo_note/safeCombo_note_df" unload="true"/>	
+	</add>
+	<add from_db="true" path="units/dev_tools/editable_text_long/editable_text_long" type="unit">
+		<material_config path="units/dev_tools/editable_text_long/editable_text_long"/>
+		<object path="units/dev_tools/editable_text_long/editable_text_long"/>
+		<unit path="units/dev_tools/editable_text_long/editable_text_long"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/editable_text_short/editable_text_short" type="unit">
+		<material_config path="units/dev_tools/editable_text_short/editable_text_short"/>
+		<object path="units/dev_tools/editable_text_short/editable_text_short"/>
+		<unit path="units/dev_tools/editable_text_short/editable_text_short"/>
+	</add>
+	<add from_db="true" path="units/test/jocke/plane_black_temp" type="unit">
+		<material_config path="units/test/jocke/plane_black_temp"/>
+		<object path="units/test/jocke/plane_black_temp"/>
+		<unit path="units/test/jocke/plane_black_temp"/>
+	</add>
+</table>
