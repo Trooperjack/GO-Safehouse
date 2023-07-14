@@ -104,6 +104,15 @@
 		<!-- csgo_c4_bag -->
 		<unit 				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/gen_csgo_c4_bag/gen_csgo_c4_bag" unload="true"/>
 		
+		<!-- safeCombo_note -->
+		<model 				path="units/pd2_mod_tj_csgo_deSafeHouse/safeCombo_note/safeCombo_note" unload="true"/>
+		<sequence_manager 	path="units/pd2_mod_tj_csgo_deSafeHouse/safeCombo_note/safeCombo_note" unload="true"/>
+		<object 			path="units/pd2_mod_tj_csgo_deSafeHouse/safeCombo_note/safeCombo_note" unload="true"/>
+		<unit 				path="units/pd2_mod_tj_csgo_deSafeHouse/safeCombo_note/safeCombo_note" unload="true"/>
+		<material_config 	path="units/pd2_mod_tj_csgo_deSafeHouse/safeCombo_note/safeCombo_note" unload="true"/>
+		<cooked_physics 	path="units/pd2_mod_tj_csgo_deSafeHouse/safeCombo_note/safeCombo_note" unload="true"/>
+		<texture 			path="units/pd2_mod_tj_csgo_deSafeHouse/safeCombo_note/safeCombo_note_df" unload="true"/>
+		
 		
 		
 		

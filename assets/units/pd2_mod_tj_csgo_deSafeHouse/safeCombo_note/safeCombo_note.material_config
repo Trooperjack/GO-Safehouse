@@ -1,0 +1,6 @@
+<materials version="3">
+    <material name="clipboard" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE" version="2">
+        <diffuse_texture 		file="units/pd2_mod_tj_csgo_deSafeHouse/safeCombo_note/safeCombo_note_df"/>
+		<material_texture		file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/textures/gsma_none" />
+    </material>
+</materials>

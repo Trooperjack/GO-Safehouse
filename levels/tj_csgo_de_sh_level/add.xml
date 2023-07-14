@@ -789,9 +789,20 @@
 		<unit path="units/payday2/props/gen_prop_circle_goal_marker_7x7/gen_prop_circle_goal_marker_7x7"/>
 	</add>
 	<add from_db="true" path="units/pd2_dlc_cro/ladder_train_compact/ladder_train_compact" type="unit">
-		<unit path="units/pd2_dlc_cro/ladder_train_compact/ladder_train_compact"/>
-		<object path="units/pd2_dlc_cro/ladder_train_compact/ladder_train_compact"/>
 		<material_config path="units/pd2_dlc_cro/ladder_train_compact/ladder_train_compact"/>
+		<object path="units/pd2_dlc_cro/ladder_train_compact/ladder_train_compact"/>
 		<sequence_manager path="units/pd2_dlc_cro/ladder_train_compact/ladder_train_compact"/>
+		<unit path="units/pd2_dlc_cro/ladder_train_compact/ladder_train_compact"/>
+	</add>
+	<add from_db="true" path="units/world/props/diamond_heist/apartment/apartment_room/penpaper/penpaper" type="unit">
+		<material_config path="units/world/props/diamond_heist/apartment/apartment_room/penpaper/penpaper"/>
+		<object path="units/world/props/diamond_heist/apartment/apartment_room/penpaper/penpaper"/>
+		<unit path="units/world/props/diamond_heist/apartment/apartment_room/penpaper/penpaper"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_tag/props/tag_prop_code_papers/tag_prop_code_papers" type="unit">
+		<unit path="units/pd2_dlc_tag/props/tag_prop_code_papers/tag_prop_code_papers"/>
+		<object path="units/pd2_dlc_tag/props/tag_prop_code_papers/tag_prop_code_papers"/>
+		<material_config path="units/pd2_dlc_tag/props/tag_prop_code_papers/tag_prop_code_papers"/>
+		<sequence_manager path="units/pd2_dlc_tag/props/tag_prop_code_papers/tag_prop_code_papers"/>
 	</add>
 </table>
