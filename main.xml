@@ -64,6 +64,8 @@
 		<interaction based_on="breach_door" id="tj_csgo_sh_remove_safe_cover" text_id="hud_int_tj_csgo_sh_remove_safe_cover" action_text_id="hud_action_tj_csgo_sh_remove_safe_cover"/>
 		<interaction based_on="search_files_false" id="tj_csgo_sh_search_books_false" text_id="hud_int_tj_csgo_sh_search_books_false" action_text_id="hud_action_tj_csgo_sh_search_books_false"/>
 		<interaction based_on="search_files_false" id="tj_csgo_sh_search_books_true" text_id="hud_int_tj_csgo_sh_search_books_true" action_text_id="hud_action_tj_csgo_sh_search_books_true"/>
+		<interaction based_on="hold_open_the_safe" id="tj_csgo_sh_turn_safe_dial_left" text_id="hud_int_tj_csgo_sh_turn_safe_dial_left" action_text_id="hud_action_tj_csgo_sh_turn_safe_dial_left"/>
+		<interaction based_on="hold_open_the_safe" id="tj_csgo_sh_turn_safe_dial_right" text_id="hud_int_tj_csgo_sh_turn_safe_dial_right" action_text_id="hud_action_tj_csgo_sh_turn_safe_dial_right"/>
 		<interaction based_on="cas_button_0" id="csgo_c4_button_00" interact_distance="100"/>
 		<interaction based_on="cas_button_01" id="csgo_c4_button_01" interact_distance="100"/>
 		<interaction based_on="cas_button_02" id="csgo_c4_button_02" interact_distance="100"/>

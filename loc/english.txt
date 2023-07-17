@@ -27,6 +27,11 @@
 	"hud_int_tj_csgo_sh_search_books_true" : 		"Hold $BTN_INTERACT to search books",
 	"hud_action_tj_csgo_sh_search_books_true" : 	"Searching books",
 	
+	"hud_int_tj_csgo_sh_turn_safe_dial_left" : 		"Hold $BTN_INTERACT to turn safe dial left",
+	"hud_action_tj_csgo_sh_turn_safe_dial_left" : 	"Turning safe dial",
+	"hud_int_tj_csgo_sh_turn_safe_dial_right" : 	"Hold $BTN_INTERACT to turn safe dial right",
+	"hud_action_tj_csgo_sh_turn_safe_dial_right" : 	"Turning safe dial",
+	
 	"hud_csgo_c4_button_00":			"Press $BTN_INTERACT to enter 0",
 	"hud_csgo_c4_button_01":			"Press $BTN_INTERACT to enter 1",
 	"hud_csgo_c4_button_02":			"Press $BTN_INTERACT to enter 2",

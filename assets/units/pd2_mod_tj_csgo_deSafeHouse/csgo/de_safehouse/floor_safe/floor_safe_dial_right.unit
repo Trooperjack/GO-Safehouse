@@ -1,0 +1,13 @@
+<unit type="gen" slot="1" >
+	<object file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/floor_safe/floor_safe_dial_right" />
+	<network sync="spawn"/>
+	<extensions>
+		<extension name="interaction" class="UseInteractionExt">
+			<var name="tweak_data" value="tj_csgo_sh_turn_safe_dial_right" />
+			<var name="_interact_object" value="g_dial_right"/>
+			<var name="drop_in_sync_tweak_data" value="true" /> 
+		</extension>
+		<extension class="ScriptUnitData" name="unit_data" />
+		<extension name="damage" class="UnitDamage" />
+	</extensions>
+</unit>
