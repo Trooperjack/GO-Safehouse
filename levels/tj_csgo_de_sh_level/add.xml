@@ -800,9 +800,15 @@
 		<unit path="units/world/props/diamond_heist/apartment/apartment_room/penpaper/penpaper"/>
 	</add>
 	<add from_db="true" path="units/pd2_dlc_tag/props/tag_prop_code_papers/tag_prop_code_papers" type="unit">
-		<unit path="units/pd2_dlc_tag/props/tag_prop_code_papers/tag_prop_code_papers"/>
-		<object path="units/pd2_dlc_tag/props/tag_prop_code_papers/tag_prop_code_papers"/>
 		<material_config path="units/pd2_dlc_tag/props/tag_prop_code_papers/tag_prop_code_papers"/>
+		<object path="units/pd2_dlc_tag/props/tag_prop_code_papers/tag_prop_code_papers"/>
 		<sequence_manager path="units/pd2_dlc_tag/props/tag_prop_code_papers/tag_prop_code_papers"/>
+		<unit path="units/pd2_dlc_tag/props/tag_prop_code_papers/tag_prop_code_papers"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_security_timelock/gen_prop_security_timelock" type="unit">
+		<unit path="units/payday2/props/gen_prop_security_timelock/gen_prop_security_timelock"/>
+		<object path="units/payday2/props/gen_prop_security_timelock/gen_prop_security_timelock"/>
+		<material_config path="units/payday2/props/gen_prop_security_timelock/gen_prop_security_timelock"/>
+		<sequence_manager path="units/payday2/props/gen_prop_security_timelock/gen_prop_security_timelock"/>
 	</add>
 </table>
