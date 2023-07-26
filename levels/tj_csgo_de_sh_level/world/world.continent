@@ -19,9 +19,9 @@
 		<table continent="world" folder="levels/instances/unique/bex/bex_box/world" index_size="250" mission_placed="true" name="security_box_inside_blue_001" position="-900 -2900 3000" rotation="0 0 1 4.37114e-008" script="default" start_index="2750"/>
 		<table continent="world" folder="levels/instances/unique/bex/bex_box/world" index_size="250" mission_placed="true" name="security_box_inside_green_001" position="-900 -2800 3000" rotation="0 0 1 4.37114e-008" script="default" start_index="3000"/>
 		<table continent="world" folder="levels/instances/unique/bex/bex_box/world" index_size="250" mission_placed="true" name="security_box_inside_yellow_001" position="-900 -2700 3000" rotation="0 0 1 4.37114e-008" script="default" start_index="3250"/>
-		<table continent="world" folder="levels/instances/mods/GO Safehouse/tj_csgo_de_sh_safeCombo_note/world" index_size="250" mission_placed="true" name="tj_csgo_de_sh_safeCombo_note_001" position="-3500 -4700 3000" rotation="0 0 -1 4.37114e-008" script="default" start_index="500"/>
-		<table continent="world" folder="levels/instances/mods/GO Safehouse/tj_csgo_de_sh_safeCombo_note/world" index_size="250" mission_placed="true" name="tj_csgo_de_sh_safeCombo_note_002" position="-3500 -4600 3000" rotation="0 0 -1 4.37114e-008" script="default" start_index="1000"/>
-		<table continent="world" folder="levels/instances/mods/GO Safehouse/tj_csgo_de_sh_safeCombo_note/world" index_size="250" mission_placed="true" name="tj_csgo_de_sh_safeCombo_note_003" position="-3500 -4500 3000" rotation="0 0 -1 4.37114e-008" script="default" start_index="1250"/>
+		<table continent="world" folder="levels/instances/mods/GO Safehouse/tj_csgo_de_sh_safeCombo_note/world" index_size="250" mission_placed="true" name="tj_csgo_de_sh_safeCombo_note_001" position="-950 -6100 3000" rotation="0 0 1 4.37114e-008" script="default" start_index="500"/>
+		<table continent="world" folder="levels/instances/mods/GO Safehouse/tj_csgo_de_sh_safeCombo_note/world" index_size="250" mission_placed="true" name="tj_csgo_de_sh_safeCombo_note_002" position="-950 -5900 3000" rotation="0 0 1 4.37114e-008" script="default" start_index="1000"/>
+		<table continent="world" folder="levels/instances/mods/GO Safehouse/tj_csgo_de_sh_safeCombo_note/world" index_size="250" mission_placed="true" name="tj_csgo_de_sh_safeCombo_note_003" position="-950 -5700 3000" rotation="0 0 -1 4.37114e-008" script="default" start_index="1250"/>
 	</instances>
 	<statics>
 		<table>
@@ -3195,33 +3195,6 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="-980 -80.0001 0" _prev_rot="0 0 1 -4.37114e-008" continent="world" disable_on_ai_graph="true" disable_shadows="true" hide_on_projection_light="true" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="disable_interaction" name="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/floor_safe/floor_safe_dial_right" name_id="floor_safe_dial_right_003" position="-978.8 459 0" rotation="0 0 1 4.37114e-008" unit_id="101012"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-3722 1090 850" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-50 0 50" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/props/gen_prop_security_timelock/gen_prop_security_timelock" name_id="gen_prop_security_timelock_001" position="-3722 1095 850" rotation="0 0 -0.707107 -0.707107" unit_id="101022"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-3722 1140 850" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 50" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/props/gen_prop_security_timelock/gen_prop_security_timelock" name_id="gen_prop_security_timelock_002" position="-3722 1145 850" rotation="0 0 -0.707107 -0.707107" unit_id="101013"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-3722 1190 850" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="50 0 50" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/props/gen_prop_security_timelock/gen_prop_security_timelock" name_id="gen_prop_security_timelock_003" position="-3722 1195 850" rotation="0 0 -0.707107 -0.707107" unit_id="101014"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-3722 1090 800" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-50 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/props/gen_prop_security_timelock/gen_prop_security_timelock" name_id="gen_prop_security_timelock_004" position="-3722 1095 800" rotation="0 0 -0.707107 -0.707107" unit_id="101015"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-3722 1140 800" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/props/gen_prop_security_timelock/gen_prop_security_timelock" name_id="gen_prop_security_timelock_005" position="-3722 1145 800" rotation="0 0 -0.707107 -0.707107" unit_id="101016"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-3722 1190 800" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="50 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/props/gen_prop_security_timelock/gen_prop_security_timelock" name_id="gen_prop_security_timelock_006" position="-3722 1195 800" rotation="0 0 -0.707107 -0.707107" unit_id="101017"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-3722 1090 750" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-50 0 -50" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/props/gen_prop_security_timelock/gen_prop_security_timelock" name_id="gen_prop_security_timelock_007" position="-3722 1095 750" rotation="0 0 -0.707107 -0.707107" unit_id="101018"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-3722 1140 750" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 -50" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/props/gen_prop_security_timelock/gen_prop_security_timelock" name_id="gen_prop_security_timelock_008" position="-3722 1145 750" rotation="0 0 -0.707107 -0.707107" unit_id="101019"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-3722 1190 750" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="50 0 -50" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/props/gen_prop_security_timelock/gen_prop_security_timelock" name_id="gen_prop_security_timelock_009" position="-3722 1195 750" rotation="0 0 -0.707107 -0.707107" unit_id="101020"/>
 		</table>
 	</statics>
 	<values>

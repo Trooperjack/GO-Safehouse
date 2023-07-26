@@ -3065,6 +3065,81 @@
 				</editable_gui>
 			</unit_data>
 		</table>
+		<table>
+			<unit_data _prev_pos="-3722 1095 850" _prev_rot="0 0 -0.707107 -0.707107" continent="editor_only" disable_on_ai_graph="true" disable_shadows="true" hide_on_projection_light="true" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/props/gen_prop_security_timelock/gen_prop_security_timelock" name_id="gen_prop_security_timelock_001" position="-3722 1095 850" rotation="0 0 -0.707107 -0.707107" unit_id="200864"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3722 1145 850" _prev_rot="0 0 -0.707107 -0.707107" continent="editor_only" disable_on_ai_graph="true" disable_shadows="true" hide_on_projection_light="true" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/props/gen_prop_security_timelock/gen_prop_security_timelock" name_id="gen_prop_security_timelock_002" position="-3722 1145 850" rotation="0 0 -0.707107 -0.707107" unit_id="200865"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3722 1195 850" _prev_rot="0 0 -0.707107 -0.707107" continent="editor_only" disable_on_ai_graph="true" disable_shadows="true" hide_on_projection_light="true" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/props/gen_prop_security_timelock/gen_prop_security_timelock" name_id="gen_prop_security_timelock_003" position="-3722 1195 850" rotation="0 0 -0.707107 -0.707107" unit_id="200866"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3722 1095 800" _prev_rot="0 0 -0.707107 -0.707107" continent="editor_only" disable_on_ai_graph="true" disable_shadows="true" hide_on_projection_light="true" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/props/gen_prop_security_timelock/gen_prop_security_timelock" name_id="gen_prop_security_timelock_004" position="-3722 1095 800" rotation="0 0 -0.707107 -0.707107" unit_id="200867"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3722 1145 800" _prev_rot="0 0 -0.707107 -0.707107" continent="editor_only" disable_on_ai_graph="true" disable_shadows="true" hide_on_projection_light="true" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/props/gen_prop_security_timelock/gen_prop_security_timelock" name_id="gen_prop_security_timelock_005" position="-3722 1145 800" rotation="0 0 -0.707107 -0.707107" unit_id="200868"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3722 1195 800" _prev_rot="0 0 -0.707107 -0.707107" continent="editor_only" disable_on_ai_graph="true" disable_shadows="true" hide_on_projection_light="true" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/props/gen_prop_security_timelock/gen_prop_security_timelock" name_id="gen_prop_security_timelock_006" position="-3722 1195 800" rotation="0 0 -0.707107 -0.707107" unit_id="200869"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3722 1095 750" _prev_rot="0 0 -0.707107 -0.707107" continent="editor_only" disable_on_ai_graph="true" disable_shadows="true" hide_on_projection_light="true" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/props/gen_prop_security_timelock/gen_prop_security_timelock" name_id="gen_prop_security_timelock_007" position="-3722 1095 750" rotation="0 0 -0.707107 -0.707107" unit_id="200870"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3722 1145 750" _prev_rot="0 0 -0.707107 -0.707107" continent="editor_only" disable_on_ai_graph="true" disable_shadows="true" hide_on_projection_light="true" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/props/gen_prop_security_timelock/gen_prop_security_timelock" name_id="gen_prop_security_timelock_008" position="-3722 1145 750" rotation="0 0 -0.707107 -0.707107" unit_id="200871"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3722 1195 750" _prev_rot="0 0 -0.707107 -0.707107" continent="editor_only" disable_on_ai_graph="true" disable_shadows="true" hide_on_projection_light="true" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/props/gen_prop_security_timelock/gen_prop_security_timelock" name_id="gen_prop_security_timelock_009" position="-3722 1195 750" rotation="0 0 -0.707107 -0.707107" unit_id="200872"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-600 -6000 3000" _prev_rot="0 0 0 -1" continent="editor_only" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/test/jocke/plane_black_temp" name_id="plane_black_temp_040" position="-600 -6000 3000" rotation="0 0 0 -1" unit_id="200873"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2200 -6600 3000" _prev_rot="0 0 -0.707107 -0.707107" continent="editor_only" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="editable_text_short_041" position="-1000 -6600 3000" rotation="0 0 -0.707107 -0.707107" unit_id="200874">
+				<editable_gui align="center" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="1 1 1" font_size="4" render_template="diffuse_vc_decal" text="COMBO" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3150 -6600 3000" _prev_rot="0 0 -0.707107 -0.707107" continent="editor_only" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-350 -600 0" local_rot="0 0 0.707107 0.707107" name="units/dev_tools/editable_text_short/editable_text_short" name_id="editable_text_short_042" position="-950 -6600 3000" rotation="0 0 -0.707107 -0.707107" unit_id="200875">
+				<editable_gui align="center" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="1 1 1" font_size="4" render_template="diffuse_vc_decal" text="CLUE" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-900 -6600 3000" _prev_rot="0 0 -0.707107 -0.707107" continent="editor_only" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="editable_text_short_043" position="-900 -6600 3000" rotation="0 0 -0.707107 -0.707107" unit_id="200876">
+				<editable_gui align="center" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="1 1 1" font_size="4" render_template="diffuse_vc_decal" text="INSTANCES" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-600 -7000 3000" _prev_rot="0 0 0 -1" continent="editor_only" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/test/jocke/plane_black_temp" name_id="plane_black_temp_041" position="-600 -7000 3000" rotation="0 0 0 -1" unit_id="200877"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="400 -6000 3000" _prev_rot="0 0 0 -1" continent="editor_only" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/test/jocke/plane_black_temp" name_id="plane_black_temp_042" position="400 -6000 3000" rotation="0 0 0 -1" unit_id="200878"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="400 -7000 3000" _prev_rot="0 0 0 -1" continent="editor_only" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/test/jocke/plane_black_temp" name_id="plane_black_temp_043" position="400 -7000 3000" rotation="0 0 0 -1" unit_id="200879"/>
+		</table>
 	</statics>
 	<values>
 		<workviews/>
