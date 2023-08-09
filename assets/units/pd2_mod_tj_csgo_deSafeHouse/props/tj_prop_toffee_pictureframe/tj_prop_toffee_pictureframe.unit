@@ -1,0 +1,6 @@
+<unit type="gen" slot="1">
+	<object file="units/pd2_mod_tj_csgo_deSafeHouse/props/tj_prop_toffee_pictureframe/tj_prop_toffee_pictureframe" />
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+	</extensions>
+</unit>

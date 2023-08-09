@@ -1,0 +1,17 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_tj_csgo_deSafeHouse/props/tj_prop_toffee_pictureframe/tj_prop_toffee_pictureframe" orientation_object="rp_chl_prop_sicario_pictureframe_01" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_chl_prop_sicario_pictureframe_01" />
+			<object name="c_convex" collision_type="convex" padding="-2.5" />
+		</body>
+	</bodies>
+	<decal_surfaces default_material="glass">
+		<decal_mesh name="dm_glass" enabled="true" material="glass" />
+	</decal_surfaces>
+	<graphics>
+		<object name="g_glass" enabled="true" />
+		<object name="g_frame" enabled="true" />
+		<object name="g_photo" enabled="true" />
+	</graphics>
+</dynamic_object>

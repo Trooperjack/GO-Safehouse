@@ -806,9 +806,9 @@
 		<unit path="units/pd2_dlc_tag/props/tag_prop_code_papers/tag_prop_code_papers"/>
 	</add>
 	<add from_db="true" path="units/payday2/props/gen_prop_security_timelock/gen_prop_security_timelock" type="unit">
-		<unit path="units/payday2/props/gen_prop_security_timelock/gen_prop_security_timelock"/>
-		<object path="units/payday2/props/gen_prop_security_timelock/gen_prop_security_timelock"/>
 		<material_config path="units/payday2/props/gen_prop_security_timelock/gen_prop_security_timelock"/>
+		<object path="units/payday2/props/gen_prop_security_timelock/gen_prop_security_timelock"/>
 		<sequence_manager path="units/payday2/props/gen_prop_security_timelock/gen_prop_security_timelock"/>
+		<unit path="units/payday2/props/gen_prop_security_timelock/gen_prop_security_timelock"/>
 	</add>
 </table>

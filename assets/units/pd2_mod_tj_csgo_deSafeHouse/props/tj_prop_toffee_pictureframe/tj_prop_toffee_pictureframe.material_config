@@ -1,0 +1,23 @@
+<materials version="3">
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="chl_prop_jiro_pictureframe" version="2">
+        <diffuse_texture file="units/pd2_dlc_chill/props/chl_prop_jiro_pictureframe/chl_prop_jiro_pictureframe_df" mip="4"/>
+        <bump_normal_texture file="units/pd2_dlc_chill/props/chl_prop_jiro_pictureframe/chl_prop_jiro_pictureframe_nm" mip="4"/>
+        <material_texture file="units/pd2_dlc_chill/props/chl_prop_jiro_pictureframe/chl_prop_jiro_pictureframe_gsma" mip="4"/>
+        <reflection_texture file="environments/cubemaps/cubemap_gold" type="cubemap"/>
+    </material>
+    <material render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF" name="chl_prop_sicario_pictureframe_maria" version="2">
+        <diffuse_texture file="units/pd2_dlc_chill/props/chl_prop_sicario_pictureframes/chl_prop_sicario_maria_photo_df" mip="1"/>
+        <variable type="scalar" name="alpha_ref" value="0"/>
+    </material>
+    <material name="mat_glass" render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE:OPACITY_FADE_TO_SOLID" version="2" decal_material="glass_breakable">
+        <variable type="vector3" name="fresnel_settings" value="0 0.77999997138977 1"/>
+        <opacity_texture file="units/payday2/glass/glass_clear_small_op"/>
+        <diffuse_texture file="units/payday2/glass/glass_clear_small_df" mip="4"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+        <variable type="vector3" name="opacity_fade_to_solid" value="10000 10000 0"/>
+    </material>
+    <material render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF" name="chl_prop_sicario_pictureframe_01" version="2">
+        <diffuse_texture file="units/pd2_mod_tj_csgo_deSafeHouse/props/tj_prop_toffee_pictureframe/tj_prop_toffee_pictureframe_df" mip="1"/>
+        <variable type="scalar" name="alpha_ref" value="0.5"/>
+    </material>
+</materials>

@@ -3196,6 +3196,21 @@
 		<table>
 			<unit_data _prev_pos="-980 -80.0001 0" _prev_rot="0 0 1 -4.37114e-008" continent="world" disable_on_ai_graph="true" disable_shadows="true" hide_on_projection_light="true" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="disable_interaction" name="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/floor_safe/floor_safe_dial_right" name_id="floor_safe_dial_right_003" position="-978.8 459 0" rotation="0 0 1 4.37114e-008" unit_id="101012"/>
 		</table>
+		<table>
+			<unit_data _prev_pos="-5341.55 147.99 702.796" _prev_rot="0 0 0.688355 -0.725374" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_tj_csgo_deSafeHouse/props/tj_prop_toffee_pictureframe/tj_prop_toffee_pictureframe" name_id="tj_prop_toffee_pictureframe_001" position="-5341.55 147.99 702.796" rotation="0 0 0.688355 -0.725374" unit_id="101013"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5348.27 142.417 707.777" _prev_rot="-0.608553 -0.0159355 -0.0207676 -0.793081" continent="world" disable_shadows="true" hide_on_projection_light="true" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="editable_text_short_044" position="-5348.27 142.417 707.777" rotation="-0.608553 -0.0159355 -0.0207676 -0.793081" unit_id="101014">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="1 1 1" font_size="0.2" render_template="diffuse_vc_decal" text="   2013 - 2023" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
 	</statics>
 	<values>
 		<workviews/>
