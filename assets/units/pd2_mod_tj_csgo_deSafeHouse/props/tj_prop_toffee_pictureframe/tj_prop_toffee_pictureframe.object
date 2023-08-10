@@ -10,7 +10,7 @@
 		<decal_mesh name="dm_glass" enabled="true" material="glass" />
 	</decal_surfaces>
 	<graphics>
-		<object name="g_glass" enabled="true" />
+		<object name="g_glass" enabled="false" />
 		<object name="g_frame" enabled="true" />
 		<object name="g_photo" enabled="true" />
 	</graphics>

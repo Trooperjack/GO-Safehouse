@@ -429,11 +429,11 @@
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100025"/>
+							<entry key="id" type="number" value="100125"/>
 						</entry>
 						<entry index="2" type="table">
-							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100125"/>
+							<entry key="delay" type="number" value="0.1"/>
+							<entry key="id" type="number" value="100025"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-350 425 0"/>
@@ -460,11 +460,11 @@
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100025"/>
+							<entry key="id" type="number" value="100126"/>
 						</entry>
 						<entry index="2" type="table">
-							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100126"/>
+							<entry key="delay" type="number" value="0.1"/>
+							<entry key="id" type="number" value="100025"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-350 375 0"/>
@@ -491,11 +491,11 @@
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100025"/>
+							<entry key="id" type="number" value="100127"/>
 						</entry>
 						<entry index="2" type="table">
-							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100127"/>
+							<entry key="delay" type="number" value="0.1"/>
+							<entry key="id" type="number" value="100025"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-350 325 0"/>
@@ -576,6 +576,10 @@
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100187"/>
+						</entry>
 					</entry>
 					<entry key="operation" type="string" value="add"/>
 					<entry key="position" type="vector3" value="-200 0 0"/>
@@ -631,11 +635,11 @@
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100025"/>
+							<entry key="id" type="number" value="100141"/>
 						</entry>
 						<entry index="2" type="table">
-							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100141"/>
+							<entry key="delay" type="number" value="0.1"/>
+							<entry key="id" type="number" value="100025"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-350 175 0"/>
@@ -662,11 +666,11 @@
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100025"/>
+							<entry key="id" type="number" value="100142"/>
 						</entry>
 						<entry index="2" type="table">
-							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100142"/>
+							<entry key="delay" type="number" value="0.1"/>
+							<entry key="id" type="number" value="100025"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-350 125 0"/>
@@ -693,11 +697,11 @@
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100025"/>
+							<entry key="id" type="number" value="100143"/>
 						</entry>
 						<entry index="2" type="table">
-							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100143"/>
+							<entry key="delay" type="number" value="0.1"/>
+							<entry key="id" type="number" value="100025"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-350 75 0"/>
@@ -811,11 +815,11 @@
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100025"/>
+							<entry key="id" type="number" value="100153"/>
 						</entry>
 						<entry index="2" type="table">
-							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100153"/>
+							<entry key="delay" type="number" value="0.1"/>
+							<entry key="id" type="number" value="100025"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-350 -75 0"/>
@@ -842,11 +846,11 @@
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100025"/>
+							<entry key="id" type="number" value="100154"/>
 						</entry>
 						<entry index="2" type="table">
-							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100154"/>
+							<entry key="delay" type="number" value="0.1"/>
+							<entry key="id" type="number" value="100025"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-350 -125 0"/>
@@ -873,11 +877,11 @@
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100025"/>
+							<entry key="id" type="number" value="100155"/>
 						</entry>
 						<entry index="2" type="table">
-							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100155"/>
+							<entry key="delay" type="number" value="0.1"/>
+							<entry key="id" type="number" value="100025"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-350 -175 0"/>
@@ -991,11 +995,11 @@
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100025"/>
+							<entry key="id" type="number" value="100165"/>
 						</entry>
 						<entry index="2" type="table">
-							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100165"/>
+							<entry key="delay" type="number" value="0.1"/>
+							<entry key="id" type="number" value="100025"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-350 -325 0"/>
@@ -1022,11 +1026,11 @@
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100025"/>
+							<entry key="id" type="number" value="100166"/>
 						</entry>
 						<entry index="2" type="table">
-							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100166"/>
+							<entry key="delay" type="number" value="0.1"/>
+							<entry key="id" type="number" value="100025"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-350 -375 0"/>
@@ -1053,11 +1057,11 @@
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100025"/>
+							<entry key="id" type="number" value="100167"/>
 						</entry>
 						<entry index="2" type="table">
-							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100167"/>
+							<entry key="delay" type="number" value="0.1"/>
+							<entry key="id" type="number" value="100025"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-350 -425 0"/>
@@ -1171,11 +1175,11 @@
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100025"/>
+							<entry key="id" type="number" value="100130"/>
 						</entry>
 						<entry index="2" type="table">
-							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100130"/>
+							<entry key="delay" type="number" value="0.1"/>
+							<entry key="id" type="number" value="100025"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-550 325 0"/>
@@ -1202,11 +1206,11 @@
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100025"/>
+							<entry key="id" type="number" value="100129"/>
 						</entry>
 						<entry index="2" type="table">
-							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100129"/>
+							<entry key="delay" type="number" value="0.1"/>
+							<entry key="id" type="number" value="100025"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-550 375 0"/>
@@ -1233,11 +1237,11 @@
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100025"/>
+							<entry key="id" type="number" value="100128"/>
 						</entry>
 						<entry index="2" type="table">
-							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100128"/>
+							<entry key="delay" type="number" value="0.1"/>
+							<entry key="id" type="number" value="100025"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-550 425 0"/>
@@ -1351,11 +1355,11 @@
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100025"/>
+							<entry key="id" type="number" value="100146"/>
 						</entry>
 						<entry index="2" type="table">
-							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100146"/>
+							<entry key="delay" type="number" value="0.1"/>
+							<entry key="id" type="number" value="100025"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-550 75 0"/>
@@ -1382,11 +1386,11 @@
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100025"/>
+							<entry key="id" type="number" value="100145"/>
 						</entry>
 						<entry index="2" type="table">
-							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100145"/>
+							<entry key="delay" type="number" value="0.1"/>
+							<entry key="id" type="number" value="100025"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-550 125 0"/>
@@ -1413,11 +1417,11 @@
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100025"/>
+							<entry key="id" type="number" value="100144"/>
 						</entry>
 						<entry index="2" type="table">
-							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100144"/>
+							<entry key="delay" type="number" value="0.1"/>
+							<entry key="id" type="number" value="100025"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-550 175 0"/>
@@ -1531,11 +1535,11 @@
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100025"/>
+							<entry key="id" type="number" value="100158"/>
 						</entry>
 						<entry index="2" type="table">
-							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100158"/>
+							<entry key="delay" type="number" value="0.1"/>
+							<entry key="id" type="number" value="100025"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-550 -175 0"/>
@@ -1562,11 +1566,11 @@
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100025"/>
+							<entry key="id" type="number" value="100157"/>
 						</entry>
 						<entry index="2" type="table">
-							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100157"/>
+							<entry key="delay" type="number" value="0.1"/>
+							<entry key="id" type="number" value="100025"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-550 -125 0"/>
@@ -1593,11 +1597,11 @@
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100025"/>
+							<entry key="id" type="number" value="100156"/>
 						</entry>
 						<entry index="2" type="table">
-							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100156"/>
+							<entry key="delay" type="number" value="0.1"/>
+							<entry key="id" type="number" value="100025"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-550 -75 0"/>
@@ -1711,11 +1715,11 @@
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100025"/>
+							<entry key="id" type="number" value="100170"/>
 						</entry>
 						<entry index="2" type="table">
-							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100170"/>
+							<entry key="delay" type="number" value="0.1"/>
+							<entry key="id" type="number" value="100025"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-550 -425 0"/>
@@ -1742,11 +1746,11 @@
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100025"/>
+							<entry key="id" type="number" value="100169"/>
 						</entry>
 						<entry index="2" type="table">
-							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100169"/>
+							<entry key="delay" type="number" value="0.1"/>
+							<entry key="id" type="number" value="100025"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-550 -375 0"/>
@@ -1773,11 +1777,11 @@
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100025"/>
+							<entry key="id" type="number" value="100168"/>
 						</entry>
 						<entry index="2" type="table">
-							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100168"/>
+							<entry key="delay" type="number" value="0.1"/>
+							<entry key="id" type="number" value="100025"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-550 -325 0"/>
@@ -1891,11 +1895,11 @@
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100025"/>
+							<entry key="id" type="number" value="100133"/>
 						</entry>
 						<entry index="2" type="table">
-							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100133"/>
+							<entry key="delay" type="number" value="0.1"/>
+							<entry key="id" type="number" value="100025"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-750 325 0"/>
@@ -1922,11 +1926,11 @@
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100025"/>
+							<entry key="id" type="number" value="100132"/>
 						</entry>
 						<entry index="2" type="table">
-							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100132"/>
+							<entry key="delay" type="number" value="0.1"/>
+							<entry key="id" type="number" value="100025"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-750 375 0"/>
@@ -1953,11 +1957,11 @@
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100025"/>
+							<entry key="id" type="number" value="100131"/>
 						</entry>
 						<entry index="2" type="table">
-							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100131"/>
+							<entry key="delay" type="number" value="0.1"/>
+							<entry key="id" type="number" value="100025"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-750 425 0"/>
@@ -2071,11 +2075,11 @@
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100025"/>
+							<entry key="id" type="number" value="100149"/>
 						</entry>
 						<entry index="2" type="table">
-							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100149"/>
+							<entry key="delay" type="number" value="0.1"/>
+							<entry key="id" type="number" value="100025"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-750 75 0"/>
@@ -2103,11 +2107,11 @@
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100025"/>
+							<entry key="id" type="number" value="100148"/>
 						</entry>
 						<entry index="2" type="table">
-							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100148"/>
+							<entry key="delay" type="number" value="0.1"/>
+							<entry key="id" type="number" value="100025"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-750 125 0"/>
@@ -2134,11 +2138,11 @@
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100025"/>
+							<entry key="id" type="number" value="100147"/>
 						</entry>
 						<entry index="2" type="table">
-							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100147"/>
+							<entry key="delay" type="number" value="0.1"/>
+							<entry key="id" type="number" value="100025"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-750 175 0"/>
@@ -2252,11 +2256,11 @@
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100025"/>
+							<entry key="id" type="number" value="100161"/>
 						</entry>
 						<entry index="2" type="table">
-							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100161"/>
+							<entry key="delay" type="number" value="0.1"/>
+							<entry key="id" type="number" value="100025"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-750 -175 0"/>
@@ -2283,11 +2287,11 @@
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100025"/>
+							<entry key="id" type="number" value="100160"/>
 						</entry>
 						<entry index="2" type="table">
-							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100160"/>
+							<entry key="delay" type="number" value="0.1"/>
+							<entry key="id" type="number" value="100025"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-750 -125 0"/>
@@ -2314,11 +2318,11 @@
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100025"/>
+							<entry key="id" type="number" value="100159"/>
 						</entry>
 						<entry index="2" type="table">
-							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100159"/>
+							<entry key="delay" type="number" value="0.1"/>
+							<entry key="id" type="number" value="100025"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-750 -75 0"/>
@@ -2432,11 +2436,11 @@
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100025"/>
+							<entry key="id" type="number" value="100173"/>
 						</entry>
 						<entry index="2" type="table">
-							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100173"/>
+							<entry key="delay" type="number" value="0.1"/>
+							<entry key="id" type="number" value="100025"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-750 -425 0"/>
@@ -2463,11 +2467,11 @@
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100025"/>
+							<entry key="id" type="number" value="100172"/>
 						</entry>
 						<entry index="2" type="table">
-							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100172"/>
+							<entry key="delay" type="number" value="0.1"/>
+							<entry key="id" type="number" value="100025"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-750 -375 0"/>
@@ -2494,11 +2498,11 @@
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100025"/>
+							<entry key="id" type="number" value="100171"/>
 						</entry>
 						<entry index="2" type="table">
-							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100171"/>
+							<entry key="delay" type="number" value="0.1"/>
+							<entry key="id" type="number" value="100025"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-750 -325 0"/>
@@ -2612,11 +2616,11 @@
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100025"/>
+							<entry key="id" type="number" value="100136"/>
 						</entry>
 						<entry index="2" type="table">
-							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100136"/>
+							<entry key="delay" type="number" value="0.1"/>
+							<entry key="id" type="number" value="100025"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-950 325 0"/>
@@ -2643,11 +2647,11 @@
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100025"/>
+							<entry key="id" type="number" value="100135"/>
 						</entry>
 						<entry index="2" type="table">
-							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100135"/>
+							<entry key="delay" type="number" value="0.1"/>
+							<entry key="id" type="number" value="100025"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-950 375 0"/>
@@ -2674,11 +2678,11 @@
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100025"/>
+							<entry key="id" type="number" value="100134"/>
 						</entry>
 						<entry index="2" type="table">
-							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100134"/>
+							<entry key="delay" type="number" value="0.1"/>
+							<entry key="id" type="number" value="100025"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-950 425 0"/>
@@ -2792,11 +2796,11 @@
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100025"/>
+							<entry key="id" type="number" value="100152"/>
 						</entry>
 						<entry index="2" type="table">
-							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100152"/>
+							<entry key="delay" type="number" value="0.1"/>
+							<entry key="id" type="number" value="100025"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-950 75 0"/>
@@ -2823,11 +2827,11 @@
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100025"/>
+							<entry key="id" type="number" value="100151"/>
 						</entry>
 						<entry index="2" type="table">
-							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100151"/>
+							<entry key="delay" type="number" value="0.1"/>
+							<entry key="id" type="number" value="100025"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-950 125 0"/>
@@ -2854,11 +2858,11 @@
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100025"/>
+							<entry key="id" type="number" value="100150"/>
 						</entry>
 						<entry index="2" type="table">
-							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100150"/>
+							<entry key="delay" type="number" value="0.1"/>
+							<entry key="id" type="number" value="100025"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-950 175 0"/>
@@ -2972,11 +2976,11 @@
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100025"/>
+							<entry key="id" type="number" value="100164"/>
 						</entry>
 						<entry index="2" type="table">
-							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100164"/>
+							<entry key="delay" type="number" value="0.1"/>
+							<entry key="id" type="number" value="100025"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-950 -175 0"/>
@@ -3003,11 +3007,11 @@
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100025"/>
+							<entry key="id" type="number" value="100163"/>
 						</entry>
 						<entry index="2" type="table">
-							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100163"/>
+							<entry key="delay" type="number" value="0.1"/>
+							<entry key="id" type="number" value="100025"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-950 -125 0"/>
@@ -3034,11 +3038,11 @@
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100025"/>
+							<entry key="id" type="number" value="100162"/>
 						</entry>
 						<entry index="2" type="table">
-							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100162"/>
+							<entry key="delay" type="number" value="0.1"/>
+							<entry key="id" type="number" value="100025"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-950 -75 0"/>
@@ -4720,6 +4724,64 @@
 						<entry index="2" type="number" value="100052"/>
 						<entry index="3" type="number" value="100053"/>
 					</entry>
+				</entry>
+			</entry>
+			<entry index="186" type="table">
+				<entry key="class" type="string" value="MissionScriptElement"/>
+				<entry key="editor_name" type="string" value="TEST_STARTUP"/>
+				<entry key="id" type="number" value="100185"/>
+				<entry key="module" type="string" value="CoreMissionScriptElement"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="false"/>
+					<entry key="execute_on_startup" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100186"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="50 -400 0"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="187" type="table">
+				<entry key="class" type="string" value="ElementPlayerSpawner"/>
+				<entry key="editor_name" type="string" value="player_spawner_001"/>
+				<entry key="id" type="number" value="100186"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="50 -340 0"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+					<entry key="state" type="string" value="mask_off"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="188" type="table">
+				<entry key="class" type="string" value="ElementDebug"/>
+				<entry key="editor_name" type="string" value="debug_add_int_step_+1"/>
+				<entry key="id" type="number" value="100187"/>
+				<entry key="module" type="string" value="CoreElementDebug"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="as_subtitle" type="boolean" value="false"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="debug_string" type="string" value="step+1"/>
+					<entry key="enabled" type="boolean" value="false"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="-150 0 0"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+					<entry key="show_instigator" type="boolean" value="false"/>
+					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
 		</entry>
