@@ -298,7 +298,7 @@
 			<unit_data _prev_pos="-1478.8 58.8 0" _prev_rot="0 0 1 4.37114e-008" continent="world" disable_on_ai_graph="true" disable_shadows="true" hide_on_projection_light="true" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="disable_interaction" name="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/floor_safe/floor_safe_handle_contour" name_id="floor_safe_handle_contour_002" position="-1478.8 58.8 0" rotation="0 0 1 -4.37114e-008" unit_id="100081"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-978.8 459 0" _prev_rot="0 0 1 4.37114e-008" continent="world" disable_on_ai_graph="true" disable_shadows="true" hide_on_projection_light="true" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="disable_interaction" name="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/floor_safe/floor_safe_handle_contour" name_id="floor_safe_handle_contour_003" position="-978.8 459 0" rotation="0 0 1 -4.37114e-008" unit_id="100082"/>
+			<unit_data _prev_pos="-978.8 459 0" _prev_rot="0 0 1 -4.37114e-008" continent="world" disable_on_ai_graph="true" disable_shadows="true" hide_on_projection_light="true" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="disable_interaction" name="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/floor_safe/floor_safe_handle_contour" name_id="floor_safe_handle_contour_003" position="-978.8 459 0" rotation="0 0 1 -4.37114e-008" unit_id="100082"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-1033.71 2107.97 10" _prev_rot="0 0 0.965926 -0.258819" continent="world" disable_collision="false" disable_on_ai_graph="true" disable_shadows="true" hide_on_projection_light="true" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="disable_interaction" name="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/de_safehouse_safe_cover/de_safehouse_safe_cover_1" name_id="de_safehouse_safe_cover_1_002" position="-1033.71 2107.97 10" rotation="0 0 0.965926 -0.258819" unit_id="100083"/>
@@ -3210,6 +3210,15 @@
 					</shape>
 				</editable_gui>
 			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 1 -4.37114e-008" continent="world" disable_on_ai_graph="true" disable_shadows="true" hide_on_projection_light="true" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="disable_interaction" name="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/floor_safe/floor_safe_handle_contour" name_id="floor_safe_handle_contour_SAFECOMBO_001" position="0 0 0" rotation="0 0 1 -4.37114e-008" unit_id="101015"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1478.8 58.8 0" _prev_rot="0 0 1 4.37114e-008" continent="world" disable_on_ai_graph="true" disable_shadows="true" hide_on_projection_light="true" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="disable_interaction" name="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/floor_safe/floor_safe_handle_contour" name_id="floor_safe_handle_contour_SAFECOMBO_002" position="-1478.8 58.8 0" rotation="0 0 1 4.37114e-008" unit_id="101016"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-978.8 459 0" _prev_rot="0 0 1 4.37114e-008" continent="world" disable_on_ai_graph="true" disable_shadows="true" hide_on_projection_light="true" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="disable_interaction" name="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/floor_safe/floor_safe_handle_contour" name_id="floor_safe_handle_contour_SAFECOMBO_003" position="-978.8 459 0" rotation="0 0 1 4.37114e-008" unit_id="101017"/>
 		</table>
 	</statics>
 	<values>
