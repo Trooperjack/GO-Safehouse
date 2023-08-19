@@ -3191,6 +3191,12 @@
 				</editable_gui>
 			</unit_data>
 		</table>
+		<table>
+			<unit_data _prev_pos="1400 -7000 3000" _prev_rot="0 0 0 -1" continent="editor_only" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/test/jocke/plane_black_temp" name_id="plane_black_temp_045" position="1400 -7000 3000" rotation="0 0 0 -1" unit_id="200885"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="400 -6000 3000" _prev_rot="0 0 0 -1" continent="editor_only" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 1000 0" local_rot="0 0 0 1" name="units/test/jocke/plane_black_temp" name_id="plane_black_temp_046" position="1400 -6000 3000" rotation="0 0 0 -1" unit_id="200886"/>
+		</table>
 	</statics>
 	<values>
 		<workviews/>
