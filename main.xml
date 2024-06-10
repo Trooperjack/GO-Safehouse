@@ -29,6 +29,8 @@
 		<achievement icon="guis/textures/mods/CustomAchievement/tj_csgo_de_sh/tj_csgo_de_sh_kitcoin" id="tj_csgo_de_sh_kitcoin" rank="4"/>
 	</Achievements>
 	<AddFiles directory="assets">
+		<texture force="true" path="guis/textures/mods/tj_csgo_deSafeHouse/loading/tj_csgo_deSafeHouse_loading"/>
+		<texture force="true" path="guis/textures/mods/tj_csgo_deSafeHouse/pd2/crimenet/tj_csgo_deSafeHouse_icon"/>
 		<texture force="true" path="guis/textures/mods/CustomAchievement/tj_csgo_de_sh/tj_csgo_de_sh_pack"/>
 		<texture force="true" path="guis/textures/mods/CustomAchievement/tj_csgo_de_sh/tj_csgo_de_sh_deathSentence_OD"/>
 		<texture force="true" path="guis/textures/mods/CustomAchievement/tj_csgo_de_sh/tj_csgo_de_sh_deathSentence"/>
@@ -115,7 +117,7 @@
 			<sound id="csgo_c4_key_press_7"/>
 		</random>
 	</Sounds>
-	<level ai_group_type="america" briefing_dialog="" id="tj_csgo_de_sh_level" intro_event="" ghost_bonus="0.1" max_bags="8" player_style="generic">
+	<level ai_group_type="america" briefing_dialog="" id="tj_csgo_de_sh_level" intro_event="" load_screen="guis/textures/mods/tj_csgo_deSafeHouse/loading/tj_csgo_deSafeHouse_loading" ghost_bonus="0.1" max_bags="8" player_style="generic">
 		<assets>
 			<asset name="ammo_bag"/>
 			<asset name="health_bag"/>
@@ -136,7 +138,7 @@
 			</mod>
 		</script_data_mods>
 	</level>
-	<narrative briefing_event="" contact="custom" jc="40" id="tj_csgo_de_sh_narr">
+	<narrative briefing_event="" contact="custom" jc="40" id="tj_csgo_de_sh_narr" icon="guis/textures/mods/tj_csgo_deSafeHouse/pd2/crimenet/tj_csgo_deSafeHouse_icon">
 		<chain>
 			<table level_id="tj_csgo_de_sh_level" type="d" type_id="heist_type_assault"/>
 		</chain>
