@@ -1,0 +1,24 @@
+<sequence_manager>
+	<unit>		
+		<sequence editable_state="true" name="'state_normal'" triggable="true">
+			<body enabled="true" name="'body_normal'"/>
+			<body enabled="false" name="'body_broken'"/>
+			<object enabled="true" name="'g_garage_main_door_001'"/>
+			<object enabled="true" name="'g_garage_side_door_001'"/>
+			<object enabled="true" name="'g_garage_side_window_001'"/>			
+			<object enabled="false" name="'g_garage_main_door_002'"/>
+			<object enabled="false" name="'g_garage_side_door_002'"/>
+			<object enabled="false" name="'g_garage_side_window_002'"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_broken'" triggable="true">
+			<body enabled="false" name="'body_normal'"/>
+			<body enabled="true" name="'body_broken'"/>
+			<object enabled="false" name="'g_garage_main_door_001'"/>
+			<object enabled="false" name="'g_garage_side_door_001'"/>
+			<object enabled="false" name="'g_garage_side_window_001'"/>			
+			<object enabled="true" name="'g_garage_main_door_002'"/>
+			<object enabled="true" name="'g_garage_side_door_002'"/>
+			<object enabled="true" name="'g_garage_side_window_002'"/>
+		</sequence> 
+	</unit>
+</sequence_manager>

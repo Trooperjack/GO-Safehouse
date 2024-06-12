@@ -811,4 +811,240 @@
 		<sequence_manager path="units/payday2/props/gen_prop_security_timelock/gen_prop_security_timelock"/>
 		<unit path="units/payday2/props/gen_prop_security_timelock/gen_prop_security_timelock"/>
 	</add>
+	<add from_db="true" path="units/world/props/suburbia_manhole/suburbia_manhole" type="unit">
+		<object path="units/world/props/suburbia_manhole/suburbia_manhole"/>
+		<sequence_manager path="units/world/props/suburbia_manhole/suburbia_manhole"/>
+		<unit path="units/world/props/suburbia_manhole/suburbia_manhole"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/architecture/csb_sewer/csb_sewer_cap_end" type="unit">
+		<material_config path="units/pd2_dlc2/architecture/csb_sewer/csb_sewer"/>
+		<object path="units/pd2_dlc2/architecture/csb_sewer/csb_sewer_cap_end"/>
+		<unit path="units/pd2_dlc2/architecture/csb_sewer/csb_sewer_cap_end"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/architecture/csb_sewer/csb_sewer_corner_a_4m" type="unit">
+		<material_config path="units/pd2_dlc2/architecture/csb_sewer/csb_sewer"/>
+		<object path="units/pd2_dlc2/architecture/csb_sewer/csb_sewer_corner_a_4m"/>
+		<unit path="units/pd2_dlc2/architecture/csb_sewer/csb_sewer_corner_a_4m"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/architecture/csb_sewer/csb_sewer_corner_b_4m" type="unit">
+		<material_config path="units/pd2_dlc2/architecture/csb_sewer/csb_sewer"/>
+		<object path="units/pd2_dlc2/architecture/csb_sewer/csb_sewer_corner_b_4m"/>
+		<unit path="units/pd2_dlc2/architecture/csb_sewer/csb_sewer_corner_b_4m"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/architecture/csb_sewer/csb_sewer_gate" type="unit">
+		<unit path="units/pd2_dlc2/architecture/csb_sewer/csb_sewer_gate"/>
+		<object path="units/pd2_dlc2/architecture/csb_sewer/csb_sewer_gate"/>
+		<material_config path="units/pd2_dlc2/architecture/csb_sewer/csb_sewer"/>
+		<unit path="units/pd2_dlc2/architecture/csb_sewer/spawn_sewer_door"/>
+		<object path="units/pd2_dlc2/architecture/csb_sewer/spawn_sewer_door"/>
+		<unit path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<object path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<material_config path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<physic_effect path="physic_effects/push_sphere"/>
+		<sequence_manager path="units/pd2_dlc2/architecture/csb_sewer/csb_sewer_gate"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/architecture/csb_sewer/csb_sewer_t_intersect_entry_4m" type="unit">
+		<material_config path="units/pd2_dlc2/architecture/csb_sewer/csb_sewer"/>
+		<object path="units/pd2_dlc2/architecture/csb_sewer/csb_sewer_t_intersect_entry_4m"/>
+		<unit path="units/pd2_dlc2/architecture/csb_sewer/csb_sewer_t_intersect_entry_4m"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/architecture/csb_sewer/csb_sewer_t_intersect_entry_a_4m" type="unit">
+		<material_config path="units/pd2_dlc2/architecture/csb_sewer/csb_sewer"/>
+		<object path="units/pd2_dlc2/architecture/csb_sewer/csb_sewer_t_intersect_entry_a_4m"/>
+		<unit path="units/pd2_dlc2/architecture/csb_sewer/csb_sewer_t_intersect_entry_a_4m"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/architecture/csb_sewer/ind_sewer_t_intersect_entry_a_4m" type="unit">
+		<material_config path="units/pd2_dlc2/architecture/csb_sewer/csb_sewer"/>
+		<object path="units/pd2_dlc2/architecture/csb_sewer/ind_sewer_t_intersect_entry_a_4m"/>
+		<unit path="units/pd2_dlc2/architecture/csb_sewer/ind_sewer_t_intersect_entry_a_4m"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_jerry/architecture/jry_sewer/jry_sewer" type="unit">
+		<material_config path="units/pd2_dlc_jerry/architecture/jry_sewer/jry_sewer"/>
+		<object path="units/pd2_dlc_jerry/architecture/jry_sewer/jry_sewer"/>
+		<unit path="units/pd2_dlc_jerry/architecture/jry_sewer/jry_sewer"/>
+	</add>
+	<add from_db="true" path="units/world/architecture/suburbia/suburbia_sewer_gate" type="unit">
+		<object path="units/world/architecture/suburbia/suburbia_sewer_gate"/>
+		<material_config path="units/world/architecture/suburbia/suburbia"/>
+		<object path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<material_config path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<effect load="true" path="effects/particles/equipment/suburbia_cellar_gate_crowbar"/>
+		<sequence_manager path="units/world/architecture/suburbia/suburbia_cellar_gate"/>
+		<unit path="units/world/architecture/suburbia/suburbia_sewer_gate"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_bph/architecture/bph_int/bph_int_sewers/bph_int_sewers" type="unit">
+		<material_config path="units/pd2_dlc_bph/architecture/bph_int/bph_int_sewers/bph_int_sewers"/>
+		<object path="units/pd2_dlc_bph/architecture/bph_int/bph_int_sewers/bph_int_sewers"/>
+		<unit path="units/pd2_dlc_bph/architecture/bph_int/bph_int_sewers/bph_int_sewers"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/architecture/csb_sewer/csb_sewer_a_4m" type="unit">
+		<material_config path="units/pd2_dlc2/architecture/csb_sewer/csb_sewer"/>
+		<object path="units/pd2_dlc2/architecture/csb_sewer/csb_sewer_a_4m"/>
+		<unit path="units/pd2_dlc2/architecture/csb_sewer/csb_sewer_a_4m"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/architecture/csb_sewer/csb_sewer_b_4m" type="unit">
+		<material_config path="units/pd2_dlc2/architecture/csb_sewer/csb_sewer"/>
+		<object path="units/pd2_dlc2/architecture/csb_sewer/csb_sewer_b_4m"/>
+		<unit path="units/pd2_dlc2/architecture/csb_sewer/csb_sewer_b_4m"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/architecture/csb_sewer/csb_sewer_x_intersect_4m" type="unit">
+		<material_config path="units/pd2_dlc2/architecture/csb_sewer/csb_sewer"/>
+		<object path="units/pd2_dlc2/architecture/csb_sewer/csb_sewer_x_intersect_4m"/>
+		<unit path="units/pd2_dlc2/architecture/csb_sewer/csb_sewer_x_intersect_4m"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/architecture/csb_sewer/ind_sewer_b_open_4m" type="unit">
+		<material_config path="units/pd2_dlc2/architecture/csb_sewer/csb_sewer"/>
+		<object path="units/pd2_dlc2/architecture/csb_sewer/ind_sewer_b_open_4m"/>
+		<unit path="units/pd2_dlc2/architecture/csb_sewer/ind_sewer_b_open_4m"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_jerry/architecture/jry_sewer_details/jry_sewer_detail_corner_01" type="unit">
+		<material_config path="units/pd2_dlc_jerry/architecture/jry_sewer_details/jry_sewer_details_01"/>
+		<object path="units/pd2_dlc_jerry/architecture/jry_sewer_details/jry_sewer_detail_corner_01"/>
+		<unit path="units/pd2_dlc_jerry/architecture/jry_sewer_details/jry_sewer_detail_corner_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_jerry/architecture/jry_sewer_details/jry_sewer_detail_full_01" type="unit">
+		<material_config path="units/pd2_dlc_jerry/architecture/jry_sewer_details/jry_sewer_details_01"/>
+		<object path="units/pd2_dlc_jerry/architecture/jry_sewer_details/jry_sewer_detail_full_01"/>
+		<unit path="units/pd2_dlc_jerry/architecture/jry_sewer_details/jry_sewer_detail_full_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_brb/architecture/brb_ext/brb_ext_sewers/brb_ext_sewer" type="unit">
+		<material_config path="units/pd2_dlc_brb/architecture/brb_ext/brb_ext_sewers/brb_ext_sewer"/>
+		<object path="units/pd2_dlc_brb/architecture/brb_ext/brb_ext_sewers/brb_ext_sewer"/>
+		<unit path="units/pd2_dlc_brb/architecture/brb_ext/brb_ext_sewers/brb_ext_sewer"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_brb/architecture/brb_ext/brb_ext_sewers/brb_ext_sewer_entry_construction" type="unit">
+		<material_config path="units/pd2_dlc_brb/architecture/brb_ext/brb_ext_sewers/brb_ext_sewer"/>
+		<object path="units/pd2_dlc_brb/architecture/brb_ext/brb_ext_sewers/brb_ext_sewer_entry_construction"/>
+		<sequence_manager path="units/pd2_dlc_brb/architecture/brb_ext/brb_ext_sewers/brb_ext_sewer_entry_construction"/>
+		<unit path="units/pd2_dlc_brb/architecture/brb_ext/brb_ext_sewers/brb_ext_sewer_entry_construction"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_brb/architecture/brb_ext/brb_ext_sewers/brb_ext_sewer_water" type="unit">
+		<material_config path="units/pd2_dlc_brb/architecture/brb_ext/brb_ext_sewers/brb_ext_sewer_water"/>
+		<object path="units/pd2_dlc_brb/architecture/brb_ext/brb_ext_sewers/brb_ext_sewer_water"/>
+		<unit path="units/pd2_dlc_brb/architecture/brb_ext/brb_ext_sewers/brb_ext_sewer_water"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_jerry/architecture/jry_sewer_details/jry_sewer_detail_full_end_01" type="unit">
+		<material_config path="units/pd2_dlc_jerry/architecture/jry_sewer_details/jry_sewer_details_01"/>
+		<object path="units/pd2_dlc_jerry/architecture/jry_sewer_details/jry_sewer_detail_full_end_01"/>
+		<unit path="units/pd2_dlc_jerry/architecture/jry_sewer_details/jry_sewer_detail_full_end_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_jerry/architecture/jry_sewer_details/jry_sewer_detail_full_end_02" type="unit">
+		<material_config path="units/pd2_dlc_jerry/architecture/jry_sewer_details/jry_sewer_details_01"/>
+		<object path="units/pd2_dlc_jerry/architecture/jry_sewer_details/jry_sewer_detail_full_end_02"/>
+		<unit path="units/pd2_dlc_jerry/architecture/jry_sewer_details/jry_sewer_detail_full_end_02"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_jerry/architecture/jry_sewer_details/jry_sewer_detail_half_left_01" type="unit">
+		<material_config path="units/pd2_dlc_jerry/architecture/jry_sewer_details/jry_sewer_details_01"/>
+		<object path="units/pd2_dlc_jerry/architecture/jry_sewer_details/jry_sewer_detail_half_left_01"/>
+		<unit path="units/pd2_dlc_jerry/architecture/jry_sewer_details/jry_sewer_detail_half_left_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_jerry/architecture/jry_sewer_details/jry_sewer_detail_half_right_end_02" type="unit">
+		<material_config path="units/pd2_dlc_jerry/architecture/jry_sewer_details/jry_sewer_details_01"/>
+		<object path="units/pd2_dlc_jerry/architecture/jry_sewer_details/jry_sewer_detail_half_right_end_02"/>
+		<unit path="units/pd2_dlc_jerry/architecture/jry_sewer_details/jry_sewer_detail_half_right_end_02"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_plywood/gen_prop_plywood" type="unit">
+		<material_config path="units/payday2/props/gen_prop_plywood/gen_prop_plywood"/>
+		<object path="units/payday2/props/gen_prop_plywood/gen_prop_plywood"/>
+		<unit path="units/payday2/props/gen_prop_plywood/gen_prop_plywood"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_plywood/gen_prop_plank_2m" type="unit">
+		<material_config path="units/payday2/props/gen_prop_plywood/gen_prop_plywood"/>
+		<object path="units/payday2/props/gen_prop_plywood/gen_prop_plank_2m"/>
+		<unit path="units/payday2/props/gen_prop_plywood/gen_prop_plank_2m"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_plywood/gen_prop_plank" type="unit">
+		<material_config path="units/payday2/props/gen_prop_plywood/gen_prop_plywood"/>
+		<object path="units/payday2/props/gen_prop_plywood/gen_prop_plank"/>
+		<unit path="units/payday2/props/gen_prop_plywood/gen_prop_plank"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_plywood/gen_prop_plank_1m" type="unit">
+		<material_config path="units/payday2/props/gen_prop_plywood/gen_prop_plywood"/>
+		<object path="units/payday2/props/gen_prop_plywood/gen_prop_plank_1m"/>
+		<unit path="units/payday2/props/gen_prop_plywood/gen_prop_plank_1m"/>
+	</add>
+	<add from_db="true" path="units/payday2/vehicles/ind_vehicle_boat_tug/ind_bdrop_boat_tug" type="unit">
+		<effect load="true" path="effects/particles/dest/fire_hydrant_splash"/>
+		<effect load="true" path="effects/payday2/environment/club_smoke_machine"/>
+		<material_config path="units/payday2/vehicles/ind_vehicle_boat_tug/ind_bdrop_boat_tug"/>
+		<object path="units/payday2/vehicles/ind_vehicle_boat_tug/ind_bdrop_boat_tug"/>
+		<sequence_manager path="units/payday2/vehicles/ind_vehicle_boat_tug/ind_bdrop_boat_tug"/>
+		<unit path="units/payday2/vehicles/ind_vehicle_boat_tug/ind_bdrop_boat_tug"/>
+	</add>
+	<add from_db="true" path="units/payday2/vehicles/ind_vehicle_boat_tug/ind_vehicle_boat_tug" type="unit">
+		<effect load="true" path="effects/particles/dest/fire_hydrant_splash"/>
+		<material_config path="units/payday2/vehicles/ind_vehicle_boat_tug/ind_vehicle_boat_tug"/>
+		<object path="units/payday2/vehicles/ind_vehicle_boat_tug/ind_vehicle_boat_tug"/>
+		<sequence_manager path="units/payday2/vehicles/ind_vehicle_boat_tug/ind_vehicle_boat_tug"/>
+		<unit path="units/payday2/vehicles/ind_vehicle_boat_tug/ind_vehicle_boat_tug"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_friend/vehicles/sfm_vehicle_macboat/sfm_vehicle_cb90" type="unit">
+		<animation_def path="anims/units/level/friend/military_boat/def"/>
+		<animation_state_machine path="anims/units/level/friend/military_boat/machine"/>
+		<animation_states path="anims/units/level/friend/military_boat/states"/>
+		<animation_subset path="anims/units/level/friend/military_boat/anims"/>
+		<effect load="true" path="effects/payday2/particles/water/water_speed_splash_rib_boat"/>
+		<material_config path="units/pd2_dlc_friend/vehicles/sfm_vehicle_macboat/sfm_vehicle_cb90"/>
+		<object path="units/pd2_dlc_friend/vehicles/sfm_vehicle_macboat/sfm_vehicle_cb90"/>
+		<sequence_manager path="units/pd2_dlc_friend/vehicles/sfm_vehicle_macboat/sfm_vehicle_cb90"/>
+		<unit path="units/pd2_dlc_friend/vehicles/sfm_vehicle_macboat/sfm_vehicle_cb90"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_pal/props/pal_prop_ext_boat/pal_prop_ext_boat" type="unit">
+		<material_config path="units/pd2_dlc_pal/props/pal_prop_ext_boat/pal_prop_ext_boat"/>
+		<object path="units/pd2_dlc_pal/props/pal_prop_ext_boat/pal_prop_ext_boat"/>
+		<unit path="units/pd2_dlc_pal/props/pal_prop_ext_boat/pal_prop_ext_boat"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_deep/props/deep_prop_lifeboat/deep_prop_lifeboat" type="unit">
+		<material_config path="units/pd2_dlc_deep/props/deep_prop_lifeboat/deep_prop_lifeboat"/>
+		<object path="units/pd2_dlc_deep/props/deep_prop_lifeboat/deep_prop_lifeboat"/>
+		<unit path="units/pd2_dlc_deep/props/deep_prop_lifeboat/deep_prop_lifeboat"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chill/architecture/chl_int_basement_pipes/chl_int_basement_pipes_01" type="unit">
+		<material_config path="units/pd2_dlc_chill/architecture/chl_int_basement_pipes/chl_int_basement_pipes_01"/>
+		<object path="units/pd2_dlc_chill/architecture/chl_int_basement_pipes/chl_int_basement_pipes_01"/>
+		<unit path="units/pd2_dlc_chill/architecture/chl_int_basement_pipes/chl_int_basement_pipes_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_jerry/architecture/jry_sewer_details/jry_sewer_detail_half_left_end_02" type="unit">
+		<material_config path="units/pd2_dlc_jerry/architecture/jry_sewer_details/jry_sewer_details_01"/>
+		<object path="units/pd2_dlc_jerry/architecture/jry_sewer_details/jry_sewer_detail_half_left_end_02"/>
+		<unit path="units/pd2_dlc_jerry/architecture/jry_sewer_details/jry_sewer_detail_half_left_end_02"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_dock_bld/ind_ext_pipe_3_short" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind"/>
+		<object path="units/payday2/architecture/ind/ind_ext_dock_bld/ind_ext_pipe_3_short"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_dock_bld/ind_ext_pipe_3_short"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chill/props/chl_prop_ceiling_duct_black/chl_prop_ceiling_pipe_1_1m_b_black" type="unit">
+		<material_config path="units/pd2_dlc_chill/props/chl_prop_ceiling_duct_black/chl_prop_ceiling_pipe"/>
+		<object path="units/pd2_dlc_chill/props/chl_prop_ceiling_duct_black/chl_prop_ceiling_pipe_1_1m_b_black"/>
+		<unit path="units/pd2_dlc_chill/props/chl_prop_ceiling_duct_black/chl_prop_ceiling_pipe_1_1m_b_black"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_jerry/architecture/jry_sewer_details/jry_sewer_detail_half_right_end_01" type="unit">
+		<material_config path="units/pd2_dlc_jerry/architecture/jry_sewer_details/jry_sewer_details_01"/>
+		<object path="units/pd2_dlc_jerry/architecture/jry_sewer_details/jry_sewer_detail_half_right_end_01"/>
+		<unit path="units/pd2_dlc_jerry/architecture/jry_sewer_details/jry_sewer_detail_half_right_end_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_jerry/architecture/jry_sewer_details/jry_sewer_detail_half_right_01" type="unit">
+		<material_config path="units/pd2_dlc_jerry/architecture/jry_sewer_details/jry_sewer_details_01"/>
+		<object path="units/pd2_dlc_jerry/architecture/jry_sewer_details/jry_sewer_detail_half_right_01"/>
+		<unit path="units/pd2_dlc_jerry/architecture/jry_sewer_details/jry_sewer_detail_half_right_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/vehicles/anim_vehicle_rubber_boat/anim_vehicle_rubber_boat" type="unit">
+		<effect load="true" path="effects/payday2/particles/water/water_speed_splash_rib_boat"/>
+		<effect load="true" path="effects/payday2/particles/water/water_speed_splash_rib_boat_small"/>
+		<animation_def path="anims/units/rubber_boat/rubber_boat"/>
+		<animation_state_machine path="anims/units/rubber_boat/rubber_boat"/>
+		<animation_states path="anims/units/rubber_boat/std"/>
+		<animation_subset path="anims/units/rubber_boat/std"/>
+		<material_config path="units/pd2_dlc_holly/river/vehicles/anim_vehicle_rubber_boat/anim_vehicle_rubber_boat"/>
+		<object path="units/pd2_dlc_holly/river/vehicles/anim_vehicle_rubber_boat/anim_vehicle_rubber_boat"/>
+		<sequence_manager path="units/pd2_dlc_holly/river/vehicles/anim_vehicle_rubber_boat/anim_vehicle_rubber_boat"/>
+		<unit path="units/pd2_dlc_holly/river/vehicles/anim_vehicle_rubber_boat/anim_vehicle_rubber_boat"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_square_goal_marker_27x24/gen_prop_square_goal_marker_27x24" type="unit">
+		<unit path="units/payday2/props/gen_prop_square_goal_marker_27x24/gen_prop_square_goal_marker_27x24"/>
+		<object path="units/payday2/props/gen_prop_square_goal_marker_27x24/gen_prop_square_goal_marker_27x24"/>
+		<material_config path="units/payday2/props/gen_prop_square_goal_marker_27x24/gen_prop_square_goal_marker_27x24"/>
+		<sequence_manager path="units/payday2/props/gen_prop_square_goal_marker_27x24/gen_prop_square_goal_marker_27x24"/>
+	</add>
 </table>

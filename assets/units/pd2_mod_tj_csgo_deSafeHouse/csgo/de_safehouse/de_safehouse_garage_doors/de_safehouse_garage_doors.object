@@ -1,0 +1,34 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/de_safehouse_mat" orientation_object="rp_go_safehouse" />
+	<sequence_manager file="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/de_safehouse_garage_doors/de_safehouse_garage_doors" />
+	<bodies>
+		<body name="body_normal" enabled="true" template="static">
+			<object name="rp_go_safehouse" />
+			<object name="g_garage_main_door_001" collision_type="mesh_mopp" />
+			<object name="g_garage_side_door_001" collision_type="mesh_mopp" />
+			<object name="g_garage_side_window_001" collision_type="mesh_mopp" />
+		</body>
+		<body name="body_broken" enabled="false" template="static">
+			<object name="rp_go_safehouse" />
+			<object name="g_garage_main_door_002" collision_type="mesh_mopp" />
+			<object name="g_garage_side_door_002" collision_type="mesh_mopp" />
+			<object name="g_garage_side_window_002" collision_type="mesh_mopp" />
+		</body>
+	</bodies>
+	<decal_surfaces default_material="wood">
+		<decal_mesh name="g_garage_main_door_001" enabled="true" material="wood" />
+		<decal_mesh name="g_garage_main_door_002" enabled="true" material="wood" />
+		<decal_mesh name="g_garage_side_door_001" enabled="true" material="wood" />
+		<decal_mesh name="g_garage_side_door_002" enabled="true" material="wood" />
+		<decal_mesh name="g_garage_side_window_001" enabled="true" material="wood" />
+		<decal_mesh name="g_garage_side_window_002" enabled="true" material="wood" />
+	</decal_surfaces>
+	<graphics>
+		<object name="g_garage_main_door_001" enabled="true" shadow_caster="true"/>
+		<object name="g_garage_side_door_001" enabled="true" shadow_caster="true"/>
+		<object name="g_garage_side_window_001" enabled="true" shadow_caster="true"/>
+		<object name="g_garage_main_door_002" enabled="false" shadow_caster="true"/>
+		<object name="g_garage_side_door_002" enabled="false" shadow_caster="true"/>
+		<object name="g_garage_side_window_002" enabled="false" shadow_caster="true"/>
+	</graphics>
+</dynamic_object>

@@ -8,9 +8,12 @@
 	<objective description="tj_csgo_gosh_s_007_enterCombo_desc" id="tj_csgo_gosh_s_007_enterCombo" text="tj_csgo_gosh_s_007_enterCombo"/>
 	<objective description="tj_csgo_gosh_s_008_openSafe_desc" id="tj_csgo_gosh_s_008_openSafe" text="tj_csgo_gosh_s_008_openSafe"/>
 	<objective description="tj_csgo_gosh_s_009_lootSafe_desc" id="tj_csgo_gosh_s_009_lootSafe" text="tj_csgo_gosh_s_009_lootSafe"/>
-	<objective description="tj_csgo_gosh_s_010_waitEscape_desc" id="tj_csgo_gosh_s_010_waitEscape" text="tj_csgo_gosh_s_010_waitEscape"/>
-	<objective description="tj_csgo_gosh_s_011_secureLoot_desc" id="tj_csgo_gosh_s_011_secureLoot" text="tj_csgo_gosh_s_011_secureLoot"/>
-	<objective description="tj_csgo_gosh_s_012_escape_desc" id="tj_csgo_gosh_s_012_escape" text="tj_csgo_gosh_s_012_escape"/>
+	<objective description="tj_csgo_gosh_s_010_plantC4_desc" id="tj_csgo_gosh_s_010_plantC4" text="tj_csgo_gosh_s_010_plantC4"/>
+	<objective description="tj_csgo_gosh_s_011_defendC4_desc" id="tj_csgo_gosh_s_011_defendC4" text="tj_csgo_gosh_s_011_defendC4"/>
+	<objective description="tj_csgo_gosh_s_011_a_rearmC4_desc" id="tj_csgo_gosh_s_011_a_rearmC4" text="tj_csgo_gosh_s_011_a_rearmC4"/>
+	<objective description="tj_csgo_gosh_s_012_enterSewers_desc" id="tj_csgo_gosh_s_012_enterSewers" text="tj_csgo_gosh_s_012_enterSewers"/>
+	<objective description="tj_csgo_gosh_s_013_secureLoot_desc" id="tj_csgo_gosh_s_013_secureLoot" text="tj_csgo_gosh_s_013_secureLoot"/>
+	<objective description="tj_csgo_gosh_s_014_escape_desc" id="tj_csgo_gosh_s_014_escape" text="tj_csgo_gosh_s_014_escape"/>
 	<objective description="tj_csgo_gosh_l_001_getC4_desc" id="tj_csgo_gosh_l_001_getC4" text="tj_csgo_gosh_l_001_getC4"/>
 	<objective description="tj_csgo_gosh_l_002_findLaptop_desc" id="tj_csgo_gosh_l_002_findLaptop" text="tj_csgo_gosh_l_002_findLaptop"/>
 	<objective description="tj_csgo_gosh_l_003_hackBedrooms_desc" id="tj_csgo_gosh_l_003_hackBedrooms" text="tj_csgo_gosh_l_003_hackBedrooms"/>
@@ -20,7 +23,13 @@
 	<objective description="tj_csgo_gosh_l_006_drillSafe_desc" id="tj_csgo_gosh_l_006_drillSafe" text="tj_csgo_gosh_l_006_drillSafe"/>
 	<objective description="tj_csgo_gosh_l_007_openSafe_desc" id="tj_csgo_gosh_l_007_openSafe" text="tj_csgo_gosh_l_007_openSafe"/>
 	<objective description="tj_csgo_gosh_l_008_lootSafe_desc" id="tj_csgo_gosh_l_008_lootSafe" text="tj_csgo_gosh_l_008_lootSafe"/>
-	<objective description="tj_csgo_gosh_l_009_waitEscape_desc" id="tj_csgo_gosh_l_009_waitEscape" text="tj_csgo_gosh_l_009_waitEscape"/>
-	<objective description="tj_csgo_gosh_l_010_secureLoot_desc" id="tj_csgo_gosh_l_010_secureLoot" text="tj_csgo_gosh_l_010_secureLoot"/>
-	<objective description="tj_csgo_gosh_l_011_escape_desc" id="tj_csgo_gosh_l_011_escape" text="tj_csgo_gosh_l_011_escape"/>
+	<objective description="tj_csgo_gosh_l_A_009_plantC4_desc" id="tj_csgo_gosh_l_A_009_plantC4" text="tj_csgo_gosh_l_A_009_plantC4"/>
+	<objective description="tj_csgo_gosh_l_A_010_defendC4_desc" id="tj_csgo_gosh_l_A_010_defendC4" text="tj_csgo_gosh_l_A_010_defendC4"/>
+	<objective description="tj_csgo_gosh_l_A_010_a_rearmC4_desc" id="tj_csgo_gosh_l_A_010_a_rearmC4" text="tj_csgo_gosh_l_A_010_a_rearmC4"/>
+	<objective description="tj_csgo_gosh_l_A_011_enterSewers_desc" id="tj_csgo_gosh_l_A_011_enterSewers" text="tj_csgo_gosh_l_A_011_enterSewers"/>
+	<objective description="tj_csgo_gosh_l_A_012_secureLoot_desc" id="tj_csgo_gosh_l_A_012_secureLoot" text="tj_csgo_gosh_l_A_012_secureLoot"/>
+	<objective description="tj_csgo_gosh_l_A_013_escape_desc" id="tj_csgo_gosh_l_A_013_escape" text="tj_csgo_gosh_l_A_013_escape"/>
+	<objective description="tj_csgo_gosh_l_B_009_waitEscape_desc" id="tj_csgo_gosh_l_B_009_waitEscape" text="tj_csgo_gosh_l_B_009_waitEscape"/>
+	<objective description="tj_csgo_gosh_l_B_010_secureLoot_desc" id="tj_csgo_gosh_l_B_010_secureLoot" text="tj_csgo_gosh_l_B_010_secureLoot"/>
+	<objective description="tj_csgo_gosh_l_B_011_escape_desc" id="tj_csgo_gosh_l_B_011_escape" text="tj_csgo_gosh_l_B_011_escape"/>
 </table>

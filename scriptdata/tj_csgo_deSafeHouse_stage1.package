@@ -21,6 +21,12 @@
 		<model 				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/de_safehouse_trees/de_safehouse_trees" unload="true"/>
 		<object 			path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/de_safehouse_trees/de_safehouse_trees" unload="true"/>
 		<unit 				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/de_safehouse_trees/de_safehouse_trees" unload="true"/>
+		
+		<!-- Garage Units -->
+		<model 				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/de_safehouse_garage_doors/de_safehouse_garage_doors" unload="true"/>
+		<sequence_manager 	path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/de_safehouse_garage_doors/de_safehouse_garage_doors" unload="true"/>
+		<object 			path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/de_safehouse_garage_doors/de_safehouse_garage_doors" unload="true"/>
+		<unit 				path="units/pd2_mod_tj_csgo_deSafeHouse/csgo/de_safehouse/de_safehouse_garage_doors/de_safehouse_garage_doors" unload="true"/>
 		<!-- ________________________________________ -->
 		
 		
