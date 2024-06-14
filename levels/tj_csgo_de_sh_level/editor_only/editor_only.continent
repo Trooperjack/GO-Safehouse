@@ -3290,6 +3290,45 @@
 		<table>
 			<unit_data _prev_pos="-4450 1190 0" _prev_rot="0 0 0 -1" continent="editor_only" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m" name_id="dev_nav_blocker_1x1x3m_561" only_exists_in_editor="true" position="-4390 1160 0" rotation="0 0 0 -1" unit_id="200908"/>
 		</table>
+		<table>
+			<unit_data _prev_pos="-3420 1220 0" _prev_rot="0 0 0 -1" continent="editor_only" local_pos="0 200 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m" name_id="dev_nav_blocker_1x1x3m_562" only_exists_in_editor="true" position="-3420 1225 0" rotation="0 0 0 -1" unit_id="200909"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3420 1120 0" _prev_rot="0 0 0 -1" continent="editor_only" local_pos="0 100 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m" name_id="dev_nav_blocker_1x1x3m_563" only_exists_in_editor="true" position="-3420 1125 0" rotation="0 0 0 -1" unit_id="200910"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3420 1020 0" _prev_rot="0 0 0 -1" continent="editor_only" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m" name_id="dev_nav_blocker_1x1x3m_564" only_exists_in_editor="true" position="-3420 1025 0" rotation="0 0 0 -1" unit_id="200911"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3420 920 0" _prev_rot="0 0 0 -1" continent="editor_only" local_pos="0 -100 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m" name_id="dev_nav_blocker_1x1x3m_565" only_exists_in_editor="true" position="-3420 925 0" rotation="0 0 0 -1" unit_id="200912"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3420 820 0" _prev_rot="0 0 0 -1" continent="editor_only" local_pos="0 -200 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m" name_id="dev_nav_blocker_1x1x3m_566" only_exists_in_editor="true" position="-3420 825 0" rotation="0 0 0 -1" unit_id="200913"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3790 1120 580" _prev_rot="0 0 0 -1" continent="editor_only" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m" name_id="dev_nav_blocker_1x1x3m_567" only_exists_in_editor="true" position="-4040 1130 580" rotation="0 0 0 -1" unit_id="200914"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3940 1080 580" _prev_rot="0 0 0 -1" continent="editor_only" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m" name_id="dev_nav_blocker_1x1x3m_568" only_exists_in_editor="true" position="-3940 1080 580" rotation="0 0 0 -1" unit_id="200915"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3940 1080 580" _prev_rot="0 0 0 -1" continent="editor_only" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m" name_id="dev_nav_blocker_1x1x3m_569" only_exists_in_editor="true" position="-3870 1120 580" rotation="0 0 0 -1" unit_id="200916"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-600 2800 3000" _prev_rot="0 0 0 -1" continent="editor_only" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/test/jocke/plane_black_temp" name_id="plane_black_temp_050" position="-600 2800 3000" rotation="0 0 0 -1" unit_id="200917"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1000 2700 3000" _prev_rot="0 0 -0.707107 -0.707107" continent="editor_only" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="editable_text_short_049" position="-1000 2700 3000" rotation="0 0 -0.707107 -0.707107" unit_id="200918">
+				<editable_gui align="center" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="1 1 1" font_size="4" render_template="diffuse_vc_decal" text="SECRET" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
 	</statics>
 	<values>
 		<workviews/>

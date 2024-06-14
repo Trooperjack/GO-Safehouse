@@ -1,0 +1,6 @@
+<unit type="com" slot="1" >
+    <object file="units/pd2_mod_tj_csgo_deSafeHouse/custom/dragon_calendar/dragon_calendar" />
+    <extensions>
+        <extension class="ScriptUnitData" name="unit_data" />
+    </extensions>
+</unit>

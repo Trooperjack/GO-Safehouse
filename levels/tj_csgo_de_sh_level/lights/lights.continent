@@ -116,6 +116,26 @@
 				</projection_lights>
 			</unit_data>
 		</table>
+		<table>
+			<unit_data _prev_pos="-4060 870 940" _prev_rot="0 0 0 -1" continent="lights" local_pos="0 0 0" local_rot="0 0 0 1" name="units/lights/light_omni_shadow_projection_01/light_omni_shadow_projection_01" name_id="light_omni_shadow_projection_01_012" only_visible_in_editor="true" position="-4060 870 940" projection_light="lo_omni" rotation="-0 0 -0 -1" unit_id="500011">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="0.968628 0.909804 0.792157" enabled="true" falloff_exponent="1" far_range="500" multiplier="identity" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
+				</lights>
+				<projection_lights>
+					<lo_omni x="128" y="128"/>
+				</projection_lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4640 870 940" _prev_rot="-0 0 -0 -1" continent="lights" local_pos="0 0 0" local_rot="0 0 0 1" name="units/lights/light_omni_shadow_projection_01/light_omni_shadow_projection_01" name_id="light_omni_shadow_projection_01_013" only_visible_in_editor="true" position="-4640 870 940" projection_light="lo_omni" rotation="-0 0 -0 -1" unit_id="500012">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="0.968628 0.909804 0.792157" enabled="true" falloff_exponent="1" far_range="500" multiplier="identity" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
+				</lights>
+				<projection_lights>
+					<lo_omni x="128" y="128"/>
+				</projection_lights>
+			</unit_data>
+		</table>
 	</statics>
 	<values>
 		<workviews/>

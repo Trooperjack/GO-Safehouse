@@ -1042,9 +1042,720 @@
 		<unit path="units/pd2_dlc_holly/river/vehicles/anim_vehicle_rubber_boat/anim_vehicle_rubber_boat"/>
 	</add>
 	<add from_db="true" path="units/payday2/props/gen_prop_square_goal_marker_27x24/gen_prop_square_goal_marker_27x24" type="unit">
-		<unit path="units/payday2/props/gen_prop_square_goal_marker_27x24/gen_prop_square_goal_marker_27x24"/>
-		<object path="units/payday2/props/gen_prop_square_goal_marker_27x24/gen_prop_square_goal_marker_27x24"/>
 		<material_config path="units/payday2/props/gen_prop_square_goal_marker_27x24/gen_prop_square_goal_marker_27x24"/>
+		<object path="units/payday2/props/gen_prop_square_goal_marker_27x24/gen_prop_square_goal_marker_27x24"/>
 		<sequence_manager path="units/payday2/props/gen_prop_square_goal_marker_27x24/gen_prop_square_goal_marker_27x24"/>
+		<unit path="units/payday2/props/gen_prop_square_goal_marker_27x24/gen_prop_square_goal_marker_27x24"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_foliage/flower_barrel" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_foliage/flower_barrel"/>
+		<object path="units/pd2_dlc2/csgo_models/props_foliage/flower_barrel"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_foliage/flower_barrel"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_fortifications/orange_cone001_reference" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_fortifications/orange_cone001_reference"/>
+		<object path="units/pd2_dlc2/csgo_models/props_fortifications/orange_cone001_reference"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_fortifications/orange_cone001_reference"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_unique/grocerystorechiller01" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_unique/grocerystorechiller01"/>
+		<object path="units/pd2_dlc2/csgo_models/props_unique/grocerystorechiller01"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_unique/grocerystorechiller01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_urban/curb_straight001_256" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_urban/curb_straight001_256"/>
+		<object path="units/pd2_dlc2/csgo_models/props_urban/curb_straight001_256"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_urban/curb_straight001_256"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_urban/fence002_128" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_urban/fence002_128"/>
+		<object path="units/pd2_dlc2/csgo_models/props_urban/fence002_128"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_urban/fence002_128"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_urban/gas_meter" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_urban/gas_meter"/>
+		<object path="units/pd2_dlc2/csgo_models/props_urban/gas_meter"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_urban/gas_meter"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_urban/porch_light001" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_urban/porch_light001"/>
+		<object path="units/pd2_dlc2/csgo_models/props_urban/porch_light001"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_urban/porch_light001"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_vehicles/cara_69sedan" type="unit">
+		<object path="units/pd2_dlc2/csgo_models/props_vehicles/cara_69sedan"/>
+		<sequence_manager path="units/pd2_dlc2/csgo_models/props_vehicles/cara_69sedan"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_vehicles/cara_69sedan"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_vehicles/flatnose_truck" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_vehicles/flatnose_truck"/>
+		<object path="units/pd2_dlc2/csgo_models/props_vehicles/flatnose_truck"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_vehicles/flatnose_truck"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_vehicles/suv_2001" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_vehicles/suv_2001"/>
+		<object path="units/pd2_dlc2/csgo_models/props_vehicles/suv_2001"/>
+		<sequence_manager path="units/pd2_dlc2/csgo_models/props_vehicles/suv_2001"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_vehicles/suv_2001"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_vehicles/van" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_vehicles/van"/>
+		<object path="units/pd2_dlc2/csgo_models/props_vehicles/van"/>
+		<sequence_manager path="units/pd2_dlc2/csgo_models/props_vehicles/van"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_vehicles/van"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props/cs_assault/money" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props/cs_assault/money"/>
+		<object path="units/pd2_dlc2/csgo_models/props/cs_assault/money"/>
+		<unit path="units/pd2_dlc2/csgo_models/props/cs_assault/money"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props/cs_assault/pylon" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props/cs_assault/pylon"/>
+		<object path="units/pd2_dlc2/csgo_models/props/cs_assault/pylon"/>
+		<unit path="units/pd2_dlc2/csgo_models/props/cs_assault/pylon"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props/cs_assault/wirespout" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props/cs_assault/wirespout"/>
+		<object path="units/pd2_dlc2/csgo_models/props/cs_assault/wirespout"/>
+		<unit path="units/pd2_dlc2/csgo_models/props/cs_assault/wirespout"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props/cs_italy/market_dolly01" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props/cs_italy/market_dolly01"/>
+		<object path="units/pd2_dlc2/csgo_models/props/cs_italy/market_dolly01"/>
+		<unit path="units/pd2_dlc2/csgo_models/props/cs_italy/market_dolly01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props/cs_militia/boxes_frontroom" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props/cs_militia/boxes_frontroom"/>
+		<object path="units/pd2_dlc2/csgo_models/props/cs_militia/boxes_frontroom"/>
+		<unit path="units/pd2_dlc2/csgo_models/props/cs_militia/boxes_frontroom"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_urban/hotel_ceiling_firealarm001" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_urban/hotel_ceiling_firealarm001"/>
+		<object path="units/pd2_dlc2/csgo_models/props_urban/hotel_ceiling_firealarm001"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_urban/hotel_ceiling_firealarm001"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_urban/gate_wall_gate001_64" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_urban/gate_wall_gate001_64"/>
+		<object path="units/pd2_dlc2/csgo_models/props_urban/gate_wall_gate001_64"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_urban/gate_wall_gate001_64"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_urban/garbage_can002" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_urban/garbage_can002"/>
+		<object path="units/pd2_dlc2/csgo_models/props_urban/garbage_can002"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_urban/garbage_can002"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_urban/fence_post002" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_urban/fence_post002"/>
+		<object path="units/pd2_dlc2/csgo_models/props_urban/fence_post002"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_urban/fence_post002"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_urban/exit_sign001" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_urban/exit_sign001"/>
+		<object path="units/pd2_dlc2/csgo_models/props_urban/exit_sign001"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_urban/exit_sign001"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_urban/dumpster001" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_urban/dumpster001"/>
+		<object path="units/pd2_dlc2/csgo_models/props_urban/dumpster001"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_urban/dumpster001"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_urban/curb_straight001_cap" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_urban/curb_straight001_cap"/>
+		<object path="units/pd2_dlc2/csgo_models/props_urban/curb_straight001_cap"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_urban/curb_straight001_cap"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_urban/chimney002" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_urban/chimney002"/>
+		<object path="units/pd2_dlc2/csgo_models/props_urban/chimney002"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_urban/chimney002"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_urban/ashtray_stand001" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_urban/ashtray_stand001"/>
+		<object path="units/pd2_dlc2/csgo_models/props_urban/ashtray_stand001"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_urban/ashtray_stand001"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_unique/skylight_broken_large" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_unique/skylight_broken_large"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/pd2_dlc2/csgo_models/props_unique/skylight_broken_large"/>
+		<sequence_manager path="units/pd2_dlc2/csgo_models/props_unique/skylight_broken_large"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_unique/skylight_broken_large"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_street/trashbin01" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_street/trashbin01"/>
+		<object path="units/pd2_dlc2/csgo_models/props_street/trashbin01"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_street/trashbin01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_street/newspaper_dispensers" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_street/newspaper_dispensers"/>
+		<object path="units/pd2_dlc2/csgo_models/props_street/newspaper_dispensers"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_street/newspaper_dispensers"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_street/mail_dropbox" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_street/mail_dropbox"/>
+		<object path="units/pd2_dlc2/csgo_models/props_street/mail_dropbox"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_street/mail_dropbox"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_street/firehydrant" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_street/firehydrant"/>
+		<object path="units/pd2_dlc2/csgo_models/props_street/firehydrant"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_street/firehydrant"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_street/electrical_box02" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_street/electrical_box02"/>
+		<object path="units/pd2_dlc2/csgo_models/props_street/electrical_box02"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_street/electrical_box02"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_street/electrical_box01" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_street/electrical_box01"/>
+		<object path="units/pd2_dlc2/csgo_models/props_street/electrical_box01"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_street/electrical_box01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_street/bollards_512" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_street/bollards_512"/>
+		<object path="units/pd2_dlc2/csgo_models/props_street/bollards_512"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_street/bollards_512"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_street/awning_short" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_street/awning_short"/>
+		<object path="units/pd2_dlc2/csgo_models/props_street/awning_short"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_street/awning_short"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_signs/sign_street_05" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_signs/sign_street_05"/>
+		<object path="units/pd2_dlc2/csgo_models/props_signs/sign_street_05"/>
+		<sequence_manager path="units/pd2_dlc2/csgo_models/props_signs/sign_street"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_signs/sign_street_05"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_signs/sign_street_03" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_signs/sign_street_03"/>
+		<object path="units/pd2_dlc2/csgo_models/props_signs/sign_street_03"/>
+		<sequence_manager path="units/pd2_dlc2/csgo_models/props_signs/sign_street"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_signs/sign_street_03"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_rooftop/vent_large1" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_rooftop/vent_large1"/>
+		<object path="units/pd2_dlc2/csgo_models/props_rooftop/vent_large1"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_rooftop/vent_large1"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_rooftop/train_signalbox_01" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_rooftop/train_signalbox_01"/>
+		<object path="units/pd2_dlc2/csgo_models/props_rooftop/train_signalbox_01"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_rooftop/train_signalbox_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_rooftop/roof_vent001" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_rooftop/roof_vent001"/>
+		<object path="units/pd2_dlc2/csgo_models/props_rooftop/roof_vent001"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_rooftop/roof_vent001"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_rooftop/hotel_rooftop_equip002" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_rooftop/hotel_rooftop_equip002"/>
+		<object path="units/pd2_dlc2/csgo_models/props_rooftop/hotel_rooftop_equip002"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_rooftop/hotel_rooftop_equip002"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_rooftop/antenna01a" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_rooftop/antenna01a"/>
+		<object path="units/pd2_dlc2/csgo_models/props_rooftop/antenna01a"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_rooftop/antenna01a"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_rooftop/acunit01" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_rooftop/acunit01"/>
+		<object path="units/pd2_dlc2/csgo_models/props_rooftop/acunit01"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_rooftop/acunit01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_junk/dumpster_2" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_junk/dumpster_2"/>
+		<object path="units/pd2_dlc2/csgo_models/props_junk/dumpster_2"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_junk/dumpster_2"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_interiors/water_cooler" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_interiors/water_cooler"/>
+		<object path="units/pd2_dlc2/csgo_models/props_interiors/water_cooler"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_interiors/water_cooler"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_interiors/table_picnic" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_interiors/table_picnic"/>
+		<object path="units/pd2_dlc2/csgo_models/props_interiors/table_picnic"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_interiors/table_picnic"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_interiors/shelvingstore01" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_interiors/shelvingstore01"/>
+		<object path="units/pd2_dlc2/csgo_models/props_interiors/shelvingstore01"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_interiors/shelvingstore01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_interiors/paper_towel_dispenser" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_interiors/paper_towel_dispenser"/>
+		<object path="units/pd2_dlc2/csgo_models/props_interiors/paper_towel_dispenser"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_interiors/paper_towel_dispenser"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_interiors/furniture_chair03a" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_interiors/furniture_chair03a"/>
+		<object path="units/pd2_dlc2/csgo_models/props_interiors/furniture_chair03a"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_interiors/furniture_chair03a"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_interiors/file_cabinet1_group" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_interiors/file_cabinet1_group"/>
+		<object path="units/pd2_dlc2/csgo_models/props_interiors/file_cabinet1_group"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_interiors/file_cabinet1_group"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_interiors/desk_metal" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_interiors/desk_metal"/>
+		<object path="units/pd2_dlc2/csgo_models/props_interiors/desk_metal"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_interiors/desk_metal"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_interiors/chair_office2" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_interiors/chair_office2"/>
+		<object path="units/pd2_dlc2/csgo_models/props_interiors/chair_office2"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_interiors/chair_office2"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_industrial/vehicle_lift01" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_industrial/vehicle_lift01"/>
+		<object path="units/pd2_dlc2/csgo_models/props_industrial/vehicle_lift01"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_industrial/vehicle_lift01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_furniture/hotel_chair" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_furniture/hotel_chair"/>
+		<object path="units/pd2_dlc2/csgo_models/props_furniture/hotel_chair"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_furniture/hotel_chair"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_fortifications/traffic_barrier001" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_fortifications/traffic_barrier001"/>
+		<object path="units/pd2_dlc2/csgo_models/props_fortifications/traffic_barrier001"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_fortifications/traffic_barrier001"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_fortifications/barricade_razorwire001_128_reference" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_fortifications/barricade_razorwire001_128_reference"/>
+		<object path="units/pd2_dlc2/csgo_models/props_fortifications/barricade_razorwire001_128_reference"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_fortifications/barricade_razorwire001_128_reference"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_foliage/urban_trees_dryleaves01" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_foliage/urban_trees_dryleaves01"/>
+		<object path="units/pd2_dlc2/csgo_models/props_foliage/urban_trees_dryleaves01"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_foliage/urban_trees_dryleaves01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_exteriors/guardrail512" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_exteriors/guardrail512"/>
+		<object path="units/pd2_dlc2/csgo_models/props_exteriors/guardrail512"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_exteriors/guardrail512"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_equipment/phone_booth" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_equipment/phone_booth"/>
+		<object path="units/pd2_dlc2/csgo_models/props_equipment/phone_booth"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_equipment/phone_booth"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_equipment/metalladder002" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_equipment/metalladder002"/>
+		<object path="units/pd2_dlc2/csgo_models/props_equipment/metalladder002"/>
+		<sequence_manager path="units/pd2_dlc2/csgo_models/props_equipment/metalladder002"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_equipment/metalladder002"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_equipment/fountain_drinks" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_equipment/fountain_drinks"/>
+		<object path="units/pd2_dlc2/csgo_models/props_equipment/fountain_drinks"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_equipment/fountain_drinks"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_downtown/sign_post" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_downtown/sign_post"/>
+		<object path="units/pd2_dlc2/csgo_models/props_downtown/sign_post"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_downtown/sign_post"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_downtown/sign_donotenter" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_downtown/sign_donotenter"/>
+		<object path="units/pd2_dlc2/csgo_models/props_downtown/sign_donotenter"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_downtown/sign_donotenter"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_downtown/metal_window01_8" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_downtown/metal_window01_8"/>
+		<object path="units/pd2_dlc2/csgo_models/props_downtown/metal_window01_8"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_downtown/metal_window01_8"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_downtown/cigarettemachine" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_downtown/cigarettemachine"/>
+		<object path="units/pd2_dlc2/csgo_models/props_downtown/cigarettemachine"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_downtown/cigarettemachine"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_doors/roll_up_door_full" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_doors/roll_up_door_full"/>
+		<object path="units/pd2_dlc2/csgo_models/props_doors/roll_up_door_full"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_doors/roll_up_door_full"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_downtown/atm" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_downtown/atm"/>
+		<object path="units/pd2_dlc2/csgo_models/props_downtown/atm"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_downtown/atm"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_bank/bank_sign_no_guns" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_bank/bank_sign_no_guns"/>
+		<object path="units/pd2_dlc2/csgo_models/props_bank/bank_sign_no_guns"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_bank/bank_sign_no_guns"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_bank/bank_drive_thru_window" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_bank/bank_drive_thru_window"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/pd2_dlc2/csgo_models/props_bank/bank_drive_thru_window"/>
+		<sequence_manager path="units/pd2_dlc2/csgo_models/props_bank/bank_drive_thru_window"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_bank/bank_drive_thru_window"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/effects/urban_puddle_model02a" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/effects/urban_puddle_model02a"/>
+		<object path="units/pd2_dlc2/csgo_models/effects/urban_puddle_model02a"/>
+		<unit path="units/pd2_dlc2/csgo_models/effects/urban_puddle_model02a"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_fairgrounds/traffic_barrel" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_fairgrounds/traffic_barrel"/>
+		<object path="units/pd2_dlc2/csgo_models/props_fairgrounds/traffic_barrel"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_fairgrounds/traffic_barrel"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_foliage/mall_bigleaves_plant01_medium" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_foliage/mall_bigleaves_plant01_medium"/>
+		<object path="units/pd2_dlc2/csgo_models/props_foliage/mall_bigleaves_plant01_medium"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_foliage/mall_bigleaves_plant01_medium"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_foliage/urban_balcony_planter01" type="unit">
+		<effect load="true" path="effects/payday2/particles/destruction/dest_plant_matter"/>
+		<material_config path="units/pd2_dlc2/csgo_models/props_foliage/urban_balcony_planter01"/>
+		<object path="units/pd2_dlc2/csgo_models/props_foliage/urban_balcony_planter01"/>
+		<sequence_manager path="units/pd2_dlc2/csgo_models/props_foliage/urban_balcony_planter01"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_foliage/urban_balcony_planter01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_foliage/urban_streettree01" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_foliage/urban_streettree01"/>
+		<object path="units/pd2_dlc2/csgo_models/props_foliage/urban_streettree01"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_foliage/urban_streettree01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_foliage/urban_hedge_256_128_high" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_foliage/urban_hedge_256_128_high"/>
+		<object path="units/pd2_dlc2/csgo_models/props_foliage/urban_hedge_256_128_high"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_foliage/urban_hedge_256_128_high"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_interiors/drinking_fountain" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_interiors/drinking_fountain"/>
+		<object path="units/pd2_dlc2/csgo_models/props_interiors/drinking_fountain"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_interiors/drinking_fountain"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_interiors/shelvinggrocery01" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_interiors/shelvinggrocery01"/>
+		<object path="units/pd2_dlc2/csgo_models/props_interiors/shelvinggrocery01"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_interiors/shelvinggrocery01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_junk/trashbin01a" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_junk/trashbin01a"/>
+		<object path="units/pd2_dlc2/csgo_models/props_junk/trashbin01a"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_junk/trashbin01a"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_junk/trashcluster01a" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_junk/trashcluster01a"/>
+		<object path="units/pd2_dlc2/csgo_models/props_junk/trashcluster01a"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_junk/trashcluster01a"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_misc/fairground_awning" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_misc/fairground_awning"/>
+		<object path="units/pd2_dlc2/csgo_models/props_misc/fairground_awning"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_misc/fairground_awning"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_plants/bush" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_plants/bush"/>
+		<object path="units/pd2_dlc2/csgo_models/props_plants/bush"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_plants/bush"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_rooftop/acvent04" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_rooftop/acvent04"/>
+		<object path="units/pd2_dlc2/csgo_models/props_rooftop/acvent04"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_rooftop/acvent04"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_street/awning_long" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_street/awning_long"/>
+		<object path="units/pd2_dlc2/csgo_models/props_street/awning_long"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_street/awning_long"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_street/parking_bumper_01" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_street/parking_bumper_01"/>
+		<object path="units/pd2_dlc2/csgo_models/props_street/parking_bumper_01"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_street/parking_bumper_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_urban/ice_machine001" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_urban/ice_machine001"/>
+		<object path="units/pd2_dlc2/csgo_models/props_urban/ice_machine001"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_urban/ice_machine001"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_urban/oil_drum001" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_urban/oil_drum001"/>
+		<object path="units/pd2_dlc2/csgo_models/props_urban/oil_drum001"/>
+		<sequence_manager path="units/pd2_dlc2/csgo_models/props_urban/oil_drum001"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_urban/oil_drum001"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_urban/outhouse002" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_urban/outhouse002"/>
+		<object path="units/pd2_dlc2/csgo_models/props_urban/outhouse002"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_urban/outhouse002"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_urban/outhouse_door001" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_urban/outhouse_door001"/>
+		<object path="units/pd2_dlc2/csgo_models/props_urban/outhouse_door001"/>
+		<sequence_manager path="units/pd2_dlc2/csgo_models/props_urban/outhouse_door001"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_urban/outhouse_door001"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_urban/parkinglot_light001" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_urban/parkinglot_light001"/>
+		<object path="units/pd2_dlc2/csgo_models/props_urban/parkinglot_light001"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_urban/parkinglot_light001"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_urban/plastic_chair001" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_urban/plastic_chair001"/>
+		<object path="units/pd2_dlc2/csgo_models/props_urban/plastic_chair001"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_urban/plastic_chair001"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_urban/stoop001_64" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_urban/stoop001_64"/>
+		<object path="units/pd2_dlc2/csgo_models/props_urban/stoop001_64"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_urban/stoop001_64"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_urban/streetlight001" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_urban/streetlight001"/>
+		<object path="units/pd2_dlc2/csgo_models/props_urban/streetlight001"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_urban/streetlight001"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_urban/telephone_pole001" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_urban/telephone_pole001"/>
+		<object path="units/pd2_dlc2/csgo_models/props_urban/telephone_pole001"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_urban/telephone_pole001"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_urban/telephone_streetlight001" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_urban/telephone_streetlight001"/>
+		<object path="units/pd2_dlc2/csgo_models/props_urban/telephone_streetlight001"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_urban/telephone_streetlight001"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_urban/tire001" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_urban/tire001"/>
+		<object path="units/pd2_dlc2/csgo_models/props_urban/tire001"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_urban/tire001"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_windows/window_urban_bars_med" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_windows/window_urban_bars_med"/>
+		<object path="units/pd2_dlc2/csgo_models/props_windows/window_urban_bars_med"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_windows/window_urban_bars_med"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_de_bank/csgo_de_planks_interact_a" type="unit">
+		<effect load="true" path="effects/particles/dest/stair_dest"/>
+		<material_config path="units/pd2_dlc2/csgo_de_bank/csgo_de_planks"/>
+		<object path="units/pd2_dlc2/csgo_de_bank/csgo_de_planks_interact_a"/>
+		<sequence_manager path="units/pd2_dlc2/csgo_de_bank/csgo_de_planks_interact"/>
+		<unit path="units/pd2_dlc2/csgo_de_bank/csgo_de_planks_interact_a"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props/cs_assault/acunit02" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props/cs_assault/acunit02"/>
+		<object path="units/pd2_dlc2/csgo_models/props/cs_assault/acunit02"/>
+		<unit path="units/pd2_dlc2/csgo_models/props/cs_assault/acunit02"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props/cs_assault/floodlight02" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props/cs_assault/floodlight02"/>
+		<object path="units/pd2_dlc2/csgo_models/props/cs_assault/floodlight02"/>
+		<unit path="units/pd2_dlc2/csgo_models/props/cs_assault/floodlight02"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props/cs_assault/handtruck" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props/cs_assault/handtruck"/>
+		<object path="units/pd2_dlc2/csgo_models/props/cs_assault/handtruck"/>
+		<unit path="units/pd2_dlc2/csgo_models/props/cs_assault/handtruck"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_bank/construction_lift_cs" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_bank/construction_lift_cs"/>
+		<object path="units/pd2_dlc2/csgo_models/props_bank/construction_lift_cs"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_bank/construction_lift_cs"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_bank/prop_roof_drain_dbl_03" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_bank/prop_roof_drain_dbl_03"/>
+		<object path="units/pd2_dlc2/csgo_models/props_bank/prop_roof_drain_dbl_03"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_bank/prop_roof_drain_dbl_03"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_bank/roof_ladder" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_bank/roof_ladder"/>
+		<object path="units/pd2_dlc2/csgo_models/props_bank/roof_ladder"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_bank/roof_ladder"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_bank/sign" type="unit">
+		<effect load="true" path="effects/payday2/particles/destruction/des_statue_man"/>
+		<material_config path="units/pd2_dlc2/csgo_models/props_bank/sign"/>
+		<object path="units/pd2_dlc2/csgo_models/props_bank/sign"/>
+		<sequence_manager path="units/pd2_dlc2/csgo_models/props_bank/sign"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_bank/sign"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_bank/vault" type="unit">
+		<unit path="units/pd2_dlc2/csgo_models/props_bank/vault"/>
+		<object path="units/pd2_dlc2/csgo_models/props_bank/vault"/>
+		<material_config path="units/pd2_dlc2/csgo_models/props_bank/vault"/>
+		<unit path="units/payday2/equipment/gen_interactable_drill_large_thermic/gen_interactable_drill_large_thermic"/>
+		<object path="units/payday2/equipment/gen_interactable_drill_large_thermic/gen_interactable_drill_large_thermic"/>
+		<material_config path="units/payday2/equipment/gen_interactable_drill_large_thermic/gen_interactable_drill_large_thermic"/>
+		<effect load="true" path="effects/payday2/environment/thermal_lance"/>
+		<effect load="true" path="effects/payday2/environment/parts/thermal_fire"/>
+		<effect load="true" path="effects/payday2/environment/parts/thermal_spark"/>
+		<gui path="guis/timer_gui"/>
+		<sequence_manager path="units/pd2_dlc2/csgo_models/props_bank/vault"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_c17/gate_door01a" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_c17/gate_door01a"/>
+		<object path="units/pd2_dlc2/csgo_models/props_c17/gate_door01a"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_c17/gate_door01a"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_equipment/gas_pump" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_equipment/gas_pump"/>
+		<object path="units/pd2_dlc2/csgo_models/props_equipment/gas_pump"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_equipment/gas_pump"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_interiors/trashcan01" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_interiors/trashcan01"/>
+		<object path="units/pd2_dlc2/csgo_models/props_interiors/trashcan01"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_interiors/trashcan01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props/cs_militia/light_shop2" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props/cs_militia/light_shop2"/>
+		<object path="units/pd2_dlc2/csgo_models/props/cs_militia/light_shop2"/>
+		<unit path="units/pd2_dlc2/csgo_models/props/cs_militia/light_shop2"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props/cs_militia/light_shop2_on" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props/cs_militia/light_shop2"/>
+		<object path="units/pd2_dlc2/csgo_models/props/cs_militia/light_shop2_on"/>
+		<unit path="units/pd2_dlc2/csgo_models/props/cs_militia/light_shop2_on"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props/cs_office/light_inset" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props/cs_office/light_inset"/>
+		<object path="units/pd2_dlc2/csgo_models/props/cs_office/light_inset"/>
+		<unit path="units/pd2_dlc2/csgo_models/props/cs_office/light_inset"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props/cs_office/light_security" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props/cs_office/light_security"/>
+		<object path="units/pd2_dlc2/csgo_models/props/cs_office/light_security"/>
+		<unit path="units/pd2_dlc2/csgo_models/props/cs_office/light_security"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props/cs_office/light_shop" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props/cs_office/light_shop"/>
+		<object path="units/pd2_dlc2/csgo_models/props/cs_office/light_shop"/>
+		<unit path="units/pd2_dlc2/csgo_models/props/cs_office/light_shop"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props/cs_office/paperbox_pile_01" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props/cs_office/paperbox_pile_01"/>
+		<object path="units/pd2_dlc2/csgo_models/props/cs_office/paperbox_pile_01"/>
+		<unit path="units/pd2_dlc2/csgo_models/props/cs_office/paperbox_pile_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props/de_boathouse/toolchest_01" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props/de_boathouse/toolchest_01"/>
+		<object path="units/pd2_dlc2/csgo_models/props/de_boathouse/toolchest_01"/>
+		<unit path="units/pd2_dlc2/csgo_models/props/de_boathouse/toolchest_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props/cs_office/shelves_metal" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props/cs_office/shelves_metal"/>
+		<object path="units/pd2_dlc2/csgo_models/props/cs_office/shelves_metal"/>
+		<unit path="units/pd2_dlc2/csgo_models/props/cs_office/shelves_metal"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props/de_dust/pallet01" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props/de_dust/pallet01"/>
+		<object path="units/pd2_dlc2/csgo_models/props/de_dust/pallet01"/>
+		<unit path="units/pd2_dlc2/csgo_models/props/de_dust/pallet01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props/de_nuke/clock" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props/de_nuke/clock"/>
+		<object path="units/pd2_dlc2/csgo_models/props/de_nuke/clock"/>
+		<unit path="units/pd2_dlc2/csgo_models/props/de_nuke/clock"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props/de_nuke/truck_nuke" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props/de_nuke/truck_nuke"/>
+		<object path="units/pd2_dlc2/csgo_models/props/de_nuke/truck_nuke"/>
+		<unit path="units/pd2_dlc2/csgo_models/props/de_nuke/truck_nuke"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props/de_train/acunit1" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props/de_train/acunit1"/>
+		<object path="units/pd2_dlc2/csgo_models/props/de_train/acunit1"/>
+		<unit path="units/pd2_dlc2/csgo_models/props/de_train/acunit1"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props/de_train/bush2" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props/de_train/bush2"/>
+		<object path="units/pd2_dlc2/csgo_models/props/de_train/bush2"/>
+		<unit path="units/pd2_dlc2/csgo_models/props/de_train/bush2"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props/de_train/de_train_floodlights_01" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props/de_train/de_train_floodlights_01"/>
+		<object path="units/pd2_dlc2/csgo_models/props/de_train/de_train_floodlights_01"/>
+		<unit path="units/pd2_dlc2/csgo_models/props/de_train/de_train_floodlights_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props/props_utilities/electric_cables06" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props/props_utilities/electric_cables06"/>
+		<object path="units/pd2_dlc2/csgo_models/props/props_utilities/electric_cables06"/>
+		<unit path="units/pd2_dlc2/csgo_models/props/props_utilities/electric_cables06"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props/props_utilities/cable_nest01" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props/props_utilities/cable_nest01"/>
+		<object path="units/pd2_dlc2/csgo_models/props/props_utilities/cable_nest01"/>
+		<unit path="units/pd2_dlc2/csgo_models/props/props_utilities/cable_nest01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props/de_vertigo/de_vertigo_skybox01_part_02" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props/de_vertigo/de_vertigo_skybox01_part_02"/>
+		<object path="units/pd2_dlc2/csgo_models/props/de_vertigo/de_vertigo_skybox01_part_02"/>
+		<unit path="units/pd2_dlc2/csgo_models/props/de_vertigo/de_vertigo_skybox01_part_02"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props/de_vostok/counter_generalstore" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props/de_vostok/counter_generalstore"/>
+		<object path="units/pd2_dlc2/csgo_models/props/de_vostok/counter_generalstore"/>
+		<unit path="units/pd2_dlc2/csgo_models/props/de_vostok/counter_generalstore"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props/de_vostok/vostok_magazine_rack01" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props/de_vostok/vostok_magazine_rack01"/>
+		<object path="units/pd2_dlc2/csgo_models/props/de_vostok/vostok_magazine_rack01"/>
+		<unit path="units/pd2_dlc2/csgo_models/props/de_vostok/vostok_magazine_rack01"/>
+	</add>
+	<add from_db="true" path="units/world/props/apartment/apartment_key_dummy/apartment_key_dummy" type="unit">
+		<material_config path="units/test/banktest"/>
+		<object path="units/world/props/apartment/apartment_key_dummy/apartment_key_dummy"/>
+		<sequence_manager path="units/world/props/apartment/apartment_key_dummy/apartment_key_dummy"/>
+		<unit path="units/world/props/apartment/apartment_key_dummy/apartment_key_dummy"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc1/props/res_prop_motel_key_board/res_prop_motel_key" type="unit">
+		<material_config path="units/pd2_dlc1/props/res_prop_motel_key_board/res_prop_motel_key"/>
+		<object path="units/pd2_dlc1/props/res_prop_motel_key_board/res_prop_motel_key"/>
+		<unit path="units/pd2_dlc1/props/res_prop_motel_key_board/res_prop_motel_key"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc1/props/res_prop_motel_key_board/res_prop_motel_key_board" type="unit">
+		<unit path="units/pd2_dlc1/props/res_prop_motel_key_board/res_prop_motel_key_board"/>
+		<object path="units/pd2_dlc1/props/res_prop_motel_key_board/res_prop_motel_key_board"/>
+		<material_config path="units/pd2_dlc1/props/res_prop_motel_key_board/res_prop_motel_key_board"/>
+		<unit path="units/pd2_dlc1/props/res_prop_motel_key_board/res_prop_motel_key"/>
+		<object path="units/pd2_dlc1/props/res_prop_motel_key_board/res_prop_motel_key"/>
+		<material_config path="units/pd2_dlc1/props/res_prop_motel_key_board/res_prop_motel_key"/>
+		<sequence_manager path="units/pd2_dlc1/props/res_prop_motel_key_board/res_prop_motel_key_board"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_sah/pickups/sah_pku_keychain/sah_pku_keychain" type="unit">
+		<material_config path="units/pd2_dlc_sah/pickups/sah_pku_keychain/sah_pku_keychain"/>
+		<object path="units/pd2_dlc_sah/pickups/sah_pku_keychain/sah_pku_keychain"/>
+		<sequence_manager path="units/pd2_dlc_sah/pickups/sah_pku_keychain/sah_pku_keychain"/>
+		<unit path="units/pd2_dlc_sah/pickups/sah_pku_keychain/sah_pku_keychain"/>
+	</add>
+	<add from_db="true" path="units/pickups/pickup_chavez_key/pickup_chavez_key" type="unit">
+		<unit path="units/pickups/pickup_chavez_key/pickup_chavez_key"/>
+		<object path="units/pickups/pickup_chavez_key/pickup_chavez_key"/>
+		<unit path="units/payday2/characters/civ_acc_keycard_clipped/civ_acc_keycard_clipped"/>
+		<object path="units/payday2/characters/civ_acc_keycard_clipped/civ_acc_keycard_clipped"/>
+		<material_config path="units/pickups/pickup_chavez_key/pickup_chavez_key"/>
+		<sequence_manager path="units/pickups/pickup_chavez_key/pickup_chavez_key"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chas/pickups/chas_pku_keychain/chas_pku_keychain" type="unit">
+		<material_config path="units/pd2_dlc_chas/pickups/chas_pku_keychain/chas_pku_keychain"/>
+		<object path="units/pd2_dlc_chas/pickups/chas_pku_keychain/chas_pku_keychain"/>
+		<sequence_manager path="units/pd2_dlc_chas/pickups/chas_pku_keychain/chas_pku_keychain"/>
+		<unit path="units/pd2_dlc_chas/pickups/chas_pku_keychain/chas_pku_keychain"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chas/pickups/chas_pku_keychain_forklift/chas_pku_keychain_forklift" type="unit">
+		<object path="units/pd2_dlc_chas/pickups/chas_pku_keychain_forklift/chas_pku_keychain_forklift"/>
+		<sequence_manager path="units/pd2_dlc_chas/pickups/chas_pku_keychain_forklift/chas_pku_keychain_forklift"/>
+		<unit path="units/pd2_dlc_chas/pickups/chas_pku_keychain_forklift/chas_pku_keychain_forklift"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_corp/pickups/corp_pku_keychain/corp_pku_keychain" type="unit">
+		<material_config path="units/pd2_dlc_chas/pickups/chas_pku_keychain/chas_pku_keychain"/>
+		<object path="units/pd2_dlc_chas/pickups/chas_pku_keychain/chas_pku_keychain"/>
+		<sequence_manager path="units/pd2_dlc_chas/pickups/chas_pku_keychain/chas_pku_keychain"/>
+		<unit path="units/pd2_dlc_corp/pickups/corp_pku_keychain/corp_pku_keychain"/>
+	</add>
+	<add from_db="true" path="units/payday2/pickups/gen_pku_keychain_cessna/gen_pku_keychain_cessna" type="unit">
+		<unit path="units/payday2/pickups/gen_pku_keychain_cessna/gen_pku_keychain_cessna"/>
+		<object path="units/payday2/pickups/gen_pku_keychain_cessna/gen_pku_keychain_cessna"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_keychain_cessna/gen_pku_keychain_cessna"/>
 	</add>
 </table>

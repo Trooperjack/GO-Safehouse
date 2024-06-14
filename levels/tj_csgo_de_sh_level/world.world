@@ -1506,7 +1506,7 @@
 				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
 				<entry key="name" type="string" value="core/units/nav_surface/nav_surface"/>
 				<entry key="name_id" type="string" value="nav_surface_033"/>
-				<entry key="position" type="vector3" value="-4279.82 846.592 622.3"/>
+				<entry key="position" type="vector3" value="-4709.82 876.592 622.3"/>
 				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 				<entry key="unit_id" type="number" value="33"/>
 			</entry>
